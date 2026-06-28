@@ -1,9 +1,12 @@
 ---
-type: MOC
+type: index
 topic: 商业模式
+aliases: []
 created: "2026-06-28"
+status: done
 updated: "2026-06-28"
 tags: [商业模式, MOC]
+related: ""
 ---
 
 # 🏢 企业商业模式
@@ -52,6 +55,6 @@ tags: [商业模式, MOC]
 - 管理层如何配置资本？
 
 ## 关联模块
-- [[MOC-股票投资]] — 公司分析
-- [[MOC-行业研究]] — 行业背景
-- [[MOC-估值方法]] — 如何给公司定价
+- [[chapter00-股票投资]] — 公司分析
+- [[chapter00-行业研究]] — 行业背景
+- [[chapter00-估值方法]] — 如何给公司定价

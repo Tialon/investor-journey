@@ -1,9 +1,12 @@
 ---
-type: MOC
+type: index
 topic: 信息来源
+aliases: []
 created: "2026-06-28"
+status: done
 updated: "2026-06-28"
 tags: [信息, MOC]
+related: ""
 ---
 
 # 📰 信息来源
@@ -49,6 +52,6 @@ tags: [信息, MOC]
 - [[避免信息过载]]
 
 ## 关联模块
-- [[MOC-财务分析]] — 如何解读财务数据
-- [[MOC-宏观经济]] — 宏观数据来源
-- [[MOC-行业研究]] — 行业数据来源
+- [[chapter00-财务分析]] — 如何解读财务数据
+- [[chapter00-宏观经济]] — 宏观数据来源
+- [[chapter00-行业研究]] — 行业数据来源

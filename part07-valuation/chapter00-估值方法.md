@@ -1,9 +1,11 @@
 ---
-type: MOC
+type: index
 topic: 估值
 created: "2026-06-28"
+status: done
 updated: "2026-06-28"
 tags: [估值, MOC]
+related: ""
 ---
 
 # 💰 估值方法
@@ -52,6 +54,6 @@ tags: [估值, MOC]
 - [[REIT估值]] — FFO/AFFO
 
 ## 关联模块
-- [[MOC-财务分析]] — 估值的数据基础
-- [[MOC-股票投资]] — 公司分析框架
-- [[MOC-商业模式]] — 理解盈利模式
+- [[chapter00-财务分析]] — 估值的数据基础
+- [[chapter00-股票投资]] — 公司分析框架
+- [[chapter00-商业模式]] — 理解盈利模式

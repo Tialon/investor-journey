@@ -1,9 +1,12 @@
 ---
-type: MOC
+type: index
 topic: 行业研究
+aliases: []
 created: "2026-06-28"
+status: done
 updated: "2026-06-28"
 tags: [行业, MOC]
+related: ""
 ---
 
 # 🏭 行业研究
@@ -70,6 +73,6 @@ tags: [行业, MOC]
 - [[产业链分析]]
 
 ## 关联模块
-- [[MOC-宏观经济]] — 宏观如何影响行业
-- [[MOC-商业模式]] — 行业中的商业模式
-- [[MOC-估值方法]] — 不同行业如何估值
+- [[chapter00-宏观经济]] — 宏观如何影响行业
+- [[chapter00-商业模式]] — 行业中的商业模式
+- [[chapter00-估值方法]] — 不同行业如何估值
