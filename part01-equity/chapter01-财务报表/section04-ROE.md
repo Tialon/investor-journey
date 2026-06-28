@@ -31,7 +31,7 @@ $$\text{ROE} = \frac{\text{净利润}}{\text{股东权益}} \times 100\%$$
 
 ROE可以拆解为三个因素：
 
-$$\text{ROE} = \text{净利率} \times \text{资产周转率} \times \text{权益乘数}$$
+$$\$$
 
 $$= \frac{\text{净利润}}{\text{收入}} \times \frac{\text{收入}}{\text{总资产}} \times \frac{\text{总资产}}{\text{股东权益}}$$
 

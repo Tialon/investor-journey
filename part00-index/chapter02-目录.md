@@ -656,3 +656,40 @@ related: "[[chapter01-主页]], [[chapter03-学习路线]]"
 - [[section01-一手信息vs二手信息]]
 - [[section02-信息源可信度评估]]
 - [[section03-避免信息过载]]
+
+## [[chapter00-投资大师]]
+
+### chapter01-格雷厄姆
+- [[section01-价值投资之父]]
+- [[section02-安全边际原则]]
+- [[section03-市场先生]]
+- [[section04-防御型投资者]]
+- [[section05-进取型投资者]]
+- [[section06-经典案例]]
+
+### chapter02-巴菲特
+- [[section01-巴菲特投资哲学]]
+- [[section02-护城河思维]]
+- [[section03-安全边际]]
+- [[section04-能力圈]]
+- [[section05-长期持有]]
+- [[section06-经典案例]]
+
+### chapter03-芒格
+- [[section01-多元思维模型]]
+- [[section02-逆向思维]]
+- [[section03-检查清单]]
+- [[section04-误判心理学]]
+- [[section05-经典案例]]
+
+### chapter04-段永平
+- [[section01-段永平投资哲学]]
+- [[section02-商业模式优先]]
+- [[section03-不做空不借钱]]
+- [[section04-买股票就是买公司]]
+- [[section05-经典案例]]
+
+### chapter05-投资理念对比
+- [[section01-四人投资框架对比]]
+- [[section02-价值投资的演变]]
+- [[section03-如何应用]]
