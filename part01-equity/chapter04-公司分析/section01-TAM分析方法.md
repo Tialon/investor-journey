@@ -37,7 +37,7 @@ related: "[[section02-SAM与SOM]], [[管理层评估方法]]"
 | **SAM** | 电动车市场 | 全球电动车年销量 ~1500万辆 |
 | **SOM** | 特斯拉能获得的市场 | 特斯拉年销量 ~200万辆 |
 
-详见 [SAM与SOM](SAM与SOM.md)
+详见 [SAM与SOM](section02-SAM与SOM.md)
 
 ## TAM的计算方法
 
@@ -155,7 +155,7 @@ related: "[[section02-SAM与SOM]], [[管理层评估方法]]"
 
 ---
 
-> **下一节**：[SAM与SOM](SAM与SOM.md)
+> **下一节**：[SAM与SOM](section02-SAM与SOM.md)
 
 
 

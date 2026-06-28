@@ -47,7 +47,7 @@ related: "[[DCF基础]], [[EV/EBITDA]]"
 
 ---
 
-> **下一节**：[股利折现模型DDM](股利折现模型DDM.md)
+> **下一节**：[股利折现模型DDM](section07-股利折现模型DDM.md)
 
 
 

@@ -77,7 +77,7 @@ $$\text{GDP增速} = \frac{\text{本期GDP} - \text{上期GDP}}{\text{上期GDP}
 
 ---
 
-> **下一节**：[GDP增速](GDP增速.md)
+> **下一节**：[GDP增速](section02-GDP增速.md)
 
 
 

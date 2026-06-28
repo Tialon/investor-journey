@@ -47,7 +47,7 @@ related: "[[PEG]], [[section03-PB市净率]], [[EV/EBITDA]]"
 
 ---
 
-> **下一节**：[PEG](PEG.md)
+> **下一节**：[PEG](section02-PEG.md)
 
 
 

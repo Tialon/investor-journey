@@ -427,7 +427,7 @@ SPY 240315C00510000
 
 ---
 
-下一节：[内在价值与时间价值](04-intrinsic-time-value.md)
+下一节：[内在价值与时间价值](section04-intrinsic-time-value.md)
 
 
 

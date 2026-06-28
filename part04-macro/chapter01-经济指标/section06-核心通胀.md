@@ -65,7 +65,7 @@ $$\text{美联储通胀目标} = 2\% \text{（核心PCE）}$$
 
 ---
 
-> **下一节**：[PCE](PCE.md)
+> **下一节**：[PCE](section07-PCE.md)
 
 
 

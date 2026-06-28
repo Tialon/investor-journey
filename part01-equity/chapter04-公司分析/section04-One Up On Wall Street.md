@@ -152,7 +152,7 @@ $$\text{PEG} = \frac{\text{PE}}{\text{盈利增长率}}$$
 
 ---
 
-> **下一本书**：[Common Stocks and Uncommon Profits](Common Stocks and Uncommon Profits.md)
+> **下一本书**：[Common Stocks and Uncommon Profits](section05-Common Stocks and Uncommon Profits.md)
 
 
 

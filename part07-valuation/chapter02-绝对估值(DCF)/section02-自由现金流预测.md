@@ -46,7 +46,7 @@ related: "[[DCF基础]], [[section03-折现率WACC]]"
 
 ---
 
-> **下一节**：[折现率WACC](折现率WACC.md)
+> **下一节**：[折现率WACC](section03-折现率WACC.md)
 
 
 

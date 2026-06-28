@@ -42,7 +42,7 @@ related: "[[网络效应]], [[飞轮效应]], [[section02-案例-NVIDIA]]"
 
 ---
 
-> **下一节**：[案例-NVIDIA](案例-NVIDIA.md)
+> **下一节**：[案例-NVIDIA](section02-案例-NVIDIA.md)
 
 
 

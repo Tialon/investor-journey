@@ -453,7 +453,7 @@ IBKR 对美国股票期权的行权和指派通常不收取额外费用（截至
 
 ---
 
-下一节：[期权链解读](07-option-chains.md)
+下一节：[期权链解读](section07-option-chains.md)
 
 
 

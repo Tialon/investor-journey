@@ -63,7 +63,7 @@ related: "[[section13-ISM制造业指数]], [[section01-GDP]]"
 
 ---
 
-> **下一节**：[ISM制造业指数](ISM制造业指数.md)
+> **下一节**：[ISM制造业指数](section13-ISM制造业指数.md)
 
 
 

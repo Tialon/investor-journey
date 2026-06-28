@@ -413,7 +413,7 @@ Theta 与 Gamma 的权衡在不同的波动率环境下表现不同：
 
 ---
 
-下一节：[Vega](04-vega.md)
+下一节：[Vega](section04-vega.md)
 
 
 

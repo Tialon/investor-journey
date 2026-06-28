@@ -275,7 +275,7 @@ related: "[[Delta]], [[Theta]], [[铁鹰策略]]"
 
 ---
 
-> **下一节**：[铁鹰策略](04-iron-condor.md)
+> **下一节**：[铁鹰策略](section04-iron-condor.md)
 
 
 

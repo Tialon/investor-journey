@@ -68,7 +68,7 @@ https://www.gartner.com
 
 ---
 
-> **下一节**：[IDC](IDC.md)
+> **下一节**：[IDC](section02-IDC.md)
 
 
 

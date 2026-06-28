@@ -421,7 +421,7 @@ AAPL当前股价为192美元。请判断以下期权各自的Moneyness状态（I
 
 ---
 
-下一节：[行权与指派](06-exercise-assignment.md)
+下一节：[行权与指派](section06-exercise-assignment.md)
 
 
 

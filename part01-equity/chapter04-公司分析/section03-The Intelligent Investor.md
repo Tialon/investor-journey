@@ -127,7 +127,7 @@ $$\text{安全边际} = \text{内在价值} - \text{购买价格}$$
 
 ---
 
-> **下一本书**：[One Up On Wall Street](One Up On Wall Street.md)
+> **下一本书**：[One Up On Wall Street](section04-One Up On Wall Street.md)
 
 
 

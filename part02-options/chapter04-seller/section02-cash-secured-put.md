@@ -242,7 +242,7 @@ Wheel Strategy 是 CSP 和 Covered Call 的组合循环：
 
 ---
 
-> **下一节**：[价差策略](03-credit-spread.md)
+> **下一节**：[价差策略](section03-credit-spread.md)
 
 
 

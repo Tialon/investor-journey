@@ -1397,7 +1397,7 @@ if __name__ == "__main__":
 
 ---
 
-**下一章：** [04-signal-strategy.md —— 信号生成与策略开发](04-signal-strategy.md)
+**下一章：** [04-signal-strategy.md —— 信号生成与策略开发](section04-signal-strategy.md)
 
 
 

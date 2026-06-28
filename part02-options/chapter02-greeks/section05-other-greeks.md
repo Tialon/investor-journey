@@ -590,7 +590,7 @@ Color 和 Charm 共同描绘了"Greeks 随时间变化"的完整图景：
 
 ---
 
-下一节：[Greeks综合实战](06-greeks-in-practice.md)
+下一节：[Greeks综合实战](section06-greeks-in-practice.md)
 
 
 

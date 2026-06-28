@@ -53,7 +53,7 @@ https://www.idc.com
 
 ---
 
-> **下一节**：[McKinsey](McKinsey.md)
+> **下一节**：[McKinsey](section03-McKinsey.md)
 
 
 

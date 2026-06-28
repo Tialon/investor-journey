@@ -41,7 +41,7 @@ related: "[[平台商业模式]], [[section02-案例-Tesla]]"
 
 ---
 
-> **下一节**：[案例-Tesla](案例-Tesla.md)
+> **下一节**：[案例-Tesla](section02-案例-Tesla.md)
 
 
 

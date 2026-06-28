@@ -75,7 +75,7 @@ $$\text{CPI同比} = \frac{\text{本期CPI} - \text{去年同期CPI}}{\text{去�
 
 ---
 
-> **下一节**：[PPI](PPI.md)
+> **下一节**：[PPI](section05-PPI.md)
 
 
 

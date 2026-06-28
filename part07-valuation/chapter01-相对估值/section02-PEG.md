@@ -46,7 +46,7 @@ related: "[[PE市盈率]], [[section08-高PE合理性]]"
 
 ---
 
-> **下一节**：[PB市净率](PB市净率.md)
+> **下一节**：[PB市净率](section03-PB市净率.md)
 
 
 

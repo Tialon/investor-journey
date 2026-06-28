@@ -661,7 +661,7 @@ result = analyze_option_chain('AAPL')
 
 ---
 
-**下一章：** [02-pricing-greeks.md —— 期权定价模型与 Greeks 计算](02-pricing-greeks.md)
+**下一章：** [02-pricing-greeks.md —— 期权定价模型与 Greeks 计算](section02-pricing-greeks.md)
 
 
 

@@ -43,7 +43,7 @@ related: "[[经常性收入]], [[LTV/CAC]], [[section02-案例-Microsoft]]"
 
 ---
 
-> **下一节**：[案例-Microsoft](案例-Microsoft.md)
+> **下一节**：[案例-Microsoft](section02-案例-Microsoft.md)
 
 
 

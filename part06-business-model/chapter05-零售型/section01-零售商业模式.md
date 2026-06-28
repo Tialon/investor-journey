@@ -34,7 +34,7 @@ related: "[[平台商业模式]], [[section02-案例-Costco]]"
 
 ---
 
-> **下一节**：[案例-Costco](案例-Costco.md)
+> **下一节**：[案例-Costco](section02-案例-Costco.md)
 
 
 
