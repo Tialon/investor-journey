@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "7c04ca6280483b66",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c4c18c06f391bd1",
+        "type": "tabs",
+        "dimension": 38.059701492537314,
+        "children": [
+          {
+            "id": "09dc23d0ffb7b38e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "part02-options/chapter00-期权学习.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "chapter00-期权学习"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0fcfd99179ad63e4",
+        "type": "tabs",
+        "dimension": 61.940298507462686,
+        "children": [
+          {
+            "id": "4a74c9bbf0a099f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "part02-options/chapter01-basics/section02-call-and-put.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "section02-call-and-put"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c366de73b70b71c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2dba5aad5fb7e65c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dd600ef1ed0458a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "db1fa330c985cef4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "e725c1266070895f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "218dd5404493a96b",
+    "type": "split",
+    "children": [
+      {
+        "id": "31388b89a0eff64a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62d8c9b9c4efaf73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "33ca4b2c8cc759b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "6685f0053b9179a7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "491d90b2f7599e5b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2b139229911befa8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "4a74c9bbf0a099f6",
+  "lastOpenFiles": [
+    "part02-options/chapter01-basics/section01-what-is-option.md",
+    "part02-options/chapter00-期权学习.md",
+    "part02-options/chapter03-buyer/section02-long-put.md",
+    "part02-options/chapter00-期权学习.md.tmp.31052.b83531293e0a",
+    "part01-equity/chapter00-股票投资.md",
+    "part04-macro/chapter00-宏观经济.md",
+    "part03-accounting/chapter00-财务分析.md",
+    "part02-options/chapter01-basics/section07-option-chains.md",
+    "part01-equity/chapter01-财务报表/section01-资产负债表.md",
+    "docs/desc.md",
+    "templates/交易复盘模板.md",
+    "templates/读书笔记模板.md",
+    "templates/概念卡片模板.md",
+    "templates/案例分析模板.md",
+    "templates/学习笔记模板.md",
+    "2026-06-28.md",
+    "低PE陷阱.md",
+    "part00-index/chapter02-目录.md",
+    "part13-ai/chapter01-财报分析/section01-AI自动阅读财报.md",
+    "part01-equity/chapter01-财务报表/section04-ROE.md",
+    "part01-equity/chapter01-财务报表/section07-毛利率与净利率.md",
+    "sedgWjJYp",
+    "templates/sed5Cy80I",
+    "templates/sedNfI7xM",
+    "templates/sed8zCbXB",
+    "part18-information/chapter06-信息筛选原则/sedeiMctj",
+    "part18-information/chapter06-信息筛选原则/sedap77PW",
+    "part18-information/chapter05-行业报告/seduq4NqC",
+    "part18-information/chapter05-行业报告/sedYtIanK",
+    "part18-information/chapter04-宏观数据/sed3Bbvxl",
+    "part12-python/chapter03-实战脚本/section01-自动下载股票数据.md",
+    "part12-python/chapter02-可视化/section04-盈亏图绘制.md",
+    "part12-python/chapter02-可视化/section02-Plotly交互图.md",
+    "part12-python/chapter02-可视化/section01-Matplotlib基础.md",
+    "part01-equity/chapter01-财务报表/section06-自由现金流FCF.md",
+    "part01-equity/chapter01-财务报表/section05-ROIC.md",
+    "未命名 1.canvas",
+    "未命名.canvas"
+  ]
+}
