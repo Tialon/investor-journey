@@ -37,7 +37,7 @@ related: "[[订阅商业模式]], [[IaaS-PaaS-SaaS]]"
 
 ---
 
-> **回到**：[MOC-商业模式](../MOC-商业模式.md)
+> **回到**：[chapter00-商业模式](../chapter00-商业模式.md)
 
 
 

@@ -6,7 +6,7 @@ status: done
 created: "2026-06-28"
 updated: "2026-06-28"
 tags: [财务报表, 会计基础]
-related: "[[利润表]], [[section06-收入确认]], [[section07-营业利润vs净利润]]"
+related: "[[section02-利润表]], [[section06-收入确认]], [[section07-营业利润vs净利润]]"
 ---
 
 # 利润表基础
@@ -80,5 +80,5 @@ $$\text{收入} - \text{费用} = \text{利润}$$
 
 
 ---
-**相关笔记：** [[利润表]], [[section06-收入确认]], [[section07-营业利润vs净利润]]
+**相关笔记：** [[section02-利润表]], [[section06-收入确认]], [[section07-营业利润vs净利润]]
 **返回：** [[chapter00-三大报表]] | [[chapter01-主页]]

@@ -36,7 +36,7 @@ related: "[[PB市净率]], [[section06-SOTP分部估值法]]"
 
 ---
 
-> **回到**：[MOC-估值方法](../MOC-估值方法.md)
+> **回到**：[chapter00-估值方法](../chapter00-估值方法.md)
 
 
 

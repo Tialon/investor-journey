@@ -6,7 +6,7 @@ status: done
 created: "2026-06-28"
 updated: "2026-06-28"
 tags: [财务报表, 会计基础]
-related: "[[现金流量表]], [[section10-经营现金流vs净利润]], [[section11-自由现金流计算]]"
+related: "[[section03-现金流量表]], [[section10-经营现金流vs净利润]], [[section11-自由现金流计算]]"
 ---
 
 # 现金流量表基础
@@ -112,5 +112,5 @@ related: "[[现金流量表]], [[section10-经营现金流vs净利润]], [[secti
 
 
 ---
-**相关笔记：** [[现金流量表]], [[section10-经营现金流vs净利润]], [[section11-自由现金流计算]]
+**相关笔记：** [[section03-现金流量表]], [[section10-经营现金流vs净利润]], [[section11-自由现金流计算]]
 **返回：** [[chapter00-三大报表]] | [[chapter01-主页]]

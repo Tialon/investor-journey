@@ -47,7 +47,7 @@ related: "[[section01-GDP]], [[section12-PMI]]"
 
 ---
 
-> **回到**：[MOC-宏观经济](../MOC-宏观经济.md)
+> **回到**：[chapter00-宏观经济](../chapter00-宏观经济.md)
 
 
 

@@ -161,7 +161,7 @@ related: "[[section03-The Intelligent Investor]], [[section04-One Up On Wall Str
 
 ---
 
-> **回到**：[MOC-股票投资](../MOC-股票投资.md)
+> **回到**：[chapter00-股票投资](../chapter00-股票投资.md)
 
 
 

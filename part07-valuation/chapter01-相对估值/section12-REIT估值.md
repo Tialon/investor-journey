@@ -42,7 +42,7 @@ related: "[[股利折现模型DDM]], [[EV/EBITDA]]"
 
 ---
 
-> **回到**：[MOC-估值方法](../MOC-估值方法.md)
+> **回到**：[chapter00-估值方法](../chapter00-估值方法.md)
 
 
 

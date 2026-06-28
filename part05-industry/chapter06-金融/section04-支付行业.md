@@ -35,7 +35,7 @@ related: "[[金融科技Fintech]], [[section01-银行业]]"
 
 ---
 
-> **回到**：[MOC-行业研究](../MOC-行业研究.md)
+> **回到**：[chapter00-行业研究](../chapter00-行业研究.md)
 
 
 

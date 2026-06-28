@@ -35,7 +35,7 @@ related: "[[云计算产业链]], [[section03-AWS-Azure-GCP对比]]"
 
 ---
 
-> **回到**：[MOC-行业研究](../MOC-行业研究.md)
+> **回到**：[chapter00-行业研究](../chapter00-行业研究.md)
 
 
 

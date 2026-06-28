@@ -37,7 +37,7 @@ related: "[[低PE陷阱]], [[section01-PE市盈率]]"
 
 ---
 
-> **回到**：[MOC-估值方法](../MOC-估值方法.md)
+> **回到**：[chapter00-估值方法](../chapter00-估值方法.md)
 
 
 

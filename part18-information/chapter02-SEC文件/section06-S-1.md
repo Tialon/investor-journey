@@ -72,7 +72,7 @@ related: "[[section01-SEC EDGAR]], [[10-K年报]]"
 
 ---
 
-> **回到**：[MOC-信息来源](../MOC-信息来源.md)
+> **回到**：[chapter00-信息来源](../chapter00-信息来源.md)
 
 
 

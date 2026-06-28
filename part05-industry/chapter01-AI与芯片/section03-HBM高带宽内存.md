@@ -35,7 +35,7 @@ related: "[[GPU与AI加速器]], [[section01-AI产业链全景]]"
 
 ---
 
-> **回到**：[MOC-行业研究](../MOC-行业研究.md)
+> **回到**：[chapter00-行业研究](../chapter00-行业研究.md)
 
 
 
