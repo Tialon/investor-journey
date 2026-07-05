@@ -13,6 +13,9 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[chapter00-Py
 
 > 从基础到高级，系统掌握期权交易
 
+## 速查参考
+- [[section00-options-glossary|美股期权术语速查表]]
+
 ## 第1卷：基础篇
 1. [[section01-what-is-option|什么是期权]]
 2. [[section02-call-and-put|看涨期权与看跌期权]]
@@ -91,20 +94,49 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[chapter00-Py
 
 ## 学习进度
 
-| 卷 | 状态 | 篇数 |
-|----|------|------|
-| 基础篇 | ✅ 已完成 | 7 |
-| Greeks | ✅ 已完成 | 6 |
-| 买方策略 | ✅ 已完成 | 5 |
-| 卖方策略 | ✅ 已完成 | 6 |
-| 波动率 | ✅ 已完成 | 6 |
-| 财报交易 | ✅ 已完成 | 5 |
-| 组合管理 | ✅ 已完成 | 5 |
-| IBKR实战 | ✅ 已完成 | 5 |
-| 专业交易 | ✅ 已完成 | 5 |
-| Python+AI | ✅ 已完成 | 6 |
+| 卷         | 状态    | 篇数  |
+| --------- | ----- | --- |
+| 基础篇       | ✅ 已完成 | 8   |
+| Greeks    | ✅ 已完成 | 6   |
+| 买方策略      | ✅ 已完成 | 5   |
+| 卖方策略      | ✅ 已完成 | 6   |
+| 波动率       | ✅ 已完成 | 6   |
+| 财报交易      | ✅ 已完成 | 5   |
+| 组合管理      | ✅ 已完成 | 5   |
+| IBKR实战    | ✅ 已完成 | 5   |
+| 专业交易      | ✅ 已完成 | 5   |
+| Python+AI | ✅ 已完成 | 6   |
 
-**总计：56篇，全部完成 ✅**
+**总计：57篇，全部完成 ✅**
+
+
+
+1 Α α alpha a:lf 阿尔法 
+2 Β β beta bet 贝塔 
+3 Γ γ gamma ga:m 伽马 
+4 Δ δ delta delt 德尔塔 
+5 Ε ε epsilon ep`silon 伊普西龙 
+6 Ζ ζ zeta zat 截塔 
+7 Η η eta eit 艾塔 
+8 Θ θ thet θit 西塔 
+9 Ι ι iot aiot 约塔 
+10 Κ κ kappa kap 卡帕 
+11 ∧ λ lambda lambd 兰布达 
+12 Μ μ mu mju 缪 
+13 Ν ν nu nju 纽 
+14 Ξ ξ xi ksi 克西 
+15 Ο ο omicron omik`ron 奥密克戎 
+16 ∏ π pi pai 派 
+17 Ρ ρ rho rou 肉 
+18 ∑ σ sigma `sigma 西格马 
+19 Τ τ tau tau 套 
+20 Υ υ upsilon jup`silon 宇普西龙 
+21 Φ φ phi fai 佛爱 
+22 Χ χ chi phai 凯 
+23 Ψ ψ psi psai 普西 
+24 Ω ω omega o`miga 欧米伽
+
+
 
 ---
 **相关笔记：** [[chapter00-风险管理]], [[chapter00-量化投资]], [[chapter00-Python投资]]

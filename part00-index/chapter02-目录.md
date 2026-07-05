@@ -47,6 +47,7 @@ related: "[[chapter01-主页]], [[chapter03-学习路线]]"
 ## [[chapter00-期权学习]]
 
 ### chapter01-basics
+- [[section00-options-glossary]]
 - [[section01-what-is-option]]
 - [[section02-call-and-put]]
 - [[section03-option-contract]]
@@ -693,3 +694,4 @@ related: "[[chapter01-主页]], [[chapter03-学习路线]]"
 - [[section01-四人投资框架对比]]
 - [[section02-价值投资的演变]]
 - [[section03-如何应用]]
+- [[section04-价值投资者的期权策略]]
