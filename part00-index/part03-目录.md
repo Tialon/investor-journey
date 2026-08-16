@@ -4,7 +4,7 @@ topic: 知识库目录
 aliases: [Table of Contents, TOC]
 status: done
 created: "2026-06-28"
-updated: "2026-07-16"
+updated: "2026-08-16"
 tags: [目录, 索引]
 related: "[[part00-主页]], [[part05-学习路线]]"
 ---
@@ -14,7 +14,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 > 完整的知识库结构导航
 
 
-## [[chapter00-股票投资]]
+---
+
+## 📈 part10-equity · 股票投资
 
 ### chapter01-财务报表
 - [[section01-资产负债表]]
@@ -44,7 +46,19 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section04-One Up On Wall Street]]
 - [[section05-Common Stocks and Uncommon Profits]]
 
-## [[chapter00-期权学习]]
+### chapter05-技术分析
+- [[section01-技术分析概述]]
+- [[section02-K线与成交量]]
+- [[section03-趋势与均线]]
+- [[section04-支撑位与压力位]]
+- [[section05-筹码分布]]
+- [[section06-其他技术指标]]
+- [[section07-图表形态]]
+- [[section08-实战框架]]
+
+---
+
+## 📊 part20-options · 期权学习
 
 ### chapter01-basics
 - [[section00-options-glossary]]
@@ -123,7 +137,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section05-ibkr-api]]
 - [[section06-ai-options]]
 
-## [[chapter00-财务分析]]
+---
+
+## 📋 part25-accounting · 财务分析
 
 ### chapter01-三大报表
 - [[section01-资产负债表基础]]
@@ -154,7 +170,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section05-现金流与利润背离]]
 - [[section06-应收帐款异常]]
 
-## [[chapter00-宏观经济]]
+---
+
+## 🌍 part30-macro · 宏观经济
 
 ### chapter01-经济指标
 - [[section01-GDP]]
@@ -189,7 +207,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section05-收益率曲线倒挂]]
 - [[section06-实际利率]]
 
-## [[chapter00-行业研究]]
+---
+
+## 🏭 part35-industry · 行业研究
 
 ### chapter01-AI与芯片
 - [[section01-AI产业链全景]]
@@ -248,7 +268,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section02-行业生命周期]]
 - [[section03-产业链分析]]
 
-## [[chapter00-商业模式]]
+---
+
+## 💼 part40-business-model · 商业模式
 
 ### chapter01-平台型
 - [[section01-平台商业模式]]
@@ -281,7 +303,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section03-单位经济学]]
 - [[section04-飞轮效应]]
 
-## [[chapter00-估值方法]]
+---
+
+## 💰 part45-valuation · 估值方法
 
 ### chapter01-相对估值
 - [[section01-PE市盈率]]
@@ -313,7 +337,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section03-案例-Tesla估值]]
 - [[section04-案例-成长股估值框架]]
 
-## [[chapter00-行为金融学]]
+---
+
+## 🧠 part50-behavioral-finance · 行为金融学
 
 ### chapter01-认知偏差
 - [[section01-确认偏误]]
@@ -351,7 +377,14 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section02-Misbehaving]]
 - [[section03-Irrational-Exuberance]]
 
-## [[chapter00-交易心理]]
+### chapter07-反直觉案例
+- [[section01-利空出尽与利好不涨]]
+- [[section02-直觉反着来]]
+- [[section03-宏观经济反直觉]]
+
+---
+
+## 🎯 part55-trading-psychology · 交易心理
 
 ### chapter01-情绪管理
 - [[section01-恐惧与贪婪]]
@@ -383,7 +416,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section02-The-Daily-Trading-Coach]]
 - [[section03-Zen-in-the-Markets]]
 
-## [[chapter00-风险管理]]
+---
+
+## 🛡️ part60-risk-management · 风险管理
 
 ### chapter01-核心原则
 - [[section01-先求不亏再求赚钱]]
@@ -421,7 +456,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section02-保证金管理]]
 - [[section03-卖方风险控制]]
 
-## [[chapter00-资产配置]]
+---
+
+## 📊 part65-portfolio · 资产配置
 
 ### chapter01-配置策略
 - [[section01-经典60-40组合]]
@@ -449,7 +486,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section02-分散化收益]]
 - [[section03-风险贡献分析]]
 
-## [[chapter00-Python投资]]
+---
+
+## 🐍 part70-python · Python投资
 
 ### chapter01-数据处理
 - [[section01-Pandas基础]]
@@ -477,7 +516,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section03-自动下单]]
 - [[section04-持仓监控]]
 
-## [[chapter00-AI投资]]
+---
+
+## 🤖 part75-ai · AI投资
 
 ### chapter01-财报分析
 - [[section01-AI自动阅读财报]]
@@ -506,7 +547,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section02-AI幻觉]]
 - [[section03-过度依赖AI]]
 
-## [[chapter00-数据分析]]
+---
+
+## 📉 part80-data-analysis · 数据分析
 
 ### chapter01-SQL
 - [[section01-SQL基础]]
@@ -537,7 +580,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section03-数据标准化]]
 - [[section04-时间对齐]]
 
-## [[chapter00-量化投资]]
+---
+
+## ⚡ part85-quant · 量化投资
 
 ### chapter01-因子投资
 - [[section01-价值因子]]
@@ -568,7 +613,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section04-Information-Ratio]]
 - [[section05-IC-IR]]
 
-## [[chapter00-法律税务]]
+---
+
+## ⚖️ part90-legal-tax · 法律税务
 
 ### chapter01-美股税务
 - [[section01-资本利得税]]
@@ -589,7 +636,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section02-保证金账户]]
 - [[section03-IRA退休账户]]
 
-## [[chapter00-机构交易]]
+---
+
+## 🏛️ part92-institutional · 机构交易
 
 ### chapter01-对冲基金
 - [[section01-对冲基金概述]]
@@ -619,7 +668,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section02-GEX与市场走势]]
 - [[section03-如何利用GEX信息]]
 
-## [[chapter00-信息来源]]
+---
+
+## 📰 part94-information · 信息来源
 
 ### chapter01-财报解读
 - [[section01-10-K年报]]
@@ -658,7 +709,9 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section02-信息源可信度评估]]
 - [[section03-避免信息过载]]
 
-## [[chapter00-投资大师]]
+---
+
+## 🎓 part96-investment-masters · 投资大师
 
 ### chapter01-格雷厄姆
 - [[section01-价值投资之父]]
@@ -696,10 +749,33 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[section03-如何应用]]
 - [[section04-价值投资者的期权策略]]
 
-## [[chapter00-个人笔记]]
+---
+
+## 📖 part97-book-summaries · 书籍总结
+
+### chapter01-投资经典
+- [[section01-股票大作手回忆录]]
+
+### chapter02-传记与回忆录
+
+### chapter03-交易心理
+
+### chapter04-行为金融
+
+### chapter05-估值与财务
+
+### chapter06-宏观经济
+
+### chapter07-量化投资
+
+---
+
+## 📝 part99-me · 个人笔记
 
 - [[笔记]]
 
-## 附录
+---
+
+## 📎 附录
 
 - [[Common]]

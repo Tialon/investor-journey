@@ -4,7 +4,7 @@ topic: 学习路线
 aliases: [Learning Roadmap, Study Plan]
 status: done
 created: "2026-06-28"
-updated: "2026-07-16"
+updated: "2026-08-16"
 tags: [学习路线, 索引]
 related: "[[part00-主页]], [[part03-目录]]"
 ---
@@ -13,26 +13,28 @@ related: "[[part00-主页]], [[part03-目录]]"
 
 > 约2年时间，从基础到专业，构建完整的投资能力体系
 
+---
+
 ## 阶段一（第1-3个月）：股票 + 财报 + 会计
 
-- [x] [[chapter00-股票投资]] — 公司分析、财务报表、护城河
-- [x] [[chapter00-财务分析]] — 三大报表、财务造假识别、关键指标
-- [x] [[chapter00-信息来源]] — 财报电话会、SEC文件、信息工具
-- [x] [[chapter00-期权学习]] — 基础篇已完成（56篇）
+- [x] part10 [[chapter00-股票投资]] — 公司分析、财务报表、护城河
+- [x] part25 [[chapter00-财务分析]] — 三大报表、财务造假识别、关键指标
+- [x] part94 [[chapter00-信息来源]] — 财报电话会、SEC文件、信息工具
+- [x] part20 [[chapter00-期权学习]] — 基础篇已完成（56篇）
 
 ## 阶段二（第4-5个月）：宏观 + 行业
 
-- [x] [[chapter00-宏观经济]] — GDP/CPI/PPI/PMI、美联储、货币政策
-- [x] [[chapter00-行业研究]] — AI/芯片、云计算、生物科技、能源、金融
+- [x] part30 [[chapter00-宏观经济]] — GDP/CPI/PPI/PMI、美联储、货币政策
+- [x] part35 [[chapter00-行业研究]] — AI/芯片、云计算、生物科技、能源、金融
 
 ## 阶段三（第6-7个月）：估值 + 企业
 
-- [x] [[chapter00-估值方法]] — PE/PEG/PB/EV/EBITDA/DCF/SOTP
-- [x] [[chapter00-商业模式]] — 平台型、订阅型、硬件型、案例分析
+- [x] part45 [[chapter00-估值方法]] — PE/PEG/PB/EV/EBITDA/DCF/SOTP
+- [x] part40 [[chapter00-商业模式]] — 平台型、订阅型、硬件型、案例分析
 
 ## 阶段四（第8-11个月）：期权深入
 
-- [ ] 完善 [[chapter00-期权学习]] 进阶内容
+- [ ] 完善 part20 [[chapter00-期权学习]] 进阶内容
   - 波动率交易
   - 财报交易
   - 组合管理
@@ -40,19 +42,19 @@ related: "[[part00-主页]], [[part03-目录]]"
 
 ## 阶段五（第12-14个月）：Python + AI
 
-- [ ] [[chapter00-Python投资]] — Pandas/NumPy/Matplotlib、数据处理、可视化
-- [ ] [[chapter00-AI投资]] — 财报分析、行业研究、自动化
-- [ ] [[chapter00-数据分析]] — SQL/Excel/Power BI
+- [ ] part70 [[chapter00-Python投资]] — Pandas/NumPy/Matplotlib、数据处理、可视化
+- [ ] part75 [[chapter00-AI投资]] — 财报分析、行业研究、自动化
+- [ ] part80 [[chapter00-数据分析]] — SQL/Excel/Power BI
 
 ## 阶段六（第15-16个月）：风险 + 组合
 
-- [ ] [[chapter00-风险管理]] — Kelly/VaR/仓位/最大回撤/黑天鹅
-- [ ] [[chapter00-资产配置]] — 股票/ETF/债券/黄金/REIT/期权
+- [ ] part60 [[chapter00-风险管理]] — Kelly/VaR/仓位/最大回撤/黑天鹅
+- [ ] part65 [[chapter00-资产配置]] — 股票/ETF/债券/黄金/REIT/期权
 
 ## 阶段七（第17-20个月）：量化 + 机构
 
-- [ ] [[chapter00-量化投资]] — 因子投资、动量、价值、Alpha、回测
-- [ ] [[chapter00-机构交易]] — 对冲基金、做市商、高频、Dark Pool
+- [ ] part85 [[chapter00-量化投资]] — 因子投资、动量、价值、Alpha、回测
+- [ ] part92 [[chapter00-机构交易]] — 对冲基金、做市商、高频、Dark Pool
 
 ## 阶段八（长期）：迭代完善
 

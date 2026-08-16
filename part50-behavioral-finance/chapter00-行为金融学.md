@@ -53,6 +53,11 @@ related: "[[chapter00-交易心理]], [[chapter00-风险管理]]"
 - [[section02-Misbehaving]] — Richard Thaler
 - [[section03-Irrational-Exuberance]] — Robert Shiller
 
+## 反直觉案例
+- [[section01-利空出尽与利好不涨]] — 市场交易的是预期差，不是事实本身
+- [[section02-直觉反着来]] — 涨多了不是卖点，垃圾股可能比白马股涨得好
+- [[section03-宏观经济反直觉]] — 经济好≠股市好，战争不一定跌，通胀不一定涨黄金
+
 ---
 **相关笔记：** [[chapter00-交易心理]], [[chapter00-风险管理]]
 **返回：** [[part00-主页]]
