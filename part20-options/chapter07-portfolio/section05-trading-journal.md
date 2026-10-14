@@ -4,9 +4,9 @@ topic: 组合管理
 aliases: [Trading Journal, 交易日志, 复盘]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 组合管理, 实战]
-related: "[[仓位管理]], [[组合风险度量]]"
+related: "[[section02-position-sizing|仓位管理]], [[section01-risk-metrics|组合风险度量]]"
 ---
 
 # 交易日志：从经验中学习
@@ -695,11 +695,11 @@ class TradingJournal:
 
 组合管理是期权交易从"赌博"走向"专业"的关键一步。通过学习风险度量、仓位管理、动态对冲、压力测试和交易日志，你已经具备了系统管理期权组合的核心能力。
 
-**下一卷：[../vol8-ibkr/01-tws-options.md](../vol8-ibkr/01-tws-options.md) —— TWS期权交易实战**
+**下一卷：[[section01-tws-options|../vol8-ibkr/01-tws-options.md]] —— TWS期权交易实战**
 
 
 
 
 ---
-**相关笔记：** [[仓位管理]], [[组合风险度量]]
-**返回：** [[chapter00-portfolio]] | [[part00-主页]]
+**相关笔记：** [[section02-position-sizing|仓位管理]], [[section01-risk-metrics|组合风险度量]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

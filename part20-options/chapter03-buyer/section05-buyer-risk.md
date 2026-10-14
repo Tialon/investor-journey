@@ -4,9 +4,9 @@ topic: 买方策略
 aliases: [Buyer Risk Management]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 买方策略, 风险管理]
-related: "[[Theta]], [[买入看涨期权]], [[买入看跌期权]]"
+related: "[[section03-theta|Theta]], [[section01-long-call|买入看涨期权]], [[section02-long-put|买入看跌期权]]"
 ---
 
 # 买方风险管理
@@ -464,11 +464,11 @@ FDA 审批（特别是新药审批）是生物制药股最大的事件催化剂�
 
 ---
 
-下一卷：[卖方策略 - 备兑看涨期权](../vol4-seller/01-covered-call.md)
+下一卷：[[section01-covered-call|卖方策略 - 备兑看涨期权]]
 
 
 
 
 ---
-**相关笔记：** [[Theta]], [[买入看涨期权]], [[买入看跌期权]]
-**返回：** [[chapter00-buyer]] | [[part00-主页]]
+**相关笔记：** [[section03-theta|Theta]], [[section01-long-call|买入看涨期权]], [[section02-long-put|买入看跌期权]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: Greeks
 aliases: [Greeks实战, Greeks综合]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, Greeks, 实战]
-related: "[[section01-delta]], [[section02-gamma]], [[section03-theta]], [[section04-vega]], [[买入看涨期权]]"
+related: "[[section01-delta]], [[section02-gamma]], [[section03-theta]], [[section04-vega]], [[section01-long-call|买入看涨期权]]"
 ---
 
 # Greeks 综合实战
@@ -287,11 +287,11 @@ $$\Delta V \approx 0.55 \times 5 + \frac{1}{2} \times 0.05 \times 5^2 = 2.75 + 0
 
 ---
 
-> **下一卷**：[买方策略 - 买入看涨期权](../vol3-buyer/01-long-call.md)
+> **下一卷**：[[section01-long-call|买方策略 - 买入看涨期权]]
 
 
 
 
 ---
-**相关笔记：** [[section01-delta]], [[section02-gamma]], [[section03-theta]], [[section04-vega]], [[买入看涨期权]]
-**返回：** [[chapter00-greeks]] | [[part00-主页]]
+**相关笔记：** [[section01-delta]], [[section02-gamma]], [[section03-theta]], [[section04-vega]], [[section01-long-call|买入看涨期权]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

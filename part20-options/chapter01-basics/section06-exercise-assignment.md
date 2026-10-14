@@ -4,12 +4,20 @@ topic: 期权基础
 aliases: [Exercise, Assignment, 行权, 指派]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 基础]
-related: "[[期权合约要素]], [[期权链解读]]"
+related: "[[section03-option-contract|期权合约要素]], [[section07-option-chains|期权链解读]]"
 ---
 
 # 行权与指派
+
+## 到期处理先检查什么
+
+美式短腿可以提前被指派，持有长腿并不意味着券商会自动同步处理两腿。股票交割会产生新的股票多头或空头，后续跳空风险不再受原期权权利金限制。临近行权价时，收盘后的价格变化和相反行权指令会造成 pin risk（临界指派风险）。
+
+确认最后交易时刻、结算方式、券商指令截止、交割资金及处理计划；不准备承接股票时，应提前安排平仓并确认成交。详见 [[section06-execution-checklist|交易检查清单]]。
+
+核对资料（2026-10-15）：[IBKR 行权教学](https://www.interactivebrokers.com/campus/trading-lessons/exercise-and-assignment/)、[IBKR 到期及交割政策](https://www.interactivebrokers.com/en/trading/delivery-exercise-actions.php)、[OIC 指派说明](https://www.optionseducation.org/referencelibrary/faq/options-assignment)。
 
 > 期权交易中，行权与指派是连接"纸上合约"与"实际持仓"的关键桥梁。理解这一机制，不仅能帮你避免意外的股票持仓，更能让你在卖方交易中做好风险管理。
 
@@ -131,11 +139,12 @@ related: "[[期权合约要素]], [[期权链解读]]"
 
 美国期权清算公司（Options Clearing Corporation, OCC）的默认自动行权规则是：
 
-**到期时内在价值（Intrinsic Value）大于 $0.01 的实值期权（ITM），将被自动行权。**
+**对适用 OCC exercise-by-exception 的美国证券期权，到期按规定参考价计算实值程度至少 $0.01（≥ $0.01）时，通常默认行权；相反指令、券商风控和具体产品规则可改变结果。**
 
 具体来说：
-- Call：标的收盘价 > 行权价，即为 ITM，会被自动行权
-- Put：标的收盘价 < 行权价，即为 ITM，会被自动行权
+- Call：参考价 − 行权价 ≥ $0.01，通常符合默认行权门槛。
+- Put：行权价 − 参考价 ≥ $0.01，通常符合默认行权门槛。
+- 实值不等于盈利；虚值也不保证卖方绝不会被指派，持有人可以在规则允许的期限内提交相反指令。
 
 ### 4.3 不要完全依赖自动行权
 
@@ -150,7 +159,7 @@ related: "[[期权合约要素]], [[期权链解读]]"
 
 **（2）"Do Not Exercise" 指令**
 
-如果你持有实值期权但不想被自动行权，可以在到期日下午 **4:30 PM ET 之前**向经纪商发送"Do Not Exercise"（DNE，不自动行权）指令。OCC 接受 DNE 指令的截止时间是 **5:30 PM ET**。
+持有实值期权但不想行权时，应按券商对该产品公布的截止时间提交 Do Not Exercise（DNE）指令，并确认已被接受。不要把某个清算或市场截止时间当成客户可用截止时间；券商可能更早停止接收，节假日也可能改变安排。美国东部时间与北京时间的换算需考虑夏令时。
 
 **（3）最佳实践**
 
@@ -247,7 +256,7 @@ Put 期权的提前行权情况相对少见，但在以下场景中可能出现�
 
 了解以下时间节点非常重要：
 
-- **行权截止时间（Exercise Cut-off Time）**：通常为到期日当天下午 5:30 PM ET（经纪商可能提前至 4:30 PM 或 5:00 PM 接受行权请求）
+- **行权截止时间（Exercise Cut-off Time）**：查具体产品和券商当前公布的客户截止时间，并确认指令已被接受；不套用统一的 4:30 或 5:30 PM ET。
 - **OCC 指派通知时间**：通常在行权日当晚发出
 - **经纪商通知客户时间**：通常在指派日当晚或下一个交易日开盘前
 - **交割日**：行权日的下一个交易日（T+1）
@@ -459,5 +468,5 @@ IBKR 对美国股票期权的行权和指派通常不收取额外费用（截至
 
 
 ---
-**相关笔记：** [[期权合约要素]], [[期权链解读]]
-**返回：** [[chapter00-basics]] | [[part00-主页]]
+**相关笔记：** [[section03-option-contract|期权合约要素]], [[section07-option-chains|期权链解读]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

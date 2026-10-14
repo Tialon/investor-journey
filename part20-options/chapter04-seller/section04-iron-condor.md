@@ -4,9 +4,9 @@ topic: 卖方策略
 aliases: [Iron Condor, 铁鹰式]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 卖方策略, 中性]
-related: "[[价差策略]], [[铁蝶策略]], [[Vega]]"
+related: "[[section03-credit-spread|价差策略]], [[section05-iron-butterfly|铁蝶策略]], [[section04-vega|Vega]]"
 ---
 
 # 铁鹰策略（Iron Condor）
@@ -280,5 +280,5 @@ Iron Condor 的最大亏损可能远大于最大盈利。如果股价大幅突�
 
 
 ---
-**相关笔记：** [[价差策略]], [[铁蝶策略]], [[Vega]]
-**返回：** [[chapter00-seller]] | [[part00-主页]]
+**相关笔记：** [[section03-credit-spread|价差策略]], [[section05-iron-butterfly|铁蝶策略]], [[section04-vega|Vega]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

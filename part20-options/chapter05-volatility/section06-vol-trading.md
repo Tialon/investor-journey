@@ -4,9 +4,9 @@ topic: 波动率
 aliases: [Volatility Trading, 波动率交易]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 波动率, 策略]
-related: "[[Vega]], [[VIX指数详解]], [[铁鹰策略]]"
+related: "[[section04-vega|Vega]], [[section05-vix|VIX指数详解]], [[section04-iron-condor|铁鹰策略]]"
 ---
 
 # 波动率交易策略 (Volatility Trading Strategies)
@@ -153,40 +153,13 @@ Delta 中性是波动率交易的基础。一个 Delta 中性的组合意味着�
 - 买入 1 张 SPY 420 Put（-25 Delta），权利金 $2.20
 - 总成本 = $4.70 × 100 = $470
 - 盈亏平衡点：上行 $444.70，下行 $415.30
-- 需要 SPY 变动超过 ±3.4% 才能盈利
+- 到期上方需超过约 +3.42%，下方需低于约 −3.42% 才盈利（未计费用）；提前平仓的盈亏不同
 
-### 2.3 Long Butterfly（多头蝶式）
+### 2.3 蝶式与日历：不要仅凭策略名称判断 Vega
 
-**构建方法：**
-- 买入 1 张较低行权价的 Call（如 K₁）
-- 卖出 2 张中间行权价的 Call（如 K₂）
-- 买入 1 张较高行权价的 Call（如 K₃）
-- 行权价等距，相同到期日
+标准等距 Long Call Butterfly 是买 1 张低行权价 Call、卖 2 张中间 Call、买 1 张高行权价 Call，同到期。靠近中间行权价、尤其临近到期时，常见为负 Gamma、正 Theta、负 Vega；离开中心后符号可能变化。它不是跨式的等价替代。
 
-**头寸特征：**
-- Delta：约 0（如果中间行权价为 ATM）
-- Gamma：负（标的大幅变动时亏损）
-- Theta：正（时间衰减有利）
-- Vega：负（IV 下降时获利，IV 上升时亏损）
-
-**Wait——这不是做空波动率吗？**
-
-是的，Long Butterfly 实际上是一个**做空波动率**的策略！虽然名字里有"Long"，但它赌的是标的保持在中间行权价附近，波动率下降。
-
-**这里有一个重要的命名约定需要注意：**
-- "Long" Butterfly 指的是你买入这个组合（支付净权利金）
-- 但这个组合的 Vega 是负的，意味着它从 IV 下降中获利
-- 所以"Long" Butterfly 实际上是做空波动率
-
-**为什么把 Long Butterfly 放在"做多波动率"章节？**
-
-这里我们讨论的是**Long Straddle/Strangle 的变体**——有些交易者会在买入 Straddle 的同时卖出 Butterfly 来降低成本。这是一种组合策略。
-
-**真正的做多波动率的 Butterfly 策略是 Short Butterfly：**
-- 卖出 1 张较低行权价 Call
-- 买入 2 张中间行权价 Call
-- 卖出 1 张较高行权价 Call
-- 这个策略的 Vega 为正，从 IV 上升中获利
+反向 Short Butterfly 的 Greeks 与之相反，但同样依赖价格位置和期限。“Long”只描述买入结构，不保证正 Vega。日历价差对近月和远月 IV 的暴露不同，应分别冲击两个期限，不能把“总 Vega 为正”解释为所有波动率情景都会获利。
 
 ### 2.4 做多波动率策略的选择指南
 
@@ -698,11 +671,11 @@ Vega 衡量的是 IV 变化 1% 时期权价格的变化量。Vega 风险是波�
 
 ---
 
-[下一章：财报与期权 →](../vol6-earnings/01-earnings-and-options.md)
+[[section01-earnings-and-options|下一章：财报与期权 →]]
 
 
 
 
 ---
-**相关笔记：** [[Vega]], [[VIX指数详解]], [[铁鹰策略]]
-**返回：** [[chapter00-volatility]] | [[part00-主页]]
+**相关笔记：** [[section04-vega|Vega]], [[section05-vix|VIX指数详解]], [[section04-iron-condor|铁鹰策略]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

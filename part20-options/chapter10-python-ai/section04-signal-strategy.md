@@ -4,9 +4,9 @@ topic: Python+AI
 aliases: [Signal Generation, Strategy Development, 信号生成]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, Python, 策略]
-related: "[[回测框架搭建]], [[IBKR API自动交易]]"
+related: "[[section03-backtesting|回测框架搭建]], [[section05-ibkr-api|IBKR API自动交易]]"
 ---
 
 # 信号生成与策略开发
@@ -1383,5 +1383,5 @@ if __name__ == "__main__":
 
 
 ---
-**相关笔记：** [[回测框架搭建]], [[IBKR API自动交易]]
-**返回：** [[chapter00-python-ai]] | [[part00-主页]]
+**相关笔记：** [[section03-backtesting|回测框架搭建]], [[section05-ibkr-api|IBKR API自动交易]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

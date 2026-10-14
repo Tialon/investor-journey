@@ -4,9 +4,9 @@ topic: 财报交易
 aliases: [Earnings and Options, 财报期权]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 财报, 实战]
-related: "[[IV Crush详解]], [[财报前策略]], [[财报后策略]]"
+related: "[[section04-iv-crush|IV Crush详解]], [[section02-pre-earnings|财报前策略]], [[section03-post-earnings|财报后策略]]"
 ---
 
 # 财报与期权：理解财报交易的基础
@@ -286,11 +286,11 @@ IBKR的优势在于数据准确度高，并且可以直接在交易界面看到�
 
 ---
 
-**下一章**：在理解了财报与期权的基本关系后，我们将进入实战环节——[财报前的期权策略](./02-pre-earnings.md)，学习如何在财报发布前布局各种期权策略。
+**下一章**：在理解了财报与期权的基本关系后，我们将进入实战环节——[[section02-pre-earnings|财报前的期权策略]]，学习如何在财报发布前布局各种期权策略。
 
 
 
 
 ---
-**相关笔记：** [[IV Crush详解]], [[财报前策略]], [[财报后策略]]
-**返回：** [[chapter00-earnings]] | [[part00-主页]]
+**相关笔记：** [[section04-iv-crush|IV Crush详解]], [[section02-pre-earnings|财报前策略]], [[section03-post-earnings|财报后策略]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

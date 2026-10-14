@@ -4,9 +4,9 @@ topic: 波动率
 aliases: [HV, IV, Historical Volatility, Implied Volatility]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 波动率, 核心]
-related: "[[什么是波动率]], [[波动率曲面]], [[Vega]]"
+related: "[[section01-what-is-volatility|什么是波动率]], [[section03-volatility-surface|波动率曲面]], [[section04-vega|Vega]]"
 ---
 
 # 历史波动率 vs 隐含波动率 (HV vs IV)
@@ -448,11 +448,11 @@ AAPL 每季度公布一次财报，财报前后 HV 和 IV 的变化非常典型�
 
 ---
 
-[下一章：波动率曲面 →](./03-volatility-surface.md)
+[[section03-volatility-surface|下一章：波动率曲面 →]]
 
 
 
 
 ---
-**相关笔记：** [[什么是波动率]], [[波动率曲面]], [[Vega]]
-**返回：** [[chapter00-volatility]] | [[part00-主页]]
+**相关笔记：** [[section01-what-is-volatility|什么是波动率]], [[section03-volatility-surface|波动率曲面]], [[section04-vega|Vega]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

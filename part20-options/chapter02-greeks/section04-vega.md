@@ -4,9 +4,9 @@ topic: Greeks
 aliases: [Vega, ν, 波动率敏感度]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, Greeks, 核心]
-related: "[[section01-delta]], [[section02-gamma]], [[section03-theta]], [[什么是波动率]]"
+related: "[[section01-delta]], [[section02-gamma]], [[section03-theta]], [[section01-what-is-volatility|什么是波动率]]"
 ---
 
 # Vega (ν)
@@ -231,7 +231,7 @@ Vega 交易的核心在于对隐含波动率（IV）和已实现波动率（Real
 - **IV < RV**：期权定价偏便宜 → 买入期权（正 Vega）有利
 - **IV ≈ RV**：期权定价合理 → 纯 Vega 交易机会有限
 
-历史上，IV 通常略高于 RV，这个差额称为**波动率风险溢价（Volatility Risk Premium, VRP）**。这意味着期权卖方长期来看有一个系统性的正收益来源，因为他们在出售"过度定价"的波动率。
+历史上，IV 通常略高于 RV，这个差额称为**波动率风险溢价（Volatility Risk Premium, VRP）**。这可能反映承接尾部风险的补偿，不能据此认定波动率错误定价，或保证卖方在费用、对冲与极端亏损之后有正收益。
 
 ## 7. Vega 与 Black-Scholes 模型的关系
 
@@ -513,5 +513,5 @@ Vega 面就是这个 IV 曲面的敏感度图——它告诉你 IV 曲面的每�
 
 
 ---
-**相关笔记：** [[section01-delta]], [[section02-gamma]], [[section03-theta]], [[什么是波动率]]
-**返回：** [[chapter00-greeks]] | [[part00-主页]]
+**相关笔记：** [[section01-delta]], [[section02-gamma]], [[section03-theta]], [[section01-what-is-volatility|什么是波动率]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

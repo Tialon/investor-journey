@@ -4,9 +4,9 @@ topic: IBKR实战
 aliases: [Option Order Types, 期权订单类型]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, IBKR, 实战]
-related: "[[IBKR期权交易界面]], [[保证金与风控设置]]"
+related: "[[section01-tws-options|IBKR期权交易界面]], [[section03-margin-risk|保证金与风控设置]]"
 ---
 
 # IBKR期权交易实战：订单类型与下单技巧
@@ -469,13 +469,13 @@ Bid-Ask Spread（买卖价差）是期权交易中最关键的成本因素之一
 
 ---
 
-**上一章**：[01-tws-options.md - TWS平台完全指南](./01-tws-options.md)
+**上一章**：[[section01-tws-options|01-tws-options.md - TWS平台完全指南]]
 
-**下一章**：[03-margin-risk.md - 保证金系统与风险管理](./03-margin-risk.md)
+**下一章**：[[section03-margin-risk|03-margin-risk.md - 保证金系统与风险管理]]
 
 
 
 
 ---
-**相关笔记：** [[IBKR期权交易界面]], [[保证金与风控设置]]
-**返回：** [[chapter00-ibkr]] | [[part00-主页]]
+**相关笔记：** [[section01-tws-options|IBKR期权交易界面]], [[section03-margin-risk|保证金与风控设置]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

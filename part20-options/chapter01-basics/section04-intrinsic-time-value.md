@@ -4,9 +4,9 @@ topic: 期权基础
 aliases: [Intrinsic Value, Time Value, 内在价值, 时间价值]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 基础, 定价]
-related: "[[期权合约要素]], [[实值平值虚值]], [[Delta]]"
+related: "[[section03-option-contract|期权合约要素]], [[section05-moneyness|实值平值虚值]], [[section01-delta|Delta]]"
 ---
 
 # 内在价值与时间价值
@@ -361,7 +361,7 @@ $$P \geq \max(K - S, \ 0)$$
 
 但这种思维忽略了两个关键事实：
 
-1. **时间价值的必然衰减**：即使标的资产价格不变，你也在每天亏钱。这是确定性的亏损，不是概率性的。
+1. **时间因素的影响**：在其他输入不变时，普通买方期权通常承受负 Theta；实际每日损益还受 IV、利率和分红等影响，不能说股价不动就一定每天亏钱。
 
 2. **概率极低**：深度虚值期权之所以"便宜"，正是因为市场判断其变为实值的概率很低。你是在与市场共识对抗。
 
@@ -454,5 +454,5 @@ $$P \geq \max(K - S, \ 0)$$
 
 
 ---
-**相关笔记：** [[期权合约要素]], [[实值平值虚值]], [[Delta]]
-**返回：** [[chapter00-basics]] | [[part00-主页]]
+**相关笔记：** [[section03-option-contract|期权合约要素]], [[section05-moneyness|实值平值虚值]], [[section01-delta|Delta]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

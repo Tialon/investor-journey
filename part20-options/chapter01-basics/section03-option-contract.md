@@ -4,9 +4,9 @@ topic: 期权基础
 aliases: [Option Contract, 期权合约]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 基础]
-related: "[[什么是期权]], [[看涨期权与看跌期权]], [[实值平值虚值]]"
+related: "[[section01-what-is-option|什么是期权]], [[section02-call-and-put|看涨期权与看跌期权]], [[section05-moneyness|实值平值虚值]]"
 ---
 
 # 期权合约要素
@@ -434,5 +434,5 @@ SPY 240315C00510000
 
 
 ---
-**相关笔记：** [[什么是期权]], [[看涨期权与看跌期权]], [[实值平值虚值]]
-**返回：** [[chapter00-basics]] | [[part00-主页]]
+**相关笔记：** [[section01-what-is-option|什么是期权]], [[section02-call-and-put|看涨期权与看跌期权]], [[section05-moneyness|实值平值虚值]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

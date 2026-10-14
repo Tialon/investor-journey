@@ -4,12 +4,20 @@ topic: IBKR实战
 aliases: [Margin Risk, 保证金, 风控设置]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, IBKR, 风险管理]
-related: "[[IBKR期权交易界面]], [[卖方风险管理]]"
+related: "[[section01-tws-options|IBKR期权交易界面]], [[section06-seller-risk|卖方风险管理]]"
 ---
 
 # IBKR期权交易实战：保证金系统与风险管理
+
+## 实际账户先核对
+
+保证金占用不等于最大亏损。Reg T 示例、Portfolio Margin 模型和券商 house margin 不能混用；实际要求受实体、账户、权限、集中度和市场状况影响，应以订单预览和当前官方规则为准。
+
+IBKR 可能因预计交割后的资金不足平掉到期期权、使长实值期权不行权，或清算交割后的股票。不要假设一定收到追保通知并有固定补款期限。剩余流动性应接受股价、IV、保证金上调与指派的联合压力测试。
+
+官方资料（核对：2026-10-15）：[IBKR 期权保证金](https://www.interactivebrokers.com/en/trading/margin-options.php)、[到期及交割政策](https://www.interactivebrokers.com/en/trading/delivery-exercise-actions.php)。
 
 ## 一、IBKR保证金系统概述
 
@@ -540,13 +548,13 @@ TWS支持多种自动止损机制：
 
 ---
 
-**上一章**：[02-order-types.md - 订单类型与下单实战](./02-order-types.md)
+**上一章**：[[section02-order-types|02-order-types.md - 订单类型与下单实战]]
 
-**下一章**：[04-analytics-tools.md - 期权分析工具详解](./04-analytics-tools.md)
+**下一章**：[[section04-analytics-tools|04-analytics-tools.md - 期权分析工具详解]]
 
 
 
 
 ---
-**相关笔记：** [[IBKR期权交易界面]], [[卖方风险管理]]
-**返回：** [[chapter00-ibkr]] | [[part00-主页]]
+**相关笔记：** [[section01-tws-options|IBKR期权交易界面]], [[section06-seller-risk|卖方风险管理]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

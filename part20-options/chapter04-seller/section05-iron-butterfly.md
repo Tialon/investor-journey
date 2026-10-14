@@ -4,9 +4,9 @@ topic: 卖方策略
 aliases: [Iron Butterfly, 铁蝶式]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 卖方策略, 中性]
-related: "[[铁鹰策略]], [[价差策略]], [[Vega]]"
+related: "[[section04-iron-condor|铁鹰策略]], [[section03-credit-spread|价差策略]], [[section04-vega|Vega]]"
 ---
 
 # 铁蝶策略（Iron Butterfly）
@@ -274,5 +274,5 @@ ATM 期权通常流动性较好，但保护期权（OTM）的流动性可能较�
 
 
 ---
-**相关笔记：** [[铁鹰策略]], [[价差策略]], [[Vega]]
-**返回：** [[chapter00-seller]] | [[part00-主页]]
+**相关笔记：** [[section04-iron-condor|铁鹰策略]], [[section03-credit-spread|价差策略]], [[section04-vega|Vega]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

@@ -4,12 +4,18 @@ topic: 专业交易
 aliases: [Volatility Arbitrage, 波动率套利]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 专业, 套利]
-related: "[[波动率交易策略]], [[期限结构与日历价差]]"
+related: "[[section06-vol-trading|波动率交易策略]], [[section03-term-structure|期限结构与日历价差]]"
 ---
 
 # 波动率套利(Volatility Arbitrage)
+
+## “套利”一词的边界
+
+本文的波动率套利主要是有风险的相对价值交易。历史 HV 已经实现，未来 RV 仍未知；IV 高于历史 HV 不证明存在无风险收益。偏斜和期限结构可以反映事件及风险溢价，不能仅凭偏离 Black–Scholes 常数波动率假设认定错误定价。
+
+比较时统一期限、年化与采样口径，并计入 Delta 对冲成本、跳空、分红、借券、执行价差和保证金变化。Delta 中性只是局部一阶暴露中性。详见 [[section06-execution-checklist|情景与执行检查]]。
 
 波动率套利(Volatility Arbitrage)是期权交易中最专业、最复杂的策略之一。它不依赖于对标的资产方向的判断，而是通过识别和利用波动率市场的定价偏差(Mispricing)来获取收益。本章将系统介绍波动率套利的理论基础、具体策略和风险管理方法。
 
@@ -694,11 +700,11 @@ Dispersion交易涉及大量头寸，保证金要求可能非常高。
 
 ---
 
-**下一章**：[组合Greeks管理(Portfolio Greeks)](./05-portfolio-greeks.md)
+**下一章**：[[section05-portfolio-greeks|组合Greeks管理(Portfolio Greeks)]]
 
 
 
 
 ---
-**相关笔记：** [[波动率交易策略]], [[期限结构与日历价差]]
-**返回：** [[chapter00-pro]] | [[part00-主页]]
+**相关笔记：** [[section06-vol-trading|波动率交易策略]], [[section03-term-structure|期限结构与日历价差]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

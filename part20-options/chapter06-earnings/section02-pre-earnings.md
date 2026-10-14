@@ -4,9 +4,9 @@ topic: 财报交易
 aliases: [Pre-Earnings Strategy, 财报前策略]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 财报, 策略]
-related: "[[财报与期权]], [[IV Crush详解]], [[买入跨式策略]]"
+related: "[[section01-earnings-and-options|财报与期权]], [[section04-iv-crush|IV Crush详解]], [[section03-long-straddle|买入跨式策略]]"
 ---
 
 # 财报前的期权策略
@@ -25,7 +25,7 @@ related: "[[财报与期权]], [[IV Crush详解]], [[买入跨式策略]]"
 
 **逻辑一：利用IV上升(卖方策略)**
 
-财报前IV系统性上升是统计上最确定的"规律"之一。如果你认为股价不会大幅波动，或者你判断隐含波动(Implied Move)被高估，可以通过卖出期权来收取高IV带来的高权利金。核心目标是：让时间衰减(Theta Decay)和IV下降为你工作。
+财报可能给 IV 带来事件溢价，但 IV 不保证在财报前持续上升。如果你认为股价不会大幅波动，或者你判断隐含波动(Implied Move)被高估，可以通过卖出期权来收取高IV带来的高权利金。核心目标是：让时间衰减(Theta Decay)和IV下降为你工作。
 
 **逻辑二：赌方向或波动幅度(买方策略)**
 
@@ -428,11 +428,11 @@ IV溢价率：(4.25% - 3.45%) / 3.45% = 23%
 
 ---
 
-**下一章**：财报发布后，市场进入新的阶段——[财报后的期权策略](./03-post-earnings.md)，学习如何在IV Crush之后寻找交易机会。
+**下一章**：财报发布后，市场进入新的阶段——[[section03-post-earnings|财报后的期权策略]]，学习如何在IV Crush之后寻找交易机会。
 
 
 
 
 ---
-**相关笔记：** [[财报与期权]], [[IV Crush详解]], [[买入跨式策略]]
-**返回：** [[chapter00-earnings]] | [[part00-主页]]
+**相关笔记：** [[section01-earnings-and-options|财报与期权]], [[section04-iv-crush|IV Crush详解]], [[section03-long-straddle|买入跨式策略]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

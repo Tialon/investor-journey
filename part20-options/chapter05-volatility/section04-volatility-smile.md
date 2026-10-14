@@ -4,9 +4,9 @@ topic: 波动率
 aliases: [Volatility Smile, Volatility Skew, 波动率微笑]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 波动率, 高级]
-related: "[[波动率曲面]], [[历史波动率vs隐含波动率]]"
+related: "[[section03-volatility-surface|波动率曲面]], [[section02-hv-vs-iv|历史波动率vs隐含波动率]]"
 ---
 
 # 波动率微笑详解 (Volatility Smile Deep Dive)
@@ -504,11 +504,11 @@ SPY 和 AAPL 的波动率微笑对比揭示了几个重要差异：
 
 ---
 
-[下一章：VIX 指数详解 →](./05-vix.md)
+[[section05-vix|下一章：VIX 指数详解 →]]
 
 
 
 
 ---
-**相关笔记：** [[波动率曲面]], [[历史波动率vs隐含波动率]]
-**返回：** [[chapter00-volatility]] | [[part00-主页]]
+**相关笔记：** [[section03-volatility-surface|波动率曲面]], [[section02-hv-vs-iv|历史波动率vs隐含波动率]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

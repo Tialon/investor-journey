@@ -4,9 +4,9 @@ topic: 波动率
 aliases: [Volatility Surface, 波动率曲面]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 波动率, 高级]
-related: "[[历史波动率vs隐含波动率]], [[波动率微笑详解]]"
+related: "[[section02-hv-vs-iv|历史波动率vs隐含波动率]], [[section04-volatility-smile|波动率微笑详解]]"
 ---
 
 # 波动率曲面 (Volatility Surface)
@@ -426,11 +426,11 @@ IBKR 还允许用户进行自定义的波动率分析：
 
 ---
 
-[下一章：波动率微笑详解 →](./04-volatility-smile.md)
+[[section04-volatility-smile|下一章：波动率微笑详解 →]]
 
 
 
 
 ---
-**相关笔记：** [[历史波动率vs隐含波动率]], [[波动率微笑详解]]
-**返回：** [[chapter00-volatility]] | [[part00-主页]]
+**相关笔记：** [[section02-hv-vs-iv|历史波动率vs隐含波动率]], [[section04-volatility-smile|波动率微笑详解]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

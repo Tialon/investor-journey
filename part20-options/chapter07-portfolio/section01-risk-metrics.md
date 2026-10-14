@@ -4,9 +4,9 @@ topic: 组合管理
 aliases: [Portfolio Risk Metrics, VaR, Expected Shortfall]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 组合管理, 风险管理]
-related: "[[Delta]], [[Gamma]], [[Theta]], [[Vega]], [[仓位管理]]"
+related: "[[section01-delta|Delta]], [[section02-gamma|Gamma]], [[section03-theta|Theta]], [[section04-vega|Vega]], [[section02-position-sizing|仓位管理]]"
 ---
 
 # 组合风险度量
@@ -444,11 +444,11 @@ IBKR还提供**What-If分析**功能：
 
 ---
 
-**下一章：[02-position-sizing.md](./02-position-sizing.md) —— 仓位管理：决定长期成败的关键**
+**下一章：[[section02-position-sizing|02-position-sizing.md]] —— 仓位管理：决定长期成败的关键**
 
 
 
 
 ---
-**相关笔记：** [[Delta]], [[Gamma]], [[Theta]], [[Vega]], [[仓位管理]]
-**返回：** [[chapter00-portfolio]] | [[part00-主页]]
+**相关笔记：** [[section01-delta|Delta]], [[section02-gamma|Gamma]], [[section03-theta|Theta]], [[section04-vega|Vega]], [[section02-position-sizing|仓位管理]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 期权基础
 aliases: [Call and Put, 看涨期权, 看跌期权]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 基础]
-related: "[[什么是期权]], [[期权合约要素]], [[内在价值与时间价值]]"
+related: "[[section01-what-is-option|什么是期权]], [[section03-option-contract|期权合约要素]], [[section04-intrinsic-time-value|内在价值与时间价值]]"
 ---
 
 # 看涨期权与看跌期权
@@ -672,5 +672,5 @@ Short Put 收益 = 权利金 - max(行权价 - 标的股价, 0)
 
 
 ---
-**相关笔记：** [[什么是期权]], [[期权合约要素]], [[内在价值与时间价值]]
-**返回：** [[chapter00-basics]] | [[part00-主页]]
+**相关笔记：** [[section01-what-is-option|什么是期权]], [[section03-option-contract|期权合约要素]], [[section04-intrinsic-time-value|内在价值与时间价值]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

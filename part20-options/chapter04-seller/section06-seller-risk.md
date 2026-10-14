@@ -4,9 +4,9 @@ topic: 卖方策略
 aliases: [Seller Risk Management, 卖方风险]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 卖方策略, 风险管理]
-related: "[[Gamma]], [[备兑看涨期权]], [[价差策略]]"
+related: "[[section02-gamma|Gamma]], [[section01-covered-call|备兑看涨期权]], [[section03-credit-spread|价差策略]]"
 ---
 
 # 卖方风险管理
@@ -312,10 +312,10 @@ Gamma 衡量 Delta 的变化速度。临近到期时，ATM 期权的 Gamma 急�
 ---
 
 > **恭喜！** 你已经完成了核心4卷的所有学习。回顾一下你学到的内容：
-> - [第1卷：基础篇](../vol1-basics/01-what-is-option.md) - 期权的基本概念
-> - [第2卷：Greeks](../vol2-greeks/01-delta.md) - 期权定价的核心参数
-> - [第3卷：买方策略](../vol3-buyer/01-long-call.md) - 买方视角的策略与实战
-> - [第4卷：卖方策略](../vol4-seller/01-covered-call.md) - 卖方视角的策略与实战
+> - [[section01-what-is-option|第1卷：基础篇]] - 期权的基本概念
+> - [[section01-delta|第2卷：Greeks]] - 期权定价的核心参数
+> - [[section01-long-call|第3卷：买方策略]] - 买方视角的策略与实战
+> - [[section01-covered-call|第4卷：卖方策略]] - 卖方视角的策略与实战
 >
 > 下一步可以学习：波动率（第5卷）、财报交易（第6卷）、组合管理（第7卷）。
 
@@ -323,5 +323,5 @@ Gamma 衡量 Delta 的变化速度。临近到期时，ATM 期权的 Gamma 急�
 
 
 ---
-**相关笔记：** [[Gamma]], [[备兑看涨期权]], [[价差策略]]
-**返回：** [[chapter00-seller]] | [[part00-主页]]
+**相关笔记：** [[section02-gamma|Gamma]], [[section01-covered-call|备兑看涨期权]], [[section03-credit-spread|价差策略]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

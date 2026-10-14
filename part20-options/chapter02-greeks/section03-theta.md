@@ -4,9 +4,9 @@ topic: Greeks
 aliases: [Theta, θ, 时间衰减]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, Greeks, 核心]
-related: "[[section01-delta]], [[section02-gamma]], [[section04-vega]], [[内在价值与时间价值]]"
+related: "[[section01-delta]], [[section02-gamma]], [[section04-vega]], [[section04-intrinsic-time-value|内在价值与时间价值]]"
 ---
 
 # Theta (θ) — 时间衰减
@@ -332,8 +332,8 @@ Theta 在这个过程中扮演了"自动赚钱机器"的角色。每过一天，
 
 这个公式的含义是深远的：**Theta 和 Gamma 的符号几乎总是相反的。**
 
-- 当你拥有**正 Gamma**（持有期权多头）时，你必然承受**负 Theta**（时间在侵蚀你的仓位价值）
-- 当你拥有**负 Gamma**（持有期权空头）时，你享受**正 Theta**（时间在为你的仓位增添价值）
+- 在上述忽略利率及分红的近似下，**正 Gamma**通常对应**负 Theta**；深度实值 Put 等情形可能因融资项出现不同符号
+- 在同一近似下，**负 Gamma**通常对应**正 Theta**，但不保证真实持仓每日盈利
 
 这是一种"鱼与熊掌不可兼得"的权衡 (Trade-off)。
 
@@ -419,5 +419,5 @@ Theta 与 Gamma 的权衡在不同的波动率环境下表现不同：
 
 
 ---
-**相关笔记：** [[section01-delta]], [[section02-gamma]], [[section04-vega]], [[内在价值与时间价值]]
-**返回：** [[chapter00-greeks]] | [[part00-主页]]
+**相关笔记：** [[section01-delta]], [[section02-gamma]], [[section04-vega]], [[section04-intrinsic-time-value|内在价值与时间价值]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

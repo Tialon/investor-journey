@@ -4,9 +4,9 @@ topic: 买方策略
 aliases: [Long Call, 买入看涨]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 买方策略, 方向性]
-related: "[[Delta]], [[Gamma]], [[Theta]], [[买入看跌期权]]"
+related: "[[section01-delta|Delta]], [[section02-gamma|Gamma]], [[section03-theta|Theta]], [[section02-long-put|买入看跌期权]]"
 ---
 
 # 买入看涨期权（Long Call）
@@ -734,5 +734,5 @@ Long Call最吸引人的特征之一就是它的杠杆效应。让我们做一�
 
 
 ---
-**相关笔记：** [[Delta]], [[Gamma]], [[Theta]], [[买入看跌期权]]
-**返回：** [[chapter00-buyer]] | [[part00-主页]]
+**相关笔记：** [[section01-delta|Delta]], [[section02-gamma|Gamma]], [[section03-theta|Theta]], [[section02-long-put|买入看跌期权]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

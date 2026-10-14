@@ -4,9 +4,9 @@ topic: IBKR实战
 aliases: [TWS Options, IBKR期权界面]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, IBKR, 工具]
-related: "[[期权订单类型]], [[保证金与风控设置]]"
+related: "[[section02-order-types|期权订单类型]], [[section03-margin-risk|保证金与风控设置]]"
 ---
 
 # IBKR期权交易实战：TWS平台完全指南
@@ -405,11 +405,11 @@ TWS允许你创建订单模板（Order Template），预设常用的订单参数
 
 ---
 
-**下一章**：[02-order-types.md - 期权订单类型与下单实战](./02-order-types.md)
+**下一章**：[[section02-order-types|02-order-types.md - 期权订单类型与下单实战]]
 
 
 
 
 ---
-**相关笔记：** [[期权订单类型]], [[保证金与风控设置]]
-**返回：** [[chapter00-ibkr]] | [[part00-主页]]
+**相关笔记：** [[section02-order-types|期权订单类型]], [[section03-margin-risk|保证金与风控设置]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

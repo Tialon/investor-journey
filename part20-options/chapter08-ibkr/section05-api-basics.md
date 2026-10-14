@@ -4,12 +4,20 @@ topic: IBKR实战
 aliases: [IBKR API, 自动化交易]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, IBKR, 自动化]
-related: "[[IBKR期权交易界面]], [[Python期权库入门]]"
+related: "[[section01-tws-options|IBKR期权交易界面]], [[section01-python-libraries|Python期权库入门]]"
 ---
 
 # IBKR期权交易实战：API编程与自动化交易入门
+
+## 示例的运行边界
+
+本页代码是教学片段，包含下单调用；不是已经验证可用于实盘的完整系统。首次验证应使用模拟账户和明确的账户校验，行情缺失、延迟或合约识别失败时阻止下单。
+
+上线前至少完成：按 conId 核对合约与乘数、组合净借记/净贷记及方向验证、单笔和组合风险限额、订单唯一标识、超时后查询订单及成交、重连后的账户/持仓/未完成订单对账、部分成交与人工停机处理。网络超时不代表订单失败，不能盲目重复提交。
+
+库版本、API 字段及账户权限需按当前官方文档重新验证。本次笔记优化没有连接券商、运行下单示例或验证实盘表现。参见 [[section06-execution-checklist|交易检查清单]]。
 
 ## 一、IBKR API概述
 
@@ -1212,13 +1220,13 @@ ib.run()
 
 ---
 
-**上一章**：[04-analytics-tools.md - 分析工具与数据资源](./04-analytics-tools.md)
+**上一章**：[[section04-analytics-tools|04-analytics-tools.md - 分析工具与数据资源]]
 
-**下一章**：[../vol9-pro/01-market-makers.md - 做市商与市场微观结构](../vol9-pro/01-market-makers.md)
+**下一章**：[[section01-market-makers|../vol9-pro/01-market-makers.md - 做市商与市场微观结构]]
 
 
 
 
 ---
-**相关笔记：** [[IBKR期权交易界面]], [[Python期权库入门]]
-**返回：** [[chapter00-ibkr]] | [[part00-主页]]
+**相关笔记：** [[section01-tws-options|IBKR期权交易界面]], [[section01-python-libraries|Python期权库入门]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

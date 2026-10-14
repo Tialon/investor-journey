@@ -4,9 +4,9 @@ topic: Python+AI
 aliases: [AI Options Trading, AI期权交易]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, AI, Python]
-related: "[[IBKR API自动交易]], [[AI投资]]"
+related: "[[section05-ibkr-api|IBKR API自动交易]], [[chapter00-AI投资|AI投资]]"
 ---
 
 # AI 驱动的期权交易
@@ -725,5 +725,5 @@ AI 是强大工具但非万能灵丹。成功需要：深厚的金融知识、�
 
 
 ---
-**相关笔记：** [[IBKR API自动交易]], [[AI投资]]
-**返回：** [[chapter00-python-ai]] | [[part00-主页]]
+**相关笔记：** [[section05-ibkr-api|IBKR API自动交易]], [[chapter00-AI投资|AI投资]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

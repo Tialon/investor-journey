@@ -4,9 +4,9 @@ topic: 买方策略
 aliases: [Long Put, 买入看跌]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 买方策略, 方向性]
-related: "[[Delta]], [[Gamma]], [[Theta]], [[买入看涨期权]]"
+related: "[[section01-delta|Delta]], [[section02-gamma|Gamma]], [[section03-theta|Theta]], [[section01-long-call|买入看涨期权]]"
 ---
 
 # 买入看跌期权（Long Put）
@@ -250,5 +250,5 @@ Long Put 的最大亏损是权利金，但如果股价持续上涨，不要继�
 
 
 ---
-**相关笔记：** [[Delta]], [[Gamma]], [[Theta]], [[买入看涨期权]]
-**返回：** [[chapter00-buyer]] | [[part00-主页]]
+**相关笔记：** [[section01-delta|Delta]], [[section02-gamma|Gamma]], [[section03-theta|Theta]], [[section01-long-call|买入看涨期权]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 专业交易
 aliases: [Market Makers, 做市商, 流动性]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 专业, 做市商]
-related: "[[大单与异常交易识别]], [[波动率套利]]"
+related: "[[section02-unusual-activity|大单与异常交易识别]], [[section04-vol-arbitrage|波动率套利]]"
 ---
 
 # 做市商与市场微观结构
@@ -356,11 +356,11 @@ related: "[[大单与异常交易识别]], [[波动率套利]]"
 
 ---
 
-**下一章**：[异常期权活动(Unusual Options Activity)](./02-unusual-activity.md)
+**下一章**：[[section02-unusual-activity|异常期权活动(Unusual Options Activity)]]
 
 
 
 
 ---
-**相关笔记：** [[大单与异常交易识别]], [[波动率套利]]
-**返回：** [[chapter00-pro]] | [[part00-主页]]
+**相关笔记：** [[section02-unusual-activity|大单与异常交易识别]], [[section04-vol-arbitrage|波动率套利]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

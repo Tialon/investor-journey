@@ -4,9 +4,9 @@ topic: 期权基础
 aliases: [What is Option, 期权定义]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 基础]
-related: "[[看涨期权与看跌期权]], [[期权合约要素]]"
+related: "[[section02-call-and-put|看涨期权与看跌期权]], [[section03-option-contract|期权合约要素]]"
 ---
 
 # 什么是期权
@@ -177,5 +177,5 @@ related: "[[看涨期权与看跌期权]], [[期权合约要素]]"
 
 
 ---
-**相关笔记：** [[看涨期权与看跌期权]], [[期权合约要素]]
-**返回：** [[chapter00-basics]] | [[part00-主页]]
+**相关笔记：** [[section02-call-and-put|看涨期权与看跌期权]], [[section03-option-contract|期权合约要素]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

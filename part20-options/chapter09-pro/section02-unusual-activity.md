@@ -4,9 +4,9 @@ topic: 专业交易
 aliases: [Unusual Activity, 大单识别, 异常交易]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 专业, 实战]
-related: "[[做市商与流动性]], [[期权链解读]]"
+related: "[[section01-market-makers|做市商与流动性]], [[section07-option-chains|期权链解读]]"
 ---
 
 # 异常期权活动(Unusual Options Activity)
@@ -507,11 +507,11 @@ Finviz是一个综合性的股票筛选工具，也提供期权异常活动数�
 
 ---
 
-**下一章**：[期权期限结构(Term Structure)](./03-term-structure.md)
+**下一章**：[[section03-term-structure|期权期限结构(Term Structure)]]
 
 
 
 
 ---
-**相关笔记：** [[做市商与流动性]], [[期权链解读]]
-**返回：** [[chapter00-pro]] | [[part00-主页]]
+**相关笔记：** [[section01-market-makers|做市商与流动性]], [[section07-option-chains|期权链解读]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

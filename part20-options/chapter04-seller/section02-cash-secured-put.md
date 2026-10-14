@@ -4,9 +4,9 @@ topic: 卖方策略
 aliases: [Cash-Secured Put, CSP, 现金担保看跌]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 卖方策略, 收益增强]
-related: "[[Delta]], [[Theta]], [[备兑看涨期权]]"
+related: "[[section01-delta|Delta]], [[section03-theta|Theta]], [[section01-covered-call|备兑看涨期权]]"
 ---
 
 # 现金担保看跌期权（Cash-Secured Put）
@@ -248,5 +248,5 @@ Wheel Strategy 是 CSP 和 Covered Call 的组合循环：
 
 
 ---
-**相关笔记：** [[Delta]], [[Theta]], [[备兑看涨期权]]
-**返回：** [[chapter00-seller]] | [[part00-主页]]
+**相关笔记：** [[section01-delta|Delta]], [[section03-theta|Theta]], [[section01-covered-call|备兑看涨期权]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: Python+AI
 aliases: [Backtesting, 回测框架]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, Python, 回测]
-related: "[[Python期权库入门]], [[信号生成与策略开发]]"
+related: "[[section01-python-libraries|Python期权库入门]], [[section04-signal-strategy|信号生成与策略开发]]"
 ---
 
 # 期权策略回测框架
@@ -1403,5 +1403,5 @@ if __name__ == "__main__":
 
 
 ---
-**相关笔记：** [[Python期权库入门]], [[信号生成与策略开发]]
-**返回：** [[chapter00-python-ai]] | [[part00-主页]]
+**相关笔记：** [[section01-python-libraries|Python期权库入门]], [[section04-signal-strategy|信号生成与策略开发]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

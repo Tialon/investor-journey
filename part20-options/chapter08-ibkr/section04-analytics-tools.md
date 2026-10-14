@@ -4,9 +4,9 @@ topic: IBKR实战
 aliases: [Analytics Tools, 分析工具]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, IBKR, 工具]
-related: "[[IBKR期权交易界面]], [[Risk Navigator]]"
+related: "[[section01-tws-options|IBKR期权交易界面]], [[section04-analytics-tools|Risk Navigator]]"
 ---
 
 # IBKR期权交易实战：分析工具与数据资源
@@ -690,13 +690,13 @@ Thinkorswim是TD Ameritrade的旗舰交易平台，以其强大的期权分析�
 
 ---
 
-**上一章**：[03-margin-risk.md - 保证金系统与风险管理](./03-margin-risk.md)
+**上一章**：[[section03-margin-risk|03-margin-risk.md - 保证金系统与风险管理]]
 
-**下一章**：[05-api-basics.md - API编程与自动化交易](./05-api-basics.md)
+**下一章**：[[section05-api-basics|05-api-basics.md - API编程与自动化交易]]
 
 
 
 
 ---
-**相关笔记：** [[IBKR期权交易界面]], [[Risk Navigator]]
-**返回：** [[chapter00-ibkr]] | [[part00-主页]]
+**相关笔记：** [[section01-tws-options|IBKR期权交易界面]], [[section04-analytics-tools|Risk Navigator]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

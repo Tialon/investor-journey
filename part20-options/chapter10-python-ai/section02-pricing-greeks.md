@@ -4,12 +4,18 @@ topic: Python+AI
 aliases: [Options Pricing, Greeks Calculation, 期权定价]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, Python, 定价]
-related: "[[Python期权库入门]], [[Black-Scholes]]"
+related: "[[section01-python-libraries|Python期权库入门]], [[section02-pricing-greeks|Black-Scholes]]"
 ---
 
 # 期权定价模型与 Greeks 计算
+
+## 模型与单位边界
+
+本页无分红 Black–Scholes 示例用于欧式期权教学；不能直接当成美式个股期权的可成交公允价格。分红、提前行权、离散事件和交易成本需要另外处理。
+
+T 以年计，sigma、r 使用小数；下面实现的 Theta 为每自然日，Vega/Rho 为每 1 个百分点（0.01）变化。组合计算再乘带符号张数和合约乘数，避免把 1 个百分点误当 100 个百分点。T≤0 或 sigma≤0 不应代入含除法的 d₁/d₂；到期 payoff 与临界点 Greeks 需另设边界分支，不能用微小正数静默替代。
 
 ## 引言
 
@@ -1509,5 +1515,5 @@ if __name__ == "__main__":
 
 
 ---
-**相关笔记：** [[Python期权库入门]], [[Black-Scholes]]
-**返回：** [[chapter00-python-ai]] | [[part00-主页]]
+**相关笔记：** [[section01-python-libraries|Python期权库入门]], [[section02-pricing-greeks|Black-Scholes]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

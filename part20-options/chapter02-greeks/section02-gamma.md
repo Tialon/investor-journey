@@ -4,7 +4,7 @@ topic: Greeks
 aliases: [Gamma, γ, Delta变化率]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, Greeks, 核心]
 related: "[[section01-delta]], [[section03-theta]], [[section04-vega]]"
 ---
@@ -133,7 +133,7 @@ Gamma 的单位是 "每美元"（per dollar）。它告诉我们：当标的价�
 - 当标的价格**远离**行权价（无论是偏向 ITM 还是 OTM 方向），Gamma 都会减小。
 - 当标的价格**恰好在**行权价附近（ATM），Gamma 最大。
 
-这里有一个常见的误解需要澄清：很多人以为 Gamma 在 ATM 处最大是一个"假设"，但实际上它是 Black-Scholes 公式推导的**数学必然结果**。从公式 Γ = φ(d₁) / (Sσ√T) 可以看出，当 S = K（即 ATM）时，d₁ 的值使得 φ(d₁) 接近其最大值区域，从而使 Gamma 最大。
+Gamma 通常在平值附近较高，但“精确在 S=K 处最大”不是一般定理。Γ=φ(d₁)/(Sσ√T) 的分子和分母都随 S 变化，且固定 S 比较 K、固定 K 比较 S 是不同问题。利率、分红和期限也会改变峰值位置。
 
 ### 4.3 实际影响
 
@@ -557,4 +557,4 @@ ATM 期权处于一个"命运的十字路口"：它最终是实值还是虚值�
 
 ---
 **相关笔记：** [[section01-delta]], [[section03-theta]], [[section04-vega]]
-**返回：** [[chapter00-greeks]] | [[part00-主页]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

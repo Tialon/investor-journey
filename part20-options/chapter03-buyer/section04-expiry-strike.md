@@ -4,9 +4,9 @@ topic: 买方策略
 aliases: [Expiration Selection, Strike Selection]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 买方策略, 实战]
-related: "[[Theta]], [[Delta]], [[买入看涨期权]]"
+related: "[[section03-theta|Theta]], [[section01-delta|Delta]], [[section01-long-call|买入看涨期权]]"
 ---
 
 # 到期日与行权价选择
@@ -461,5 +461,5 @@ Delta不仅衡量期权价格对标的股价变动的敏感度，还可以作为
 
 
 ---
-**相关笔记：** [[Theta]], [[Delta]], [[买入看涨期权]]
-**返回：** [[chapter00-buyer]] | [[part00-主页]]
+**相关笔记：** [[section03-theta|Theta]], [[section01-delta|Delta]], [[section01-long-call|买入看涨期权]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

@@ -4,7 +4,7 @@ topic: Greeks
 aliases: [Rho, Charm, Vanna, Volga]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, Greeks]
 related: "[[section01-delta]], [[section02-gamma]], [[section03-theta]], [[section04-vega]]"
 ---
@@ -597,4 +597,4 @@ Color 和 Charm 共同描绘了"Greeks 随时间变化"的完整图景：
 
 ---
 **相关笔记：** [[section01-delta]], [[section02-gamma]], [[section03-theta]], [[section04-vega]]
-**返回：** [[chapter00-greeks]] | [[part00-主页]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 卖方策略
 aliases: [Credit Spread, Bull Put Spread, Bear Call Spread]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 卖方策略, 价差]
-related: "[[Delta]], [[Theta]], [[铁鹰策略]]"
+related: "[[section01-delta|Delta]], [[section03-theta|Theta]], [[section04-iron-condor|铁鹰策略]]"
 ---
 
 # 价差策略（Credit Spread）
@@ -281,5 +281,5 @@ related: "[[Delta]], [[Theta]], [[铁鹰策略]]"
 
 
 ---
-**相关笔记：** [[Delta]], [[Theta]], [[铁鹰策略]]
-**返回：** [[chapter00-seller]] | [[part00-主页]]
+**相关笔记：** [[section01-delta|Delta]], [[section03-theta|Theta]], [[section04-iron-condor|铁鹰策略]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

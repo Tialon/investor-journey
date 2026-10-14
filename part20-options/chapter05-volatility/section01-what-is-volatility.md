@@ -4,9 +4,9 @@ topic: 波动率
 aliases: [Volatility, 波动率]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 波动率, 核心]
-related: "[[历史波动率vs隐含波动率]], [[Vega]], [[VIX指数详解]]"
+related: "[[section02-hv-vs-iv|历史波动率vs隐含波动率]], [[section04-vega|Vega]], [[section05-vix|VIX指数详解]]"
 ---
 
 # 什么是波动率
@@ -289,11 +289,11 @@ r_t = ln(P_t / P_{t-1})
 
 ---
 
-[下一章：历史波动率 vs 隐含波动率 →](./02-hv-vs-iv.md)
+[[section02-hv-vs-iv|下一章：历史波动率 vs 隐含波动率 →]]
 
 
 
 
 ---
-**相关笔记：** [[历史波动率vs隐含波动率]], [[Vega]], [[VIX指数详解]]
-**返回：** [[chapter00-volatility]] | [[part00-主页]]
+**相关笔记：** [[section02-hv-vs-iv|历史波动率vs隐含波动率]], [[section04-vega|Vega]], [[section05-vix|VIX指数详解]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

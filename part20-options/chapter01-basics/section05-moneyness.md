@@ -4,9 +4,9 @@ topic: 期权基础
 aliases: [Moneyness, ITM, ATM, OTM, 实值, 平值, 虚值]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 基础]
-related: "[[内在价值与时间价值]], [[Delta]], [[期权链解读]]"
+related: "[[section04-intrinsic-time-value|内在价值与时间价值]], [[section01-delta|Delta]], [[section07-option-chains|期权链解读]]"
 ---
 
 # 实值、平值、虚值：Moneyness详解
@@ -428,5 +428,5 @@ AAPL当前股价为192美元。请判断以下期权各自的Moneyness状态（I
 
 
 ---
-**相关笔记：** [[内在价值与时间价值]], [[Delta]], [[期权链解读]]
-**返回：** [[chapter00-basics]] | [[part00-主页]]
+**相关笔记：** [[section04-intrinsic-time-value|内在价值与时间价值]], [[section01-delta|Delta]], [[section07-option-chains|期权链解读]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

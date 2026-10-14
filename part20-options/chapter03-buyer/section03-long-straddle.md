@@ -4,9 +4,9 @@ topic: 买方策略
 aliases: [Long Straddle, Long Strangle, 跨式策略]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 买方策略, 波动率]
-related: "[[Vega]], [[买入看涨期权]], [[什么是波动率]]"
+related: "[[section04-vega|Vega]], [[section01-long-call|买入看涨期权]], [[section01-what-is-volatility|什么是波动率]]"
 ---
 
 # 买入跨式策略（Long Straddle & Long Strangle）
@@ -576,5 +576,5 @@ IV Crush 是 Long Straddle/Strangle 交易者最大的敌人之一。它的典�
 
 
 ---
-**相关笔记：** [[Vega]], [[买入看涨期权]], [[什么是波动率]]
-**返回：** [[chapter00-buyer]] | [[part00-主页]]
+**相关笔记：** [[section04-vega|Vega]], [[section01-long-call|买入看涨期权]], [[section01-what-is-volatility|什么是波动率]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

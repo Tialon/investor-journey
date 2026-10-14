@@ -4,9 +4,9 @@ topic: 专业交易
 aliases: [Portfolio Greeks, 组合希腊字母]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 专业, Greeks]
-related: "[[Greeks综合实战]], [[组合风险度量]]"
+related: "[[section06-greeks-in-practice|Greeks综合实战]], [[section01-risk-metrics|组合风险度量]]"
 ---
 
 # 组合Greeks管理(Portfolio Greeks Management)
@@ -1103,11 +1103,11 @@ Alex决定在收盘前将Delta调整到预算范围内：
 
 ---
 
-**下一章**：[Python与AI在期权交易中的应用](../vol10-python-ai/01-python-libraries.md)
+**下一章**：[[section01-python-libraries|Python与AI在期权交易中的应用]]
 
 
 
 
 ---
-**相关笔记：** [[Greeks综合实战]], [[组合风险度量]]
-**返回：** [[chapter00-pro]] | [[part00-主页]]
+**相关笔记：** [[section06-greeks-in-practice|Greeks综合实战]], [[section01-risk-metrics|组合风险度量]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

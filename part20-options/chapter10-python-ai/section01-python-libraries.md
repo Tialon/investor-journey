@@ -4,9 +4,9 @@ topic: Python+AI
 aliases: [Python Options Libraries, 期权Python库]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, Python, 工具]
-related: "[[期权定价与Greeks计算]], [[回测框架搭建]]"
+related: "[[section02-pricing-greeks|期权定价与Greeks计算]], [[section03-backtesting|回测框架搭建]]"
 ---
 
 # Python 期权交易生态与核心库
@@ -667,5 +667,5 @@ result = analyze_option_chain('AAPL')
 
 
 ---
-**相关笔记：** [[期权定价与Greeks计算]], [[回测框架搭建]]
-**返回：** [[chapter00-python-ai]] | [[part00-主页]]
+**相关笔记：** [[section02-pricing-greeks|期权定价与Greeks计算]], [[section03-backtesting|回测框架搭建]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

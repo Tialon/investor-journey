@@ -4,9 +4,9 @@ topic: 财报交易
 aliases: [Post-Earnings Strategy, 财报后策略]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 财报, 策略]
-related: "[[财报与期权]], [[IV Crush详解]]"
+related: "[[section01-earnings-and-options|财报与期权]], [[section04-iv-crush|IV Crush详解]]"
 ---
 
 # 财报后的期权策略
@@ -448,11 +448,11 @@ Gap Fill(缺口回补)是指财报后股价跳空形成的缺口被填补的现�
 
 ---
 
-**下一章**：在理解了财报后的各种策略后，我们将深入分析财报交易中最核心的概念——[IV Crush详解](./04-iv-crush.md)，从数学和实证角度全面理解这一现象。
+**下一章**：在理解了财报后的各种策略后，我们将深入分析财报交易中最核心的概念——[[section04-iv-crush|IV Crush详解]]，从数学和实证角度全面理解这一现象。
 
 
 
 
 ---
-**相关笔记：** [[财报与期权]], [[IV Crush详解]]
-**返回：** [[chapter00-earnings]] | [[part00-主页]]
+**相关笔记：** [[section01-earnings-and-options|财报与期权]], [[section04-iv-crush|IV Crush详解]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

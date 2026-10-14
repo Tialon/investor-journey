@@ -4,9 +4,9 @@ topic: 组合管理
 aliases: [Dynamic Hedging, 动态对冲, Delta中性]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 组合管理, 对冲]
-related: "[[Delta]], [[Gamma]], [[组合风险度量]]"
+related: "[[section01-delta|Delta]], [[section02-gamma|Gamma]], [[section01-risk-metrics|组合风险度量]]"
 ---
 
 # 动态对冲：持续调整保持中性
@@ -525,11 +525,11 @@ Vega对冲的方法：
 
 ---
 
-**下一章：[04-stress-testing.md](./04-stress-testing.md) —— 压力测试：极端情景下的组合表现**
+**下一章：[[section04-stress-testing|04-stress-testing.md]] —— 压力测试：极端情景下的组合表现**
 
 
 
 
 ---
-**相关笔记：** [[Delta]], [[Gamma]], [[组合风险度量]]
-**返回：** [[chapter00-portfolio]] | [[part00-主页]]
+**相关笔记：** [[section01-delta|Delta]], [[section02-gamma|Gamma]], [[section01-risk-metrics|组合风险度量]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

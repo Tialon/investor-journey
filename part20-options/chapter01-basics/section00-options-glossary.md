@@ -4,9 +4,9 @@ topic: 期权术语
 aliases: [Options Glossary, 期权速查表, 期权术语表]
 status: done
 created: "2026-07-05"
-updated: "2026-07-05"
+updated: "2026-10-15"
 tags: [期权, 术语, 速查, 参考]
-related: "[[什么是期权]], [[看涨期权与看跌期权]], [[期权合约要素]]"
+related: "[[section01-what-is-option|什么是期权]], [[section02-call-and-put|看涨期权与看跌期权]], [[section03-option-contract|期权合约要素]]"
 ---
 
 # 美股期权术语速查表（Options Glossary）
@@ -20,7 +20,7 @@ related: "[[什么是期权]], [[看涨期权与看跌期权]], [[期权合约�
 | 英文              | 中文       | 含义                   |
 | --------------- | -------- | -------------------- |
 | Option          | 期权       | 一种赋予买方权利、卖方承担义务的金融合约 |
-| Contract        | 合约       | 一份标准化期权合约，通常代表100股股票 |
+| Contract        | 合约       | 标准美股个股合约通常对应100股；调整合约和其他产品另查交割物 |
 | Underlying      | 标的资产     | 期权对应的股票或ETF          |
 | Premium         | 权利金      | 买方支付、卖方收取的价格         |
 | Strike Price    | 行权价      | 买卖股票的约定价格            |
@@ -81,7 +81,7 @@ related: "[[什么是期权]], [[看涨期权与看跌期权]], [[期权合约�
 - Sell 不一定是 Short（可能只是平仓）
 - Buy 不一定是 Long（可能是回补空头）
 
-详见：[[看涨期权与看跌期权]] 第 0 节
+详见：[[section02-call-and-put|看涨期权与看跌期权]] 第 0 节
 
 ---
 
@@ -96,7 +96,7 @@ related: "[[什么是期权]], [[看涨期权与看跌期权]], [[期权合约�
 | At the Money (ATM) | 平值 | 行权价接近当前股价 |
 | Out of the Money (OTM) | 虚值 | 尚无内在价值 |
 
-详见：[[内在价值与时间价值]]
+详见：[[section04-intrinsic-time-value|内在价值与时间价值]]
 
 ---
 
@@ -112,7 +112,7 @@ related: "[[什么是期权]], [[看涨期权与看跌期权]], [[期权合约�
 
 **学习顺序建议：** Delta → Theta → Vega → Gamma → Rho
 
-详见：[[Delta]]
+详见：[[section01-delta|Delta]]
 
 ---
 
@@ -126,8 +126,8 @@ related: "[[什么是期权]], [[看涨期权与看跌期权]], [[期权合约�
 | IV Percentile | IV 百分位 | 当前 IV 高于历史多少比例 |
 
 **经验：**
-- IV 高：卖方通常更有优势（权利金较高）
-- IV 低：买方成本相对较低
+- IV 高：权利金通常较高，但可能反映财报、跳空或尾部风险，不能单独推导卖方优势。
+- IV 低：在其他条件不变时买方成本可能较低，但不证明低估或盈利；需比较同期限预期实现波动与成本。
 
 ---
 
@@ -158,7 +158,7 @@ related: "[[什么是期权]], [[看涨期权与看跌期权]], [[期权合约�
 | Max Profit | 最大收益 |
 | Max Loss | 最大亏损 |
 | Break-even | 盈亏平衡点 |
-| Probability of Profit (POP) | 盈利概率 |
+| Probability of Profit (POP) | 特定模型、成本与退出假设下的盈利概率估计，非保证 |
 | Risk/Reward Ratio | 风险收益比 |
 
 ---
@@ -232,5 +232,5 @@ BTC = 买入平仓
 
 ---
 
-**相关笔记：** [[什么是期权]], [[看涨期权与看跌期权]], [[期权合约要素]], [[内在价值与时间价值]]
+**相关笔记：** [[section01-what-is-option|什么是期权]], [[section02-call-and-put|看涨期权与看跌期权]], [[section03-option-contract|期权合约要素]], [[section04-intrinsic-time-value|内在价值与时间价值]]
 **返回：** [[chapter00-期权学习]] | [[part00-主页]]

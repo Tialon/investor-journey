@@ -4,9 +4,9 @@ topic: 波动率
 aliases: [VIX, 恐慌指数, 波动率指数]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 波动率, 指标]
-related: "[[什么是波动率]], [[历史波动率vs隐含波动率]]"
+related: "[[section01-what-is-volatility|什么是波动率]], [[section02-hv-vs-iv|历史波动率vs隐含波动率]]"
 ---
 
 # VIX 指数详解 (VIX Index)
@@ -523,11 +523,11 @@ VIX 虽然是一个有用的指标，但它有重要的局限性：
 
 ---
 
-[下一章：波动率交易策略 →](./06-vol-trading.md)
+[[section06-vol-trading|下一章：波动率交易策略 →]]
 
 
 
 
 ---
-**相关笔记：** [[什么是波动率]], [[历史波动率vs隐含波动率]]
-**返回：** [[chapter00-volatility]] | [[part00-主页]]
+**相关笔记：** [[section01-what-is-volatility|什么是波动率]], [[section02-hv-vs-iv|历史波动率vs隐含波动率]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

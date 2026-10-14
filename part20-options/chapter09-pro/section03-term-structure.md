@@ -4,9 +4,9 @@ topic: 专业交易
 aliases: [Term Structure, 期限结构, 日历价差]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [期权, 专业, 波动率]
-related: "[[波动率曲面]], [[波动率套利]]"
+related: "[[section03-volatility-surface|波动率曲面]], [[section04-vol-arbitrage|波动率套利]]"
 ---
 
 # 期权期限结构(Term Structure)
@@ -563,11 +563,11 @@ VRP = IV - RV
 
 ---
 
-**下一章**：[波动率套利(Volatility Arbitrage)](./04-vol-arbitrage.md)
+**下一章**：[[section04-vol-arbitrage|波动率套利(Volatility Arbitrage)]]
 
 
 
 
 ---
-**相关笔记：** [[波动率曲面]], [[波动率套利]]
-**返回：** [[chapter00-pro]] | [[part00-主页]]
+**相关笔记：** [[section03-volatility-surface|波动率曲面]], [[section04-vol-arbitrage|波动率套利]]
+**返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

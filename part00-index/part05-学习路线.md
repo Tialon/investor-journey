@@ -4,7 +4,7 @@ topic: 学习路线
 aliases: [Learning Roadmap, Study Plan]
 status: done
 created: "2026-06-28"
-updated: "2026-08-16"
+updated: "2026-10-15"
 tags: [学习路线, 索引]
 related: "[[part00-主页]], [[part03-目录]]"
 ---
@@ -20,7 +20,7 @@ related: "[[part00-主页]], [[part03-目录]]"
 - [x] part10 [[chapter00-股票投资]] — 公司分析、财务报表、护城河
 - [x] part25 [[chapter00-财务分析]] — 三大报表、财务造假识别、关键指标
 - [x] part94 [[chapter00-信息来源]] — 财报电话会、SEC文件、信息工具
-- [x] part20 [[chapter00-期权学习]] — 基础篇已完成（56篇）
+- [x] part20 [[chapter00-期权学习]] — 基础机制与策略入门（正文/参考笔记共59篇；掌握程度另行验收）
 
 ## 阶段二（第4-5个月）：宏观 + 行业
 
@@ -34,11 +34,12 @@ related: "[[part00-主页]], [[part03-目录]]"
 
 ## 阶段四（第8-11个月）：期权深入
 
-- [ ] 完善 part20 [[chapter00-期权学习]] 进阶内容
+- [ ] 验证 part20 [[chapter00-期权学习]] 进阶能力（内容已覆盖，需演练与复盘）
   - 波动率交易
   - 财报交易
   - 组合管理
   - 专业交易策略
+  - [[section08-strategy-payoffs|策略盈亏算术验收]]与[[section06-execution-checklist|模拟交易流程验收]]
 
 ## 阶段五（第12-14个月）：Python + AI
 
