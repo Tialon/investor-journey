@@ -15,6 +15,8 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[part01-实�
 
 ## 优先入口
 
+- [[section04-crypto-strategy-playbook|常用策略对照与案例计算口径]] — 8类策略的入场、加减仓、退出及费用后结果。
+
 - [[section05-crypto-checklist|交易检查清单]]、[[虚拟币交易复盘模板|虚拟币复盘模板]]。
 - [[section03-crypto-fees-accounting|费用后收益与成本]]、[[section01-crypto-sizing|损失预算与数量]]。
 - [[section05-crypto-liquidation|价格与强平]]、[[section06-crypto-funding|资金费]]。
@@ -64,6 +66,14 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[part01-实�
 - [[section01-crypto-market-signals|趋势、波动、成交量、OI与市场状态]]
 - [[section02-crypto-grid-dca|网格、分档买入与有限周期预算]]
 - [[section03-crypto-basis-hedging|基差、资金费交易与现货合约对冲]]
+- [[section04-crypto-strategy-playbook|常用策略选择与案例计算口径]]
+- [[section05-crypto-spot-breakout|现货突破：确认后加仓与跟踪止盈]]
+- [[section06-crypto-spot-pullback|现货趋势回调：有限加仓与支撑失效]]
+- [[section07-crypto-futures-trend|合约趋势多头：顺势加仓与分批保护]]
+- [[section08-crypto-futures-short|合约跌破空头：反抽确认与分批回补]]
+- [[section09-crypto-futures-range|合约区间反转：边界确认与严格退出]]
+
+所有案例包含规则、实际成交和费用口径；盈利路径与失败路径分别演练。先读统一计算口径，再逐页核算现金流与剩余仓位。
 
 ## 数据、订单、恢复与验证
 
@@ -92,7 +102,7 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[part01-实�
 - [Binance 合约接口](https://developers.binance.com/en/docs/catalog/core-trading-derivatives-trading-usd-s-m-futures/api/rest-api/trade)、[资金费](https://www.binance.com/en/support/faq/detail/360033525031)、[清算机制](https://www.binance.com/en/support/faq/detail/360033525271)。
 - [Bybit 反向合约损益](https://www.bybit.com/en/help-center/article/Profit-Loss-calculations-Inverse-Contracts)。
 
-**内容覆盖：28篇正文，另有本目录1篇及复盘模板1篇。** 内容完成只指笔记已写，未运行交易程序或验证盈利。未知参数不自动补默认值。
+**内容覆盖：34篇正文，另有本目录1篇及复盘模板1篇。** 内容完成只指笔记已写，未运行交易程序或验证盈利。未知参数不自动补默认值。
 
 ---
 **返回：** [[part00-主页]] | [[part03-目录]] | [[part01-实践工作台]]

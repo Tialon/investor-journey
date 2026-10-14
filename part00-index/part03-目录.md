@@ -108,11 +108,17 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[part15-crypto/chapter04-risk/section03-crypto-portfolio-risk|账户权益、底仓与组合集中度]]
 - [[part15-crypto/chapter04-risk/section04-crypto-incident-response|交易所故障、异常账户与应急处理]]
 
-### chapter05-strategy · 信号与策略研究
+### chapter05-strategy · 信号与策略案例
 
 - [[part15-crypto/chapter05-strategy/section01-crypto-market-signals|趋势、波动、成交量、OI与市场状态]]
 - [[part15-crypto/chapter05-strategy/section02-crypto-grid-dca|网格、分档买入与有限周期预算]]
 - [[part15-crypto/chapter05-strategy/section03-crypto-basis-hedging|基差、资金费交易与现货合约对冲]]
+- [[part15-crypto/chapter05-strategy/section04-crypto-strategy-playbook|常用策略选择与案例计算口径]]
+- [[part15-crypto/chapter05-strategy/section05-crypto-spot-breakout|现货突破：确认后加仓与跟踪止盈]]
+- [[part15-crypto/chapter05-strategy/section06-crypto-spot-pullback|现货趋势回调：有限加仓与支撑失效]]
+- [[part15-crypto/chapter05-strategy/section07-crypto-futures-trend|合约趋势多头：顺势加仓与分批保护]]
+- [[part15-crypto/chapter05-strategy/section08-crypto-futures-short|合约跌破空头：反抽确认与分批回补]]
+- [[part15-crypto/chapter05-strategy/section09-crypto-futures-range|合约区间反转：边界确认与严格退出]]
 
 ### chapter06-automation · 数据、订单、恢复与验证
 
