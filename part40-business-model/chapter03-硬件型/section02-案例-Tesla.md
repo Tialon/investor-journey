@@ -4,9 +4,9 @@ topic: 商业模式案例
 aliases: [Tesla Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 案例, 电动车, 新能源]
-related: "[[硬件商业模式]], [[自动驾驶]]"
+related: "[[part40-business-model/chapter03-硬件型/section01-硬件商业模式|硬件商业模式]], 自动驾驶"
 ---
 
 # 案例：Tesla
@@ -46,5 +46,5 @@ related: "[[硬件商业模式]], [[自动驾驶]]"
 
 
 ---
-**相关笔记：** [[硬件商业模式]], [[自动驾驶]]
-**返回：** [[chapter00-硬件型]] | [[part00-主页]]
+**相关笔记：** [[part40-business-model/chapter03-硬件型/section01-硬件商业模式|硬件商业模式]], 自动驾驶
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-硬件型]] | [[part00-主页]]

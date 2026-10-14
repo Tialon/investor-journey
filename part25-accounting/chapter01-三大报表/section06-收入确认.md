@@ -4,9 +4,9 @@ topic: 三大报表
 aliases: [Revenue Recognition]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [财务报表, 会计基础, 重点]
-related: "[[section05-利润表基础]], [[收入造假手法]]"
+related: "[[section05-利润表基础]], [[part25-accounting/chapter03-财务造假识别/section01-收入造假手法|收入造假手法]]"
 ---
 
 # 收入确认
@@ -112,5 +112,5 @@ related: "[[section05-利润表基础]], [[收入造假手法]]"
 
 
 ---
-**相关笔记：** [[section05-利润表基础]], [[收入造假手法]]
-**返回：** [[chapter00-三大报表]] | [[part00-主页]]
+**相关笔记：** [[section05-利润表基础]], [[part25-accounting/chapter03-财务造假识别/section01-收入造假手法|收入造假手法]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-三大报表]] | [[part00-主页]]

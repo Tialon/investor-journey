@@ -4,9 +4,9 @@ topic: 货币政策
 aliases: [Real Interest Rate, 实际利率]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 货币政策]
-related: "[[section04-国债收益率]], [[CPI]]"
+related: "[[section04-国债收益率]], [[part30-macro/chapter01-经济指标/section04-CPI|CPI]]"
 ---
 
 # 实际利率
@@ -55,5 +55,5 @@ $$\text{实际利率} = \text{名义利率} - \text{通胀率}$$
 
 
 ---
-**相关笔记：** [[section04-国债收益率]], [[CPI]]
-**返回：** [[chapter00-货币政策]] | [[part00-主页]]
+**相关笔记：** [[section04-国债收益率]], [[part30-macro/chapter01-经济指标/section04-CPI|CPI]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-货币政策]] | [[part00-主页]]

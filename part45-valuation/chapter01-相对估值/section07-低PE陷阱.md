@@ -4,9 +4,9 @@ topic: 估值陷阱
 aliases: [Low PE Trap, 低市盈率陷阱]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 陷阱]
-related: "[[PE市盈率]], [[section09-周期股估值]]"
+related: "[[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[section09-周期股估值]]"
 ---
 
 # 低PE陷阱
@@ -46,5 +46,5 @@ related: "[[PE市盈率]], [[section09-周期股估值]]"
 
 
 ---
-**相关笔记：** [[PE市盈率]], [[section09-周期股估值]]
-**返回：** [[chapter00-相对估值]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[section09-周期股估值]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-相对估值]] | [[part00-主页]]

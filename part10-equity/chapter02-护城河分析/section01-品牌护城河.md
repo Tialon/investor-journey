@@ -4,7 +4,7 @@ topic: 护城河分析
 aliases: [Brand Moat, Brand Equity]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [护城河, 竞争优势]
 related: "[[section02-网络效应]], [[section03-转换成本]], [[section04-成本优势]], [[section05-规模经济]]"
 ---
@@ -103,4 +103,4 @@ related: "[[section02-网络效应]], [[section03-转换成本]], [[section04-�
 
 ---
 **相关笔记：** [[section02-网络效应]], [[section03-转换成本]], [[section04-成本优势]], [[section05-规模经济]]
-**返回：** [[chapter00-护城河分析]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-护城河分析]] | [[part00-主页]]

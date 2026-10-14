@@ -4,7 +4,7 @@ topic: 核心指标
 aliases: [Gross Margin, Net Margin, 毛利率, 净利率]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [指标, 盈利能力]
 related: "[[section02-利润表]], [[section04-ROE]], [[section05-ROIC]]"
 ---
@@ -126,4 +126,4 @@ $$\text{差距} = \text{毛利率} - \text{净利率}$$
 
 ---
 **相关笔记：** [[section02-利润表]], [[section04-ROE]], [[section05-ROIC]]
-**返回：** [[chapter00-财务报表]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-财务报表]] | [[part00-主页]]

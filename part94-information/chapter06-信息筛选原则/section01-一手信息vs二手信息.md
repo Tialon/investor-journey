@@ -4,7 +4,7 @@ topic: 信息筛选原则
 aliases: [Primary vs Secondary Sources]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [信息质量, 原则]
 related: "[[section02-信息源可信度评估]], [[section03-避免信息过载]]"
 ---
@@ -102,4 +102,4 @@ related: "[[section02-信息源可信度评估]], [[section03-避免信息过载
 
 ---
 **相关笔记：** [[section02-信息源可信度评估]], [[section03-避免信息过载]]
-**返回：** [[chapter00-信息筛选原则]] | [[part00-主页]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-信息筛选原则]] | [[part00-主页]]

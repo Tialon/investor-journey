@@ -4,9 +4,9 @@ topic: 估值框架
 aliases: [Growth Stock Valuation Framework]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 框架]
-related: "[[PEG]], [[PS市销率]], [[DCF基础]]"
+related: "[[part45-valuation/chapter01-相对估值/section02-PEG|PEG]], [[part45-valuation/chapter01-相对估值/section04-PS市销率|PS市销率]], [[part45-valuation/chapter02-绝对估值(DCF)/section01-DCF基础|DCF基础]]"
 ---
 
 # 成长股估值框架
@@ -46,5 +46,5 @@ related: "[[PEG]], [[PS市销率]], [[DCF基础]]"
 
 
 ---
-**相关笔记：** [[PEG]], [[PS市销率]], [[DCF基础]]
-**返回：** [[chapter00-估值案例]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter01-相对估值/section02-PEG|PEG]], [[part45-valuation/chapter01-相对估值/section04-PS市销率|PS市销率]], [[part45-valuation/chapter02-绝对估值(DCF)/section01-DCF基础|DCF基础]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-估值案例]] | [[part00-主页]]

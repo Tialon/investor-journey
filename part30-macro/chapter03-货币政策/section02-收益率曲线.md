@@ -4,7 +4,7 @@ topic: 货币政策
 aliases: [Yield Curve, 收益率曲线]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 货币政策]
 related: "[[section04-国债收益率]], [[section05-收益率曲线倒挂]], [[section01-利率与股市的关系]]"
 ---
@@ -90,4 +90,4 @@ related: "[[section04-国债收益率]], [[section05-收益率曲线倒挂]], [[
 
 ---
 **相关笔记：** [[section04-国债收益率]], [[section05-收益率曲线倒挂]], [[section01-利率与股市的关系]]
-**返回：** [[chapter00-货币政策]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-货币政策]] | [[part00-主页]]

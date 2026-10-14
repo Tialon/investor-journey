@@ -4,67 +4,58 @@ topic: 股票投资
 aliases: [Equity Investment, Stock Investment]
 status: done
 created: "2026-06-28"
-updated: "2026-07-18"
+updated: "2026-10-15"
 tags: [股票, MOC]
 related: "[[chapter00-财务分析]], [[chapter00-估值方法]], [[chapter00-商业模式]], [[chapter00-行业研究]]"
 ---
 
 # 📈 股票投资
 
-> 股票投资的基础，理解公司、理解市场
+> 只列现有内容；“正文”指已有内容，不代表学习或实盘验收通过。待补充页已保留核心要点。
 
-## 公司分析（Fundamental Analysis）
+## chapter01-财务报表
 
-### 三大报表
-- [[section01-资产负债表]] — 公司的"家底"
-- [[section02-利润表]] — 公司的"赚钱能力"
-- [[section03-现金流量表]] — 公司的"真实血液"
+- [[part10-equity/chapter01-财务报表/section01-资产负债表|资产负债表]] — 正文
+- [[part10-equity/chapter01-财务报表/section02-利润表|利润表]] — 正文
+- [[part10-equity/chapter01-财务报表/section03-现金流量表|现金流量表]] — 正文
+- [[part10-equity/chapter01-财务报表/section04-ROE|ROE（净资产收益率）]] — 正文
+- [[part10-equity/chapter01-财务报表/section05-ROIC|ROIC（投入资本回报率）]] — 正文
+- [[part10-equity/chapter01-财务报表/section06-自由现金流FCF|自由现金流（FCF）]] — 正文
+- [[part10-equity/chapter01-财务报表/section07-毛利率与净利率|毛利率与净利率]] — 正文
 
-### 核心指标
-- [[section04-ROE]] — 净资产收益率
-- [[section05-ROIC]] — 投入资本回报率
-- [[section06-自由现金流FCF]] — 真正的利润
-- [[section07-毛利率与净利率]] — 盈利质量
+## chapter02-护城河分析
 
-### 护城河分析
-- [[section01-品牌护城河]]
-- [[section02-网络效应]]
-- [[section03-转换成本]]
-- [[section04-成本优势]]
-- [[section05-规模经济]]
+- [[part10-equity/chapter02-护城河分析/section01-品牌护城河|品牌护城河]] — 正文
+- [[part10-equity/chapter02-护城河分析/section02-网络效应|网络效应]] — 正文
+- [[part10-equity/chapter02-护城河分析/section03-转换成本|转换成本]] — 正文
+- [[part10-equity/chapter02-护城河分析/section04-成本优势|成本优势]] — 正文
+- [[part10-equity/chapter02-护城河分析/section05-规模经济|规模经济]] — 正文
 
-### 管理层分析
-- [[section01-管理层评估方法]]
-- [[section02-股权激励与利益绑定]]
-- [[section03-资本配置能力]]
+## chapter03-管理层分析
 
-## TAM（总可寻址市场）
-- [[section01-TAM分析方法]]
-- [[section02-SAM与SOM]]
+- [[part10-equity/chapter03-管理层分析/section01-管理层评估方法|管理层评估方法]] — 正文
+- [[part10-equity/chapter03-管理层分析/section02-股权激励与利益绑定|股权激励与利益绑定]] — 正文
+- [[part10-equity/chapter03-管理层分析/section03-资本配置能力|资本配置能力]] — 正文
 
-## 技术分析（Technical Analysis）
+## chapter04-公司分析
 
-### 基础概念
-- [[section01-技术分析概述]] — 技术分析的三大假设与局限性
-- [[section02-K线与成交量]] — K线图阅读与量价关系
+- [[part10-equity/chapter04-公司分析/section01-TAM分析方法|TAM分析方法]] — 正文
+- [[part10-equity/chapter04-公司分析/section02-SAM与SOM|SAM与SOM]] — 正文
+- [[part10-equity/chapter04-公司分析/section03-The Intelligent Investor|The Intelligent Investor（聪明的投资者）]] — 正文
+- [[part10-equity/chapter04-公司分析/section04-One Up On Wall Street|One Up On Wall Street（彼得·林奇的成功投资）]] — 正文
+- [[part10-equity/chapter04-公司分析/section05-Common Stocks and Uncommon Profits|Common Stocks and Uncommon Profits（怎样选择成长股）]] — 正文
 
-### 趋势与指标
-- [[section03-趋势与均线]] — MA、EMA、MACD指标详解
-- [[section06-其他技术指标]] — RSI、KDJ、布林带、ATR
+## chapter05-技术分析
 
-### 关键位置
-- [[section04-支撑位与压力位]] — 支撑压力的识别与突破
-- [[section05-筹码分布]] — 成本分布与筹码分析
+- [[part10-equity/chapter05-技术分析/section01-技术分析概述|技术分析概述]] — 正文
+- [[part10-equity/chapter05-技术分析/section02-K线与成交量|K线与成交量]] — 正文
+- [[part10-equity/chapter05-技术分析/section03-趋势与均线|趋势与均线]] — 正文
+- [[part10-equity/chapter05-技术分析/section04-支撑位与压力位|支撑位与压力位]] — 正文
+- [[part10-equity/chapter05-技术分析/section05-筹码分布|筹码分布]] — 正文
+- [[part10-equity/chapter05-技术分析/section06-其他技术指标|其他技术指标]] — 正文
+- [[part10-equity/chapter05-技术分析/section07-图表形态|图表形态]] — 正文
+- [[part10-equity/chapter05-技术分析/section08-实战框架|技术分析实战框架]] — 正文
 
-### 形态与实战
-- [[section07-图表形态]] — 反转形态与持续形态
-- [[section08-实战框架]] — 交易系统构建与风险管理
+## 使用入口
 
-## 推荐书籍
-- [[section03-The Intelligent Investor]] — Benjamin Graham
-- [[section04-One Up On Wall Street]] — Peter Lynch
-- [[section05-Common Stocks and Uncommon Profits]] — Philip Fisher
-
----
-**相关笔记：** [[chapter00-财务分析]], [[chapter00-估值方法]], [[chapter00-商业模式]], [[chapter00-行业研究]]
-**返回：** [[part00-主页]] | [[part03-目录]]
+[[part01-实践工作台]] | [[part03-目录]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 相对估值
 aliases: [PS Ratio, Price to Sales, 市销率]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 相对估值]
-related: "[[PE市盈率]], [[EV/EBITDA]]"
+related: "[[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[part45-valuation/chapter01-相对估值/section05-EV-EBITDA|EV/EBITDA]]"
 ---
 
 # PS市销率
@@ -14,7 +14,9 @@ related: "[[PE市盈率]], [[EV/EBITDA]]"
 
 ## 公式
 
-1785\text{PS} = \frac{\text{市值}}{\text{营业收入}}1785
+$$
+\text{PS} = \frac{\text{市值}}{\text{营业收入}}
+$$
 
 ## 适用场景
 
@@ -45,11 +47,11 @@ related: "[[PE市盈率]], [[EV/EBITDA]]"
 
 ---
 
-> **下一节**：[EV/EBITDA](EV/EBITDA.md)
+> **下一节**：[EV/EBITDA](section05-EV-EBITDA.md)
 
 
 
 
 ---
-**相关笔记：** [[PE市盈率]], [[EV/EBITDA]]
-**返回：** [[chapter00-相对估值]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[part45-valuation/chapter01-相对估值/section05-EV-EBITDA|EV/EBITDA]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-相对估值]] | [[part00-主页]]

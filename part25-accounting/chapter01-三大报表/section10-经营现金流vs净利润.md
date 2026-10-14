@@ -4,7 +4,7 @@ topic: 三大报表
 aliases: [CFO vs Net Income]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [财务报表, 会计基础, 重点]
 related: "[[section09-现金流量表基础]], [[section12-现金流陷阱]]"
 ---
@@ -120,4 +120,4 @@ $$\text{CFO / 净利润} = \text{利润质量比率}$$
 
 ---
 **相关笔记：** [[section09-现金流量表基础]], [[section12-现金流陷阱]]
-**返回：** [[chapter00-三大报表]] | [[part00-主页]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-三大报表]] | [[part00-主页]]

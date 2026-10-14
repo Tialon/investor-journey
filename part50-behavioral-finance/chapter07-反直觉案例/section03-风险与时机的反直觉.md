@@ -4,9 +4,9 @@ topic: 反直觉案例
 aliases: [风险反直觉, 时机反直觉, 现金价值, 高胜率陷阱]
 status: done
 created: "2026-08-16"
-updated: "2026-08-16"
+updated: "2026-10-15"
 tags: [行为金融, 反直觉, 风险管理, 时机选择]
-related: "[[VaR在险价值]], [[最大回撤]], [[现金]]"
+related: "[[part60-risk-management/chapter03-风险度量/section01-VaR在险价值|VaR在险价值]], [[part60-risk-management/chapter03-风险度量/section03-最大回撤|最大回撤]], [[part65-portfolio/chapter02-资产类别/section06-现金|现金]]"
 ---
 
 # 风险与时机的反直觉
@@ -185,5 +185,5 @@ $$
 4. 如何识别市场恐慌和狂热？
 
 ---
-**相关笔记：** [[VaR在险价值]], [[最大回撤]], [[现金]], [[黑天鹅事件特征]]
+**相关笔记：** [[part60-risk-management/chapter03-风险度量/section01-VaR在险价值|VaR在险价值]], [[part60-risk-management/chapter03-风险度量/section03-最大回撤|最大回撤]], [[part65-portfolio/chapter02-资产类别/section06-现金|现金]], 黑天鹅事件特征
 **返回：** [[chapter00-行为金融学]] | [[part00-主页]]

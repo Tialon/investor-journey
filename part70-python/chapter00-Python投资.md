@@ -4,41 +4,28 @@ topic: Python投资
 aliases: [Python for Investing]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [Python, MOC]
 related: "[[chapter00-AI投资]], [[chapter00-数据分析]], [[chapter00-量化投资]], [[chapter00-期权学习]]"
 ---
 
 # 🐍 Python 投资
 
-> 未来一定要会——自动化你的投资分析
+> 只列现有内容；“正文”指已有内容，不代表学习或实盘验收通过。待补充页已保留核心要点。
 
-## 数据处理
-- [[section01-Pandas基础]] — DataFrame操作
-- [[section02-NumPy基础]] — 数值计算
-- [[section03-数据清洗]] — 处理缺失值/异常值
-- [[section04-时间序列处理]] — 日期/频率/滚动计算
+## chapter01-数据处理
 
-## 可视化
-- [[section01-Matplotlib基础]] — 基本图表
-- [[section02-Plotly交互图]] — 交互式可视化
-- [[section03-K线图绘制]] — K线图绘制
-- [[section04-盈亏图绘制]] — 盈亏图绘制
+- [[part70-python/chapter01-数据处理/section03-数据清洗|数据清洗]] — 正文
 
-## 实战脚本
-- [[section01-自动下载股票数据]] — yfinance
-- [[section02-财报数据解析]] — SEC EDGAR
-- [[section03-估值计算器]] — DCF/PE/PEG
-- [[section04-Greeks计算器]] — 期权定价
-- [[section05-回测框架搭建]] — 回测框架搭建
-- [[section06-投资组合分析]] — 投资组合分析
+## chapter03-实战脚本
 
-## IBKR API
-- [[section01-ib-insync入门]] — ib_insync入门
-- [[section02-获取实时报价]] — 获取实时报价
-- [[section03-自动下单]] — 自动下单
-- [[section04-持仓监控]] — 持仓监控
+- [[part70-python/chapter03-实战脚本/section02-财报数据解析|财报数据解析]] — 待补充
 
----
-**相关笔记：** [[chapter00-AI投资]], [[chapter00-数据分析]], [[chapter00-量化投资]], [[chapter00-期权学习]]
-**返回：** [[part00-主页]]
+## chapter04-IBKR-API
+
+- [[part70-python/chapter04-IBKR-API/section02-获取实时报价|获取实时报价]] — 待补充
+- [[part70-python/chapter04-IBKR-API/section04-持仓监控|持仓监控]] — 待补充
+
+## 使用入口
+
+[[part01-实践工作台]] | [[part03-目录]] | [[part00-主页]]

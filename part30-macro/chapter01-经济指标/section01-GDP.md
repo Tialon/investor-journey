@@ -4,7 +4,7 @@ topic: 经济指标
 aliases: [Gross Domestic Product, 国内生产总值]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 经济指标, 核心]
 related: "[[section02-GDP增速]], [[section03-工业生产指数]], [[section07-PCE]]"
 ---
@@ -84,4 +84,4 @@ $$\text{GDP增速} = \frac{\text{本期GDP} - \text{上期GDP}}{\text{上期GDP}
 
 ---
 **相关笔记：** [[section02-GDP增速]], [[section03-工业生产指数]], [[section07-PCE]]
-**返回：** [[chapter00-经济指标]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-经济指标]] | [[part00-主页]]

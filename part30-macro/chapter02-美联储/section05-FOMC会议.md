@@ -4,7 +4,7 @@ topic: 美联储
 aliases: [FOMC Meeting, 联邦公开市场委员会]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 美联储, 核心]
 related: "[[section01-联邦基金利率]], [[section07-点阵图]], [[section06-美联储主席讲话]]"
 ---
@@ -66,4 +66,4 @@ related: "[[section01-联邦基金利率]], [[section07-点阵图]], [[section06
 
 ---
 **相关笔记：** [[section01-联邦基金利率]], [[section07-点阵图]], [[section06-美联储主席讲话]]
-**返回：** [[chapter00-美联储]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-美联储]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 绝对估值
 aliases: [DDM, Dividend Discount Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, DCF]
-related: "[[DCF基础]], [[section06-SOTP分部估值法]]"
+related: "[[part45-valuation/chapter02-绝对估值(DCF)/section01-DCF基础|DCF基础]], [[section06-SOTP分部估值法]]"
 ---
 
 # 股利折现模型DDM
@@ -14,7 +14,9 @@ related: "[[DCF基础]], [[section06-SOTP分部估值法]]"
 
 ## 公式（Gordon增长模型）
 
-1902P = \frac{D_1}{r - g}1902
+$$
+P = \frac{D_1}{r - g}
+$$
 
 - D_1 = 下一年股息
 - r = 股权成本
@@ -46,5 +48,5 @@ related: "[[DCF基础]], [[section06-SOTP分部估值法]]"
 
 
 ---
-**相关笔记：** [[DCF基础]], [[section06-SOTP分部估值法]]
-**返回：** [[chapter00-绝对估值(DCF)]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter02-绝对估值(DCF)/section01-DCF基础|DCF基础]], [[section06-SOTP分部估值法]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-绝对估值(DCF)]] | [[part00-主页]]

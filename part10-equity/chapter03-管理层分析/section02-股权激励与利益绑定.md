@@ -4,7 +4,7 @@ topic: 管理层分析
 aliases: [Equity Incentive, 股权激励, 利益绑定]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [管理层, 治理]
 related: "[[section01-管理层评估方法]], [[section03-资本配置能力]]"
 ---
@@ -155,4 +155,4 @@ $$\text{激励占比} = \frac{\text{股权激励总额}}{\text{总股本}} \time
 
 ---
 **相关笔记：** [[section01-管理层评估方法]], [[section03-资本配置能力]]
-**返回：** [[chapter00-管理层分析]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-管理层分析]] | [[part00-主页]]

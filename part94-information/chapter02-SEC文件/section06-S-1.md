@@ -4,9 +4,9 @@ topic: SEC文件
 aliases: [S-1, IPO招股书]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [SEC, IPO]
-related: "[[section01-SEC EDGAR]], [[10-K年报]]"
+related: "[[section01-SEC EDGAR]], [[part94-information/chapter01-财报解读/section01-10-K年报|10-K年报]]"
 ---
 
 # S-1（IPO招股书）
@@ -78,5 +78,5 @@ related: "[[section01-SEC EDGAR]], [[10-K年报]]"
 
 
 ---
-**相关笔记：** [[section01-SEC EDGAR]], [[10-K年报]]
-**返回：** [[chapter00-SEC文件]] | [[part00-主页]]
+**相关笔记：** [[section01-SEC EDGAR]], [[part94-information/chapter01-财报解读/section01-10-K年报|10-K年报]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-SEC文件]] | [[part00-主页]]

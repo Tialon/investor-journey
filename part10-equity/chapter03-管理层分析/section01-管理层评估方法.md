@@ -4,7 +4,7 @@ topic: 管理层分析
 aliases: [Management Evaluation, 管理层评估]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [管理层, 分析方法]
 related: "[[section02-股权激励与利益绑定]], [[section03-资本配置能力]]"
 ---
@@ -140,4 +140,4 @@ related: "[[section02-股权激励与利益绑定]], [[section03-资本配置能
 
 ---
 **相关笔记：** [[section02-股权激励与利益绑定]], [[section03-资本配置能力]]
-**返回：** [[chapter00-管理层分析]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-管理层分析]] | [[part00-主页]]

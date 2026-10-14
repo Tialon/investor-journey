@@ -4,9 +4,9 @@ topic: 估值陷阱
 aliases: [High PE Justification, 高市盈率合理性]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 陷阱]
-related: "[[PE市盈率]], [[section02-PEG]]"
+related: "[[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[section02-PEG]]"
 ---
 
 # 高PE合理性
@@ -47,5 +47,5 @@ related: "[[PE市盈率]], [[section02-PEG]]"
 
 
 ---
-**相关笔记：** [[PE市盈率]], [[section02-PEG]]
-**返回：** [[chapter00-相对估值]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[section02-PEG]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-相对估值]] | [[part00-主页]]

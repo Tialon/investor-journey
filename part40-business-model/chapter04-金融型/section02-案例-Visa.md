@@ -4,9 +4,9 @@ topic: 商业模式案例
 aliases: [Visa Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 案例, 支付]
-related: "[[section01-金融商业模式]], [[支付行业]]"
+related: "[[section01-金融商业模式]], 支付行业"
 ---
 
 # 案例：Visa
@@ -43,5 +43,5 @@ related: "[[section01-金融商业模式]], [[支付行业]]"
 
 
 ---
-**相关笔记：** [[section01-金融商业模式]], [[支付行业]]
-**返回：** [[chapter00-金融型]] | [[part00-主页]]
+**相关笔记：** [[section01-金融商业模式]], 支付行业
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-金融型]] | [[part00-主页]]

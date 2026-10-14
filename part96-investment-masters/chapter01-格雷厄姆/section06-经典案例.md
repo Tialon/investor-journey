@@ -4,9 +4,9 @@ topic: 格雷厄姆
 aliases: [Graham Classic Cases]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 格雷厄姆]]
-related: "[[价值投资之父]], [[安全边际原则]]"
+updated: "2026-10-15"
+tags: [投资大师, 格雷厄姆]
+related: "[[part96-investment-masters/chapter01-格雷厄姆/section01-价值投资之父|价值投资之父]], [[part96-investment-masters/chapter01-格雷厄姆/section02-安全边际原则|安全边际原则]]"
 ---
 
 # 格雷厄姆经典案例
@@ -196,5 +196,5 @@ GEICO投资是格雷厄姆最成功的案例之一：
 5. 格雷厄姆的投资案例对当今投资者有何启发？
 
 ---
-**相关笔记：** [[价值投资之父]], [[安全边际原则]]
+**相关笔记：** [[part96-investment-masters/chapter01-格雷厄姆/section01-价值投资之父|价值投资之父]], [[part96-investment-masters/chapter01-格雷厄姆/section02-安全边际原则|安全边际原则]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

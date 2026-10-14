@@ -4,9 +4,9 @@ topic: 三大报表
 aliases: [FCF Calculation]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [财务报表, 会计基础]
-related: "[[section10-经营现金流vs净利润]], [[自由现金流FCF]]"
+related: "[[section10-经营现金流vs净利润]], [[part10-equity/chapter01-财务报表/section06-自由现金流FCF|自由现金流FCF]]"
 ---
 
 # 自由现金流计算
@@ -115,5 +115,5 @@ $$\text{FCF / 净利润} > 1 \text{（优秀）}$$
 
 
 ---
-**相关笔记：** [[section10-经营现金流vs净利润]], [[自由现金流FCF]]
-**返回：** [[chapter00-三大报表]] | [[part00-主页]]
+**相关笔记：** [[section10-经营现金流vs净利润]], [[part10-equity/chapter01-财务报表/section06-自由现金流FCF|自由现金流FCF]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-三大报表]] | [[part00-主页]]

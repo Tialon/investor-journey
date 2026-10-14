@@ -4,9 +4,9 @@ topic: 分析框架
 aliases: [Flywheel Effect]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [分析框架, 商业模式]
-related: "[[网络效应]], [[section01-商业模式画布]]"
+related: "[[part10-equity/chapter02-护城河分析/section02-网络效应|网络效应]], [[section01-商业模式画布]]"
 ---
 
 # 飞轮效应
@@ -40,5 +40,5 @@ related: "[[网络效应]], [[section01-商业模式画布]]"
 
 
 ---
-**相关笔记：** [[网络效应]], [[section01-商业模式画布]]
-**返回：** [[chapter00-案例分析]] | [[part00-主页]]
+**相关笔记：** [[part10-equity/chapter02-护城河分析/section02-网络效应|网络效应]], [[section01-商业模式画布]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-案例分析]] | [[part00-主页]]

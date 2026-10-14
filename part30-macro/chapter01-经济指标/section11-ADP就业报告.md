@@ -4,7 +4,7 @@ topic: 经济指标
 aliases: [ADP Employment Report, 小非农]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 经济指标]
 related: "[[section08-非农就业]], [[section09-失业率]]"
 ---
@@ -57,4 +57,4 @@ related: "[[section08-非农就业]], [[section09-失业率]]"
 
 ---
 **相关笔记：** [[section08-非农就业]], [[section09-失业率]]
-**返回：** [[chapter00-经济指标]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-经济指标]] | [[part00-主页]]

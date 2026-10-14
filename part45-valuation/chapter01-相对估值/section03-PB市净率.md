@@ -4,9 +4,9 @@ topic: 相对估值
 aliases: [PB Ratio, Price to Book, 市净率]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 相对估值]
-related: "[[PE市盈率]], [[EV/EBITDA]]"
+related: "[[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[part45-valuation/chapter01-相对估值/section05-EV-EBITDA|EV/EBITDA]]"
 ---
 
 # PB市净率
@@ -14,7 +14,9 @@ related: "[[PE市盈率]], [[EV/EBITDA]]"
 
 ## 公式
 
-1785\text{PB} = \frac{\text{股价}}{\text{每股净资产}} = \frac{\text{市值}}{\text{股东权益}}1785
+$$
+\text{PB} = \frac{\text{股价}}{\text{每股净资产}} = \frac{\text{市值}}{\text{股东权益}}
+$$
 
 ## 水平参考
 
@@ -36,7 +38,9 @@ related: "[[PE市盈率]], [[EV/EBITDA]]"
 
 ## PB与ROE
 
-1785\text{合理PB} = \frac{\text{ROE}}{\text{股东要求回报率}}1785
+$$
+\text{合理PB} = \frac{\text{ROE}}{\text{股东要求回报率}}
+$$
 
 ROE越高，合理PB越高。
 
@@ -54,5 +58,5 @@ ROE越高，合理PB越高。
 
 
 ---
-**相关笔记：** [[PE市盈率]], [[EV/EBITDA]]
-**返回：** [[chapter00-相对估值]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[part45-valuation/chapter01-相对估值/section05-EV-EBITDA|EV/EBITDA]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-相对估值]] | [[part00-主页]]

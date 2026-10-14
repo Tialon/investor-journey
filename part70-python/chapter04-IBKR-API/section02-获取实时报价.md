@@ -2,60 +2,23 @@
 type: concept
 topic: IBKR API
 aliases: [Get Real-time Quotes]
-status: done
+status: draft
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[Python, IBKR API]]
-related: "[[ib_insync入门]], [[自动下单]]"
+updated: "2026-10-15"
+tags: [Python, IBKR API]
+related: ""
 ---
 
 # 获取实时报价
 
-## 概述
+> 待补充：已保留核心边界，尚未形成完整实践指南。
 
-> **获取实时报价（Get Real-time Quotes）**是指...
+## 核心内容
 
-## 核心要点
+先核对合约、时间、币种和实时/延迟状态；缺失报价不能补零并继续交易。
 
-- 要点1
-- 要点2
-- 要点3
+## 后续补充
 
-## 详细解释
+补充当前API版本、权限与只读模拟示例。
 
-### 定义
-
-...
-
-### 代码示例
-
-```python
-# 示例代码
-```
-
-### 参数说明
-
-...
-
-## 投资中的应用
-
-### 使用场景
-
-...
-
-### 注意事项
-
-...
-
-## 实际案例
-
-...
-
-## 思考题
-
-1. 问题1
-2. 问题2
-
----
-**相关笔记：** [[ib_insync入门]], [[自动下单]]
 **返回：** [[chapter00-Python投资]] | [[part00-主页]]

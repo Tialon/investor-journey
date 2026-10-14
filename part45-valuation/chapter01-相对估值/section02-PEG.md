@@ -4,9 +4,9 @@ topic: 相对估值
 aliases: [PEG Ratio, PE to Growth]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 相对估值]
-related: "[[PE市盈率]], [[section08-高PE合理性]]"
+related: "[[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[section08-高PE合理性]]"
 ---
 
 # PEG
@@ -14,7 +14,9 @@ related: "[[PE市盈率]], [[section08-高PE合理性]]"
 
 ## 公式
 
-1785\text{PEG} = \frac{\text{PE}}{\text{盈利增长率(\%)}}1785
+$$
+\text{PEG} = \frac{\text{PE}}{\text{盈利增长率(\%)}}
+$$
 
 ## 水平参考
 
@@ -52,5 +54,5 @@ related: "[[PE市盈率]], [[section08-高PE合理性]]"
 
 
 ---
-**相关笔记：** [[PE市盈率]], [[section08-高PE合理性]]
-**返回：** [[chapter00-相对估值]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[section08-高PE合理性]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-相对估值]] | [[part00-主页]]

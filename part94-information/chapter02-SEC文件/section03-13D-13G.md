@@ -4,7 +4,7 @@ topic: SEC文件
 aliases: [13D, 13G, 大股东披露]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [SEC, 机构投资]
 related: "[[section02-13F文件]], [[section01-SEC EDGAR]]"
 ---
@@ -67,4 +67,4 @@ related: "[[section02-13F文件]], [[section01-SEC EDGAR]]"
 
 ---
 **相关笔记：** [[section02-13F文件]], [[section01-SEC EDGAR]]
-**返回：** [[chapter00-SEC文件]] | [[part00-主页]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-SEC文件]] | [[part00-主页]]

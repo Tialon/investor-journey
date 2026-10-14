@@ -4,63 +4,51 @@ topic: 宏观经济
 aliases: []
 created: "2026-06-28"
 status: done
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, MOC]
 related: ""
 ---
 
 # 🌍 宏观经济
 
-> 真正的大资金每天都在看
+> 只列现有内容；“正文”指已有内容，不代表学习或实盘验收通过。待补充页已保留核心要点。
 
-## 经济指标
+## chapter01-经济指标
 
-### 增长指标
-- [[GDP]] — 国内生产总值
-- [[GDP增速]] — 经济增长速度
-- [[工业生产指数]]
+- [[part30-macro/chapter01-经济指标/section01-GDP|GDP（国内生产总值）]] — 正文
+- [[part30-macro/chapter01-经济指标/section02-GDP增速|GDP增速]] — 正文
+- [[part30-macro/chapter01-经济指标/section03-工业生产指数|工业生产指数]] — 正文
+- [[part30-macro/chapter01-经济指标/section04-CPI|CPI（消费者物价指数）]] — 正文
+- [[part30-macro/chapter01-经济指标/section05-PPI|PPI（生产者物价指数）]] — 正文
+- [[part30-macro/chapter01-经济指标/section06-核心通胀|核心通胀]] — 正文
+- [[part30-macro/chapter01-经济指标/section07-PCE|PCE（个人消费支出价格指数）]] — 正文
+- [[part30-macro/chapter01-经济指标/section08-非农就业|非农就业]] — 正文
+- [[part30-macro/chapter01-经济指标/section09-失业率|失业率]] — 正文
+- [[part30-macro/chapter01-经济指标/section10-初请失业金|初请失业金]] — 正文
+- [[part30-macro/chapter01-经济指标/section11-ADP就业报告|ADP就业报告]] — 正文
+- [[part30-macro/chapter01-经济指标/section12-PMI|PMI（采购经理人指数）]] — 正文
+- [[part30-macro/chapter01-经济指标/section13-ISM制造业指数|ISM制造业指数]] — 正文
+- [[part30-macro/chapter01-经济指标/section14-耐用品订单|耐用品订单]] — 正文
 
-### 通胀指标
-- [[CPI]] — 消费者价格指数
-- [[PPI]] — 生产者价格指数
-- [[核心通胀]] — 剔除食品和能源
-- [[PCE]] — 个人消费支出价格指数
+## chapter02-美联储
 
-### 就业指标
-- [[非农就业]] — 每月第一个周五
-- [[失业率]]
-- [[初请失业金]]
-- [[ADP就业报告]]
+- [[part30-macro/chapter02-美联储/section01-联邦基金利率|联邦基金利率]] — 正文
+- [[part30-macro/chapter02-美联储/section02-量化宽松QE|量化宽松（QE）]] — 正文
+- [[part30-macro/chapter02-美联储/section03-缩表|缩表]] — 正文
+- [[part30-macro/chapter02-美联储/section04-前瞻指引|前瞻指引]] — 正文
+- [[part30-macro/chapter02-美联储/section05-FOMC会议|FOMC会议]] — 正文
+- [[part30-macro/chapter02-美联储/section06-美联储主席讲话|美联储主席讲话]] — 正文
+- [[part30-macro/chapter02-美联储/section07-点阵图|点阵图]] — 正文
 
-### 制造业指标
-- [[PMI]] — 采购经理人指数
-- [[ISM制造业指数]]
-- [[耐用品订单]]
+## chapter03-货币政策
 
-## 美联储
+- [[part30-macro/chapter03-货币政策/section01-利率与股市的关系|利率与股市的关系]] — 正文
+- [[part30-macro/chapter03-货币政策/section02-收益率曲线|收益率曲线]] — 正文
+- [[part30-macro/chapter03-货币政策/section03-美元指数DXY|美元指数（DXY）]] — 正文
+- [[part30-macro/chapter03-货币政策/section04-国债收益率|国债收益率]] — 正文
+- [[part30-macro/chapter03-货币政策/section05-收益率曲线倒挂|收益率曲线倒挂]] — 正文
+- [[part30-macro/chapter03-货币政策/section06-实际利率|实际利率]] — 正文
 
-### 货币政策工具
-- [[联邦基金利率]] — 加息/降息
-- [[量化宽松QE]] — 购买债券
-- [[缩表]] — 减少资产负债表
-- [[前瞻指引]]
+## 使用入口
 
-### 关键事件
-- [[FOMC会议]] — 每年8次
-- [[美联储主席讲话]]
-- [[点阵图]] — 利率预期
-
-### 影响分析
-- [[利率与股市的关系]]
-- [[收益率曲线]] — 正常/平坦/倒挂
-- [[美元指数DXY]] — 强美元/弱美元
-
-## 国债
-- [[国债收益率]] — 10年期/2年期
-- [[收益率曲线倒挂]] — 衰退信号
-- [[实际利率]] — 名义利率-通胀
-
-## 关联模块
-- [[chapter00-行业研究]] — 宏观如何影响行业
-- [[chapter00-股票投资]] — 宏观如何影响个股
-- [[chapter00-资产配置]] — 宏观如何影响配置
+[[part01-实践工作台]] | [[part03-目录]] | [[part00-主页]]

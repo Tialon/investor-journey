@@ -4,7 +4,7 @@ topic: 经济指标
 aliases: [Non-Farm Payrolls, NFP]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 经济指标, 核心]
 related: "[[section09-失业率]], [[section10-初请失业金]], [[section11-ADP就业报告]]"
 ---
@@ -77,4 +77,4 @@ $$\text{时薪增速} → \text{通胀压力} → \text{美联储反应}$$
 
 ---
 **相关笔记：** [[section09-失业率]], [[section10-初请失业金]], [[section11-ADP就业报告]]
-**返回：** [[chapter00-经济指标]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-经济指标]] | [[part00-主页]]

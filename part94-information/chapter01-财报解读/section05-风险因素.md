@@ -4,7 +4,7 @@ topic: 财报解读
 aliases: [Risk Factors]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [财报, SEC文件]
 related: "[[section01-10-K年报]], [[section04-管理层讨论与分析]]"
 ---
@@ -92,4 +92,4 @@ related: "[[section01-10-K年报]], [[section04-管理层讨论与分析]]"
 
 ---
 **相关笔记：** [[section01-10-K年报]], [[section04-管理层讨论与分析]]
-**返回：** [[chapter00-财报解读]] | [[part00-主页]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-财报解读]] | [[part00-主页]]

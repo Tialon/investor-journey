@@ -4,7 +4,7 @@ topic: 货币政策
 aliases: [Yield Curve Inversion, 收益率曲线倒挂]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 货币政策, 风险信号]
 related: "[[section02-收益率曲线]], [[section04-国债收益率]]"
 ---
@@ -62,4 +62,4 @@ related: "[[section02-收益率曲线]], [[section04-国债收益率]]"
 
 ---
 **相关笔记：** [[section02-收益率曲线]], [[section04-国债收益率]]
-**返回：** [[chapter00-货币政策]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-货币政策]] | [[part00-主页]]

@@ -4,7 +4,7 @@ topic: 推荐书籍
 aliases: [彼得·林奇的成功投资]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [书籍, 成长股, 经典]
 related: "[[section03-The Intelligent Investor]], [[section05-Common Stocks and Uncommon Profits]]"
 ---
@@ -159,4 +159,4 @@ $$\text{PEG} = \frac{\text{PE}}{\text{盈利增长率}}$$
 
 ---
 **相关笔记：** [[section03-The Intelligent Investor]], [[section05-Common Stocks and Uncommon Profits]]
-**返回：** [[chapter00-公司分析]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-公司分析]] | [[part00-主页]]

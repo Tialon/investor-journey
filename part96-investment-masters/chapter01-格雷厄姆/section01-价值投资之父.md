@@ -4,9 +4,9 @@ topic: 格雷厄姆
 aliases: [Father of Value Investing]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 格雷厄姆]]
-related: "[[安全边际原则]], [[市场先生]]"
+updated: "2026-10-15"
+tags: [投资大师, 格雷厄姆]
+related: "[[part96-investment-masters/chapter01-格雷厄姆/section02-安全边际原则|安全边际原则]], [[part96-investment-masters/chapter01-格雷厄姆/section03-市场先生|市场先生]]"
 ---
 
 # 价值投资之父
@@ -165,5 +165,5 @@ related: "[[安全边际原则]], [[市场先生]]"
 5. 巴菲特对格雷厄姆投资哲学的"进化"主要体现在哪些方面？为什么会发生这种进化？
 
 ---
-**相关笔记：** [[安全边际原则]], [[市场先生]]
+**相关笔记：** [[part96-investment-masters/chapter01-格雷厄姆/section02-安全边际原则|安全边际原则]], [[part96-investment-masters/chapter01-格雷厄姆/section03-市场先生|市场先生]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 商业模式
 aliases: [Subscription Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 订阅, SaaS]
-related: "[[经常性收入]], [[LTV/CAC]], [[section02-案例-Microsoft]]"
+related: "[[part40-business-model/chapter02-订阅型/section01-订阅商业模式|经常性收入]], [[part40-business-model/chapter06-案例分析/section03-单位经济学|LTV/CAC]], [[section02-案例-Microsoft]]"
 ---
 
 # 订阅商业模式
@@ -49,5 +49,5 @@ related: "[[经常性收入]], [[LTV/CAC]], [[section02-案例-Microsoft]]"
 
 
 ---
-**相关笔记：** [[经常性收入]], [[LTV/CAC]], [[section02-案例-Microsoft]]
-**返回：** [[chapter00-订阅型]] | [[part00-主页]]
+**相关笔记：** [[part40-business-model/chapter02-订阅型/section01-订阅商业模式|经常性收入]], [[part40-business-model/chapter06-案例分析/section03-单位经济学|LTV/CAC]], [[section02-案例-Microsoft]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-订阅型]] | [[part00-主页]]

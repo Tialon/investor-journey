@@ -4,9 +4,9 @@ topic: 美联储
 aliases: [Federal Funds Rate, 联邦基金利率]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 美联储, 核心]
-related: "[[section05-FOMC会议]], [[section02-量化宽松QE]], [[利率与股市的关系]]"
+related: "[[section05-FOMC会议]], [[section02-量化宽松QE]], [[part30-macro/chapter03-货币政策/section01-利率与股市的关系|利率与股市的关系]]"
 ---
 
 # 联邦基金利率
@@ -54,5 +54,5 @@ $$\text{联邦基金利率} → \text{银行贷款利率} → \text{消费/投�
 
 
 ---
-**相关笔记：** [[section05-FOMC会议]], [[section02-量化宽松QE]], [[利率与股市的关系]]
-**返回：** [[chapter00-美联储]] | [[part00-主页]]
+**相关笔记：** [[section05-FOMC会议]], [[section02-量化宽松QE]], [[part30-macro/chapter03-货币政策/section01-利率与股市的关系|利率与股市的关系]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-美联储]] | [[part00-主页]]

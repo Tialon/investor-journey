@@ -4,7 +4,7 @@ topic: 财务造假识别
 aliases: [Accounts Receivable Anomalies]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [造假识别, 风险]
 related: "[[section05-现金流与利润背离]], [[section01-收入造假手法]]"
 ---
@@ -139,4 +139,4 @@ $$\text{应收周转天数} = \frac{365}{\text{应收周转率}}$$
 
 ---
 **相关笔记：** [[section05-现金流与利润背离]], [[section01-收入造假手法]]
-**返回：** [[chapter00-财务造假识别]] | [[part00-主页]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-财务造假识别]] | [[part00-主页]]

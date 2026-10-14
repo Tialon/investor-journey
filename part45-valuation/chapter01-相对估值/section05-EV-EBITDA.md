@@ -4,9 +4,9 @@ topic: 相对估值
 aliases: [EV/EBITDA, Enterprise Value to EBITDA]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 相对估值, 核心]
-related: "[[PE市盈率]], [[FCF Yield]]"
+related: "[[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[part45-valuation/chapter01-相对估值/section06-FCF-Yield|FCF Yield]]"
 ---
 
 # EV/EBITDA
@@ -14,10 +14,14 @@ related: "[[PE市盈率]], [[FCF Yield]]"
 
 ## 公式
 
-1785\text{EV/EBITDA} = \frac{\text{企业价值(EV)}}{\text{EBITDA}}1785
+$$
+\text{EV/EBITDA} = \frac{\text{企业价值(EV)}}{\text{EBITDA}}
+$$
 
 其中：
-1785\text{EV} = \text{市值} + \text{有息负债} - \text{现金}1785
+$$
+\text{EV} = \text{市值} + \text{有息负债} - \text{现金}
+$$
 
 ## 为什么EV/EBITDA比PE更好？
 
@@ -57,5 +61,5 @@ related: "[[PE市盈率]], [[FCF Yield]]"
 
 
 ---
-**相关笔记：** [[PE市盈率]], [[FCF Yield]]
-**返回：** [[chapter00-相对估值]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[part45-valuation/chapter01-相对估值/section06-FCF-Yield|FCF Yield]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-相对估值]] | [[part00-主页]]

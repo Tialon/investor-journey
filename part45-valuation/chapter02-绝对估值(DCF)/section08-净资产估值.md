@@ -4,9 +4,9 @@ topic: 绝对估值
 aliases: [Net Asset Value, NAV]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, DCF]
-related: "[[PB市净率]], [[section06-SOTP分部估值法]]"
+related: "[[part45-valuation/chapter01-相对估值/section03-PB市净率|PB市净率]], [[section06-SOTP分部估值法]]"
 ---
 
 # 净资产估值
@@ -42,5 +42,5 @@ related: "[[PB市净率]], [[section06-SOTP分部估值法]]"
 
 
 ---
-**相关笔记：** [[PB市净率]], [[section06-SOTP分部估值法]]
-**返回：** [[chapter00-绝对估值(DCF)]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter01-相对估值/section03-PB市净率|PB市净率]], [[section06-SOTP分部估值法]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-绝对估值(DCF)]] | [[part00-主页]]

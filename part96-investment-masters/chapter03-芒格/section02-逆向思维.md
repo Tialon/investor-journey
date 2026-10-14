@@ -4,9 +4,9 @@ topic: 芒格
 aliases: [Inversion]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 芒格]]
-related: "[[多元思维模型]], [[误判心理学]]"
+updated: "2026-10-15"
+tags: [投资大师, 芒格]
+related: "[[part96-investment-masters/chapter03-芒格/section01-多元思维模型|多元思维模型]], [[part96-investment-masters/chapter03-芒格/section04-误判心理学|误判心理学]]"
 ---
 
 # 逆向思维
@@ -217,5 +217,5 @@ related: "[[多元思维模型]], [[误判心理学]]"
 5. 你能否举一个通过逆向思维避免投资失败的例子？
 
 ---
-**相关笔记：** [[多元思维模型]], [[误判心理学]]
+**相关笔记：** [[part96-investment-masters/chapter03-芒格/section01-多元思维模型|多元思维模型]], [[part96-investment-masters/chapter03-芒格/section04-误判心理学|误判心理学]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

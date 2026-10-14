@@ -4,57 +4,52 @@ topic: 商业模式
 aliases: []
 created: "2026-06-28"
 status: done
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, MOC]
 related: ""
 ---
 
 # 🏢 企业商业模式
 
-> 理解公司如何赚钱，比看懂财报更重要
+> 只列现有内容；“正文”指已有内容，不代表学习或实盘验收通过。待补充页已保留核心要点。
 
-## 商业模式类型
+## chapter01-平台型
 
-### 平台型
-- [[平台商业模式]] — 网络效应驱动
-- [[案例-NVIDIA]] — GPU生态平台
-- [[案例-Apple]] — 硬件+服务生态
-- [[案例-Amazon]] — 电商+AWS双引擎
+- [[part40-business-model/chapter01-平台型/section01-平台商业模式|平台商业模式]] — 正文
+- [[part40-business-model/chapter01-平台型/section02-案例-NVIDIA|案例：NVIDIA]] — 正文
+- [[part40-business-model/chapter01-平台型/section03-案例-Apple|案例：Apple]] — 正文
+- [[part40-business-model/chapter01-平台型/section04-案例-Amazon|案例：Amazon]] — 正文
 
-### 订阅型
-- [[订阅商业模式]] — 经常性收入
-- [[案例-Microsoft]] — Office 365/Azure
-- [[案例-Salesforce]] — CRM SaaS
-- [[案例-Netflix]] — 流媒体订阅
+## chapter02-订阅型
 
-### 硬件型
-- [[硬件商业模式]] — 产品驱动
-- [[案例-Tesla]] — 电动车+能源
-- [[案例-NVIDIA]] — GPU硬件
+- [[part40-business-model/chapter02-订阅型/section01-订阅商业模式|订阅商业模式]] — 正文
+- [[part40-business-model/chapter02-订阅型/section02-案例-Microsoft|案例：Microsoft]] — 正文
+- [[part40-business-model/chapter02-订阅型/section03-案例-Salesforce|案例：Salesforce]] — 正文
+- [[part40-business-model/chapter02-订阅型/section04-案例-Netflix|案例：Netflix]] — 正文
 
-### 金融型
-- [[金融商业模式]] — 利差/手续费
-- [[案例-Visa]] — 支付网络
-- [[案例-Berkshire]] — 保险浮存金
+## chapter03-硬件型
 
-### 零售型
-- [[零售商业模式]] — 供应链效率
-- [[案例-Costco]] — 会员费模式
-- [[案例-Amazon]] — 电商+Prime
+- [[part40-business-model/chapter03-硬件型/section01-硬件商业模式|硬件商业模式]] — 正文
+- [[part40-business-model/chapter03-硬件型/section02-案例-Tesla|案例：Tesla]] — 正文
 
-## 分析框架
-- [[商业模式画布]]
-- [[价值链分析]]
-- [[单位经济学]] — LTV/CAC
-- [[飞轮效应]]
+## chapter04-金融型
 
-## 关键问题
-- 为什么这家公司赚钱？
-- 它的护城河是什么？
-- 10年后它还会赚钱吗？
-- 管理层如何配置资本？
+- [[part40-business-model/chapter04-金融型/section01-金融商业模式|金融商业模式]] — 正文
+- [[part40-business-model/chapter04-金融型/section02-案例-Visa|案例：Visa]] — 正文
+- [[part40-business-model/chapter04-金融型/section03-案例-Berkshire|案例：Berkshire Hathaway]] — 正文
 
-## 关联模块
-- [[chapter00-股票投资]] — 公司分析
-- [[chapter00-行业研究]] — 行业背景
-- [[chapter00-估值方法]] — 如何给公司定价
+## chapter05-零售型
+
+- [[part40-business-model/chapter05-零售型/section01-零售商业模式|零售商业模式]] — 正文
+- [[part40-business-model/chapter05-零售型/section02-案例-Costco|案例：Costco]] — 正文
+
+## chapter06-案例分析
+
+- [[part40-business-model/chapter06-案例分析/section01-商业模式画布|商业模式画布]] — 正文
+- [[part40-business-model/chapter06-案例分析/section02-价值链分析|价值链分析]] — 正文
+- [[part40-business-model/chapter06-案例分析/section03-单位经济学|单位经济学]] — 正文
+- [[part40-business-model/chapter06-案例分析/section04-飞轮效应|飞轮效应]] — 正文
+
+## 使用入口
+
+[[part01-实践工作台]] | [[part03-目录]] | [[part00-主页]]

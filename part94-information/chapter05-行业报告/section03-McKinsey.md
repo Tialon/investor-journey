@@ -4,7 +4,7 @@ topic: 行业报告
 aliases: [麦肯锡]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [行业, 咨询]
 related: "[[section01-Gartner]], [[section02-IDC]], [[section04-Bloomberg]]"
 ---
@@ -69,4 +69,4 @@ https://www.mckinsey.com
 
 ---
 **相关笔记：** [[section01-Gartner]], [[section02-IDC]], [[section04-Bloomberg]]
-**返回：** [[chapter00-行业报告]] | [[part00-主页]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-行业报告]] | [[part00-主页]]

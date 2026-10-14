@@ -4,9 +4,9 @@ topic: 三大报表
 aliases: [Non-recurring Items, Extraordinary Items]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [财务报表, 会计基础, 重点]
-related: "[[section07-营业利润vs净利润]], [[收入造假手法]]"
+related: "[[section07-营业利润vs净利润]], [[part25-accounting/chapter03-财务造假识别/section01-收入造假手法|收入造假手法]]"
 ---
 
 # 非经常性损益
@@ -121,5 +121,5 @@ $$\text{扣非净利润} = \text{净利润} - \text{非经常性损益}$$
 
 
 ---
-**相关笔记：** [[section07-营业利润vs净利润]], [[收入造假手法]]
-**返回：** [[chapter00-三大报表]] | [[part00-主页]]
+**相关笔记：** [[section07-营业利润vs净利润]], [[part25-accounting/chapter03-财务造假识别/section01-收入造假手法|收入造假手法]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-三大报表]] | [[part00-主页]]

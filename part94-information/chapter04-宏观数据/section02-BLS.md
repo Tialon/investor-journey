@@ -4,7 +4,7 @@ topic: 宏观数据
 aliases: [Bureau of Labor Statistics]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 数据来源]
 related: "[[section01-FRED]], [[section03-BEA]]"
 ---
@@ -65,4 +65,4 @@ https://www.bls.gov
 
 ---
 **相关笔记：** [[section01-FRED]], [[section03-BEA]]
-**返回：** [[chapter00-宏观数据]] | [[part00-主页]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-宏观数据]] | [[part00-主页]]

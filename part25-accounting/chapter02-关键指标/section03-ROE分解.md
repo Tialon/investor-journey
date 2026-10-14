@@ -4,9 +4,9 @@ topic: 关键指标
 aliases: [DuPont Analysis, 杜邦分析]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [指标, 盈利能力, 核心]
-related: "[[ROE]], [[ROIC]]"
+related: "[[part10-equity/chapter01-财务报表/section04-ROE|ROE]], [[part10-equity/chapter01-财务报表/section05-ROIC|ROIC]]"
 ---
 
 # ROE分解（杜邦分析）
@@ -80,11 +80,11 @@ $$\text{ROE} = \frac{\text{净利润}}{\text{税前利润}} \times \frac{\text{�
 
 ---
 
-> **下一节**：[ROIC](ROIC.md)（见01-equity模块）
+> **下一节**：[[part10-equity/chapter01-财务报表/section05-ROIC|ROIC]]（见01-equity模块）
 
 
 
 
 ---
-**相关笔记：** [[ROE]], [[ROIC]]
-**返回：** [[chapter00-关键指标]] | [[part00-主页]]
+**相关笔记：** [[part10-equity/chapter01-财务报表/section04-ROE|ROE]], [[part10-equity/chapter01-财务报表/section05-ROIC|ROIC]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-关键指标]] | [[part00-主页]]

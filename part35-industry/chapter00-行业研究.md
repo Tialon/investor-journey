@@ -4,75 +4,38 @@ topic: 行业研究
 aliases: []
 created: "2026-06-28"
 status: done
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [行业, MOC]
 related: ""
 ---
 
 # 🏭 行业研究
 
-> 不是研究股票，而是研究未来十年哪个行业最快
+> 只列现有内容；“正文”指已有内容，不代表学习或实盘验收通过。待补充页已保留核心要点。
 
-## 科技
+## chapter01-AI与芯片
 
-### AI与芯片
-- [[AI产业链全景]]
-- [[GPU与AI加速器]] — NVIDIA/AMD
-- [[HBM高带宽内存]] — SK Hynix/Micron
-- [[AI芯片设计]] — 定制ASIC
-- [[AI软件与应用]] — SaaS/PaaS
+- [[part35-industry/chapter01-AI与芯片/section02-GPU与AI加速器|GPU与AI加速器]] — 待补充
+- [[part35-industry/chapter01-AI与芯片/section03-HBM高带宽内存|HBM高带宽内存]] — 待补充
+- [[part35-industry/chapter01-AI与芯片/section05-AI软件与应用|AI软件与应用]] — 待补充
 
-### 云计算
-- [[云计算产业链]]
-- [[IaaS/PaaS/SaaS]]
-- [[AWS/Azure/GCP对比]]
-- [[边缘计算]]
+## chapter02-云计算
 
-### 量子计算
-- [[量子计算基础]]
-- [[主要玩家]]
-- [[商业化路径]]
+- [[part35-industry/chapter02-云计算/section02-IaaS-PaaS-SaaS|IaaS/PaaS/SaaS]] — 待补充
 
-## 生物科技
-- [[生物科技行业概述]]
-- [[药物研发流程]]
-- [[FDA审批流程]]
-- [[基因治疗]]
-- [[GLP-1减肥药]]
+## chapter04-生物科技
 
-## 能源
-- [[传统能源]] — 石油/天然气
-- [[新能源]] — 太阳能/风能
-- [[储能技术]]
-- [[核能复兴]]
+- [[part35-industry/chapter04-生物科技/section05-GLP-1减肥药|GLP-1减肥药]] — 待补充
 
-## 金融
-- [[银行业]]
-- [[保险业]]
-- [[金融科技Fintech]]
-- [[支付行业]]
+## chapter06-金融
 
-## 消费
-- [[消费电子]]
-- [[电商]]
-- [[品牌消费]]
+- [[part35-industry/chapter06-金融/section01-银行业|银行业]] — 待补充
 
-## 军工与太空
-- [[军工行业]]
-- [[太空经济]]
-- [[卫星通信]]
+## chapter10-行业分析框架
 
-## 机器人
-- [[人形机器人]]
-- [[工业机器人]]
-- [[自动驾驶]]
+- [[part35-industry/chapter10-行业分析框架/section01-波特五力模型|波特五力模型]] — 正文
+- [[part35-industry/chapter10-行业分析框架/section03-产业链分析|产业链分析]] — 正文
 
-## 行业分析框架
-- [[波特五力模型]]
-- [[行业生命周期]]
-- [[产业链分析]]
+## 使用入口
 
-## 关联模块
-- [[chapter00-宏观经济]] — 宏观如何影响行业
-- [[chapter00-商业模式]] — 行业中的商业模式
-- [[chapter00-估值方法]] — 不同行业如何估值
+[[part01-实践工作台]] | [[part03-目录]] | [[part00-主页]]

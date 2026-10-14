@@ -4,7 +4,7 @@ topic: 核心指标
 aliases: [Return on Invested Capital, 投入资本回报率]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [指标, 盈利能力, 核心]
 related: "[[section04-ROE]], [[section06-自由现金流FCF]]"
 ---
@@ -108,4 +108,4 @@ $$\text{ROIC} \approx \frac{\text{EBIT} \times (1 - \text{税率})}{\text{总资
 
 ---
 **相关笔记：** [[section04-ROE]], [[section06-自由现金流FCF]]
-**返回：** [[chapter00-财务报表]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-财务报表]] | [[part00-主页]]

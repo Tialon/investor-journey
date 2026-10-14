@@ -4,9 +4,9 @@ topic: 芒格
 aliases: [Munger Classic Cases]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 芒格]]
-related: "[[多元思维模型]], [[逆向思维]]"
+updated: "2026-10-15"
+tags: [投资大师, 芒格]
+related: "[[part96-investment-masters/chapter03-芒格/section01-多元思维模型|多元思维模型]], [[part96-investment-masters/chapter03-芒格/section02-逆向思维|逆向思维]]"
 ---
 
 # 芒格经典案例
@@ -260,5 +260,5 @@ related: "[[多元思维模型]], [[逆向思维]]"
 5. 芒格的案例对你最大的启发是什么？
 
 ---
-**相关笔记：** [[多元思维模型]], [[逆向思维]]
+**相关笔记：** [[part96-investment-masters/chapter03-芒格/section01-多元思维模型|多元思维模型]], [[part96-investment-masters/chapter03-芒格/section02-逆向思维|逆向思维]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: SEC文件
 aliases: [13F Filing, 机构持仓]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [SEC, 机构投资]
-related: "[[section01-SEC EDGAR]], [[13D/13G]]"
+related: "[[section01-SEC EDGAR]], [[part94-information/chapter02-SEC文件/section03-13D-13G|13D/13G]]"
 ---
 
 # 13F文件
@@ -79,11 +79,11 @@ related: "[[section01-SEC EDGAR]], [[13D/13G]]"
 
 ---
 
-> **下一节**：[13D/13G](13D/13G.md)
+> **下一节**：[[part94-information/chapter02-SEC文件/section03-13D-13G|13D/13G]]
 
 
 
 
 ---
-**相关笔记：** [[section01-SEC EDGAR]], [[13D/13G]]
-**返回：** [[chapter00-SEC文件]] | [[part00-主页]]
+**相关笔记：** [[section01-SEC EDGAR]], [[part94-information/chapter02-SEC文件/section03-13D-13G|13D/13G]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-SEC文件]] | [[part00-主页]]

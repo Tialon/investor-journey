@@ -4,9 +4,9 @@ topic: 芒格
 aliases: [Psychology of Misjudgment]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 芒格]]
-related: "[[逆向思维]], [[检查清单]]"
+updated: "2026-10-15"
+tags: [投资大师, 芒格]
+related: "[[part96-investment-masters/chapter03-芒格/section02-逆向思维|逆向思维]], [[part96-investment-masters/chapter03-芒格/section03-检查清单|检查清单]]"
 ---
 
 # 误判心理学
@@ -231,5 +231,5 @@ related: "[[逆向思维]], [[检查清单]]"
 5. 如何在"跟随市场"和"独立思考"之间取得平衡？
 
 ---
-**相关笔记：** [[逆向思维]], [[检查清单]]
+**相关笔记：** [[part96-investment-masters/chapter03-芒格/section02-逆向思维|逆向思维]], [[part96-investment-masters/chapter03-芒格/section03-检查清单|检查清单]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 管理层分析
 aliases: [Capital Allocation, 资本配置]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [管理层, 治理]
-related: "[[section01-管理层评估方法]], [[section02-股权激励与利益绑定]], [[自由现金流FCF]]"
+related: "[[section01-管理层评估方法]], [[section02-股权激励与利益绑定]], [[part10-equity/chapter01-财务报表/section06-自由现金流FCF|自由现金流FCF]]"
 ---
 
 # 资本配置能力
@@ -154,5 +154,5 @@ $$\text{再投资回报率} = \frac{\text{新增利润}}{\text{再投资金额}}
 
 
 ---
-**相关笔记：** [[section01-管理层评估方法]], [[section02-股权激励与利益绑定]], [[自由现金流FCF]]
-**返回：** [[chapter00-管理层分析]] | [[part00-主页]]
+**相关笔记：** [[section01-管理层评估方法]], [[section02-股权激励与利益绑定]], [[part10-equity/chapter01-财务报表/section06-自由现金流FCF|自由现金流FCF]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-管理层分析]] | [[part00-主页]]

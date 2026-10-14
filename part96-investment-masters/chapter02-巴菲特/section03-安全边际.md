@@ -4,9 +4,9 @@ topic: 巴菲特
 aliases: [Margin of Safety]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 巴菲特]]
-related: "[[护城河思维]], [[能力圈]]"
+updated: "2026-10-15"
+tags: [投资大师, 巴菲特]
+related: "[[part96-investment-masters/chapter02-巴菲特/section02-护城河思维|护城河思维]], [[part96-investment-masters/chapter02-巴菲特/section04-能力圈|能力圈]]"
 ---
 
 # 安全边际
@@ -193,5 +193,5 @@ related: "[[护城河思维]], [[能力圈]]"
 5. 如何在"追求更大的安全边际"和"不错过好机会"之间取得平衡？
 
 ---
-**相关笔记：** [[护城河思维]], [[能力圈]]
+**相关笔记：** [[part96-investment-masters/chapter02-巴菲特/section02-护城河思维|护城河思维]], [[part96-investment-masters/chapter02-巴菲特/section04-能力圈|能力圈]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 书籍总结
 aliases: [Reminiscences of a Stock Operator, Jesse Livermore, 利弗莫尔]
 status: done
 created: "2026-08-16"
-updated: "2026-08-16"
+updated: "2026-10-15"
 tags: [书籍, 投资经典, 交易心理, Livermore]
-related: "[[section01-价值投资之父]], [[section01-恐惧与贪婪]]"
+related: "[[section01-价值投资之父]], section01-恐惧与贪婪"
 ---
 
 # 股票大作手回忆录
@@ -510,5 +510,5 @@ related: "[[section01-价值投资之父]], [[section01-恐惧与贪婪]]"
 - 《海龟交易法则》— 系统化趋势交易
 
 ---
-**相关笔记：** [[section01-价值投资之父]], [[section01-恐惧与贪婪]], [[section01-处置效应]]
+**相关笔记：** [[section01-价值投资之父]], section01-恐惧与贪婪, section01-处置效应
 **返回：** [[chapter00-书籍总结]] | [[part00-主页]]

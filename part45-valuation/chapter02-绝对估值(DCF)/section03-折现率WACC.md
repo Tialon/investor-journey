@@ -4,55 +4,25 @@ topic: 绝对估值
 aliases: [WACC, Weighted Average Cost of Capital, 加权平均资本成本]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, DCF, 核心]
-related: "[[DCF基础]], [[section04-终值计算]]"
+related: "[[part45-valuation/chapter02-绝对估值(DCF)/section01-DCF基础|DCF基础]], [[section04-终值计算]]"
 ---
 
 # 折现率WACC
 
+## 公式与输入
 
-## 公式
+$$WACC=\frac{E}{E+D}K_e+\frac{D}{E+D}K_d(1-T)$$
+$$K_e=R_f+\beta ERP$$
 
-1902WACC = \frac{E}{E+D} \times R_e + \frac{D}{E+D} \times R_d \times (1-t)1902
+E/D用一致的市场价值或有依据的目标资本结构；Kd是当前相应风险融资成本，不直接用旧债票息。税盾是否可用要核对亏损、税务及限制，不无条件享受。
 
-其中：
-- E = 股权市值
-- D = 有息负债
-- R_e = 股权成本（CAPM）
-- R_d = 债务成本
-- t = 税率
+Rf与现金流币种及期限匹配，ERP与Beta记录来源、估计期间和方法。历史Beta不是未来风险保证；WACC不直接用来折现FCFE。不能把6%—8%固定解释成低风险、12%—15%固定解释成高风险。
 
-## CAPM模型
+教学例：E权重80%、D权重20%、Ke10%、Kd5%、T25%，WACC=8.75%。用多个有依据的折现率情景检查模型，而不是通过调低WACC追求目标价。
 
-1902R_e = R_f + \beta \times (R_m - R_f)1902
-
-- R_f = 无风险利率（10年期国债）
-- β = 股票相对市场的波动性
-- R_m - R_f = 市场风险溢价
-
-## WACC水平参考
-
-| WACC | 评价 |
-|------|------|
-| 6-8% | 低风险（稳定公司） |
-| 8-12% | 中等风险 |
-| 12-15% | 高风险 |
-| > 15% | 极高风险 |
-
-## 思考题
-
-1. WACC越高，估值越低，为什么？
-2. 如何确定合理的β值？
-3. 为什么债务成本要乘以(1-t)？
+模型框架参考：[Damodaran 估值课程](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lectures/val.html)；示例为手工构造，非实时数据。
 
 ---
-
-> **下一节**：[终值计算](section04-终值计算.md)
-
-
-
-
----
-**相关笔记：** [[DCF基础]], [[section04-终值计算]]
-**返回：** [[chapter00-绝对估值(DCF)]] | [[part00-主页]]
+**返回：** [[chapter00-估值方法]] | [[part00-主页]]

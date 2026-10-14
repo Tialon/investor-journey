@@ -4,9 +4,9 @@ topic: 估值案例
 aliases: [NVIDIA Valuation]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 案例, AI]
-related: "[[DCF基础]], [[PE市盈率]], [[PS市销率]]"
+related: "[[part45-valuation/chapter02-绝对估值(DCF)/section01-DCF基础|DCF基础]], [[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[part45-valuation/chapter01-相对估值/section04-PS市销率|PS市销率]]"
 ---
 
 # 案例：NVIDIA估值
@@ -46,5 +46,5 @@ related: "[[DCF基础]], [[PE市盈率]], [[PS市销率]]"
 
 
 ---
-**相关笔记：** [[DCF基础]], [[PE市盈率]], [[PS市销率]]
-**返回：** [[chapter00-估值案例]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter02-绝对估值(DCF)/section01-DCF基础|DCF基础]], [[part45-valuation/chapter01-相对估值/section01-PE市盈率|PE市盈率]], [[part45-valuation/chapter01-相对估值/section04-PS市销率|PS市销率]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-估值案例]] | [[part00-主页]]

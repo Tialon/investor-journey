@@ -4,54 +4,26 @@ topic: 相对估值
 aliases: [PE Ratio, Price to Earnings, 市盈率]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 相对估值, 核心]
-related: "[[PEG]], [[section03-PB市净率]], [[EV/EBITDA]]"
+related: "[[part45-valuation/chapter01-相对估值/section02-PEG|PEG]], [[section03-PB市净率]], [[part45-valuation/chapter01-相对估值/section05-EV-EBITDA|EV/EBITDA]]"
 ---
 
 # PE市盈率
 
+## 先核对分母
 
-## 公式
+$$PE=\frac{股价}{每股收益}=\frac{普通股市值}{归属于普通股的净利润}$$
 
-1785\text{PE} = \frac{\text{股价}}{\text{每股收益(EPS)}} = \frac{\text{市值}}{\text{净利润}}1785
+市值、EPS、净利润和股数必须相互一致。记录估值日、财政期间、TTM/预测、基本/稀释、GAAP/调整口径和预测来源。预测EPS是估计，不是已实现事实。
 
-## 类型
+不使用“低于15倍就是低估、超过40倍就是高估”的统一阈值。可比公司要看业务、增长、利润质量、资本结构和再投资需求；周期顶部的低PE可能对应暂时高利润。
 
-| 类型 | 公式 | 说明 |
-|------|------|------|
-| **静态PE** | 股价/上年EPS | 基于历史数据 |
-| **动态PE** | 股价/预期EPS | 基于分析师预期 |
-| **TTM PE** | 股价/过去12个月EPS | 滚动数据 |
+教学例：股价100、TTM EPS=5，PE=20；若EPS含2的一次性收益、其他条件不变，去除后EPS=3，PE≈33.33。若明年EPS预测6，前瞻PE≈16.67，但预测偏差会改变结论。
 
-## 水平参考
+亏损或接近零的EPS使PE失去常规解释。输出价格区间和假设，不只输出一个倍数。
 
-| PE | 评价 |
-|----|------|
-| < 15 | 低估值 |
-| 15-25 | 合理 |
-| 25-40 | 偏高 |
-| > 40 | 高估（需看增长） |
-
-## PE的局限性
-
-- 不适用于亏损公司
-- 不适用于周期性行业（PE低可能是顶部）
-- 不反映增长速度
-
-## 思考题
-
-1. 为什么说PE是"最简单也最危险"的估值指标？
-2. 静态PE、动态PE、TTM PE哪个更可靠？
-3. PE为负数意味着什么？
+模型框架参考：[Damodaran 估值课程](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lectures/val.html)；示例为手工构造，非实时数据。
 
 ---
-
-> **下一节**：[PEG](section02-PEG.md)
-
-
-
-
----
-**相关笔记：** [[PEG]], [[section03-PB市净率]], [[EV/EBITDA]]
-**返回：** [[chapter00-相对估值]] | [[part00-主页]]
+**返回：** [[chapter00-估值方法]] | [[part00-主页]]

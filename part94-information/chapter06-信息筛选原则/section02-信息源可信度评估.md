@@ -4,7 +4,7 @@ topic: 信息筛选原则
 aliases: [Source Credibility Assessment]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [信息质量, 原则]
 related: "[[section01-一手信息vs二手信息]], [[section03-避免信息过载]]"
 ---
@@ -102,4 +102,4 @@ related: "[[section01-一手信息vs二手信息]], [[section03-避免信息过�
 
 ---
 **相关笔记：** [[section01-一手信息vs二手信息]], [[section03-避免信息过载]]
-**返回：** [[chapter00-信息筛选原则]] | [[part00-主页]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-信息筛选原则]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 分析框架
 aliases: [Business Model Canvas]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [分析框架, 商业模式]
-related: "[[价值链分析]], [[section03-单位经济学]]"
+related: "[[part40-business-model/chapter06-案例分析/section02-价值链分析|价值链分析]], [[section03-单位经济学]]"
 ---
 
 # 商业模式画布
@@ -40,5 +40,5 @@ related: "[[价值链分析]], [[section03-单位经济学]]"
 
 
 ---
-**相关笔记：** [[价值链分析]], [[section03-单位经济学]]
-**返回：** [[chapter00-案例分析]] | [[part00-主页]]
+**相关笔记：** [[part40-business-model/chapter06-案例分析/section02-价值链分析|价值链分析]], [[section03-单位经济学]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-案例分析]] | [[part00-主页]]

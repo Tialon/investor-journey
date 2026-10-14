@@ -4,9 +4,9 @@ topic: 行业估值
 aliases: [Tech Stock Valuation]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 行业, 科技]
-related: "[[PS市销率]], [[section02-PEG]], [[成长股估值框架]]"
+related: "[[part45-valuation/chapter01-相对估值/section04-PS市销率|PS市销率]], [[section02-PEG]], [[part45-valuation/chapter03-估值案例/section04-案例-成长股估值框架|成长股估值框架]]"
 ---
 
 # 科技股估值
@@ -41,5 +41,5 @@ related: "[[PS市销率]], [[section02-PEG]], [[成长股估值框架]]"
 
 
 ---
-**相关笔记：** [[PS市销率]], [[section02-PEG]], [[成长股估值框架]]
-**返回：** [[chapter00-相对估值]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter01-相对估值/section04-PS市销率|PS市销率]], [[section02-PEG]], [[part45-valuation/chapter03-估值案例/section04-案例-成长股估值框架|成长股估值框架]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-相对估值]] | [[part00-主页]]

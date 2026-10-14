@@ -4,7 +4,7 @@ topic: 美联储
 aliases: [Quantitative Easing, QE]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 美联储]
 related: "[[section01-联邦基金利率]], [[section03-缩表]]"
 ---
@@ -63,4 +63,4 @@ related: "[[section01-联邦基金利率]], [[section03-缩表]]"
 
 ---
 **相关笔记：** [[section01-联邦基金利率]], [[section03-缩表]]
-**返回：** [[chapter00-美联储]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-美联储]] | [[part00-主页]]

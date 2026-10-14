@@ -4,9 +4,9 @@ topic: 商业模式案例
 aliases: [Netflix Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 案例, 流媒体, 娱乐]
-related: "[[订阅商业模式]]"
+related: "[[part40-business-model/chapter02-订阅型/section01-订阅商业模式|订阅商业模式]]"
 ---
 
 # 案例：Netflix
@@ -44,5 +44,5 @@ related: "[[订阅商业模式]]"
 
 
 ---
-**相关笔记：** [[订阅商业模式]]
-**返回：** [[chapter00-订阅型]] | [[part00-主页]]
+**相关笔记：** [[part40-business-model/chapter02-订阅型/section01-订阅商业模式|订阅商业模式]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-订阅型]] | [[part00-主页]]

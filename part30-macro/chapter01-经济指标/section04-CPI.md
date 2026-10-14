@@ -4,7 +4,7 @@ topic: 经济指标
 aliases: [Consumer Price Index, 消费者物价指数]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 经济指标, 通胀]
 related: "[[section05-PPI]], [[section06-核心通胀]], [[section07-PCE]]"
 ---
@@ -82,4 +82,4 @@ $$\text{CPI同比} = \frac{\text{本期CPI} - \text{去年同期CPI}}{\text{去�
 
 ---
 **相关笔记：** [[section05-PPI]], [[section06-核心通胀]], [[section07-PCE]]
-**返回：** [[chapter00-经济指标]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-经济指标]] | [[part00-主页]]

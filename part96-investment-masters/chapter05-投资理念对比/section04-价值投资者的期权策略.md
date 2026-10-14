@@ -4,9 +4,9 @@ topic: 价值投资者的期权策略
 aliases: [Value Investors Options, 巴菲特期权, 段永平期权]
 status: done
 created: "2026-07-05"
-updated: "2026-07-05"
+updated: "2026-10-15"
 tags: [投资大师, 期权, 巴菲特, 段永平, 实战案例]
-related: "[[巴菲特投资哲学]], [[段永平投资哲学]], [[看涨期权与看跌期权]], [[美股期权术语速查表]]"
+related: "[[part96-investment-masters/chapter02-巴菲特/section01-巴菲特投资哲学|巴菲特投资哲学]], [[part96-investment-masters/chapter04-段永平/section01-段永平投资哲学|段永平投资哲学]], [[part20-options/chapter01-basics/section02-call-and-put|看涨期权与看跌期权]], [[part20-options/chapter01-basics/section00-options-glossary|美股期权术语速查表]]"
 ---
 
 # 价值投资者的期权策略
@@ -451,5 +451,5 @@ Covered Call → 持股就卖 Call（持股收租，增强收益）
 
 ---
 
-**相关笔记：** [[巴菲特投资哲学]], [[段永平投资哲学]], [[看涨期权与看跌期权]], [[美股期权术语速查表]]
+**相关笔记：** [[part96-investment-masters/chapter02-巴菲特/section01-巴菲特投资哲学|巴菲特投资哲学]], [[part96-investment-masters/chapter04-段永平/section01-段永平投资哲学|段永平投资哲学]], [[part20-options/chapter01-basics/section02-call-and-put|看涨期权与看跌期权]], [[part20-options/chapter01-basics/section00-options-glossary|美股期权术语速查表]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

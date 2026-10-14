@@ -4,7 +4,7 @@ topic: 财务报表
 aliases: [Cash Flow Statement, CFS]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [财务报表, 基础]
 related: "[[section01-资产负债表]], [[section02-利润表]], [[section06-自由现金流FCF]]"
 ---
@@ -169,4 +169,4 @@ $$\text{FCF} = \text{经营现金流} - \text{资本支出（CapEx）}$$
 
 ---
 **相关笔记：** [[section01-资产负债表]], [[section02-利润表]], [[section06-自由现金流FCF]]
-**返回：** [[chapter00-财务报表]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-财务报表]] | [[part00-主页]]

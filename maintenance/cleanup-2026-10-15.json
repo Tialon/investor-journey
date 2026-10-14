@@ -1,0 +1,1212 @@
+{
+  "date": "2026-10-15",
+  "removed": [
+    {
+      "path": "part92-institutional/chapter01-对冲基金/section01-对冲基金概述.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "e1be7926c820228bfc3538293dd5ddd2766800d165a6720fa44d4ef686ad0e8d"
+    },
+    {
+      "path": "part92-institutional/chapter01-对冲基金/section02-多空策略.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "41299e555672fd488a0fb7f5751a0f6b33df49817a2dc90468f47dcbdedc09e9"
+    },
+    {
+      "path": "part92-institutional/chapter01-对冲基金/section03-事件驱动.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "ee4ec371eb27abc657b58fe7faa90ddc1d040638b30b0e5966cec544330f268d"
+    },
+    {
+      "path": "part92-institutional/chapter01-对冲基金/section04-宏观对冲.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "ed20a07fdc77af73c33b69a383eafa88fa6460809eb3a10668102ef4a16a1df1"
+    },
+    {
+      "path": "part92-institutional/chapter01-对冲基金/section05-量化对冲.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "b61fea3a851894ff2c96c2c7b305ca5e0aad178f529e3745d97ab2afd26b9948"
+    },
+    {
+      "path": "part92-institutional/chapter02-共同基金与ETF/section01-共同基金.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "79684c695137cb895b5f6afe83ee698dad12dbb6cc1c24887446fba91225e889"
+    },
+    {
+      "path": "part92-institutional/chapter02-共同基金与ETF/section04-Smart-Beta.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4219dd477e3c05de97143f560519562b154074b174d408fe32951a176374edf9"
+    },
+    {
+      "path": "part92-institutional/chapter03-做市商/section02-做市商盈利模式.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "650ae1c9b6b634cf42fa2ef9d13eafb267f1e4341690e3e14a409d495e5ea163"
+    },
+    {
+      "path": "part92-institutional/chapter03-做市商/section03-做市商与期权定价.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "1917eac93fad384af8e0622e4d9601134b616cf2a566319b5129f2dcbadf4dce"
+    },
+    {
+      "path": "part92-institutional/chapter04-高频交易/section01-HFT概述.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4000da2577b3030fe18309dee0c44383e0530ffc688bc5b59a0b60c46b70c1db"
+    },
+    {
+      "path": "part92-institutional/chapter04-高频交易/section02-订单流分析.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "2689d1f0b08bcfcfec492ddeb441005d1b8f9967565f452344a42ffc817685e2"
+    },
+    {
+      "path": "part92-institutional/chapter04-高频交易/section03-暗池.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "76bebb3dd8dc7976eb63eb69c9f8e402ecb1040a8b84c491376b3c49e6ac8869"
+    },
+    {
+      "path": "part92-institutional/chapter05-Gamma-Exposure/section01-GEX概述.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "d3d123560d80bd310010bf219ee74a412077b549d094444e599566bede13d6df"
+    },
+    {
+      "path": "part92-institutional/chapter05-Gamma-Exposure/section02-GEX与市场走势.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "004cd3d19321042051db33ea4cbf49989ebcf9984564868b1c96ac5a5cbbe61c"
+    },
+    {
+      "path": "part92-institutional/chapter05-Gamma-Exposure/section03-如何利用GEX信息.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "cd9095ac261fcbd811e3d37d4e6f7359dfeb196627b81e9c260d3fe3b8ac61a9"
+    },
+    {
+      "path": "part90-legal-tax/chapter01-美股税务/section04-ITIN申请.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "2b52df0e8a08df26a279b56c26576f8486d6aade9e14cb829af3a328947f3f2d"
+    },
+    {
+      "path": "part90-legal-tax/chapter01-美股税务/section05-税损收割.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "b313154912c5adf7e04c6b4297ac1d187025078d72a3a104cfbbabb300fdc995"
+    },
+    {
+      "path": "part90-legal-tax/chapter01-美股税务/section06-30天规则.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "2a2f40c0df2c2d8765b3c1ed91905ab605eb7a1c1e14fcfbdcccafec2e76a52b"
+    },
+    {
+      "path": "part90-legal-tax/chapter02-合规/section01-SEC规定.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "a8b36d2d71889e51b129f15c700f716d10c1a9394c85d10c815e9828bde75572"
+    },
+    {
+      "path": "part90-legal-tax/chapter02-合规/section02-内幕交易.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4827f1100d07ac88c8bb1eef58be4e6b40f65a70d5ea5b0960dd1e5dfb1686f9"
+    },
+    {
+      "path": "part90-legal-tax/chapter02-合规/section03-信息披露.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "8726c78181cbc064dbaba19a00786d8a8b63dd0dc521d3aa605e00a67ca52796"
+    },
+    {
+      "path": "part90-legal-tax/chapter02-合规/section04-Pattern-Day-Trader.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "04d7bfe9892292e1f778d66834821165c72a07fbee625240ebd636daf7f2c42f"
+    },
+    {
+      "path": "part90-legal-tax/chapter03-账户类型/section01-现金账户.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "0d5464be015d29afd1fc717adec6438d7bd1bae25aebe86a5d47c88681eccdb7"
+    },
+    {
+      "path": "part90-legal-tax/chapter03-账户类型/section03-IRA退休账户.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "eb4722cf3e8a49902e29c338550350753de05f73702a80b417a175de76503b52"
+    },
+    {
+      "path": "part85-quant/chapter01-因子投资/section01-价值因子.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "e9fbe40cee8f219d3d38a75ec7b461f7fc9d61a68368c94a3c29f844361eef24"
+    },
+    {
+      "path": "part85-quant/chapter01-因子投资/section02-动量因子.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "13d458da90976aa5261414f4d7c6b4694d8d67014fcebda3583b583e9a8bcfc1"
+    },
+    {
+      "path": "part85-quant/chapter01-因子投资/section03-质量因子.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "23a76d7645b374cf4d87baab776c02bd55471b31082db7699233ce0e860bd43d"
+    },
+    {
+      "path": "part85-quant/chapter01-因子投资/section04-规模因子.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "fb8d97a8c09818b9690490d91637f7a72d3c2d89451c613eb6443a8e49fb91fc"
+    },
+    {
+      "path": "part85-quant/chapter01-因子投资/section05-波动率因子.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "03ab719986334d513fe46a7547cd729011d7f2483ee15ca58b6c27490712f6c0"
+    },
+    {
+      "path": "part85-quant/chapter01-因子投资/section06-多因子模型.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4fb67e8db53185d1e60f7bd8c22faee732d617cbc3844bd980a83fb81524c076"
+    },
+    {
+      "path": "part85-quant/chapter03-策略开发/section01-动量策略.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "a46d608181f18ff631d83d456b36b82a0623cfb96a49aba8f6106ee0069c2589"
+    },
+    {
+      "path": "part85-quant/chapter03-策略开发/section02-均值回归策略.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "6dc8c4736d8264ed8e63cab2c5d7fd1e82482d69d574825ebf5461539b87e5ec"
+    },
+    {
+      "path": "part85-quant/chapter03-策略开发/section03-统计套利.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "07267b15fac8e3cf7a8ffa61d86137af656e403db1473abbf1b7736fce888e35"
+    },
+    {
+      "path": "part85-quant/chapter03-策略开发/section04-波动率策略.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "03b93afa0d77adfec8316978038609897a8f881927e2f0d103b2bf4cb0d6d2a8"
+    },
+    {
+      "path": "part85-quant/chapter03-策略开发/section05-事件驱动策略.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "908c23a925d266aa8a335b44dbba70b44a1b6bacec69d2818aad25eb24cfba69"
+    },
+    {
+      "path": "part85-quant/chapter04-风险指标/section01-Alpha.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "cae4ca42878ae9589d9f5809b9801afc7210ebb1db8236deaa5342779f8ba801"
+    },
+    {
+      "path": "part85-quant/chapter04-风险指标/section02-Beta.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "82190043eb5ab56c61a3e0567fb39997313a116c6562f5e438f12ae046ed2658"
+    },
+    {
+      "path": "part85-quant/chapter04-风险指标/section03-Sharpe-Ratio.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "b2761099bd853dffc6a32a4b23815d077f175443b34a868011c9eb40a38e91dc"
+    },
+    {
+      "path": "part85-quant/chapter04-风险指标/section04-Information-Ratio.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "1d6a6c9078a3817e820a88a944b5cdf8544bd8c92294a07a829215eacfdc4577"
+    },
+    {
+      "path": "part85-quant/chapter04-风险指标/section05-IC-IR.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "27a7844fc7d5626af4b4e3e9a8f03ca4ade138f2b94966bbd06460d43bdfb691"
+    },
+    {
+      "path": "part80-data-analysis/chapter01-SQL/section01-SQL基础.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "a4450e163d578e2042993539b49dcdd8bfd4e50814905723b80c394d6400d250"
+    },
+    {
+      "path": "part80-data-analysis/chapter01-SQL/section02-金融数据查询.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "00e224d5982e06828348e6ec8db0da64575dccae5a5be892a9ee101bf3cdfb0e"
+    },
+    {
+      "path": "part80-data-analysis/chapter01-SQL/section03-数据聚合与分析.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "27e949b700380e207d5e1bc11f9e6200935b3fde47ae91696fe46787489d8fb8"
+    },
+    {
+      "path": "part80-data-analysis/chapter02-Excel高级/section01-Excel财务建模.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4c992ca3b82f76d418bf6f2fd49369a710d17e7835e4ff2c65bc9e9b523f6a24"
+    },
+    {
+      "path": "part80-data-analysis/chapter02-Excel高级/section02-数据透视表.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "729ba90a6121bf6e215da932d4cff6a2b6debf4979d0c57179e5daa9e98a0ccc"
+    },
+    {
+      "path": "part80-data-analysis/chapter02-Excel高级/section03-VLOOKUP-INDEX-MATCH.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "152c29c8ffd88418e5c533c94abcb76cb988417185444bf796c9c88dfbdddea8"
+    },
+    {
+      "path": "part80-data-analysis/chapter02-Excel高级/section04-条件格式与数据验证.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "2ad2209ab0a2e4e92b044a2ee2d96965b90c144c4fa145c423e944bebc2b470c"
+    },
+    {
+      "path": "part80-data-analysis/chapter03-可视化工具/section01-Power-BI基础.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "8ca6d4b5b3ffd1cbb97738e065e28665e99e801387321880f3c328e11db893b0"
+    },
+    {
+      "path": "part80-data-analysis/chapter03-可视化工具/section02-Tableau基础.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "9cb2c27fad195801b4e9539b7eca4667e1aa014474861d7aa2f5c4ea3d3d9d12"
+    },
+    {
+      "path": "part80-data-analysis/chapter03-可视化工具/section03-Python可视化.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "8b1b55624ce429590086709d634cd6808c4a8d81096e7af722751d45c2fa69c5"
+    },
+    {
+      "path": "part80-data-analysis/chapter04-数据源/section01-Bloomberg数据逻辑.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "faa5ebbab00c98b37cfb8768a82dd2fb1c366bc5ac5eee421197cf11536be34c"
+    },
+    {
+      "path": "part80-data-analysis/chapter04-数据源/section02-FactSet思维.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "f474867a313695331838df9aeb90ad89a9b8d1b52582530398c34de4f8587e82"
+    },
+    {
+      "path": "part80-data-analysis/chapter04-数据源/section03-Yahoo-Finance-API.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "49b6ee290bfbc25d032c59e9895eb51a3ed700a63c4cca789449fde7cc1b7bc5"
+    },
+    {
+      "path": "part80-data-analysis/chapter04-数据源/section05-FRED经济数据.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "deaef0375775d6e9b655bf2a4fe001ee6f0c946586a39a7a27d97ea0272efda9"
+    },
+    {
+      "path": "part80-data-analysis/chapter05-数据清洗/section03-数据标准化.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "19ffef96bea048d926cc8482d0935a757c7600448fff419e8fb2e78ca7fa0065"
+    },
+    {
+      "path": "part75-ai/chapter02-行业研究/section01-AI行业报告分析.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "e8d6e1175fa7653a3a62829503646d5505af781b0ea6cded54819672cb468bc1"
+    },
+    {
+      "path": "part75-ai/chapter02-行业研究/section02-AI竞争格局分析.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "1cce4a364df2139bf9991c49a985f9e9e5b85f27679e751ef72ffb8674273c07"
+    },
+    {
+      "path": "part75-ai/chapter02-行业研究/section03-AI趋势预测.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "cc10745b083006e8acbdd4fc9a2c6d4964a47f1ade8b5354492ad1e88e76c1f0"
+    },
+    {
+      "path": "part75-ai/chapter03-自动化/section01-AI选股筛选.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "129d89690c88c1abd6e2ec23d11202c438a80ebfbf5f6cb9f2f578de6ca7ed0c"
+    },
+    {
+      "path": "part75-ai/chapter03-自动化/section02-AI估值模型.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "8734d31c9fdacd14d083002a9b5bb3b3353cf923ca815da21b09a6f110d7f9c0"
+    },
+    {
+      "path": "part75-ai/chapter03-自动化/section03-AI交易信号.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "1c2a59b737e66bf99984822fffa8b5ee36a9943295a147f693c7e49b0bcd535f"
+    },
+    {
+      "path": "part75-ai/chapter03-自动化/section04-AI复盘助手.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "243acf550579fc5e9652dc7395eb0e1df102718cdd3670a00dfead9e03950252"
+    },
+    {
+      "path": "part75-ai/chapter04-工具/section01-ChatGPT投资应用.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "6530b18f9793d02c974fe33b514d99ed772049200ff101615fb4fe46ed858c98"
+    },
+    {
+      "path": "part75-ai/chapter04-工具/section02-Claude投资应用.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "cd4465a652b033166ba2d52d7a7740dbf75d4eec60dfd713054647cb9679ddb7"
+    },
+    {
+      "path": "part75-ai/chapter04-工具/section03-Gemini投资应用.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "0a62c74719b377ff43c5e35e1242e38be96cca0165f7a74333e8e70e6833a59f"
+    },
+    {
+      "path": "part75-ai/chapter04-工具/section04-Cursor-Copilot编程.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "aee1c847b9e87b17df1821a80b6df0fb86c4cd730e2f7dd59489c86ed6930c13"
+    },
+    {
+      "path": "part75-ai/chapter05-风险与局限/section03-过度依赖AI.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "6ba5cfc2e51b9bfca30997179483530cff949c69d96aa3d16e8321b539564090"
+    },
+    {
+      "path": "part70-python/chapter01-数据处理/section01-Pandas基础.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "72eb16fad546ef06608edc129941589a25664f2849953c2b233f13535f31804d"
+    },
+    {
+      "path": "part70-python/chapter01-数据处理/section02-NumPy基础.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "c7f753d909a25d0a2c4b7d9feabb6164381514de42d39c26b496146b0f0ea953"
+    },
+    {
+      "path": "part70-python/chapter01-数据处理/section04-时间序列处理.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4130efdc5563b1acb0c2fcd0747297646cb62004f294a6906bf56b1710ddd7ce"
+    },
+    {
+      "path": "part70-python/chapter02-可视化/section01-Matplotlib基础.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "46383e2bd1d14c0dfc3f53950664c3890871ef1d17c7f05f3be009d1a60f8216"
+    },
+    {
+      "path": "part70-python/chapter02-可视化/section02-Plotly交互图.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "c202246a62d1806428d83b508d037c224a1e5695cebeaf5bae6080875aceaaee"
+    },
+    {
+      "path": "part70-python/chapter02-可视化/section03-K线图绘制.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "02802d8157ffb60e0f7feddd55f926c810527bce6c05418d1d4703dba4df98c8"
+    },
+    {
+      "path": "part70-python/chapter02-可视化/section04-盈亏图绘制.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "2bbdb47ce239ad571377cf50d2c12ceac8e8a384ff023973e2d46f876729f237"
+    },
+    {
+      "path": "part70-python/chapter03-实战脚本/section01-自动下载股票数据.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "7874b95fc696bc812d04d67419b8ed579d2f37aeb74a192ec06f65bbc90ace05"
+    },
+    {
+      "path": "part70-python/chapter03-实战脚本/section03-估值计算器.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "38c3b921e1d00c864f0443cf620e662924899000964be85a87ab936b6e850451"
+    },
+    {
+      "path": "part70-python/chapter03-实战脚本/section04-Greeks计算器.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "fc8184a5e1031acd32bcf70db1cac6f20105c4967938cbaf98c733d2246ef6f5"
+    },
+    {
+      "path": "part70-python/chapter03-实战脚本/section05-回测框架搭建.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "c8984f7f4bf599b15d1ea882a7b80b99e4ef61b26fbfeb8499271733c77d76ba"
+    },
+    {
+      "path": "part70-python/chapter03-实战脚本/section06-投资组合分析.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "c4edc9fac111c67c37a8eb107e957a925d8a840b64f9665c5be721ce1bb04515"
+    },
+    {
+      "path": "part70-python/chapter04-IBKR-API/section01-ib-insync入门.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "41ba42fc153c33c211e3c04adaec16885623e3bfee36e5ed171b708cf954cdaa"
+    },
+    {
+      "path": "part70-python/chapter04-IBKR-API/section03-自动下单.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "bde01a1bbe569977ce891a61b28f74f1cfe92eddd56a4f97224ba8ddc9c32d6c"
+    },
+    {
+      "path": "part65-portfolio/chapter01-配置策略/section01-经典60-40组合.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "8e049ce3b1c867cb4494b7039feac1a24a25c344d263ae720ce274907ceef6f8"
+    },
+    {
+      "path": "part65-portfolio/chapter01-配置策略/section02-全天候策略.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "df5ebfced8df154912b6107406c81a9116f5a8abee2292e7275a6aa7dd85b353"
+    },
+    {
+      "path": "part65-portfolio/chapter01-配置策略/section03-永久组合.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "64e9c489a5f2fc2c2e66372570c1370ea59672693d6d3fcf4e255c088df8a771"
+    },
+    {
+      "path": "part65-portfolio/chapter01-配置策略/section04-风险平价.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "7de9dcaa43ab893192e05bc2e9002bef3ae5531a6384c61f89124474a48da887"
+    },
+    {
+      "path": "part65-portfolio/chapter02-资产类别/section01-股票.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "c7bc9716096b890c8a5ee853d66ddaa29e375d461897e7c834ce746e035dc3e8"
+    },
+    {
+      "path": "part65-portfolio/chapter02-资产类别/section03-黄金.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "b69719129347b2a5fc45be013c4815d963b76c707e9c296eb71d986fb04dec1c"
+    },
+    {
+      "path": "part65-portfolio/chapter02-资产类别/section04-REIT.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "841a00ea8aacd78c06a72c9efe5f14aef4c511a1a1b28d23d3aac0bb79b0461f"
+    },
+    {
+      "path": "part65-portfolio/chapter02-资产类别/section05-大宗商品.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "be0ebd8afc5ff7cc93504308015ae426938b0e0acf1defd885aeda0a6ab44403"
+    },
+    {
+      "path": "part65-portfolio/chapter02-资产类别/section07-期权.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "473b6a0420dd14c9e2a7ace8200f250922f12a9aef7d152c4ad3b4e2cda7096c"
+    },
+    {
+      "path": "part65-portfolio/chapter03-再平衡/section01-定期再平衡.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "81064d170762ee30ff7447de8e53d7f1045cf9895e79583e8d561b19758d65ca"
+    },
+    {
+      "path": "part65-portfolio/chapter03-再平衡/section03-再平衡的成本与收益.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "298f33713705338ac64928d5d9ec0281dfda212d5119e14308d2126a6aa31d11"
+    },
+    {
+      "path": "part65-portfolio/chapter04-多资产分析/section02-分散化收益.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "b0847a0128751841579a0ef28aca5cf57b20ac04d721845f3afd6c658e0e95f9"
+    },
+    {
+      "path": "part65-portfolio/chapter04-多资产分析/section03-风险贡献分析.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "1fae9fc4d8c373870f2fc791a6cfc348ca6319143eae9c8bf20ae4dd31912b3d"
+    },
+    {
+      "path": "part60-risk-management/chapter01-核心原则/section01-先求不亏再求赚钱.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "7ae888738b50af09937e54abb7f24b9d1a5c5eb4a8a5924b115773c568096586"
+    },
+    {
+      "path": "part60-risk-management/chapter01-核心原则/section02-风险与收益的对称性.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "3f43eb2fe68b7537f82bef416a42e1afa56ff62ad3cff39603f22429a388bf25"
+    },
+    {
+      "path": "part60-risk-management/chapter01-核心原则/section03-尾部风险的重要性.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "033121de68672cb987b5c0f7773835ff128d53707ff550fc0b534106f7ae5f93"
+    },
+    {
+      "path": "part60-risk-management/chapter02-仓位管理/section03-波动率调整仓位.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "e78966e4f514a34717035265c21e77f28da4edb49ad39bbe9109d946491217dd"
+    },
+    {
+      "path": "part60-risk-management/chapter03-风险度量/section04-夏普比率.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "467e14bf9b2a6b6634e42ba3ba5d85380225f95ab06158f35c3f633f38b11e77"
+    },
+    {
+      "path": "part60-risk-management/chapter03-风险度量/section05-Sortino比率.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "7ecbaf5a6688f4f7f36b2b9092931a44288fa1a5acb315cc2a4e6c7c02fffc4f"
+    },
+    {
+      "path": "part60-risk-management/chapter04-组合风险/section01-相关性分析.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "779d81580a82f587ca1e02c4f303b8f1c62538ab32c87a5e9da4904b1d77ec67"
+    },
+    {
+      "path": "part60-risk-management/chapter04-组合风险/section02-分散化.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "45ca34fb6928bddc9b3fe55275f29ee10058a57cf9e97aca81715b85f14b6194"
+    },
+    {
+      "path": "part60-risk-management/chapter04-组合风险/section04-情景分析.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "8e09aebb27d870199aad338a0b07ec904a70edb7e6d799d28216f1d08e26cd5b"
+    },
+    {
+      "path": "part60-risk-management/chapter05-黑天鹅/section01-黑天鹅事件特征.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "cb541d818148a798ab6efef6720893d5883dd9dbc4d04d3a76917a8f2dc6ffa9"
+    },
+    {
+      "path": "part60-risk-management/chapter05-黑天鹅/section02-肥尾分布.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "69fcced72e16526ee684012a40d44cc22b1693f0377c5553e8b77c26de3c48ab"
+    },
+    {
+      "path": "part60-risk-management/chapter05-黑天鹅/section03-杠铃策略.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "a9cb528f20265b953c98dd618b6901afd2c718c5137fc576ee3545e4e747e0ac"
+    },
+    {
+      "path": "part60-risk-management/chapter05-黑天鹅/section04-反脆弱.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4e6e3bbd697d4d5c6231bab48388fc5e06c44c2d2d704ba396bf38d454a797de"
+    },
+    {
+      "path": "part60-risk-management/chapter06-期权风险管理/section01-Greeks风险管理.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "012cf0853751fb74c9601a08f5475fa9380d0a1108b9e4151ed002d9845c0d1f"
+    },
+    {
+      "path": "part60-risk-management/chapter06-期权风险管理/section02-保证金管理.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "557a7e83bd8fae6448fca28259dd87369d9275c7897a657d374930ad66368449"
+    },
+    {
+      "path": "part60-risk-management/chapter06-期权风险管理/section03-卖方风险控制.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "9ddceca0d947d7943da9c6ebe6dbcc5be8df513a62832e6cb8bcf45366ac032b"
+    },
+    {
+      "path": "part55-trading-psychology/chapter01-情绪管理/section01-恐惧与贪婪.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "498976b78a11ac9746c9962991191133caacebc040eb92c9272f0c0d77c8f15b"
+    },
+    {
+      "path": "part55-trading-psychology/chapter01-情绪管理/section03-如何空仓.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "6556c50ef5775af4acd3664b9f797d0d36d8faf5fdffb6a2a5cef122e25712e5"
+    },
+    {
+      "path": "part55-trading-psychology/chapter01-情绪管理/section04-如何避免情绪交易.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "09af8884dd9de5e5f608ab98bcc02f39d2c27c163e5c6bf4eb1cb8cef1f8e722"
+    },
+    {
+      "path": "part55-trading-psychology/chapter01-情绪管理/section05-报复性交易.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "77bd62c0adef24b06b1aed3ff0d8967220c4b5e4d3266d8975b4507bd6bfe89d"
+    },
+    {
+      "path": "part55-trading-psychology/chapter02-纪律与执行/section02-执行纪律.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "6d35ed15229d6798b6c76a5123358aa5168633bcefd03d489c9f90f40100aad8"
+    },
+    {
+      "path": "part55-trading-psychology/chapter02-纪律与执行/section03-复盘习惯.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "b9f019184fdcf7f70e131fcad15685dabdfa101c785f8c27db721de1c5e99ee2"
+    },
+    {
+      "path": "part55-trading-psychology/chapter03-心理模型/section01-概率思维.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "2a6606e7164ee298b266c1fcbd3171dcb0094c68b073d1b1f76b9119563ff659"
+    },
+    {
+      "path": "part55-trading-psychology/chapter03-心理模型/section02-过程导向.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "0c9e500766fb7cd79fd04715792f9ffa787bb8f9736befc083deb5f0fdd77f93"
+    },
+    {
+      "path": "part55-trading-psychology/chapter03-心理模型/section03-不确定性接纳.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "0495602d83b1fadddf17601ea31e2ce55b275b58986f445bb8422029f62f404d"
+    },
+    {
+      "path": "part55-trading-psychology/chapter03-心理模型/section04-长期思维.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "dba8103910637e9cddc4b9e4c27b71455b709006790927cc30a5b41f51014add"
+    },
+    {
+      "path": "part55-trading-psychology/chapter04-常见心理陷阱/section01-回本心态.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "de23f2966107f6d9cd73ea7fc6a0a79b25228c8bb48bda774c283010b0ddfb60"
+    },
+    {
+      "path": "part55-trading-psychology/chapter04-常见心理陷阱/section02-沉没成本.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "0bd6fe89dee983631b38e168931b957c595c75088aa9ca127c64e42b54ee8158"
+    },
+    {
+      "path": "part55-trading-psychology/chapter04-常见心理陷阱/section03-结果导向.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "1e34b8f3437778aebe59ef66d9b17ce6fd3a0e7d6646259d4a5949a9315c7913"
+    },
+    {
+      "path": "part55-trading-psychology/chapter04-常见心理陷阱/section04-过度交易.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "308f2952bda50eb4a250a8c6a45a3d991797f20e28b65ab20477ce50b3d0eac6"
+    },
+    {
+      "path": "part55-trading-psychology/chapter05-推荐书籍/section01-Trading-in-the-Zone.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "d93c296ffafcfed4d1418894d36c35fd0e6baa12ed855fbe2dd425fb93c105ae"
+    },
+    {
+      "path": "part55-trading-psychology/chapter05-推荐书籍/section02-The-Daily-Trading-Coach.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "7d986b2e5031ace672167cfea71331051b8517842b506ab9056ffe7b2a1bf25a"
+    },
+    {
+      "path": "part55-trading-psychology/chapter05-推荐书籍/section03-Zen-in-the-Markets.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "63e0a69505f34c8fc668a30918952ac356ac75dcb31f38e4dec80fc68dbd6f9d"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter01-认知偏差/section01-确认偏误.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "88707c1e704cf5c87a3a01fe7b6fbee613ce13b1a755335c1a74e0a3798c51ad"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter01-认知偏差/section02-锚定效应.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "63e2bee397eab346d2dae83f2cb942be020c716bde435a2f4680581dd5fa96e7"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter01-认知偏差/section03-可得性偏差.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "a5ebc60c4e9294e054efae553151bd8d0d5f4c18795c9073bb1c2ed25b38b7df"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter01-认知偏差/section04-代表性偏差.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4c2844b6e4588f231233eef14f2b7f20fd86e5ad2904959d989fefd135a15697"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter02-情绪偏差/section01-损失厌恶.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "3ea396e3d740666dca87ee699a27b7ef8c4717fe10015ffcd1fe4ff22333cc8d"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter02-情绪偏差/section02-FOMO.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "40482aa53a1aac048599e569bd88e3af0a3aa61b7c60a3586b66ca98a82968bf"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter02-情绪偏差/section03-处置效应.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "2e88a39b8c8746461eafda4e932480c2e65e75fff783660d7c430c0cec1c4ed3"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter02-情绪偏差/section04-过度自信.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "0abc99a97acaf9f2394d1df695d7e3356f14f6ecba4e745251ac692d7ea9a8b1"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter03-群体偏差/section01-羊群效应.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "1e8f0fc7659ece04bf050506f9d819560628c3a3862d6c7d2debf8fa938a0141"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter03-群体偏差/section02-信息级联.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "f1e59f57980d423ce214cbc8826b21cd6172b965cd0c32a23f2d96ddd167a300"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter03-群体偏差/section03-社会认同.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "6e97d885165737cdf619a7fd864b28f322909640a91cbc1452afd4cb2eee7a8b"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter04-市场情绪/section01-VIX恐慌指数.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4a44d5f2c6409b298a7662942ad202c36b36712875636244cffd8bb070a13d94"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter04-市场情绪/section02-Put-Call比率.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4df1d3aeb9427718bab0cb32e75761080e86541f4d902b9eaf68f4ac38576577"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter04-市场情绪/section03-AAII情绪调查.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "189cef97e8fbbed75f49278bd68bc3d592a5222c193c728cb3a9aa0b5ab7af3a"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter04-市场情绪/section04-CNN恐惧贪婪指数.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "d0c14e223362fef2bac8a9f15b971de534cb759089aaa61528afe1a254c1e51b"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter04-市场情绪/section05-融资融券余额.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "70419df49b429568c0e1274a6e3f9f53a5688b88d358ffca16aece34fc78be59"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter05-市场异常/section01-动量效应.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "a419e8f0a2635a1a7efca55ba05e3f45b657074770628dedd42cae0ac45954cb"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter05-市场异常/section02-均值回归.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "3e2662ff8d975ebecf3fd9788a346281ccfc4f713b6c229443a87d512aa25216"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter05-市场异常/section03-日历效应.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "1e0701f78edac4416eccfeee4a219ecadcaaab2cb19215dc2003653e7a381a1f"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter05-市场异常/section04-规模效应.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "b0eb7307b9e3f2156b87ea08e00a22275b1c75ae67a77d780c7d23680dd62ad0"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter05-市场异常/section05-价值效应.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "45752c380136a677cc15e77d108f780a4b14187acb47bf0ea82f9275da3b715a"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter06-推荐书籍/section01-Thinking-Fast-and-Slow.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "49b8f8bc3d9d6c60ebb8422535dbb98cb7f430c3a711a276501aad71be41f92c"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter06-推荐书籍/section02-Misbehaving.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "cb09c1f2028a87a7816c13d8b2c1a859008ab121433d796e970db94157238326"
+    },
+    {
+      "path": "part50-behavioral-finance/chapter06-推荐书籍/section03-Irrational-Exuberance.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "1663876766d8bb40072854680ae4289d372e58f0d8262fa919931abbb757ef00"
+    },
+    {
+      "path": "part35-industry/chapter01-AI与芯片/section01-AI产业链全景.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "e1df9123c1b2121d079a37323d6a8b93b990cc9b3bae7bfe7ba9fec2a2bca597"
+    },
+    {
+      "path": "part35-industry/chapter01-AI与芯片/section04-AI芯片设计.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "127875ade13ae73cc07c835972f6ba1713d5ebfb6fe6f9aa8c2f3a03a099c2f8"
+    },
+    {
+      "path": "part35-industry/chapter02-云计算/section01-云计算产业链.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "600467458a5fdaca73366ec245aaafcdf901beaeb167f085a5055a77fb370bd5"
+    },
+    {
+      "path": "part35-industry/chapter02-云计算/section03-AWS-Azure-GCP对比.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "5660635bf69d7318ea991f296d6ee4a73c67204e8d379c97a2d87c82c1359a3f"
+    },
+    {
+      "path": "part35-industry/chapter02-云计算/section04-边缘计算.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "4a74a6879daadcaf99af73026a4115995892a9d081babf4ec3f7a0e9386ef044"
+    },
+    {
+      "path": "part35-industry/chapter03-新兴行业/section01-量子计算基础.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "c4c5cfd248bc6d5b5658a510058a3e33ccb733e4d877efd602bfc3162a761755"
+    },
+    {
+      "path": "part35-industry/chapter03-新兴行业/section02-主要玩家.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "55c679e80577b4e8bf04255d50a44db8bc8f6aa2c76b8418fb67b5692180447d"
+    },
+    {
+      "path": "part35-industry/chapter03-新兴行业/section03-商业化路径.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "7fc81f0df1639cf1a3723ff8a19e7e9eac7697b1357be8c4806ca1afb3f0adcc"
+    },
+    {
+      "path": "part35-industry/chapter04-生物科技/section01-生物科技行业概述.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "0a8335a325c61fd8749c427c359f2635bc5ba2ceeae0dc593e302d468b64d4dc"
+    },
+    {
+      "path": "part35-industry/chapter04-生物科技/section02-药物研发流程.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "3b6879e5ba1ff556e7693ca3f76e7b9c967b433c03f987fdc5503a0fc75c513d"
+    },
+    {
+      "path": "part35-industry/chapter04-生物科技/section03-FDA审批流程.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "a0aef5341ae7f28884cbb6a3fedb04149fc0a0374ec4140b5a1009db9a6ee116"
+    },
+    {
+      "path": "part35-industry/chapter04-生物科技/section04-基因治疗.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "64bd48004c3f759ae085eb735f33d5d9e675625ccf12d345f65a8dd7f039c448"
+    },
+    {
+      "path": "part35-industry/chapter05-能源/section01-传统能源.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "e7c9bbd8d0de0b732f6e3f5a34149ebf801c45bec7722f50ae1dac48c6672545"
+    },
+    {
+      "path": "part35-industry/chapter05-能源/section02-新能源.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "b47725dca29db6eddc2494f2208b22689896652e4d411c3caea39e897e64a7d7"
+    },
+    {
+      "path": "part35-industry/chapter05-能源/section03-储能技术.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "533308d394cc8c60e964566aa88d34eb1ba73df0595e9bbbbb676caa0986df8e"
+    },
+    {
+      "path": "part35-industry/chapter05-能源/section04-核能复兴.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "23ab7e3318b39e9cfca829909cffc8bc0e957887bf38a7b59aa71d31c8f93704"
+    },
+    {
+      "path": "part35-industry/chapter06-金融/section02-保险业.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "ae11f18f32297017d47efadcbce508c5b5104811255f4757a55dbd74678c0558"
+    },
+    {
+      "path": "part35-industry/chapter06-金融/section03-金融科技Fintech.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "50fddeb0b645d9800ab40a0b631350b1bbd903d6f7e9b28f2fec1d1a9ca1066c"
+    },
+    {
+      "path": "part35-industry/chapter06-金融/section04-支付行业.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "a0144addc2069055ff445988f47b55250817e2934ae6d0a8b8bf2b7e22a0929b"
+    },
+    {
+      "path": "part35-industry/chapter07-消费/section01-消费电子.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "19cd7dcb29a13f7e2f06850cc43b778a5b4255e62136cb2f1ae2ffa46bb52120"
+    },
+    {
+      "path": "part35-industry/chapter07-消费/section02-电商.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "f756cfcdcf1f8902f1251bb3eb1a0f642a71f7a304b3d00f9db0496090a3d895"
+    },
+    {
+      "path": "part35-industry/chapter07-消费/section03-品牌消费.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "a4fa4213324523ac46fe1804dca64fdb3a4d3fcc5ec16411006b1492d5334e8d"
+    },
+    {
+      "path": "part35-industry/chapter08-军工与太空/section01-军工行业.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "27f1bb78abdb75eecd92e4b3be8d11b1dca2db8e58b5889110fdbc630939722f"
+    },
+    {
+      "path": "part35-industry/chapter08-军工与太空/section02-太空经济.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "160aba5e38a3578f51dc1ca2657f440739d428ddc46fef45ec895cf0d37848f4"
+    },
+    {
+      "path": "part35-industry/chapter08-军工与太空/section03-卫星通信.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "11ed75c27ebce9a0b010967810f29cf690ee6fd1a8a0fa9c881d1673c67df310"
+    },
+    {
+      "path": "part35-industry/chapter09-机器人/section01-人形机器人.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "2cb0e58968308aa184156f7f289f955af321e0a6aa9a78d45c150af5e3e2f123"
+    },
+    {
+      "path": "part35-industry/chapter09-机器人/section02-工业机器人.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "f4e7b8c6910e69d1f8d840e7028601a7a736b0ee50b7f3adc22972f6434ee82f"
+    },
+    {
+      "path": "part35-industry/chapter09-机器人/section03-自动驾驶.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "eb502f0629b624b79b397b501aa95da9dc98480522658d7134a42055fe13d7e5"
+    },
+    {
+      "path": "part35-industry/chapter10-行业分析框架/section02-行业生命周期.md",
+      "reason": "仅有模板占位；低频或核心主题已并入现有实践入口",
+      "sha256": "d65cea188523c0a2d33a635cdaf0b2f37db7e557375d1efddbfcc9dd4c1f4337"
+    },
+    {
+      "path": "价值链分析.md",
+      "reason": "空文件或无实质内容的通用容器",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "part98-appendix/Common.md",
+      "reason": "空文件或无实质内容的通用容器",
+      "sha256": "11a80a8950491832a70ca1376316ce35cb000748da1454a5525e6c5c27e58cda"
+    }
+  ],
+  "retained_drafts": [
+    "part35-industry/chapter01-AI与芯片/section02-GPU与AI加速器.md",
+    "part35-industry/chapter01-AI与芯片/section03-HBM高带宽内存.md",
+    "part35-industry/chapter01-AI与芯片/section05-AI软件与应用.md",
+    "part35-industry/chapter02-云计算/section02-IaaS-PaaS-SaaS.md",
+    "part35-industry/chapter04-生物科技/section05-GLP-1减肥药.md",
+    "part35-industry/chapter06-金融/section01-银行业.md",
+    "part60-risk-management/chapter03-风险度量/section01-VaR在险价值.md",
+    "part60-risk-management/chapter03-风险度量/section02-Expected-Shortfall.md",
+    "part65-portfolio/chapter02-资产类别/section02-债券.md",
+    "part65-portfolio/chapter04-多资产分析/section01-资产相关性.md",
+    "part70-python/chapter03-实战脚本/section02-财报数据解析.md",
+    "part70-python/chapter04-IBKR-API/section02-获取实时报价.md",
+    "part70-python/chapter04-IBKR-API/section04-持仓监控.md",
+    "part75-ai/chapter01-财报分析/section03-AI财务异常检测.md",
+    "part75-ai/chapter05-风险与局限/section01-AI的局限性.md",
+    "part75-ai/chapter05-风险与局限/section02-AI幻觉.md",
+    "part85-quant/chapter02-回测框架/section02-数据准备.md",
+    "part90-legal-tax/chapter01-美股税务/section01-资本利得税.md",
+    "part90-legal-tax/chapter01-美股税务/section02-股息税.md",
+    "part90-legal-tax/chapter01-美股税务/section03-W-8BEN表格.md",
+    "part90-legal-tax/chapter03-账户类型/section02-保证金账户.md",
+    "part92-institutional/chapter02-共同基金与ETF/section02-ETF.md",
+    "part92-institutional/chapter02-共同基金与ETF/section03-指数基金.md",
+    "part92-institutional/chapter03-做市商/section01-做市商角色.md",
+    "part55-trading-psychology/chapter01-情绪管理/section02-如何止损.md",
+    "part80-data-analysis/chapter05-数据清洗/section01-缺失值处理.md",
+    "part80-data-analysis/chapter05-数据清洗/section02-异常值检测.md"
+  ],
+  "snapshot": "E:/FileRepository/codex/investor-journey-maintenance-20261015/before-files",
+  "policy": "用户要求低频空模板直接移除，保留少量常用待补主题；不删除既有实质正文",
+  "navigation_repairs": {
+    "removed_unresolvable_links": 212,
+    "canonical_links": 662,
+    "markdown_links": 2
+  },
+  "unresolved_names_converted_to_text": {
+    "section01-处置效应": 1
+  },
+  "core_notes_filled": 22,
+  "valuation_notes_rewritten": 7,
+  "retained_draft_count": 27,
+  "current_markdown_files": 317,
+  "modified_files_this_round": [
+    "part00-index/part00-主页.md",
+    "part00-index/part03-目录.md",
+    "part00-index/part05-学习路线.md",
+    "part00-index/part07-每日速查.md",
+    "part10-equity/chapter00-股票投资.md",
+    "part25-accounting/chapter00-财务分析.md",
+    "part30-macro/chapter00-宏观经济.md",
+    "part35-industry/chapter00-行业研究.md",
+    "part40-business-model/chapter00-商业模式.md",
+    "part45-valuation/chapter00-估值方法.md",
+    "part50-behavioral-finance/chapter00-行为金融学.md",
+    "part55-trading-psychology/chapter00-交易心理.md",
+    "part60-risk-management/chapter00-风险管理.md",
+    "part65-portfolio/chapter00-资产配置.md",
+    "part70-python/chapter00-Python投资.md",
+    "part75-ai/chapter00-AI投资.md",
+    "part80-data-analysis/chapter00-数据分析.md",
+    "part85-quant/chapter00-量化投资.md",
+    "part90-legal-tax/chapter00-法律税务.md",
+    "part92-institutional/chapter00-机构交易.md",
+    "part94-information/chapter00-信息来源.md",
+    "part96-investment-masters/chapter00-投资大师.md",
+    "part97-book-summaries/chapter00-书籍总结.md",
+    "templates/交易复盘模板.md",
+    "templates/案例分析模板.md",
+    "part97-book-summaries/chapter01-投资经典/section01-股票大作手回忆录.md",
+    "part96-investment-masters/chapter01-格雷厄姆/section01-价值投资之父.md",
+    "part96-investment-masters/chapter01-格雷厄姆/section02-安全边际原则.md",
+    "part96-investment-masters/chapter01-格雷厄姆/section03-市场先生.md",
+    "part96-investment-masters/chapter01-格雷厄姆/section04-防御型投资者.md",
+    "part96-investment-masters/chapter01-格雷厄姆/section05-进取型投资者.md",
+    "part96-investment-masters/chapter01-格雷厄姆/section06-经典案例.md",
+    "part96-investment-masters/chapter02-巴菲特/section01-巴菲特投资哲学.md",
+    "part96-investment-masters/chapter02-巴菲特/section02-护城河思维.md",
+    "part96-investment-masters/chapter02-巴菲特/section03-安全边际.md",
+    "part96-investment-masters/chapter02-巴菲特/section04-能力圈.md",
+    "part96-investment-masters/chapter02-巴菲特/section05-长期持有.md",
+    "part96-investment-masters/chapter02-巴菲特/section06-经典案例.md",
+    "part96-investment-masters/chapter03-芒格/section01-多元思维模型.md",
+    "part96-investment-masters/chapter03-芒格/section02-逆向思维.md",
+    "part96-investment-masters/chapter03-芒格/section03-检查清单.md",
+    "part96-investment-masters/chapter03-芒格/section04-误判心理学.md",
+    "part96-investment-masters/chapter03-芒格/section05-经典案例.md",
+    "part96-investment-masters/chapter04-段永平/section01-段永平投资哲学.md",
+    "part96-investment-masters/chapter04-段永平/section02-商业模式优先.md",
+    "part96-investment-masters/chapter04-段永平/section03-不做空不借钱.md",
+    "part96-investment-masters/chapter04-段永平/section04-买股票就是买公司.md",
+    "part96-investment-masters/chapter04-段永平/section05-经典案例.md",
+    "part96-investment-masters/chapter05-投资理念对比/section01-四人投资框架对比.md",
+    "part96-investment-masters/chapter05-投资理念对比/section02-价值投资的演变.md",
+    "part96-investment-masters/chapter05-投资理念对比/section03-如何应用.md",
+    "part96-investment-masters/chapter05-投资理念对比/section04-价值投资者的期权策略.md",
+    "part94-information/chapter01-财报解读/section01-10-K年报.md",
+    "part94-information/chapter01-财报解读/section02-10-Q季报.md",
+    "part94-information/chapter01-财报解读/section03-财报电话会.md",
+    "part94-information/chapter01-财报解读/section04-管理层讨论与分析.md",
+    "part94-information/chapter01-财报解读/section05-风险因素.md",
+    "part94-information/chapter02-SEC文件/section01-SEC EDGAR.md",
+    "part94-information/chapter02-SEC文件/section02-13F文件.md",
+    "part94-information/chapter02-SEC文件/section03-13D-13G.md",
+    "part94-information/chapter02-SEC文件/section04-DEF 14A.md",
+    "part94-information/chapter02-SEC文件/section05-8-K.md",
+    "part94-information/chapter02-SEC文件/section06-S-1.md",
+    "part94-information/chapter03-信息工具/section01-Yahoo Finance.md",
+    "part94-information/chapter03-信息工具/section02-Finviz.md",
+    "part94-information/chapter03-信息工具/section03-Seeking Alpha.md",
+    "part94-information/chapter03-信息工具/section04-公司投资者关系.md",
+    "part94-information/chapter04-宏观数据/section01-FRED.md",
+    "part94-information/chapter04-宏观数据/section02-BLS.md",
+    "part94-information/chapter04-宏观数据/section03-BEA.md",
+    "part94-information/chapter05-行业报告/section01-Gartner.md",
+    "part94-information/chapter05-行业报告/section02-IDC.md",
+    "part94-information/chapter05-行业报告/section03-McKinsey.md",
+    "part94-information/chapter05-行业报告/section04-Bloomberg.md",
+    "part94-information/chapter06-信息筛选原则/section01-一手信息vs二手信息.md",
+    "part94-information/chapter06-信息筛选原则/section02-信息源可信度评估.md",
+    "part94-information/chapter06-信息筛选原则/section03-避免信息过载.md",
+    "part92-institutional/chapter02-共同基金与ETF/section02-ETF.md",
+    "part92-institutional/chapter02-共同基金与ETF/section03-指数基金.md",
+    "part92-institutional/chapter03-做市商/section01-做市商角色.md",
+    "part90-legal-tax/chapter01-美股税务/section01-资本利得税.md",
+    "part90-legal-tax/chapter01-美股税务/section02-股息税.md",
+    "part90-legal-tax/chapter01-美股税务/section03-W-8BEN表格.md",
+    "part90-legal-tax/chapter03-账户类型/section02-保证金账户.md",
+    "part85-quant/chapter02-回测框架/section01-回测基础.md",
+    "part85-quant/chapter02-回测框架/section02-数据准备.md",
+    "part85-quant/chapter02-回测框架/section03-绩效评估.md",
+    "part85-quant/chapter02-回测框架/section04-过拟合防范.md",
+    "part85-quant/chapter02-回测框架/section05-生存偏差.md",
+    "part80-data-analysis/chapter04-数据源/section04-SEC-EDGAR数据.md",
+    "part80-data-analysis/chapter05-数据清洗/section01-缺失值处理.md",
+    "part80-data-analysis/chapter05-数据清洗/section02-异常值检测.md",
+    "part80-data-analysis/chapter05-数据清洗/section04-时间对齐.md",
+    "part75-ai/chapter01-财报分析/section01-AI自动阅读财报.md",
+    "part75-ai/chapter01-财报分析/section02-AI总结电话会.md",
+    "part75-ai/chapter01-财报分析/section03-AI财务异常检测.md",
+    "part75-ai/chapter05-风险与局限/section01-AI的局限性.md",
+    "part75-ai/chapter05-风险与局限/section02-AI幻觉.md",
+    "part70-python/chapter01-数据处理/section03-数据清洗.md",
+    "part70-python/chapter03-实战脚本/section02-财报数据解析.md",
+    "part70-python/chapter04-IBKR-API/section02-获取实时报价.md",
+    "part70-python/chapter04-IBKR-API/section04-持仓监控.md",
+    "part65-portfolio/chapter01-配置策略/section05-核心卫星策略.md",
+    "part65-portfolio/chapter02-资产类别/section02-债券.md",
+    "part65-portfolio/chapter02-资产类别/section06-现金.md",
+    "part65-portfolio/chapter03-再平衡/section02-阈值再平衡.md",
+    "part65-portfolio/chapter04-多资产分析/section01-资产相关性.md",
+    "part60-risk-management/chapter02-仓位管理/section01-固定比例法.md",
+    "part60-risk-management/chapter02-仓位管理/section02-Kelly公式.md",
+    "part60-risk-management/chapter02-仓位管理/section04-单标的仓位上限.md",
+    "part60-risk-management/chapter02-仓位管理/section05-总仓位控制.md",
+    "part60-risk-management/chapter03-风险度量/section01-VaR在险价值.md",
+    "part60-risk-management/chapter03-风险度量/section02-Expected-Shortfall.md",
+    "part60-risk-management/chapter03-风险度量/section03-最大回撤.md",
+    "part60-risk-management/chapter04-组合风险/section03-压力测试.md",
+    "part55-trading-psychology/chapter01-情绪管理/section02-如何止损.md",
+    "part55-trading-psychology/chapter02-纪律与执行/section01-交易计划.md",
+    "part55-trading-psychology/chapter02-纪律与执行/section04-交易日志.md",
+    "part50-behavioral-finance/chapter07-反直觉案例/section01-利空出尽与利好不涨.md",
+    "part50-behavioral-finance/chapter07-反直觉案例/section02-估值陷阱与反直觉.md",
+    "part50-behavioral-finance/chapter07-反直觉案例/section03-风险与时机的反直觉.md",
+    "part50-behavioral-finance/chapter07-反直觉案例/section04-反直觉的底层规律.md",
+    "part45-valuation/chapter01-相对估值/section01-PE市盈率.md",
+    "part45-valuation/chapter01-相对估值/section02-PEG.md",
+    "part45-valuation/chapter01-相对估值/section03-PB市净率.md",
+    "part45-valuation/chapter01-相对估值/section04-PS市销率.md",
+    "part45-valuation/chapter01-相对估值/section05-EV-EBITDA.md",
+    "part45-valuation/chapter01-相对估值/section06-FCF-Yield.md",
+    "part45-valuation/chapter01-相对估值/section07-低PE陷阱.md",
+    "part45-valuation/chapter01-相对估值/section08-高PE合理性.md",
+    "part45-valuation/chapter01-相对估值/section09-周期股估值.md",
+    "part45-valuation/chapter01-相对估值/section10-科技股估值.md",
+    "part45-valuation/chapter01-相对估值/section11-银行股估值.md",
+    "part45-valuation/chapter01-相对估值/section12-REIT估值.md",
+    "part45-valuation/chapter02-绝对估值(DCF)/section01-DCF基础.md",
+    "part45-valuation/chapter02-绝对估值(DCF)/section02-自由现金流预测.md",
+    "part45-valuation/chapter02-绝对估值(DCF)/section03-折现率WACC.md",
+    "part45-valuation/chapter02-绝对估值(DCF)/section04-终值计算.md",
+    "part45-valuation/chapter02-绝对估值(DCF)/section05-DCF敏感性分析.md",
+    "part45-valuation/chapter02-绝对估值(DCF)/section06-SOTP分部估值法.md",
+    "part45-valuation/chapter02-绝对估值(DCF)/section07-股利折现模型DDM.md",
+    "part45-valuation/chapter02-绝对估值(DCF)/section08-净资产估值.md",
+    "part45-valuation/chapter03-估值案例/section01-案例-NVIDIA估值.md",
+    "part45-valuation/chapter03-估值案例/section02-案例-Apple估值.md",
+    "part45-valuation/chapter03-估值案例/section03-案例-Tesla估值.md",
+    "part45-valuation/chapter03-估值案例/section04-案例-成长股估值框架.md",
+    "part40-business-model/chapter01-平台型/section01-平台商业模式.md",
+    "part40-business-model/chapter01-平台型/section02-案例-NVIDIA.md",
+    "part40-business-model/chapter01-平台型/section03-案例-Apple.md",
+    "part40-business-model/chapter01-平台型/section04-案例-Amazon.md",
+    "part40-business-model/chapter02-订阅型/section01-订阅商业模式.md",
+    "part40-business-model/chapter02-订阅型/section02-案例-Microsoft.md",
+    "part40-business-model/chapter02-订阅型/section03-案例-Salesforce.md",
+    "part40-business-model/chapter02-订阅型/section04-案例-Netflix.md",
+    "part40-business-model/chapter03-硬件型/section01-硬件商业模式.md",
+    "part40-business-model/chapter03-硬件型/section02-案例-Tesla.md",
+    "part40-business-model/chapter04-金融型/section01-金融商业模式.md",
+    "part40-business-model/chapter04-金融型/section02-案例-Visa.md",
+    "part40-business-model/chapter04-金融型/section03-案例-Berkshire.md",
+    "part40-business-model/chapter05-零售型/section01-零售商业模式.md",
+    "part40-business-model/chapter05-零售型/section02-案例-Costco.md",
+    "part40-business-model/chapter06-案例分析/section01-商业模式画布.md",
+    "part40-business-model/chapter06-案例分析/section02-价值链分析.md",
+    "part40-business-model/chapter06-案例分析/section03-单位经济学.md",
+    "part40-business-model/chapter06-案例分析/section04-飞轮效应.md",
+    "part35-industry/chapter01-AI与芯片/section02-GPU与AI加速器.md",
+    "part35-industry/chapter01-AI与芯片/section03-HBM高带宽内存.md",
+    "part35-industry/chapter01-AI与芯片/section05-AI软件与应用.md",
+    "part35-industry/chapter02-云计算/section02-IaaS-PaaS-SaaS.md",
+    "part35-industry/chapter04-生物科技/section05-GLP-1减肥药.md",
+    "part35-industry/chapter06-金融/section01-银行业.md",
+    "part35-industry/chapter10-行业分析框架/section01-波特五力模型.md",
+    "part35-industry/chapter10-行业分析框架/section03-产业链分析.md",
+    "part30-macro/chapter01-经济指标/section01-GDP.md",
+    "part30-macro/chapter01-经济指标/section02-GDP增速.md",
+    "part30-macro/chapter01-经济指标/section03-工业生产指数.md",
+    "part30-macro/chapter01-经济指标/section04-CPI.md",
+    "part30-macro/chapter01-经济指标/section05-PPI.md",
+    "part30-macro/chapter01-经济指标/section06-核心通胀.md",
+    "part30-macro/chapter01-经济指标/section07-PCE.md",
+    "part30-macro/chapter01-经济指标/section08-非农就业.md",
+    "part30-macro/chapter01-经济指标/section09-失业率.md",
+    "part30-macro/chapter01-经济指标/section10-初请失业金.md",
+    "part30-macro/chapter01-经济指标/section11-ADP就业报告.md",
+    "part30-macro/chapter01-经济指标/section12-PMI.md",
+    "part30-macro/chapter01-经济指标/section13-ISM制造业指数.md",
+    "part30-macro/chapter01-经济指标/section14-耐用品订单.md",
+    "part30-macro/chapter02-美联储/section01-联邦基金利率.md",
+    "part30-macro/chapter02-美联储/section02-量化宽松QE.md",
+    "part30-macro/chapter02-美联储/section03-缩表.md",
+    "part30-macro/chapter02-美联储/section04-前瞻指引.md",
+    "part30-macro/chapter02-美联储/section05-FOMC会议.md",
+    "part30-macro/chapter02-美联储/section06-美联储主席讲话.md",
+    "part30-macro/chapter02-美联储/section07-点阵图.md",
+    "part30-macro/chapter03-货币政策/section01-利率与股市的关系.md",
+    "part30-macro/chapter03-货币政策/section02-收益率曲线.md",
+    "part30-macro/chapter03-货币政策/section03-美元指数DXY.md",
+    "part30-macro/chapter03-货币政策/section04-国债收益率.md",
+    "part30-macro/chapter03-货币政策/section05-收益率曲线倒挂.md",
+    "part30-macro/chapter03-货币政策/section06-实际利率.md",
+    "part25-accounting/chapter01-三大报表/section01-资产负债表基础.md",
+    "part25-accounting/chapter01-三大报表/section02-流动资产与非流动资产.md",
+    "part25-accounting/chapter01-三大报表/section03-流动负债与长期负债.md",
+    "part25-accounting/chapter01-三大报表/section04-股东权益.md",
+    "part25-accounting/chapter01-三大报表/section05-利润表基础.md",
+    "part25-accounting/chapter01-三大报表/section06-收入确认.md",
+    "part25-accounting/chapter01-三大报表/section07-营业利润vs净利润.md",
+    "part25-accounting/chapter01-三大报表/section08-非经常性损益.md",
+    "part25-accounting/chapter01-三大报表/section09-现金流量表基础.md",
+    "part25-accounting/chapter01-三大报表/section10-经营现金流vs净利润.md",
+    "part25-accounting/chapter01-三大报表/section11-自由现金流计算.md",
+    "part25-accounting/chapter01-三大报表/section12-现金流陷阱.md",
+    "part25-accounting/chapter02-关键指标/section01-毛利率.md",
+    "part25-accounting/chapter02-关键指标/section02-净利率.md",
+    "part25-accounting/chapter02-关键指标/section03-ROE分解.md",
+    "part25-accounting/chapter02-关键指标/section04-资产负债率.md",
+    "part25-accounting/chapter02-关键指标/section05-利息覆盖倍数.md",
+    "part25-accounting/chapter03-财务造假识别/section01-收入造假手法.md",
+    "part25-accounting/chapter03-财务造假识别/section02-存货异常.md",
+    "part25-accounting/chapter03-财务造假识别/section03-商誉减值风险.md",
+    "part25-accounting/chapter03-财务造假识别/section04-关联交易.md",
+    "part25-accounting/chapter03-财务造假识别/section05-现金流与利润背离.md",
+    "part25-accounting/chapter03-财务造假识别/section06-应收帐款异常.md",
+    "part20-options/chapter07-portfolio/section04-stress-testing.md",
+    "part10-equity/chapter01-财务报表/section01-资产负债表.md",
+    "part10-equity/chapter01-财务报表/section02-利润表.md",
+    "part10-equity/chapter01-财务报表/section03-现金流量表.md",
+    "part10-equity/chapter01-财务报表/section04-ROE.md",
+    "part10-equity/chapter01-财务报表/section05-ROIC.md",
+    "part10-equity/chapter01-财务报表/section06-自由现金流FCF.md",
+    "part10-equity/chapter01-财务报表/section07-毛利率与净利率.md",
+    "part10-equity/chapter02-护城河分析/section01-品牌护城河.md",
+    "part10-equity/chapter02-护城河分析/section02-网络效应.md",
+    "part10-equity/chapter02-护城河分析/section03-转换成本.md",
+    "part10-equity/chapter02-护城河分析/section04-成本优势.md",
+    "part10-equity/chapter02-护城河分析/section05-规模经济.md",
+    "part10-equity/chapter03-管理层分析/section01-管理层评估方法.md",
+    "part10-equity/chapter03-管理层分析/section02-股权激励与利益绑定.md",
+    "part10-equity/chapter03-管理层分析/section03-资本配置能力.md",
+    "part10-equity/chapter04-公司分析/section01-TAM分析方法.md",
+    "part10-equity/chapter04-公司分析/section02-SAM与SOM.md",
+    "part10-equity/chapter04-公司分析/section03-The Intelligent Investor.md",
+    "part10-equity/chapter04-公司分析/section04-One Up On Wall Street.md",
+    "part10-equity/chapter04-公司分析/section05-Common Stocks and Uncommon Profits.md"
+  ],
+  "validation": {
+    "wiki_links_checked": 2553,
+    "broken_or_ambiguous_links": 0,
+    "formula_examples": "passed",
+    "git_diff_check": "passed",
+    "preexisting_user_edits": "substantive text preserved",
+    "personal_notes": "unchanged"
+  }
+}

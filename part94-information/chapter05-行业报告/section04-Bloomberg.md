@@ -4,9 +4,9 @@ topic: 行业报告
 aliases: [Bloomberg, 彭博]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [行业, 金融数据]
-related: "[[section03-McKinsey]], [[FRED]]"
+related: "[[section03-McKinsey]], [[part94-information/chapter04-宏观数据/section01-FRED|FRED]]"
 ---
 
 # Bloomberg
@@ -65,5 +65,5 @@ related: "[[section03-McKinsey]], [[FRED]]"
 
 
 ---
-**相关笔记：** [[section03-McKinsey]], [[FRED]]
-**返回：** [[chapter00-行业报告]] | [[part00-主页]]
+**相关笔记：** [[section03-McKinsey]], [[part94-information/chapter04-宏观数据/section01-FRED|FRED]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-行业报告]] | [[part00-主页]]

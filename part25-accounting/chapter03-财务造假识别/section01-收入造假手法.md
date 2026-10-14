@@ -4,9 +4,9 @@ topic: 财务造假识别
 aliases: [Revenue Fraud]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [造假识别, 风险]
-related: "[[收入确认]], [[section05-现金流与利润背离]]"
+related: "[[part25-accounting/chapter01-三大报表/section06-收入确认|收入确认]], [[section05-现金流与利润背离]]"
 ---
 
 # 收入造假手法
@@ -129,5 +129,5 @@ related: "[[收入确认]], [[section05-现金流与利润背离]]"
 
 
 ---
-**相关笔记：** [[收入确认]], [[section05-现金流与利润背离]]
-**返回：** [[chapter00-财务造假识别]] | [[part00-主页]]
+**相关笔记：** [[part25-accounting/chapter01-三大报表/section06-收入确认|收入确认]], [[section05-现金流与利润背离]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-财务造假识别]] | [[part00-主页]]

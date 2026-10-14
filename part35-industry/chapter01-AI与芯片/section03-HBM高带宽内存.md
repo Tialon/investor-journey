@@ -2,44 +2,23 @@
 type: concept
 topic: 行业研究
 aliases: [HBM, High Bandwidth Memory, SK Hynix, Micron]
-status: done
+status: draft
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [行业, AI, 芯片, 内存]
-related: "[[GPU与AI加速器]], [[section01-AI产业链全景]]"
+related: ""
 ---
 
 # HBM高带宽内存
 
-## 核心要点
+> 待补充：已保留核心边界，尚未形成完整实践指南。
 
-（待补充）
+## 核心内容
 
-## 详细内容
+关注产能、良率、客户验证、库存和资本开支，区分供需紧张与可持续回报。
 
-（待补充）
+## 后续补充
 
-## 关键公司
+补充供应商财报、周期情景与证据日期。
 
-（待补充）
-
-## 投资逻辑
-
-（待补充）
-
-## 思考题
-
-1. （待补充）
-2. （待补充）
-3. （待补充）
-
----
-
-> **回到**：[chapter00-行业研究](../chapter00-行业研究.md)
-
-
-
-
----
-**相关笔记：** [[GPU与AI加速器]], [[section01-AI产业链全景]]
-**返回：** [[chapter00-AI与芯片]] | [[part00-主页]]
+**返回：** [[chapter00-行业研究]] | [[part00-主页]]

@@ -4,7 +4,7 @@ topic: 推荐书籍
 aliases: [聪明的投资者]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [书籍, 价值投资, 经典]
 related: "[[section04-One Up On Wall Street]], [[section05-Common Stocks and Uncommon Profits]]"
 ---
@@ -134,4 +134,4 @@ $$\text{安全边际} = \text{内在价值} - \text{购买价格}$$
 
 ---
 **相关笔记：** [[section04-One Up On Wall Street]], [[section05-Common Stocks and Uncommon Profits]]
-**返回：** [[chapter00-公司分析]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-公司分析]] | [[part00-主页]]

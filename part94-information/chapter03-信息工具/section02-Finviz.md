@@ -4,7 +4,7 @@ topic: 信息工具
 aliases: [Finviz]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [工具, 免费]
 related: "[[section01-Yahoo Finance]], [[section03-Seeking Alpha]]"
 ---
@@ -90,4 +90,4 @@ PE < 20
 
 ---
 **相关笔记：** [[section01-Yahoo Finance]], [[section03-Seeking Alpha]]
-**返回：** [[chapter00-信息工具]] | [[part00-主页]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-信息工具]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 关键指标
 aliases: [Debt to Asset Ratio, D/A Ratio]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [指标, 偿债能力]
-related: "[[section05-利息覆盖倍数]], [[流动负债与长期负债]]"
+related: "[[section05-利息覆盖倍数]], [[part25-accounting/chapter01-三大报表/section03-流动负债与长期负债|流动负债与长期负债]]"
 ---
 
 # 资产负债率
@@ -93,5 +93,5 @@ $$\text{权益乘数} = \frac{\text{总资产}}{\text{股东权益}} = \frac{1}{
 
 
 ---
-**相关笔记：** [[section05-利息覆盖倍数]], [[流动负债与长期负债]]
-**返回：** [[chapter00-关键指标]] | [[part00-主页]]
+**相关笔记：** [[section05-利息覆盖倍数]], [[part25-accounting/chapter01-三大报表/section03-流动负债与长期负债|流动负债与长期负债]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-关键指标]] | [[part00-主页]]

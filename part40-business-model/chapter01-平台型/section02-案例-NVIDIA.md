@@ -4,9 +4,9 @@ topic: 商业模式案例
 aliases: [NVIDIA Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 案例, AI, 芯片]
-related: "[[平台商业模式]], [[GPU与AI加速器]]"
+related: "[[part40-business-model/chapter01-平台型/section01-平台商业模式|平台商业模式]], [[part35-industry/chapter01-AI与芯片/section02-GPU与AI加速器|GPU与AI加速器]]"
 ---
 
 # 案例：NVIDIA
@@ -44,5 +44,5 @@ related: "[[平台商业模式]], [[GPU与AI加速器]]"
 
 
 ---
-**相关笔记：** [[平台商业模式]], [[GPU与AI加速器]]
-**返回：** [[chapter00-平台型]] | [[part00-主页]]
+**相关笔记：** [[part40-business-model/chapter01-平台型/section01-平台商业模式|平台商业模式]], [[part35-industry/chapter01-AI与芯片/section02-GPU与AI加速器|GPU与AI加速器]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-平台型]] | [[part00-主页]]

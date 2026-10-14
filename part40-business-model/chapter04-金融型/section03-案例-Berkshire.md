@@ -4,9 +4,9 @@ topic: 商业模式案例
 aliases: [Berkshire Hathaway Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 案例, 金融, 投资]
-related: "[[section01-金融商业模式]], [[保险业]]"
+related: "[[section01-金融商业模式]], 保险业"
 ---
 
 # 案例：Berkshire Hathaway
@@ -44,5 +44,5 @@ related: "[[section01-金融商业模式]], [[保险业]]"
 
 
 ---
-**相关笔记：** [[section01-金融商业模式]], [[保险业]]
-**返回：** [[chapter00-金融型]] | [[part00-主页]]
+**相关笔记：** [[section01-金融商业模式]], 保险业
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-金融型]] | [[part00-主页]]

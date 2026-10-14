@@ -4,9 +4,9 @@ topic: 段永平
 aliases: [Business Model First]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 段永平]]
-related: "[[段永平投资哲学]], [[不做空不借钱]]"
+updated: "2026-10-15"
+tags: [投资大师, 段永平]
+related: "[[part96-investment-masters/chapter04-段永平/section01-段永平投资哲学|段永平投资哲学]], [[part96-investment-masters/chapter04-段永平/section03-不做空不借钱|不做空不借钱]]"
 ---
 
 # 商业模式优先
@@ -310,5 +310,5 @@ related: "[[段永平投资哲学]], [[不做空不借钱]]"
 5. 如何避免投资商业模式差的公司？
 
 ---
-**相关笔记：** [[段永平投资哲学]], [[不做空不借钱]]
+**相关笔记：** [[part96-investment-masters/chapter04-段永平/section01-段永平投资哲学|段永平投资哲学]], [[part96-investment-masters/chapter04-段永平/section03-不做空不借钱|不做空不借钱]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

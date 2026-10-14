@@ -4,9 +4,9 @@ topic: 段永平
 aliases: [Stock is Company]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 段永平]]
-related: "[[段永平投资哲学]], [[商业模式优先]]"
+updated: "2026-10-15"
+tags: [投资大师, 段永平]
+related: "[[part96-investment-masters/chapter04-段永平/section01-段永平投资哲学|段永平投资哲学]], [[part96-investment-masters/chapter04-段永平/section02-商业模式优先|商业模式优先]]"
 ---
 
 # 买股票就是买公司
@@ -193,5 +193,5 @@ related: "[[段永平投资哲学]], [[商业模式优先]]"
 5. 如何在"所有者心态"和"风险管理"之间取得平衡？
 
 ---
-**相关笔记：** [[段永平投资哲学]], [[商业模式优先]]
+**相关笔记：** [[part96-investment-masters/chapter04-段永平/section01-段永平投资哲学|段永平投资哲学]], [[part96-investment-masters/chapter04-段永平/section02-商业模式优先|商业模式优先]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

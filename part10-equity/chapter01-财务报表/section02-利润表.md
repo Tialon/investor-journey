@@ -4,7 +4,7 @@ topic: 财务报表
 aliases: [Income Statement, Profit & Loss, P&L, 损益表]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [财务报表, 基础]
 related: "[[section01-资产负债表]], [[section03-现金流量表]], [[section07-毛利率与净利率]]"
 ---
@@ -137,4 +137,4 @@ $$\text{EPS} = \frac{\text{归属于普通股东的净利润}}{\text{加权平�
 
 ---
 **相关笔记：** [[section01-资产负债表]], [[section03-现金流量表]], [[section07-毛利率与净利率]]
-**返回：** [[chapter00-财务报表]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-财务报表]] | [[part00-主页]]

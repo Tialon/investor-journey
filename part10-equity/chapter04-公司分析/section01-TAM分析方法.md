@@ -4,9 +4,9 @@ topic: 公司分析
 aliases: [Total Addressable Market, 总可寻址市场, TAM]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [分析方法, 成长性]
-related: "[[section02-SAM与SOM]], [[管理层评估方法]]"
+related: "[[section02-SAM与SOM]], [[part10-equity/chapter03-管理层分析/section01-管理层评估方法|管理层评估方法]]"
 ---
 
 # TAM分析方法
@@ -161,5 +161,5 @@ related: "[[section02-SAM与SOM]], [[管理层评估方法]]"
 
 
 ---
-**相关笔记：** [[section02-SAM与SOM]], [[管理层评估方法]]
-**返回：** [[chapter00-公司分析]] | [[part00-主页]]
+**相关笔记：** [[section02-SAM与SOM]], [[part10-equity/chapter03-管理层分析/section01-管理层评估方法|管理层评估方法]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-公司分析]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 三大报表
 aliases: [Shareholders' Equity, Stockholders' Equity]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [财务报表, 会计基础]
-related: "[[section01-资产负债表基础]], [[section02-流动资产与非流动资产]], [[ROE]]"
+related: "[[section01-资产负债表基础]], [[section02-流动资产与非流动资产]], [[part10-equity/chapter01-财务报表/section04-ROE|ROE]]"
 ---
 
 # 股东权益
@@ -104,5 +104,5 @@ $$\text{ROE} = \frac{\text{净利润}}{\text{股东权益}}$$
 
 
 ---
-**相关笔记：** [[section01-资产负债表基础]], [[section02-流动资产与非流动资产]], [[ROE]]
-**返回：** [[chapter00-三大报表]] | [[part00-主页]]
+**相关笔记：** [[section01-资产负债表基础]], [[section02-流动资产与非流动资产]], [[part10-equity/chapter01-财务报表/section04-ROE|ROE]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-三大报表]] | [[part00-主页]]

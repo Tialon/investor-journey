@@ -4,7 +4,7 @@ topic: 经济指标
 aliases: [Producer Price Index, 生产者物价指数]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 经济指标, 通胀]
 related: "[[section04-CPI]], [[section06-核心通胀]], [[section12-PMI]]"
 ---
@@ -70,4 +70,4 @@ $$\text{原材料涨价} → \text{中间品涨价} → \text{成品涨价} → 
 
 ---
 **相关笔记：** [[section04-CPI]], [[section06-核心通胀]], [[section12-PMI]]
-**返回：** [[chapter00-经济指标]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-经济指标]] | [[part00-主页]]

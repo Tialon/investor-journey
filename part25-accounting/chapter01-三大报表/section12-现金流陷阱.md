@@ -4,7 +4,7 @@ topic: 三大报表
 aliases: [Cash Flow Traps]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [财务报表, 会计基础, 风险]
 related: "[[section10-经营现金流vs净利润]], [[section11-自由现金流计算]]"
 ---
@@ -146,4 +146,4 @@ related: "[[section10-经营现金流vs净利润]], [[section11-自由现金流�
 
 ---
 **相关笔记：** [[section10-经营现金流vs净利润]], [[section11-自由现金流计算]]
-**返回：** [[chapter00-三大报表]] | [[part00-主页]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-三大报表]] | [[part00-主页]]

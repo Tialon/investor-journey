@@ -4,9 +4,9 @@ topic: 关键指标
 aliases: [Net Margin, Net Profit Margin]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [指标, 盈利能力]
-related: "[[section01-毛利率]], [[毛利率与净利率]]"
+related: "[[section01-毛利率]], [[part10-equity/chapter01-财务报表/section07-毛利率与净利率|毛利率与净利率]]"
 ---
 
 # 净利率
@@ -78,5 +78,5 @@ $$\text{差距} = \text{毛利率} - \text{净利率}$$
 
 
 ---
-**相关笔记：** [[section01-毛利率]], [[毛利率与净利率]]
-**返回：** [[chapter00-关键指标]] | [[part00-主页]]
+**相关笔记：** [[section01-毛利率]], [[part10-equity/chapter01-财务报表/section07-毛利率与净利率|毛利率与净利率]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-关键指标]] | [[part00-主页]]

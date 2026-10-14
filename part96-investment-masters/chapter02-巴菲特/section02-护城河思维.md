@@ -4,9 +4,9 @@ topic: 巴菲特
 aliases: [Moat Thinking]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 巴菲特]]
-related: "[[巴菲特投资哲学]], [[长期持有]]"
+updated: "2026-10-15"
+tags: [投资大师, 巴菲特]
+related: "[[part96-investment-masters/chapter02-巴菲特/section01-巴菲特投资哲学|巴菲特投资哲学]], [[part96-investment-masters/chapter02-巴菲特/section05-长期持有|长期持有]]"
 ---
 
 # 护城河思维
@@ -221,5 +221,5 @@ GEICO是成本护城河的典型案例：
 5. 如何在估值中考虑护城河的价值？有护城河的公司是否值得更高的估值？
 
 ---
-**相关笔记：** [[巴菲特投资哲学]], [[长期持有]]
+**相关笔记：** [[part96-investment-masters/chapter02-巴菲特/section01-巴菲特投资哲学|巴菲特投资哲学]], [[part96-investment-masters/chapter02-巴菲特/section05-长期持有|长期持有]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

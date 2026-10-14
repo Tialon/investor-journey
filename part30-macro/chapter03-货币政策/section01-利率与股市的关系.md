@@ -4,9 +4,9 @@ topic: 货币政策
 aliases: [Interest Rates and Stock Market]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 货币政策]
-related: "[[联邦基金利率]], [[section02-收益率曲线]]"
+related: "[[part30-macro/chapter02-美联储/section01-联邦基金利率|联邦基金利率]], [[section02-收益率曲线]]"
 ---
 
 # 利率与股市的关系
@@ -53,5 +53,5 @@ $$\text{股票估值} = \frac{\text{未来盈利}}{\text{折现率} - \text{增�
 
 
 ---
-**相关笔记：** [[联邦基金利率]], [[section02-收益率曲线]]
-**返回：** [[chapter00-货币政策]] | [[part00-主页]]
+**相关笔记：** [[part30-macro/chapter02-美联储/section01-联邦基金利率|联邦基金利率]], [[section02-收益率曲线]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-货币政策]] | [[part00-主页]]

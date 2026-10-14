@@ -4,9 +4,9 @@ topic: 分析框架
 aliases: [Unit Economics, LTV/CAC]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [分析框架, 商业模式]
-related: "[[商业模式画布]], [[section04-飞轮效应]]"
+related: "[[part40-business-model/chapter06-案例分析/section01-商业模式画布|商业模式画布]], [[section04-飞轮效应]]"
 ---
 
 # 单位经济学
@@ -14,9 +14,15 @@ related: "[[商业模式画布]], [[section04-飞轮效应]]"
 
 ## 核心指标
 
-1432\text{LTV} = \text{客户终身价值}1432
-1432\text{CAC} = \text{获客成本}1432
-1432\text{LTV/CAC} = \text{客户终身价值/获客成本}1432
+$$
+\text{LTV} = \text{客户终身价值}
+$$
+$$
+\text{CAC} = \text{获客成本}
+$$
+$$
+\text{LTV/CAC} = \text{客户终身价值/获客成本}
+$$
 
 ## 水平参考
 
@@ -41,5 +47,5 @@ related: "[[商业模式画布]], [[section04-飞轮效应]]"
 
 
 ---
-**相关笔记：** [[商业模式画布]], [[section04-飞轮效应]]
-**返回：** [[chapter00-案例分析]] | [[part00-主页]]
+**相关笔记：** [[part40-business-model/chapter06-案例分析/section01-商业模式画布|商业模式画布]], [[section04-飞轮效应]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-案例分析]] | [[part00-主页]]

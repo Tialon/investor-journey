@@ -4,9 +4,9 @@ topic: 信息工具
 aliases: [Investor Relations, IR页面]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [工具, 信息来源]
-related: "[[10-K年报]], [[财报电话会]]"
+related: "[[part94-information/chapter01-财报解读/section01-10-K年报|10-K年报]], [[part94-information/chapter01-财报解读/section03-财报电话会|财报电话会]]"
 ---
 
 # 公司投资者关系
@@ -65,5 +65,5 @@ related: "[[10-K年报]], [[财报电话会]]"
 
 
 ---
-**相关笔记：** [[10-K年报]], [[财报电话会]]
-**返回：** [[chapter00-信息工具]] | [[part00-主页]]
+**相关笔记：** [[part94-information/chapter01-财报解读/section01-10-K年报|10-K年报]], [[part94-information/chapter01-财报解读/section03-财报电话会|财报电话会]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-信息工具]] | [[part00-主页]]

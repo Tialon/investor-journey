@@ -6,7 +6,7 @@ status: done
 created: "2026-06-28"
 updated: "2026-10-15"
 tags: [期权, 组合管理, 风险管理]
-related: "[[section01-risk-metrics|组合风险度量]], [[VaR]]"
+related: "[[section01-risk-metrics|组合风险度量]], [[part20-options/chapter07-portfolio/section01-risk-metrics|VaR]]"
 ---
 
 # 压力测试：极端情景下的组合表现
@@ -626,5 +626,5 @@ scenarios = [
 
 
 ---
-**相关笔记：** [[section01-risk-metrics|组合风险度量]], [[VaR]]
+**相关笔记：** [[section01-risk-metrics|组合风险度量]], [[part20-options/chapter07-portfolio/section01-risk-metrics|VaR]]
 **返回：** [[chapter00-期权学习|期权学习目录]] | [[part00-主页]]

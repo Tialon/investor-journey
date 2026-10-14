@@ -4,43 +4,19 @@ topic: 书籍总结
 aliases: [Book Summaries, 读书笔记]
 status: done
 created: "2026-08-16"
-updated: "2026-08-16"
+updated: "2026-10-15"
 tags: [书籍, 索引, 读书笔记]
-related: "[[part00-主页]], [[part96-investment-masters]]"
+related: "[[part00-主页]], [[part96-investment-masters/chapter00-投资大师|part96-investment-masters]]"
 ---
 
 # 📖 书籍总结
 
-> 投资经典书籍的核心精华提炼，每本书浓缩为可执行的投资智慧
+> 只列现有内容；“正文”指已有内容，不代表学习或实盘验收通过。待补充页已保留核心要点。
 
-## 投资经典
+## chapter01-投资经典
 
-- [[section01-股票大作手回忆录]] — Jesse Livermore 的交易人生
+- [[part97-book-summaries/chapter01-投资经典/section01-股票大作手回忆录|股票大作手回忆录]] — 正文
 
-## 传记与回忆录
+## 使用入口
 
-*待补充*
-
-## 交易心理
-
-*待补充*
-
-## 行为金融
-
-*待补充*
-
-## 估值与财务
-
-*待补充*
-
-## 宏观经济
-
-*待补充*
-
-## 量化投资
-
-*待补充*
-
----
-**相关笔记：** [[part96-investment-masters]], [[part50-behavioral-finance]], [[part55-trading-psychology]]
-**返回：** [[part00-主页]]
+[[part01-实践工作台]] | [[part03-目录]] | [[part00-主页]]

@@ -4,9 +4,9 @@ topic: 商业模式案例
 aliases: [Apple Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 案例, 消费, 科技]
-related: "[[平台商业模式]], [[硬件商业模式]]"
+related: "[[part40-business-model/chapter01-平台型/section01-平台商业模式|平台商业模式]], [[part40-business-model/chapter03-硬件型/section01-硬件商业模式|硬件商业模式]]"
 ---
 
 # 案例：Apple
@@ -44,5 +44,5 @@ related: "[[平台商业模式]], [[硬件商业模式]]"
 
 
 ---
-**相关笔记：** [[平台商业模式]], [[硬件商业模式]]
-**返回：** [[chapter00-平台型]] | [[part00-主页]]
+**相关笔记：** [[part40-business-model/chapter01-平台型/section01-平台商业模式|平台商业模式]], [[part40-business-model/chapter03-硬件型/section01-硬件商业模式|硬件商业模式]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-平台型]] | [[part00-主页]]

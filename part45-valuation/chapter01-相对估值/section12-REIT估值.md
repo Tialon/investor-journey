@@ -4,9 +4,9 @@ topic: 行业估值
 aliases: [REIT Valuation, 房地产信托估值]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, 行业, REIT]
-related: "[[股利折现模型DDM]], [[EV/EBITDA]]"
+related: "[[part45-valuation/chapter02-绝对估值(DCF)/section07-股利折现模型DDM|股利折现模型DDM]], [[part45-valuation/chapter01-相对估值/section05-EV-EBITDA|EV/EBITDA]]"
 ---
 
 # REIT估值
@@ -48,5 +48,5 @@ related: "[[股利折现模型DDM]], [[EV/EBITDA]]"
 
 
 ---
-**相关笔记：** [[股利折现模型DDM]], [[EV/EBITDA]]
-**返回：** [[chapter00-相对估值]] | [[part00-主页]]
+**相关笔记：** [[part45-valuation/chapter02-绝对估值(DCF)/section07-股利折现模型DDM|股利折现模型DDM]], [[part45-valuation/chapter01-相对估值/section05-EV-EBITDA|EV/EBITDA]]
+**返回：** [[part45-valuation/chapter00-估值方法|chapter00-相对估值]] | [[part00-主页]]

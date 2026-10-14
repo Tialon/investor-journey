@@ -4,9 +4,9 @@ topic: 商业模式案例
 aliases: [Costco Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 案例, 零售, 会员]
-related: "[[section01-零售商业模式]], [[会员费模式]]"
+related: "[[section01-零售商业模式]], [[part40-business-model/chapter05-零售型/section01-零售商业模式|会员费模式]]"
 ---
 
 # 案例：Costco
@@ -46,5 +46,5 @@ related: "[[section01-零售商业模式]], [[会员费模式]]"
 
 
 ---
-**相关笔记：** [[section01-零售商业模式]], [[会员费模式]]
-**返回：** [[chapter00-零售型]] | [[part00-主页]]
+**相关笔记：** [[section01-零售商业模式]], [[part40-business-model/chapter05-零售型/section01-零售商业模式|会员费模式]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-零售型]] | [[part00-主页]]

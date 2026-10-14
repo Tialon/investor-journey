@@ -4,9 +4,9 @@ topic: 经济指标
 aliases: [Unemployment Rate]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 经济指标]
-related: "[[section08-非农就业]], [[section10-初请失业金]], [[劳动参与率]]"
+related: "[[section08-非农就业]], [[section10-初请失业金]], [[part30-macro/chapter01-经济指标/section09-失业率|劳动参与率]]"
 ---
 
 # 失业率
@@ -70,5 +70,5 @@ $$\text{失业率} = \frac{\text{失业人口}}{\text{劳动力总数}} \times 1
 
 
 ---
-**相关笔记：** [[section08-非农就业]], [[section10-初请失业金]], [[劳动参与率]]
-**返回：** [[chapter00-经济指标]] | [[part00-主页]]
+**相关笔记：** [[section08-非农就业]], [[section10-初请失业金]], [[part30-macro/chapter01-经济指标/section09-失业率|劳动参与率]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-经济指标]] | [[part00-主页]]

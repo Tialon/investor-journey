@@ -4,9 +4,9 @@ topic: 段永平
 aliases: [Duan Yongping Philosophy]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 段永平]]
-related: "[[商业模式优先]], [[买股票就是买公司]]"
+updated: "2026-10-15"
+tags: [投资大师, 段永平]
+related: "[[part96-investment-masters/chapter04-段永平/section02-商业模式优先|商业模式优先]], [[part96-investment-masters/chapter04-段永平/section04-买股票就是买公司|买股票就是买公司]]"
 ---
 
 # 段永平投资哲学
@@ -200,5 +200,5 @@ related: "[[商业模式优先]], [[买股票就是买公司]]"
 5. 如何将段永平的投资原则应用到自己的投资实践中？
 
 ---
-**相关笔记：** [[商业模式优先]], [[买股票就是买公司]]
+**相关笔记：** [[part96-investment-masters/chapter04-段永平/section02-商业模式优先|商业模式优先]], [[part96-investment-masters/chapter04-段永平/section04-买股票就是买公司|买股票就是买公司]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

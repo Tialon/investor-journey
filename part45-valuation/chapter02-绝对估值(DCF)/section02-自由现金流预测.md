@@ -4,53 +4,32 @@ topic: 绝对估值
 aliases: [FCF Forecast, FCF预测]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [估值, DCF]
-related: "[[DCF基础]], [[section03-折现率WACC]]"
+related: "[[part45-valuation/chapter02-绝对估值(DCF)/section01-DCF基础|DCF基础]], [[section03-折现率WACC]]"
 ---
 
 # 自由现金流预测
 
+## 避免重复扣减CapEx
 
-## 预测方法
+$$FCFF=EBIT(1-T)+D\&A-CapEx-\Delta NWC$$
 
-### 方法一：收入驱动
+NWC在此为非现金经营性营运资本；ΔNWC为本期减上期，增加通常消耗现金。非现金加回不代表没有经济成本，特别要另查SBC与稀释。
 
-1902FCF = 收入 \times FCF利润率 - CapEx - \Delta NWC1902
+如果已经用“收入×FCF利润率”直接预测FCF，该利润率已包含资本开支和营运资本，就不能再扣CapEx与ΔNWC。选择驱动法或完整FCF利润率法，注明口径。
 
-### 方法二：直接预测
+| 驱动项 | 输入依据 |
+|---|---|
+| 收入 | 分部销量×售价、客户数×消费、订阅数×单价 |
+| EBIT率 | 毛利、费用、规模与竞争假设 |
+| 税率 | 有效/正常化税率与亏损抵扣 |
+| 再投资 | 维持/扩张CapEx、折旧、账期与存货 |
+| SBC | 经济成本与股数处理，防止遗漏或重复计成本 |
 
-直接预测FCF的增长率。
+教学例：EBIT100、税25%、折旧10、CapEx20、ΔNWC5，FCFF=60。增长需要再投资，不能同时假设收入高速增长和CapEx/营运资本几乎不变。
 
-## 预测期
-
-| 期限 | 说明 |
-|------|------|
-| 显式预测期 | 通常5-10年 |
-| 终值 | 永续价值 |
-
-## 关键假设
-
-| 假设 | 影响 |
-|------|------|
-| 收入增速 | 驱动FCF增长 |
-| 利润率 | 驱动FCF水平 |
-| CapEx | 驱动FCF扣除 |
-| 营运资本 | 驱动FCF调整 |
-
-## 思考题
-
-1. 为什么预测期通常选5-10年？
-2. 如何合理假设收入增速？
-3. 收入增速和利润率哪个更重要？
+模型框架参考：[Damodaran 估值课程](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lectures/val.html)；示例为手工构造，非实时数据。
 
 ---
-
-> **下一节**：[折现率WACC](section03-折现率WACC.md)
-
-
-
-
----
-**相关笔记：** [[DCF基础]], [[section03-折现率WACC]]
-**返回：** [[chapter00-绝对估值(DCF)]] | [[part00-主页]]
+**返回：** [[chapter00-估值方法]] | [[part00-主页]]

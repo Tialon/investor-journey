@@ -4,9 +4,9 @@ topic: 公司分析
 aliases: [Serviceable Addressable Market, Serviceable Obtainable Market]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [分析方法, 成长性]
-related: "[[section01-TAM分析方法]], [[管理层评估方法]]"
+related: "[[section01-TAM分析方法]], [[part10-equity/chapter03-管理层分析/section01-管理层评估方法|管理层评估方法]]"
 ---
 
 # SAM与SOM
@@ -147,5 +147,5 @@ SOM增长
 
 
 ---
-**相关笔记：** [[section01-TAM分析方法]], [[管理层评估方法]]
-**返回：** [[chapter00-公司分析]] | [[part00-主页]]
+**相关笔记：** [[section01-TAM分析方法]], [[part10-equity/chapter03-管理层分析/section01-管理层评估方法|管理层评估方法]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-公司分析]] | [[part00-主页]]

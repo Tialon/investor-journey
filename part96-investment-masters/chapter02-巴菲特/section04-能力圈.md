@@ -4,9 +4,9 @@ topic: 巴菲特
 aliases: [Circle of Competence]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 巴菲特]]
-related: "[[巴菲特投资哲学]], [[长期持有]]"
+updated: "2026-10-15"
+tags: [投资大师, 巴菲特]
+related: "[[part96-investment-masters/chapter02-巴菲特/section01-巴菲特投资哲学|巴菲特投资哲学]], [[part96-investment-masters/chapter02-巴菲特/section05-长期持有|长期持有]]"
 ---
 
 # 能力圈
@@ -201,5 +201,5 @@ related: "[[巴菲特投资哲学]], [[长期持有]]"
 5. 在信息爆炸的时代，如何建立真正有价值的能力圈？
 
 ---
-**相关笔记：** [[巴菲特投资哲学]], [[长期持有]]
+**相关笔记：** [[part96-investment-masters/chapter02-巴菲特/section01-巴菲特投资哲学|巴菲特投资哲学]], [[part96-investment-masters/chapter02-巴菲特/section05-长期持有|长期持有]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

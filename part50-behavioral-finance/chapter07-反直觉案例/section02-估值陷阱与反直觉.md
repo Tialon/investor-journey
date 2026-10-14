@@ -4,9 +4,9 @@ topic: 反直觉案例
 aliases: [低PE陷阱, 高PE合理性, 估值反直觉, 周期股估值]
 status: done
 created: "2026-08-16"
-updated: "2026-08-16"
+updated: "2026-10-15"
 tags: [行为金融, 反直觉, 估值, PE陷阱]
-related: "[[低PE陷阱]], [[高PE合理性]], [[周期股估值]]"
+related: "[[part50-behavioral-finance/chapter07-反直觉案例/section02-估值陷阱与反直觉|低PE陷阱]], [[part50-behavioral-finance/chapter07-反直觉案例/section02-估值陷阱与反直觉|高PE合理性]], [[part50-behavioral-finance/chapter07-反直觉案例/section02-估值陷阱与反直觉|周期股估值]]"
 ---
 
 # 估值陷阱与反直觉
@@ -170,5 +170,5 @@ related: "[[低PE陷阱]], [[高PE合理性]], [[周期股估值]]"
 3. 解禁前你会如何制定交易策略？
 
 ---
-**相关笔记：** [[低PE陷阱]], [[高PE合理性]], [[周期股估值]], [[动量效应]]
+**相关笔记：** [[part50-behavioral-finance/chapter07-反直觉案例/section02-估值陷阱与反直觉|低PE陷阱]], [[part50-behavioral-finance/chapter07-反直觉案例/section02-估值陷阱与反直觉|高PE合理性]], [[part50-behavioral-finance/chapter07-反直觉案例/section02-估值陷阱与反直觉|周期股估值]], 动量效应
 **返回：** [[chapter00-行为金融学]] | [[part00-主页]]

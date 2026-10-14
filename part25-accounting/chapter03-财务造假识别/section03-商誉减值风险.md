@@ -4,7 +4,7 @@ topic: 财务造假识别
 aliases: [Goodwill Impairment]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [造假识别, 风险]
 related: "[[section02-存货异常]], [[section04-关联交易]]"
 ---
@@ -116,4 +116,4 @@ $$\text{商誉} = \text{收购价格} - \text{被收购公司净资产公允价�
 
 ---
 **相关笔记：** [[section02-存货异常]], [[section04-关联交易]]
-**返回：** [[chapter00-财务造假识别]] | [[part00-主页]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-财务造假识别]] | [[part00-主页]]

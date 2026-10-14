@@ -4,9 +4,9 @@ topic: 分析框架
 aliases: [Value Chain Analysis]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [分析框架, 商业模式]
-related: "[[section01-商业模式画布]], [[波特五力模型]]"
+related: "[[section01-商业模式画布]], [[part35-industry/chapter10-行业分析框架/section01-波特五力模型|波特五力模型]]"
 ---
 
 # 价值链分析
@@ -55,5 +55,5 @@ related: "[[section01-商业模式画布]], [[波特五力模型]]"
 
 
 ---
-**相关笔记：** [[section01-商业模式画布]], [[波特五力模型]]
-**返回：** [[chapter00-案例分析]] | [[part00-主页]]
+**相关笔记：** [[section01-商业模式画布]], [[part35-industry/chapter10-行业分析框架/section01-波特五力模型|波特五力模型]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-案例分析]] | [[part00-主页]]

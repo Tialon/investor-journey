@@ -4,9 +4,9 @@ topic: 巴菲特
 aliases: [Buffett Classic Cases]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 巴菲特]]
-related: "[[巴菲特投资哲学]], [[护城河思维]]"
+updated: "2026-10-15"
+tags: [投资大师, 巴菲特]
+related: "[[part96-investment-masters/chapter02-巴菲特/section01-巴菲特投资哲学|巴菲特投资哲学]], [[part96-investment-masters/chapter02-巴菲特/section02-护城河思维|护城河思维]]"
 ---
 
 # 巴菲特经典案例
@@ -201,5 +201,5 @@ GEICO是巴菲特最成功的投资之一：
 5. 巴菲特的投资案例中，哪些失败案例同样值得学习？
 
 ---
-**相关笔记：** [[巴菲特投资哲学]], [[护城河思维]]
+**相关笔记：** [[part96-investment-masters/chapter02-巴菲特/section01-巴菲特投资哲学|巴菲特投资哲学]], [[part96-investment-masters/chapter02-巴菲特/section02-护城河思维|护城河思维]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

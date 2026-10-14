@@ -4,9 +4,9 @@ topic: 格雷厄姆
 aliases: [Margin of Safety]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 格雷厄姆]]
-related: "[[价值投资之父]], [[市场先生]]"
+updated: "2026-10-15"
+tags: [投资大师, 格雷厄姆]
+related: "[[part96-investment-masters/chapter01-格雷厄姆/section01-价值投资之父|价值投资之父]], [[part96-investment-masters/chapter01-格雷厄姆/section03-市场先生|市场先生]]"
 ---
 
 # 安全边际原则
@@ -165,5 +165,5 @@ related: "[[价值投资之父]], [[市场先生]]"
 5. 你在实际投资中如何设定安全边际的标准？不同类型的投资是否应该有不同的标准？
 
 ---
-**相关笔记：** [[价值投资之父]], [[市场先生]]
+**相关笔记：** [[part96-investment-masters/chapter01-格雷厄姆/section01-价值投资之父|价值投资之父]], [[part96-investment-masters/chapter01-格雷厄姆/section03-市场先生|市场先生]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

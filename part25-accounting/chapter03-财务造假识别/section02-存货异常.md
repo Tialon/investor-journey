@@ -4,7 +4,7 @@ topic: 财务造假识别
 aliases: [Inventory Anomalies]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [造假识别, 风险]
 related: "[[section01-收入造假手法]], [[section06-应收帐款异常]]"
 ---
@@ -121,4 +121,4 @@ $$\text{存货周转天数} = \frac{365}{\text{存货周转率}}$$
 
 ---
 **相关笔记：** [[section01-收入造假手法]], [[section06-应收帐款异常]]
-**返回：** [[chapter00-财务造假识别]] | [[part00-主页]]
+**返回：** [[part25-accounting/chapter00-财务分析|chapter00-财务造假识别]] | [[part00-主页]]

@@ -4,7 +4,7 @@ topic: 经济指标
 aliases: [Core Inflation, Core CPI, Core PCE]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 经济指标, 通胀]
 related: "[[section04-CPI]], [[section05-PPI]], [[section07-PCE]]"
 ---
@@ -72,4 +72,4 @@ $$\text{美联储通胀目标} = 2\% \text{（核心PCE）}$$
 
 ---
 **相关笔记：** [[section04-CPI]], [[section05-PPI]], [[section07-PCE]]
-**返回：** [[chapter00-经济指标]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-经济指标]] | [[part00-主页]]

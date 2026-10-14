@@ -4,9 +4,9 @@ topic: 货币政策
 aliases: [DXY, US Dollar Index, 美元指数]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 货币政策]
-related: "[[联邦基金利率]], [[section04-国债收益率]]"
+related: "[[part30-macro/chapter02-美联储/section01-联邦基金利率|联邦基金利率]], [[section04-国债收益率]]"
 ---
 
 # 美元指数（DXY）
@@ -56,5 +56,5 @@ related: "[[联邦基金利率]], [[section04-国债收益率]]"
 
 
 ---
-**相关笔记：** [[联邦基金利率]], [[section04-国债收益率]]
-**返回：** [[chapter00-货币政策]] | [[part00-主页]]
+**相关笔记：** [[part30-macro/chapter02-美联储/section01-联邦基金利率|联邦基金利率]], [[section04-国债收益率]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-货币政策]] | [[part00-主页]]

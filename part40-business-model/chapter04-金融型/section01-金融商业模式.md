@@ -4,9 +4,9 @@ topic: 商业模式
 aliases: [Financial Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 金融]
-related: "[[银行业]], [[保险业]], [[金融科技Fintech]]"
+related: "[[part35-industry/chapter06-金融/section01-银行业|银行业]], 保险业, 金融科技Fintech"
 ---
 
 # 金融商业模式
@@ -41,5 +41,5 @@ related: "[[银行业]], [[保险业]], [[金融科技Fintech]]"
 
 
 ---
-**相关笔记：** [[银行业]], [[保险业]], [[金融科技Fintech]]
-**返回：** [[chapter00-金融型]] | [[part00-主页]]
+**相关笔记：** [[part35-industry/chapter06-金融/section01-银行业|银行业]], 保险业, 金融科技Fintech
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-金融型]] | [[part00-主页]]

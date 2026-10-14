@@ -4,9 +4,9 @@ topic: 财报解读
 aliases: [10-Q, Quarterly Report, 季度报告]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [SEC文件, 财报]
-related: "[[section01-10-K年报]], [[SEC EDGAR]]"
+related: "[[section01-10-K年报]], [[part94-information/chapter02-SEC文件/section01-SEC EDGAR|SEC EDGAR]]"
 ---
 
 # 10-Q季报
@@ -64,5 +64,5 @@ related: "[[section01-10-K年报]], [[SEC EDGAR]]"
 
 
 ---
-**相关笔记：** [[section01-10-K年报]], [[SEC EDGAR]]
-**返回：** [[chapter00-财报解读]] | [[part00-主页]]
+**相关笔记：** [[section01-10-K年报]], [[part94-information/chapter02-SEC文件/section01-SEC EDGAR|SEC EDGAR]]
+**返回：** [[part94-information/chapter00-信息来源|chapter00-财报解读]] | [[part00-主页]]

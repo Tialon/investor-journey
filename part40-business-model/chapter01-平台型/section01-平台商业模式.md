@@ -4,9 +4,9 @@ topic: 商业模式
 aliases: [Platform Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 平台]
-related: "[[网络效应]], [[飞轮效应]], [[section02-案例-NVIDIA]]"
+related: "[[part10-equity/chapter02-护城河分析/section02-网络效应|网络效应]], [[part40-business-model/chapter06-案例分析/section04-飞轮效应|飞轮效应]], [[section02-案例-NVIDIA]]"
 ---
 
 # 平台商业模式
@@ -48,5 +48,5 @@ related: "[[网络效应]], [[飞轮效应]], [[section02-案例-NVIDIA]]"
 
 
 ---
-**相关笔记：** [[网络效应]], [[飞轮效应]], [[section02-案例-NVIDIA]]
-**返回：** [[chapter00-平台型]] | [[part00-主页]]
+**相关笔记：** [[part10-equity/chapter02-护城河分析/section02-网络效应|网络效应]], [[part40-business-model/chapter06-案例分析/section04-飞轮效应|飞轮效应]], [[section02-案例-NVIDIA]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-平台型]] | [[part00-主页]]

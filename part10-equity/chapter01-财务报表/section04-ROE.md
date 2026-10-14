@@ -4,7 +4,7 @@ topic: 核心指标
 aliases: [Return on Equity, 净资产收益率]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [指标, 盈利能力, 核心]
 related: "[[section05-ROIC]], [[section01-资产负债表]], [[section02-利润表]]"
 ---
@@ -111,4 +111,4 @@ $$\text{用扣非ROE} = \frac{\text{扣除非经常性损益后的净利润}}{\t
 
 ---
 **相关笔记：** [[section05-ROIC]], [[section01-资产负债表]], [[section02-利润表]]
-**返回：** [[chapter00-财务报表]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-财务报表]] | [[part00-主页]]

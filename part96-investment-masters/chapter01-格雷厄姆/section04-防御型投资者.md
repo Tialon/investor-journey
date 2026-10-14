@@ -4,9 +4,9 @@ topic: 格雷厄姆
 aliases: [Defensive Investor]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 格雷厄姆]]
-related: "[[市场先生]], [[进取型投资者]]"
+updated: "2026-10-15"
+tags: [投资大师, 格雷厄姆]
+related: "[[part96-investment-masters/chapter01-格雷厄姆/section03-市场先生|市场先生]], [[part96-investment-masters/chapter01-格雷厄姆/section05-进取型投资者|进取型投资者]]"
 ---
 
 # 防御型投资者
@@ -187,5 +187,5 @@ related: "[[市场先生]], [[进取型投资者]]"
 5. 防御型投资者如何在"安全"和"收益"之间取得平衡？
 
 ---
-**相关笔记：** [[市场先生]], [[进取型投资者]]
+**相关笔记：** [[part96-investment-masters/chapter01-格雷厄姆/section03-市场先生|市场先生]], [[part96-investment-masters/chapter01-格雷厄姆/section05-进取型投资者|进取型投资者]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

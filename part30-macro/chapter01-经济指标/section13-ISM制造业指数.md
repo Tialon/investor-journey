@@ -4,7 +4,7 @@ topic: 经济指标
 aliases: [ISM Manufacturing Index]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 经济指标]
 related: "[[section12-PMI]], [[section14-耐用品订单]]"
 ---
@@ -60,4 +60,4 @@ related: "[[section12-PMI]], [[section14-耐用品订单]]"
 
 ---
 **相关笔记：** [[section12-PMI]], [[section14-耐用品订单]]
-**返回：** [[chapter00-经济指标]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-经济指标]] | [[part00-主页]]

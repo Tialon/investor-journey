@@ -4,9 +4,9 @@ topic: 格雷厄姆
 aliases: [Enterprising Investor]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 格雷厄姆]]
-related: "[[防御型投资者]], [[安全边际原则]]"
+updated: "2026-10-15"
+tags: [投资大师, 格雷厄姆]
+related: "[[part96-investment-masters/chapter01-格雷厄姆/section04-防御型投资者|防御型投资者]], [[part96-investment-masters/chapter01-格雷厄姆/section02-安全边际原则|安全边际原则]]"
 ---
 
 # 进取型投资者
@@ -185,5 +185,5 @@ related: "[[防御型投资者]], [[安全边际原则]]"
 5. 进取型投资者如何避免过度自信和过度交易的陷阱？
 
 ---
-**相关笔记：** [[防御型投资者]], [[安全边际原则]]
+**相关笔记：** [[part96-investment-masters/chapter01-格雷厄姆/section04-防御型投资者|防御型投资者]], [[part96-investment-masters/chapter01-格雷厄姆/section02-安全边际原则|安全边际原则]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

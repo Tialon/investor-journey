@@ -4,7 +4,7 @@ topic: 核心指标
 aliases: [Free Cash Flow, FCF]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [指标, 现金流, 核心]
 related: "[[section03-现金流量表]], [[section05-ROIC]], [[section01-资产负债表]]"
 ---
@@ -132,4 +132,4 @@ $$\text{企业价值} = \sum_{t=1}^{n} \frac{FCF_t}{(1 + WACC)^t} + \frac{终值
 
 ---
 **相关笔记：** [[section03-现金流量表]], [[section05-ROIC]], [[section01-资产负债表]]
-**返回：** [[chapter00-财务报表]] | [[part00-主页]]
+**返回：** [[part10-equity/chapter00-股票投资|chapter00-财务报表]] | [[part00-主页]]

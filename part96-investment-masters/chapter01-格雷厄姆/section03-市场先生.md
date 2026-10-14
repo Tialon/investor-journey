@@ -4,9 +4,9 @@ topic: 格雷厄姆
 aliases: [Mr. Market]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
-tags: [[投资大师, 格雷厄姆]]
-related: "[[安全边际原则]], [[防御型投资者]]"
+updated: "2026-10-15"
+tags: [投资大师, 格雷厄姆]
+related: "[[part96-investment-masters/chapter01-格雷厄姆/section02-安全边际原则|安全边际原则]], [[part96-investment-masters/chapter01-格雷厄姆/section04-防御型投资者|防御型投资者]]"
 ---
 
 # 市场先生
@@ -167,5 +167,5 @@ related: "[[安全边际原则]], [[防御型投资者]]"
 5. 市场先生隐喻如何帮助你克服投资中的恐惧和贪婪？
 
 ---
-**相关笔记：** [[安全边际原则]], [[防御型投资者]]
+**相关笔记：** [[part96-investment-masters/chapter01-格雷厄姆/section02-安全边际原则|安全边际原则]], [[part96-investment-masters/chapter01-格雷厄姆/section04-防御型投资者|防御型投资者]]
 **返回：** [[chapter00-投资大师]] | [[part00-主页]]

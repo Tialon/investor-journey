@@ -4,7 +4,7 @@ topic: 经济指标
 aliases: [Purchasing Managers' Index, 采购经理人指数]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [宏观, 经济指标]
 related: "[[section13-ISM制造业指数]], [[section01-GDP]]"
 ---
@@ -70,4 +70,4 @@ related: "[[section13-ISM制造业指数]], [[section01-GDP]]"
 
 ---
 **相关笔记：** [[section13-ISM制造业指数]], [[section01-GDP]]
-**返回：** [[chapter00-经济指标]] | [[part00-主页]]
+**返回：** [[part30-macro/chapter00-宏观经济|chapter00-经济指标]] | [[part00-主页]]

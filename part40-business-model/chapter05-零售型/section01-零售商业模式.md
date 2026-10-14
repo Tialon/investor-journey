@@ -4,9 +4,9 @@ topic: 商业模式
 aliases: [Retail Business Model]
 status: done
 created: "2026-06-28"
-updated: "2026-06-28"
+updated: "2026-10-15"
 tags: [商业模式, 零售]
-related: "[[平台商业模式]], [[section02-案例-Costco]]"
+related: "[[part40-business-model/chapter01-平台型/section01-平台商业模式|平台商业模式]], [[section02-案例-Costco]]"
 ---
 
 # 零售商业模式
@@ -40,5 +40,5 @@ related: "[[平台商业模式]], [[section02-案例-Costco]]"
 
 
 ---
-**相关笔记：** [[平台商业模式]], [[section02-案例-Costco]]
-**返回：** [[chapter00-零售型]] | [[part00-主页]]
+**相关笔记：** [[part40-business-model/chapter01-平台型/section01-平台商业模式|平台商业模式]], [[section02-案例-Costco]]
+**返回：** [[part40-business-model/chapter00-商业模式|chapter00-零售型]] | [[part00-主页]]
