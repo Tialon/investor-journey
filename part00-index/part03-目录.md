@@ -146,6 +146,15 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[part15-crypto/chapter08-multi-timeframe/section04-crypto-mtf-trade-cases|多周期协同交易：趋势、触发与分批退出案例]]
 - [[part15-crypto/chapter08-multi-timeframe/section05-crypto-mtf-conflicts|周期信号冲突、未闭合确认与假突破案例]]
 
+### chapter09-price-action · 支撑压力、K线与价格行为
+
+- [[part15-crypto/chapter09-price-action/section01-crypto-support-resistance|支撑压力区域：画法、角色互换与多周期]]
+- [[part15-crypto/chapter09-price-action/section02-crypto-candlestick-patterns|K线实体、影线、吞没与拒绝形态]]
+- [[part15-crypto/chapter09-price-action/section03-crypto-breakout-retest|量价突破、回踩与突破失败的流程]]
+- [[part15-crypto/chapter09-price-action/section04-crypto-reversal-structure|反转结构：拒绝、双底双顶与确认边界]]
+- [[part15-crypto/chapter09-price-action/section05-crypto-price-action-cases|区域、K线与量价的完整多空交易案例]]
+- [[part15-crypto/chapter09-price-action/section06-crypto-price-action-failures|影线、放量、假反转与假突破的失败案例]]
+
 ## part20-options · 📈 期权学习
 
 - [[part20-options/chapter00-期权学习|模块入口]]

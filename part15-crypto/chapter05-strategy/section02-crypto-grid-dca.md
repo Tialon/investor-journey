@@ -90,5 +90,9 @@ related: "[[chapter00-虚拟币交易]], [[section04-crypto-strategy-playbook]]"
 
 低周期的局部盈利不允许忽略全账户库存；大周期仍看多也不自动取消本周期保护。信号有效期与持仓退出分别管理，见 [[section03-crypto-mtf-position-exits]]。
 
+## 与支撑压力及K线配合
+
+按 [[section01-crypto-support-resistance]] 保存区间版本和失效条件。跌破后重画更低支撑不自动产生新网格预算；原订单、仓位和损失仍须记录。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

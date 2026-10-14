@@ -60,5 +60,9 @@ RSI、MACD和均线都部分来自同一价格序列，高一致性可能只是�
 
 对同一交易，不把四个周期当独立投票或独立预算。保护可实时触发，不等高周期收盘；加减仓和责任周期先写清，见 [[section03-crypto-mtf-position-exits]]。冲突、过早低周期突破与未收盘高周期误判见 [[section05-crypto-mtf-conflicts]]。
 
+## 与支撑压力及K线配合
+
+结构与形态职责见 [[section01-crypto-support-resistance]]、[[section02-crypto-candlestick-patterns]]。均线/动量、K线和量价描述同一行情，不能把多个条件当独立胜率相乘；完整执行见 [[section05-crypto-price-action-cases]]。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

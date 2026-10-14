@@ -58,5 +58,9 @@ related: "[[chapter00-虚拟币交易]], [[section04-crypto-strategy-playbook]]"
 
 加仓后整个合约数量、费用、清算余量和预算重算，不给每个周期单独发放预算。保护可以盘中执行，标记价风险也不等日线确认；见 [[section03-crypto-mtf-position-exits]]。背景冲突时的不交易路径见 [[section05-crypto-mtf-conflicts]]。
 
+## 与支撑压力及K线配合
+
+支撑角色互换与回踩触发见 [[section03-crypto-breakout-retest]]。结构确认、形态确认和实际成交分别记录；小周期看涨形态不能越过日/4小时的策略背景限制，也不能延迟已有保护。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

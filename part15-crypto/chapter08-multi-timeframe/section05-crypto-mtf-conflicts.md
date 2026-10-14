@@ -79,5 +79,9 @@ related: "[[section01-crypto-timeframe-alignment]], [[section02-crypto-top-down-
 
 时序依据核对（2026-10-15）：[跨周期数据与已知信息](https://www.tradingview.com/pine-script-docs/concepts/other-timeframes-and-data/)、[未确认值与实时/历史差异](https://www.tradingview.com/pine-script-docs/concepts/repainting/)。所有交易价格和成本为本页教学设定。
 
+## 与支撑压力及K线配合
+
+影线越界、放量后失败和局部反转越级见 [[section06-crypto-price-action-failures]]；负责结构的周期与触发周期分工不因一次小形态而临时切换。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

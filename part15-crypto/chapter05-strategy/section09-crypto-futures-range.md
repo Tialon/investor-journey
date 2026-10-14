@@ -56,5 +56,9 @@ related: "[[chapter00-虚拟币交易]], [[section04-crypto-strategy-playbook]]"
 
 15分钟边界拒绝只负责触发，原48,500小时失效保护不等4小时收盘。区间突破后停止第二/第三档，不向外放宽保护，参见 [[section05-crypto-mtf-conflicts]]。
 
+## 与支撑压力及K线配合
+
+边界反转应区分局部拒绝与结构反转，见 [[section04-crypto-reversal-structure]]。中部形态、未闭合确认和放量突破不能套用原区间假设；失败案例见 [[section06-crypto-price-action-failures]]。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

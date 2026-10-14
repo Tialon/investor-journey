@@ -56,5 +56,9 @@ related: "[[chapter00-虚拟币交易]], [[section04-crypto-strategy-playbook]]"
 
 原1小时支撑失败时按本次保护处理，不能临时改成日线低点持有。第二档由新结构/预算共同决定，不因为15分钟反复金叉重复加。对照 [[section02-crypto-top-down-analysis]] 与 [[section03-crypto-mtf-position-exits]]。
 
+## 与支撑压力及K线配合
+
+先以 [[section01-crypto-support-resistance]] 定义回调区域，再按 [[section02-crypto-candlestick-patterns]] 核验拒绝形态及后续恢复。缩量下跌、长下影不能单独构成追加条件；区域失效先处理原保护。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

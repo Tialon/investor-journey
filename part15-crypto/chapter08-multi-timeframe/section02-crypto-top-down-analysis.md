@@ -55,5 +55,9 @@ related: "[[section02-crypto-top-down-analysis]], [[section04-crypto-mtf-trade-c
 
 完整教学路径见 [[section04-crypto-mtf-trade-cases]]，冲突与假突破见 [[section05-crypto-mtf-conflicts]]。指标计算口径见 [[section06-crypto-indicator-workflow]]。
 
+## 与支撑压力及K线配合
+
+区域和角色互换见 [[section01-crypto-support-resistance]]；1小时结构突破与15分钟形态执行的可聚合样例见 [[section05-crypto-price-action-cases]] 案例A。15分钟影线不能替代小时收盘确认。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

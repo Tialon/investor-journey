@@ -39,5 +39,9 @@ related: "[[chapter00-虚拟币交易]]"
 
 最近高周期完整值在正常周期内可继续引用，但下一应闭合版本缺失不能永久忽略；准确时序和UTC/北京时间例子见 [[section01-crypto-timeframe-alignment]]。
 
+## 与支撑压力及K线配合
+
+价格形态须满足 L≤min(O,C)≤max(O,C)≤H；同源完整小K聚合的大K使用首O、最高H、最低L、末C与求和V。检查缺根、重复、时区和价格/数量单位，示例见 [[section05-crypto-price-action-cases]]。峰谷的确认时间必须晚于所需右侧数据；同根触及止盈止损时，OHLC不能推出先后，见 [[section06-crypto-price-action-failures]]。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

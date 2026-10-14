@@ -109,6 +109,17 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[part01-实�
 
 大周期负责背景，小时定义结构，15分钟找执行；保护实时独立，预算和真实数量统一。完整闭合、数据收到和信号有效期分别核验。
 
+## 支撑压力、K线与价格行为
+
+- [[section01-crypto-support-resistance|支撑压力区域：画法、角色互换与多周期]]
+- [[section02-crypto-candlestick-patterns|K线实体、影线、吞没与拒绝形态]]
+- [[section03-crypto-breakout-retest|量价突破、回踩与突破失败的流程]]
+- [[section04-crypto-reversal-structure|反转结构：拒绝、双底双顶与确认边界]]
+- [[section05-crypto-price-action-cases|区域、K线与量价的完整多空交易案例]]
+- [[section06-crypto-price-action-failures|影线、放量、假反转与假突破的失败案例]]
+
+区域先画、形态后确认；结合闭合的多周期与同口径成交量，再检查报价、总风险与保护。三组完整多空案例与五类失败情形均使用教学数据。
+
 ## 最易混淆的边界
 
 - 名义仓位、初始保证金、账户权益和最大可能损失是不同量。
@@ -128,7 +139,7 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[part01-实�
 - [Binance 合约接口](https://developers.binance.com/en/docs/catalog/core-trading-derivatives-trading-usd-s-m-futures/api/rest-api/trade)、[资金费](https://www.binance.com/en/support/faq/detail/360033525031)、[清算机制](https://www.binance.com/en/support/faq/detail/360033525271)。
 - [Bybit 反向合约损益](https://www.bybit.com/en/help-center/article/Profit-Loss-calculations-Inverse-Contracts)。
 
-**内容覆盖：46篇正文，另有本目录1篇及复盘模板1篇。** 内容完成只指笔记已写，未运行交易程序或验证盈利。未知参数不自动补默认值。
+**内容覆盖：52篇正文，另有本目录1篇及复盘模板1篇。** 内容完成只指笔记已写，未运行交易程序或验证盈利。未知参数不自动补默认值。
 
 ---
 **返回：** [[part00-主页]] | [[part03-目录]] | [[part01-实践工作台]]

@@ -80,5 +80,9 @@ related: "[[chapter00-虚拟币交易]], [[section04-crypto-strategy-playbook]]"
 
 带时间轴、费用后结果及冲突/假突破的案例分别见 [[section04-crypto-mtf-trade-cases]]、[[section05-crypto-mtf-conflicts]]。采用多周期版本时先定义规则，不事后借另一个周期改变失败退出。
 
+## 与支撑压力及K线配合
+
+入场结构进一步按 [[section01-crypto-support-resistance]] 定义区域，再用 [[section05-crypto-price-action-cases]] 核算突破、反抽做空和双底恢复；同时演练 [[section06-crypto-price-action-failures]]。形态成立不代表策略盈利。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

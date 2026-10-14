@@ -101,5 +101,9 @@ RSI25不自动开多；柱体−25仍为负，也不自动保留全部空头等�
 
 [[section04-crypto-mtf-trade-cases]] 提供带UTC时刻的现货趋势与合约空头路径；[[section05-crypto-mtf-conflicts]] 保留冲突、否决、假突破和保护失效案例。
 
+## 与支撑压力及K线配合
+
+更多形态OHLC与量价演练见 [[section05-crypto-price-action-cases]]；指标和K线同时支持候选仍可失败，见 [[section06-crypto-price-action-failures]]。这些案例互相独立，不能拼成同一历史轨迹。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

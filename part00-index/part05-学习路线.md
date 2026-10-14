@@ -35,7 +35,7 @@ related: "[[part00-主页]], [[part03-目录]]"
 
 ## 虚拟币专项路径
 
-[[chapter00-虚拟币交易]] 覆盖现货与合约46篇。先掌握现货成交、费用币、成本与余额；再学习合约数量、保证金、资金费与强平。先按 [[section04-crypto-strategy-playbook]] 独立核算分档、网格、突破、回调、合约多空、区间和对冲的盈利/失败路径，再演练订单不确定、部分成交、保护单和重启对账。
+[[chapter00-虚拟币交易]] 覆盖现货与合约52篇。先掌握现货成交、费用币、成本与余额；再学习合约数量、保证金、资金费与强平。先按 [[section04-crypto-strategy-playbook]] 独立核算分档、网格、突破、回调、合约多空、区间和对冲的盈利/失败路径，再演练订单不确定、部分成交、保护单和重启对账。
 
 策略研究与真实执行分别验收；数据、账户或订单证据未知时不自动新增风险。通用知识不绑定具体项目或账户参数。
 
@@ -48,6 +48,12 @@ related: "[[part00-主页]], [[part03-目录]]"
 按 [[section01-crypto-timeframe-alignment]] 核对日/4小时/1小时/15分钟在决策时刻是否已知，再用 [[section02-crypto-top-down-analysis]] 区分背景、结构与执行职责。通过 [[section04-crypto-mtf-trade-cases]]、[[section05-crypto-mtf-conflicts]] 解释确认、追加、退出、不交易和假突破，不使用未来大K结果回填。
 
 同一仓位共用预算，保护可以盘中触发；加减仓与保护责任见 [[section03-crypto-mtf-position-exits]]。
+
+## 支撑压力与K线验收
+
+按 [[section01-crypto-support-resistance]] 先确定区域和多周期职责，再用 [[section02-crypto-candlestick-patterns]] 从OHLC复算实体、影线和吞没。通过 [[section03-crypto-breakout-retest]]、[[section04-crypto-reversal-structure]] 区分突破、回踩与局部反转。
+
+用 [[section05-crypto-price-action-cases]] 独立聚合15分钟到1小时、核算三组分批成交与费用；用 [[section06-crypto-price-action-failures]] 解释放量仍失败、形态误判、同根触及止盈止损和不交易条件。
 
 ## 按需要补充
 

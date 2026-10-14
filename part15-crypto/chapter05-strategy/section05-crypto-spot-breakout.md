@@ -60,5 +60,9 @@ RSI超过70可暂停追价、按原目标减仓，不自动卖空；ATR变大不
 
 2@100、追加1@104、110/108分批退出的多周期时间轴见 [[section04-crypto-mtf-trade-cases]]。背景上行不延迟96硬保护，小时确认也可能是假突破；早于小时确认的小周期错误入场见 [[section05-crypto-mtf-conflicts]]。
 
+## 与支撑压力及K线配合
+
+突破区域和回踩拒绝的详细流程见 [[section03-crypto-breakout-retest]]；完整OHLC聚合、两次买入与分批退出见 [[section05-crypto-price-action-cases]] 案例A。影线越界与放量失败见 [[section06-crypto-price-action-failures]]，失败后不扩大原预算。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

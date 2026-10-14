@@ -48,5 +48,9 @@ OBV在收盘上升时加该根量，下跌时减，同价时按本文约定不�
 
 资料（核对2026-10-15）：[相对量的口径差异](https://www.tradingview.com/support/solutions/43000635874-how-do-we-calculate-relative-volume-and-relative-volume-at-time/)、[Fidelity OBV定义](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/obv)。
 
+## 与支撑压力及K线配合
+
+突破与回踩的同周期相对量见 [[section03-crypto-breakout-retest]]；4根15分钟量聚合成小时量见 [[section05-crypto-price-action-cases]] 案例A。放量收盘突破仍可能失败，见 [[section06-crypto-price-action-failures]]。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]
