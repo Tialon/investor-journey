@@ -18,7 +18,7 @@ related: "[[part00-主页]], [[part07-每日速查]], [[案例分析模板]], [[
 | 研究一家公司 | [[案例分析模板]]、[[section01-10-K年报]]、[[section03-产业链分析]] | 一页研究卡，事实与推断分开 |
 | 更新财报与估值 | [[section02-自由现金流预测]]、[[section01-DCF基础]]、[[section05-DCF敏感性分析]] | 数据来源、三情景及价值桥接 |
 | 决定是否开仓 | [[section01-交易计划]]、[[section01-固定比例法]]、[[section04-单标的仓位上限]] | 无效条件、数量与压力风险 |
-| 虚拟币现货/合约 | [[section04-crypto-strategy-playbook]]、[[section05-crypto-checklist]]、[[虚拟币交易复盘模板]] | 入场/加减仓计划、费用后结果与订单对账 |
+| 虚拟币现货/合约 | [[section04-crypto-strategy-playbook]]、[[section02-crypto-top-down-analysis]]、[[section05-crypto-checklist]] | 周期/价格证据、统一风险与费用后结果 |
 | 检查期权 | [[section08-strategy-payoffs]]、[[section06-execution-checklist]] | 盈亏算术、交割义务与退出计划 |
 | 检查组合 | [[section05-总仓位控制]]、[[section06-现金]]、[[section02-阈值再平衡]] | 同口径风险表与现金安排 |
 | 检验策略 | [[section01-回测基础]]、[[section04-时间对齐]]、[[section04-过拟合防范]] | 样本外结果、成本与局限 |

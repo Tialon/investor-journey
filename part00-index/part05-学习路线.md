@@ -35,9 +35,19 @@ related: "[[part00-主页]], [[part03-目录]]"
 
 ## 虚拟币专项路径
 
-[[chapter00-虚拟币交易]] 覆盖现货与合约34篇。先掌握现货成交、费用币、成本与余额；再学习合约数量、保证金、资金费与强平。先按 [[section04-crypto-strategy-playbook]] 独立核算分档、网格、突破、回调、合约多空、区间和对冲的盈利/失败路径，再演练订单不确定、部分成交、保护单和重启对账。
+[[chapter00-虚拟币交易]] 覆盖现货与合约46篇。先掌握现货成交、费用币、成本与余额；再学习合约数量、保证金、资金费与强平。先按 [[section04-crypto-strategy-playbook]] 独立核算分档、网格、突破、回调、合约多空、区间和对冲的盈利/失败路径，再演练订单不确定、部分成交、保护单和重启对账。
 
 策略研究与真实执行分别验收；数据、账户或订单证据未知时不自动新增风险。通用知识不绑定具体项目或账户参数。
+
+## 技术指标与策略验收
+
+按 [[section06-crypto-indicator-workflow]] 学习均线、RSI、MACD、ATR和成交量的计算与分工，再用 [[section07-crypto-indicator-cases]] 解释入场、加减仓、保护与失败路径。先独立复算公式小例，再检查真实数据的周期/闭合/预热；手工快照不等于历史回测。
+
+## 多周期时序与保护验收
+
+按 [[section01-crypto-timeframe-alignment]] 核对日/4小时/1小时/15分钟在决策时刻是否已知，再用 [[section02-crypto-top-down-analysis]] 区分背景、结构与执行职责。通过 [[section04-crypto-mtf-trade-cases]]、[[section05-crypto-mtf-conflicts]] 解释确认、追加、退出、不交易和假突破，不使用未来大K结果回填。
+
+同一仓位共用预算，保护可以盘中触发；加减仓与保护责任见 [[section03-crypto-mtf-position-exits]]。
 
 ## 按需要补充
 

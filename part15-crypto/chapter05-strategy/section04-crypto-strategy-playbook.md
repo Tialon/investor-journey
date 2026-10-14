@@ -68,5 +68,17 @@ related: "[[chapter00-虚拟币交易]], [[section04-crypto-strategy-playbook]]"
 
 盈亏机制核对（2026-10-15）：[合约损益与费用说明](https://www.bybit.com/en/help-center/article/FAQ-Profit-Loss-Calculation)、[资金费规则](https://www.binance.com/en/support/faq/detail/360033525031)。案例数据与交易规则为手工构造，资料不证明策略效果。
 
+## 技术指标与策略规则入口
+
+[[section06-crypto-indicator-workflow]] 将均线、RSI、MACD、ATR和成交量分别用于背景、动量、风险距离与换手确认；[[section07-crypto-indicator-cases]] 给出现货突破、合约区间、合约空头的完整手工快照与失败路径。
+
+指标研究只用当时已闭合数据，保护单可以盘中独立触发。所有快照都是条件演练，不声称来自真实历史计算；公式可复算的小例另列在各指标页。加仓预算、费用、保护和对账不被指标一致性覆盖。
+
+## 多周期分析入口
+
+[[section02-crypto-top-down-analysis]] 说明日/4小时背景、1小时结构与15分钟触发的分工；[[section03-crypto-mtf-position-exits]] 统一追加预算、减仓数量和保护职责。
+
+带时间轴、费用后结果及冲突/假突破的案例分别见 [[section04-crypto-mtf-trade-cases]]、[[section05-crypto-mtf-conflicts]]。采用多周期版本时先定义规则，不事后借另一个周期改变失败退出。
+
 ---
 **返回：** [[chapter00-虚拟币交易]] | [[part01-实践工作台]]

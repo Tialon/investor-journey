@@ -128,6 +128,24 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[part15-crypto/chapter06-automation/section04-crypto-backtest|成本后回测、回放与验证层级]]
 - [[part15-crypto/chapter06-automation/section05-crypto-checklist|现货与合约交易检查清单]]
 
+### chapter07-indicators · 常用技术指标与策略配合
+
+- [[part15-crypto/chapter07-indicators/section01-crypto-moving-averages|均线：趋势过滤、回调与跟踪退出]]
+- [[part15-crypto/chapter07-indicators/section02-crypto-rsi|RSI：动量状态、回归确认与钝化]]
+- [[part15-crypto/chapter07-indicators/section03-crypto-macd|MACD：趋势动量、柱体与交叉边界]]
+- [[part15-crypto/chapter07-indicators/section04-crypto-atr|ATR：波动距离、仓位与保护退出]]
+- [[part15-crypto/chapter07-indicators/section05-crypto-volume|成交量：量价、相对量与执行确认]]
+- [[part15-crypto/chapter07-indicators/section06-crypto-indicator-workflow|技术指标配合策略的决策流程]]
+- [[part15-crypto/chapter07-indicators/section07-crypto-indicator-cases|指标配合策略的完整交易与失效案例]]
+
+### chapter08-multi-timeframe · 多周期分析与保护协调
+
+- [[part15-crypto/chapter08-multi-timeframe/section01-crypto-timeframe-alignment|多周期K线闭合、时间对齐与信号有效期]]
+- [[part15-crypto/chapter08-multi-timeframe/section02-crypto-top-down-analysis|日线到15分钟：趋势、结构与入场分工]]
+- [[part15-crypto/chapter08-multi-timeframe/section03-crypto-mtf-position-exits|多周期加减仓、目标与保护如何协调]]
+- [[part15-crypto/chapter08-multi-timeframe/section04-crypto-mtf-trade-cases|多周期协同交易：趋势、触发与分批退出案例]]
+- [[part15-crypto/chapter08-multi-timeframe/section05-crypto-mtf-conflicts|周期信号冲突、未闭合确认与假突破案例]]
+
 ## part20-options · 📈 期权学习
 
 - [[part20-options/chapter00-期权学习|模块入口]]
