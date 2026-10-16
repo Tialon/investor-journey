@@ -25,6 +25,23 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[templates/概念卡片模板|概念卡片模板]]
 - [[templates/读书笔记模板|读书笔记模板]]
 
+## part05-finance-basics · 金融基础
+
+- [[part05-finance-basics/chapter00-金融基础|模块入口与学习顺序]]
+
+### chapter01-framework
+
+- [[part05-finance-basics/chapter01-framework/section01-financial-map|金融分类地图：资产、产品结构与交易组织]]
+
+### chapter02-risk-return
+
+- [[part05-finance-basics/chapter02-risk-return/section01-capital-risk-cost|资金、杠杆与交易成本]]
+- [[part05-finance-basics/chapter02-risk-return/section02-cashflow-total-return|现金流、总收益、复利与回撤]]
+
+### chapter03-practice
+
+- [[part05-finance-basics/chapter03-practice/section01-finance-glossary-quiz|金融基础术语与自测]]
+
 ## part10-equity · 📈 股票投资
 
 - [[part10-equity/chapter00-股票投资|模块入口]]
