@@ -4,7 +4,7 @@ topic: 期权
 aliases: [Options Learning, Options Trading]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-16"
 tags: [期权, MOC]
 related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[chapter00-Python投资]]"
 ---
@@ -14,6 +14,8 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[chapter00-Py
 > 从基础到高级，系统掌握期权交易
 
 ## 速查参考
+- [[section01-binance-stock-options|币安Stock Options：产品、规则与操作入口]]
+- [[section02-binance-small-capital|为什么小资金能参与期权：权利金、乘数与归零风险]]
 - [[section00-options-glossary|美股期权术语速查表]]
 - [[section08-strategy-payoffs|策略盈亏与损失对照]]
 - [[section06-execution-checklist|开仓、持仓、到期与复盘检查清单]]
@@ -96,6 +98,16 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[chapter00-Py
 5. [[section05-ibkr-api|IBKR API自动交易]]
 6. [[section06-ai-options|AI在期权交易中的应用]]
 
+## 第11卷：币安传统金融期权
+
+1. [[section01-binance-stock-options|Stock Options产品与规则版本]]
+2. [[section02-binance-small-capital|小资金原理、基础盈亏与Greeks/IV]]
+3. [[section03-binance-options-workflow|操作核查、限价开仓与平仓退出]]
+4. [[section04-binance-expiry-collateral|行权到期、备兑Call与现金担保Put]]
+5. [[section05-binance-options-journal|检查清单与交易日志]]
+6. [[section06-binance-other-derivatives|另章辨别加密/商品期权与TradFi永续]]
+7. [[section07-binance-ibkr-backtest|IBKR对照与真实期权回测要求]]
+
 ## 内容覆盖与学习验收
 
 | 卷 | 现有篇数（不含本目录） | 下一步验收 |
@@ -110,8 +122,9 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[chapter00-Py
 | IBKR实战 | 5 | 核对当前权限、订单预览、保证金及到期政策 |
 | 专业交易 | 5 | 区分持仓事实、交易动机推断和模型假设 |
 | Python+AI | 6 | 验证数据与模型，再做模拟对账与故障演练 |
+| 币安传统金融期权 | 7 | 区分产品、核算权利金与抵押，逐项确认权限、到期与交割 |
 
-**现有内容：59篇正文/参考笔记，另有本目录1篇。** “内容已写”不等于“已经掌握”，也不等于已通过模拟或实盘验收。运行 API 教学代码前请先查看该页的运行边界。
+**现有内容：66篇正文/参考笔记，另有本目录1篇。** “内容已写”不等于“已经掌握”，也不等于已通过模拟或实盘验收。运行 API 教学代码前请先查看该页的运行边界。
 
 ## 建议学习路径
 
@@ -130,7 +143,7 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[chapter00-Py
 
 ## 官方资料与维护
 
-合约机制与策略优先查 [OIC/OCC 投资者教育](https://www.optionseducation.org/)，VIX 产品查 [Cboe](https://www.cboe.com/tradable-products/volatility-trading/)，账户规则查 [IBKR 到期政策](https://www.interactivebrokers.com/en/trading/delivery-exercise-actions.php)。本轮核对日期：2026-10-15。券商界面、权限和保证金规则仍需在使用时复核。
+合约机制与策略优先查 [OIC/OCC 投资者教育](https://www.optionseducation.org/)，VIX 产品查 [Cboe](https://www.cboe.com/tradable-products/volatility-trading/)，账户规则查 [IBKR 到期政策](https://www.interactivebrokers.com/en/trading/delivery-exercise-actions.php)。通用期权内容核对日期：2026-10-15；币安专章核对日期：2026-10-16，详见 [[section01-binance-stock-options|官方来源与规则差异台账]]。券商界面、权限和保证金规则仍需在使用时复核。
 
 
 ---

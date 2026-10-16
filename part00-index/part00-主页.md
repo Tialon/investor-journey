@@ -4,7 +4,7 @@ topic: 主页
 aliases: [Home, Main Page]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-16"
 tags: [主页, 索引]
 related: "[[part05-学习路线]], [[part03-目录]], [[part07-每日速查]]"
 ---
@@ -26,7 +26,7 @@ related: "[[part05-学习路线]], [[part03-目录]], [[part07-每日速查]]"
 |---|---:|---:|
 | [[part10-equity/chapter00-股票投资\|📈 股票投资]] | 28 | 0 |
 | [[part15-crypto/chapter00-虚拟币交易\|虚拟币现货与合约]] | 52 | 0 |
-| [[part20-options/chapter00-期权学习\|📈 期权学习]] | 59 | 0 |
+| [[part20-options/chapter00-期权学习\|📈 期权学习]] | 66 | 0 |
 | [[part25-accounting/chapter00-财务分析\|📊 财务分析]] | 23 | 0 |
 | [[part30-macro/chapter00-宏观经济\|🌍 宏观经济]] | 27 | 0 |
 | [[part35-industry/chapter00-行业研究\|🏭 行业研究]] | 2 | 6 |

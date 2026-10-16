@@ -4,7 +4,7 @@ topic: 知识库目录
 aliases: [Table of Contents, TOC]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-16"
 tags: [目录, 索引]
 related: "[[part00-主页]], [[part05-学习路线]]"
 ---
@@ -247,6 +247,16 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 - [[part20-options/chapter10-python-ai/section04-signal-strategy|信号生成与策略开发]]
 - [[part20-options/chapter10-python-ai/section05-ibkr-api|IBKR API 与自动交易]]
 - [[part20-options/chapter10-python-ai/section06-ai-options|AI 驱动的期权交易]]
+
+### chapter11-binance-tradfi
+
+- [[part20-options/chapter11-binance-tradfi/section01-binance-stock-options|币安传统金融期权：先辨产品，再看规则]]
+- [[part20-options/chapter11-binance-tradfi/section02-binance-small-capital|为什么小资金也能参与股票期权]]
+- [[part20-options/chapter11-binance-tradfi/section03-binance-options-workflow|Stock Options：从核查到开平仓]]
+- [[part20-options/chapter11-binance-tradfi/section04-binance-expiry-collateral|行权、到期与备兑Call / 现金担保Put]]
+- [[part20-options/chapter11-binance-tradfi/section05-binance-options-journal|Stock Options检查清单与交易日志]]
+- [[part20-options/chapter11-binance-tradfi/section06-binance-other-derivatives|另章辨别：加密期权、黄金白银期权、TradFi永续]]
+- [[part20-options/chapter11-binance-tradfi/section07-binance-ibkr-backtest|币安与IBKR对照及真实期权回测]]
 
 ## part25-accounting · 📊 财务分析
 
