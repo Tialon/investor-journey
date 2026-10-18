@@ -19,7 +19,7 @@ related: "[[part00-主页]], [[part07-每日速查]], [[案例分析模板]], [[
 | 研究一家公司 | [[案例分析模板]]、[[section01-10-K年报]]、[[section03-产业链分析]] | 一页研究卡，事实与推断分开 |
 | 更新财报与估值 | [[section02-自由现金流预测]]、[[section01-DCF基础]]、[[section05-DCF敏感性分析]] | 数据来源、三情景及价值桥接 |
 | 决定是否开仓 | [[section01-交易计划]]、[[section01-固定比例法]]、[[section04-单标的仓位上限]] | 无效条件、数量与压力风险 |
-| 虚拟币现货/合约 | [[section04-crypto-strategy-playbook]]、[[section02-crypto-top-down-analysis]]、[[section05-crypto-price-action-cases]]、[[section05-crypto-checklist]] | 周期/价格证据、统一风险与费用后结果 |
+| 虚拟币现货/合约 | [[part15-crypto/chapter05-strategy/市场状态、策略选择与计算口径#常用策略选择与案例计算口径|常用策略选择与案例计算口径]]、[[part15-crypto/chapter08-multi-timeframe/多周期分析：时间对齐、入场与仓位保护#日线到15分钟：趋势、结构与入场分工|日线到15分钟：趋势、结构与入场分工]]、[[part15-crypto/chapter09-price-action/价格行为实战：多空案例与失败复盘#区域、K线与量价的完整多空交易案例|区域、K线与量价的完整多空交易案例]]、[[part15-crypto/chapter06-automation/行情数据、回测与交易检查#现货与合约交易检查清单|现货与合约交易检查清单]] | 周期/价格证据、统一风险与费用后结果 |
 | 检查期权 | [[section08-strategy-payoffs]]、[[section06-execution-checklist]] | 盈亏算术、交割义务与退出计划 |
 | 币安股票期权 | [[section01-binance-stock-options]]、[[section02-binance-small-capital]]、[[section05-binance-options-journal]] | 产品与权限核查、权利金/抵押计算、到期处理与成交日志 |
 | 检查组合 | [[section05-总仓位控制]]、[[section06-现金]]、[[section02-阈值再平衡]] | 同口径风险表与现金安排 |

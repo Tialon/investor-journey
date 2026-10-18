@@ -27,10 +27,10 @@ related: "[[part05-学习路线]], [[chapter00-资产配置]], [[chapter00-期�
 | 顺序 | 阅读入口 | 应能留下的成果 |
 |---|---|---|
 | 1. 概念与分类 | 本模块金融地图、术语速查 | 给一个产品写出资产、结构、交易/清算/托管关系 |
-| 2. 现金与无借贷现货 | [[section06-现金]]、[[chapter00-股票投资]]、[[section01-crypto-products]]、[[section01-crypto-spot-mechanics]] | 说明实际持有什么；核算数量、买卖价差、费用与可用余额 |
+| 2. 现金与无借贷现货 | [[section06-现金]]、[[chapter00-股票投资]]、[[part15-crypto/chapter01-basics/虚拟币基础、托管与资产研究#虚拟币资产、现货与合约|虚拟币资产、现货与合约]]、[[part15-crypto/chapter02-spot/现货交易、订单与成本核算#现货数量、余额与成交现金流|现货数量、余额与成交现金流]] | 说明实际持有什么；核算数量、买卖价差、费用与可用余额 |
 | 3. 组合、估值与现金流 | 本模块资金风险与总收益；[[chapter00-风险管理]]、[[chapter00-估值方法]]、[[chapter00-财务分析]] | 区分入金、收款和盈利；解释持仓集中度、估值假设与现金用途 |
 | 4. 债券、利率与配置 | [[chapter00-资产配置]]、[[part30-macro/chapter03-货币政策/section02-收益率曲线]]、债券提纲 | 认识债权/股权、期限和利率风险；比较不同资产在组合中的用途 |
-| 5. 衍生品与期权工具 | [[section01-crypto-contract-types]]、[[chapter00-期权学习]]、[[section08-strategy-payoffs]] | 先比较保护Put、备兑Call、现金担保Put，再理解价差；复算权利金、担保与指派 |
+| 5. 衍生品与期权工具 | [[part15-crypto/chapter03-derivatives/合约机制、保证金与盈亏结算#永续、到期与线性反向合约|永续、到期与线性反向合约]]、[[chapter00-期权学习]]、[[section08-strategy-payoffs]] | 先比较保护Put、备兑Call、现金担保Put，再理解价差；复算权利金、担保与指派 |
 | 6. 验证与复盘 | [[section03-绩效评估]]、[[section03-最大回撤]]、[[section07-binance-ibkr-backtest]] | 将理论情景、模拟与真实记录分开，保留数据和成本缺口 |
 
 股票与加密资产是并行学习分支，并非每个人都要交易全部资产。债券和ETF的完整专题目前仍是待补页：[[part65-portfolio/chapter02-资产类别/section02-债券|债券提纲]]、[[part92-institutional/chapter02-共同基金与ETF/section02-ETF|ETF提纲]]；本模块只补足入门识别，不将它们标为完整指南。

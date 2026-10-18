@@ -28,7 +28,7 @@ related: "[[part05-学习路线]], [[part03-目录]], [[part07-每日速查]]"
 |---|---:|---:|
 | [[part05-finance-basics/chapter00-金融基础\|金融基础]] | 4 | 0 |
 | [[part10-equity/chapter00-股票投资\|📈 股票投资]] | 28 | 0 |
-| [[part15-crypto/chapter00-虚拟币交易\|虚拟币现货与合约]] | 52 | 0 |
+| [[part15-crypto/chapter00-虚拟币交易\|虚拟币现货与合约]] | 17 | 0 |
 | [[part20-options/chapter00-期权学习\|📈 期权学习]] | 66 | 0 |
 | [[part25-accounting/chapter00-财务分析\|📊 财务分析]] | 23 | 0 |
 | [[part30-macro/chapter00-宏观经济\|🌍 宏观经济]] | 27 | 0 |

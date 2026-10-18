@@ -6,7 +6,7 @@ status: done
 created: "2026-10-16"
 updated: "2026-10-16"
 tags: [期权, 币安, 加密资产, 商品, 永续合约]
-related: "[[section01-binance-stock-options]], [[section01-crypto-contract-types]], [[section05-crypto-liquidation]]"
+related: "[[section01-binance-stock-options]], [[part15-crypto/chapter03-derivatives/合约机制、保证金与盈亏结算#永续、到期与线性反向合约|永续、到期与线性反向合约]], [[part15-crypto/chapter03-derivatives/合约机制、保证金与盈亏结算#指数价、标记价与强平机制|指数价、标记价与强平机制]]"
 ---
 
 # 另章辨别：加密期权、黄金白银期权、TradFi永续
@@ -55,7 +55,7 @@ FAQ更新于2026-09-23；其“USDT-only”表述与紧接的其他稳定币描�
 - 看到“小资金”区分权利金支出和保证金占用；权利金归零与保证金强平是不同路径。
 - 看到USDT/USDC先查它是报价、支付、抵押还是最终结算币种，不因一种余额可见就推定互相通用。
 
-相关基础：[[section01-crypto-contract-types|加密合约类型]]、[[section05-crypto-liquidation|强平机制]]、[[section06-crypto-funding|资金费]]。Stock Options操作仍以 [[section03-binance-options-workflow]] 为入口，不能直接照搬本章其他产品规则。
+相关基础：[[part15-crypto/chapter03-derivatives/合约机制、保证金与盈亏结算#永续、到期与线性反向合约|加密合约类型]]、[[part15-crypto/chapter03-derivatives/合约机制、保证金与盈亏结算#指数价、标记价与强平机制|强平机制]]、[[part15-crypto/chapter03-derivatives/合约机制、保证金与盈亏结算#资金费率、结算与持仓成本|资金费]]。Stock Options操作仍以 [[section03-binance-options-workflow]] 为入口，不能直接照搬本章其他产品规则。
 
 ---
 **返回：** [[chapter00-期权学习]] | [[chapter00-虚拟币交易]]

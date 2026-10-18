@@ -57,7 +57,7 @@ IBKR官方页面描述了默认到期行权、反向指令及因到期后风险�
 - 为什么同样一张期权，在IBKR和币安需要分别确认行权截止、资金与到期处置？
 - 回测中一笔“模型价成交”是否有当时的Bid/Ask、时间戳与深度支持？如果没有，应如何标注结论？
 
-继续学习：[[section01-tws-options|IBKR界面]]、[[section03-margin-risk|IBKR保证金与风控]]、[[section03-backtesting|期权回测框架]]、[[section04-crypto-backtest|加密策略回测]]。这些链接用于学习，任何示例代码或API能力仍需独立验证，不因本卷而自动获得执行授权。
+继续学习：[[section01-tws-options|IBKR界面]]、[[section03-margin-risk|IBKR保证金与风控]]、[[section03-backtesting|期权回测框架]]、[[part15-crypto/chapter06-automation/行情数据、回测与交易检查#成本后回测、回放与验证层级|加密策略回测]]。这些链接用于学习，任何示例代码或API能力仍需独立验证，不因本卷而自动获得执行授权。
 
 ---
 **返回：** [[chapter00-期权学习]] | [[section05-binance-options-journal]]

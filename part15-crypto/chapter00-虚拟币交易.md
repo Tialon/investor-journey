@@ -4,130 +4,67 @@ topic: 虚拟币
 aliases: [虚拟币, 加密资产, Crypto Trading]
 status: done
 created: "2026-10-15"
-updated: "2026-10-15"
+updated: "2026-10-18"
 tags: [虚拟币, 现货, 合约, MOC]
 related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[part01-实践工作台]]"
 ---
 
 # 虚拟币现货与合约交易
 
-> 通用知识储备，覆盖交易、成本、账户证据和自动交易设计；不绑定任何项目实现、账户默认值或交易授权。所有数值示例均为教学假设。
+> 通用知识储备，覆盖基础机制、策略、技术分析与执行。全部数值案例为教学假设，不绑定具体项目。
 
-## 优先入口
+原52篇细分正文已整合为17篇主题长文；每页带章节导航，公式、案例、费用口径与失败路径保留。
 
-- [[section02-crypto-top-down-analysis|日线到15分钟的分工]]、[[section04-crypto-mtf-trade-cases|多周期交易时间轴]]、[[section05-crypto-mtf-conflicts|冲突与假突破]]。
+## 建议阅读路径
 
-- [[section06-crypto-indicator-workflow|技术指标配合策略的决策流程]]、[[section07-crypto-indicator-cases|完整指标交易与失效案例]]。
-
-- [[section04-crypto-strategy-playbook|常用策略对照与案例计算口径]] — 8类策略的入场、加减仓、退出及费用后结果。
-
-- [[section05-crypto-checklist|交易检查清单]]、[[虚拟币交易复盘模板|虚拟币复盘模板]]。
-- [[section03-crypto-fees-accounting|费用后收益与成本]]、[[section01-crypto-sizing|损失预算与数量]]。
-- [[section05-crypto-liquidation|价格与强平]]、[[section06-crypto-funding|资金费]]。
-- [[section02-crypto-order-reconciliation|未知订单与对账]]、[[section03-crypto-api-recovery|API与网络恢复]]。
-
-## 建议路径与验收
-
-1. **现货基础**：分清资产/报价币、托管、订单角色和净成交数量；独立算出基础币扣费后的持仓与卖出净收益。
-2. **风险与账本**：按损失预算算数量，核对在途资金、外部资金流与历史成本；不能把未知记为零。
-3. **合约机制**：分清线性/反向、保证金币与结算币、开平模式、标记价、维护档位和资金费；独立核算合约净收益。
-4. **策略与自动交易**：完整行情→已核实账户→成本/风险→最终权限→订单→成交→对账，演练超时、部分成交和重启；历史回测不等于真实执行验收。
+1. 基础、现货与合约：识别资产、订单、费用、保证金与清算风险。
+2. 风控与策略：先定损失预算，再研究入场、加减仓与退出。
+3. 指标、多周期与价格行为：从规则到案例，分别核对闭合、成交量与失败情形。
+4. 数据与执行：演练回测、订单对账和故障恢复，使用 [[虚拟币交易复盘模板]] 留痕。
 
 ## 基础、托管与资产研究
 
-- [[section01-crypto-products|虚拟币资产、现货与合约]]
-- [[section02-crypto-custody|交易所托管、钱包与密钥安全]]
-- [[section03-crypto-transfers|充值提现、网络与链上授权]]
-- [[section04-crypto-stablecoins|稳定币、抵押资产与收益产品]]
-- [[section05-crypto-token-research|代币研究、供给解锁与基本面]]
+- [[part15-crypto/chapter01-basics/虚拟币基础、托管与资产研究|虚拟币基础、托管与资产研究]]
 
 ## 现货交易与成本
 
-- [[section01-crypto-spot-mechanics|现货数量、余额与成交现金流]]
-- [[section02-crypto-orders|订单类型、盘口与成交约束]]
-- [[section03-crypto-fees-accounting|手续费、滑点、成本基础与净收益]]
-- [[section04-crypto-margin-borrow|现货杠杆、借币与利息]]
+- [[part15-crypto/chapter02-spot/现货交易、订单与成本核算|现货交易、订单与成本核算]]
 
 ## 合约机制与结算
 
-- [[section01-crypto-contract-types|永续、到期与线性反向合约]]
-- [[section02-crypto-contract-pnl|合约盈亏、线性与反向算例]]
-- [[section03-crypto-leverage|杠杆、名义敞口与初始保证金]]
-- [[section04-crypto-position-modes|逐仓、全仓、单向与双向持仓]]
-- [[section05-crypto-liquidation|指数价、标记价与强平机制]]
-- [[section06-crypto-funding|资金费率、结算与持仓成本]]
-- [[section07-crypto-adl|保险基金、ADL与极端市场]]
+- [[part15-crypto/chapter03-derivatives/合约机制、保证金与盈亏结算|合约机制、保证金与盈亏结算]]
 
 ## 仓位、保护与应急
 
-- [[section01-crypto-sizing|现货与合约的损失预算和仓位]]
-- [[section02-crypto-protective-exits|止损止盈、减仓与保护单生命周期]]
-- [[section03-crypto-portfolio-risk|账户权益、底仓与组合集中度]]
-- [[section04-crypto-incident-response|交易所故障、异常账户与应急处理]]
+- [[part15-crypto/chapter04-risk/仓位管理、保护退出与风险应急|仓位管理、保护退出与风险应急]]
 
-## 信号与策略研究
+## 常用交易策略
 
-- [[section01-crypto-market-signals|趋势、波动、成交量、OI与市场状态]]
-- [[section02-crypto-grid-dca|网格、分档买入与有限周期预算]]
-- [[section03-crypto-basis-hedging|基差、资金费交易与现货合约对冲]]
-- [[section04-crypto-strategy-playbook|常用策略选择与案例计算口径]]
-- [[section05-crypto-spot-breakout|现货突破：确认后加仓与跟踪止盈]]
-- [[section06-crypto-spot-pullback|现货趋势回调：有限加仓与支撑失效]]
-- [[section07-crypto-futures-trend|合约趋势多头：顺势加仓与分批保护]]
-- [[section08-crypto-futures-short|合约跌破空头：反抽确认与分批回补]]
-- [[section09-crypto-futures-range|合约区间反转：边界确认与严格退出]]
+- [[part15-crypto/chapter05-strategy/市场状态、策略选择与计算口径|市场状态、策略选择与计算口径]]
+- [[part15-crypto/chapter05-strategy/网格与分档买入策略|网格与分档买入策略]]
+- [[part15-crypto/chapter05-strategy/基差、资金费与现货合约对冲|基差、资金费与现货合约对冲]]
+- [[part15-crypto/chapter05-strategy/现货突破与趋势回调策略|现货突破与趋势回调策略]]
+- [[part15-crypto/chapter05-strategy/合约趋势、多空与区间策略|合约趋势、多空与区间策略]]
 
-所有案例包含规则、实际成交和费用口径；盈利路径与失败路径分别演练。先读统一计算口径，再逐页核算现金流与剩余仓位。
+## 数据、订单与验证
 
-## 数据、订单、恢复与验证
+- [[part15-crypto/chapter06-automation/行情数据、回测与交易检查|行情数据、回测与交易检查]]
+- [[part15-crypto/chapter06-automation/订单对账、API与故障恢复|订单对账、API与故障恢复]]
 
-- [[section01-crypto-data-quality|行情窗口、K线闭合与数据新鲜度]]
-- [[section02-crypto-order-reconciliation|订单状态、部分成交与幂等对账]]
-- [[section03-crypto-api-recovery|API权限、校时、限流与网络恢复]]
-- [[section04-crypto-backtest|成本后回测、回放与验证层级]]
-- [[section05-crypto-checklist|现货与合约交易检查清单]]
+## 技术指标与策略配合
 
-## 常用技术指标与策略配合
+- [[part15-crypto/chapter07-indicators/常用技术指标：均线、RSI、MACD、ATR与成交量|常用技术指标：均线、RSI、MACD、ATR与成交量]]
+- [[part15-crypto/chapter07-indicators/指标配合策略：执行流程与完整案例|指标配合策略：执行流程与完整案例]]
 
-- [[section01-crypto-moving-averages|均线：趋势过滤、回调与跟踪退出]]
-- [[section02-crypto-rsi|RSI：动量状态、回归确认与钝化]]
-- [[section03-crypto-macd|MACD：趋势动量、柱体与交叉边界]]
-- [[section04-crypto-atr|ATR：波动距离、仓位与保护退出]]
-- [[section05-crypto-volume|成交量：量价、相对量与执行确认]]
-- [[section06-crypto-indicator-workflow|技术指标配合策略的决策流程]]
-- [[section07-crypto-indicator-cases|指标配合策略的完整交易与失效案例]]
+## 多周期分析与交易案例
 
-先分工，再配合：趋势/动量不保证方向，ATR用于风险尺度，成交量不代替执行深度。研究用已闭合信息，保护退出独立执行。
-
-## 多周期分析与保护协调
-
-- [[section01-crypto-timeframe-alignment|多周期K线闭合、时间对齐与信号有效期]]
-- [[section02-crypto-top-down-analysis|日线到15分钟：趋势、结构与入场分工]]
-- [[section03-crypto-mtf-position-exits|多周期加减仓、目标与保护如何协调]]
-- [[section04-crypto-mtf-trade-cases|多周期协同交易：趋势、触发与分批退出案例]]
-- [[section05-crypto-mtf-conflicts|周期信号冲突、未闭合确认与假突破案例]]
-
-大周期负责背景，小时定义结构，15分钟找执行；保护实时独立，预算和真实数量统一。完整闭合、数据收到和信号有效期分别核验。
+- [[part15-crypto/chapter08-multi-timeframe/多周期分析：时间对齐、入场与仓位保护|多周期分析：时间对齐、入场与仓位保护]]
+- [[part15-crypto/chapter08-multi-timeframe/多周期交易案例、信号冲突与假突破|多周期交易案例、信号冲突与假突破]]
 
 ## 支撑压力、K线与价格行为
 
-- [[section01-crypto-support-resistance|支撑压力区域：画法、角色互换与多周期]]
-- [[section02-crypto-candlestick-patterns|K线实体、影线、吞没与拒绝形态]]
-- [[section03-crypto-breakout-retest|量价突破、回踩与突破失败的流程]]
-- [[section04-crypto-reversal-structure|反转结构：拒绝、双底双顶与确认边界]]
-- [[section05-crypto-price-action-cases|区域、K线与量价的完整多空交易案例]]
-- [[section06-crypto-price-action-failures|影线、放量、假反转与假突破的失败案例]]
-
-区域先画、形态后确认；结合闭合的多周期与同口径成交量，再检查报价、总风险与保护。三组完整多空案例与五类失败情形均使用教学数据。
-
-## 最易混淆的边界
-
-- 名义仓位、初始保证金、账户权益和最大可能损失是不同量。
-- 市价优先成交，限价约束价格；触发、受理、成交和对账是不同状态。
-- 正资金费通常多付空，结算间隔和实际金额按具体合约核对，不能固定套8小时。
-- 单向/双向与逐仓/全仓是不同设置；BUY/SELL不足以说明开平仓。
-- 现货合约对冲可能因基差、保证金、ADL、平台或稳定币风险失效。
-- 只读恢复不等于交易授权，订单超时不等于未成交，余额一致不证明全部事件完整。
+- [[part15-crypto/chapter09-price-action/支撑压力、K线形态与突破反转|支撑压力、K线形态与突破反转]]
+- [[part15-crypto/chapter09-price-action/价格行为实战：多空案例与失败复盘|价格行为实战：多空案例与失败复盘]]
 
 ## 官方资料与维护
 
@@ -139,7 +76,7 @@ related: "[[chapter00-风险管理]], [[chapter00-量化投资]], [[part01-实�
 - [Binance 合约接口](https://developers.binance.com/en/docs/catalog/core-trading-derivatives-trading-usd-s-m-futures/api/rest-api/trade)、[资金费](https://www.binance.com/en/support/faq/detail/360033525031)、[清算机制](https://www.binance.com/en/support/faq/detail/360033525271)。
 - [Bybit 反向合约损益](https://www.bybit.com/en/help-center/article/Profit-Loss-calculations-Inverse-Contracts)。
 
-**内容覆盖：52篇正文，另有本目录1篇及复盘模板1篇。** 内容完成只指笔记已写，未运行交易程序或验证盈利。未知参数不自动补默认值。
+**内容覆盖：17篇正文，另有本目录1篇及复盘模板1篇。** 内容合并只调整组织方式；未运行交易程序或验证盈利。
 
 ---
 **返回：** [[part00-主页]] | [[part03-目录]] | [[part01-实践工作台]]

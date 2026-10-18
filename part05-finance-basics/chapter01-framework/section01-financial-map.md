@@ -35,7 +35,7 @@ related: "[[chapter00-金融基础]], [[section01-capital-risk-cost]], [[section
 
 基金/ETF经常与股票、债券并列出现在投资菜单，但更精确地说它是一种载体。Investor.gov对ETF的说明强调其集合资金并投资于不同资产；其美国注册类别说明不直接替代其他市场的法律分类。[Investor.gov：ETF](https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-2)
 
-继续阅读：[[chapter00-股票投资]]、[[part65-portfolio/chapter02-资产类别/section02-债券|债券（待补）]]、[[part92-institutional/chapter02-共同基金与ETF/section02-ETF|ETF（待补）]]、[[section01-crypto-products|加密资产与产品]]、[[section06-现金|现金用途]]。
+继续阅读：[[chapter00-股票投资]]、[[part65-portfolio/chapter02-资产类别/section02-债券|债券（待补）]]、[[part92-institutional/chapter02-共同基金与ETF/section02-ETF|ETF（待补）]]、[[part15-crypto/chapter01-basics/虚拟币基础、托管与资产研究#虚拟币资产、现货与合约|加密资产与产品]]、[[section06-现金|现金用途]]。
 
 ## 现货与衍生品：取得权利的方式不同
 

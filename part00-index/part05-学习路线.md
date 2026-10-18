@@ -41,25 +41,25 @@ related: "[[part00-主页]], [[part03-目录]]"
 
 ## 虚拟币专项路径
 
-[[chapter00-虚拟币交易]] 覆盖现货与合约52篇。先掌握现货成交、费用币、成本与余额；再学习合约数量、保证金、资金费与强平。先按 [[section04-crypto-strategy-playbook]] 独立核算分档、网格、突破、回调、合约多空、区间和对冲的盈利/失败路径，再演练订单不确定、部分成交、保护单和重启对账。
+[[chapter00-虚拟币交易]] 覆盖现货与合约17篇主题长文。先掌握现货成交、费用币、成本与余额；再学习合约数量、保证金、资金费与强平。先按 [[part15-crypto/chapter05-strategy/市场状态、策略选择与计算口径#常用策略选择与案例计算口径|常用策略选择与案例计算口径]] 独立核算分档、网格、突破、回调、合约多空、区间和对冲的盈利/失败路径，再演练订单不确定、部分成交、保护单和重启对账。
 
 策略研究与真实执行分别验收；数据、账户或订单证据未知时不自动新增风险。通用知识不绑定具体项目或账户参数。
 
 ## 技术指标与策略验收
 
-按 [[section06-crypto-indicator-workflow]] 学习均线、RSI、MACD、ATR和成交量的计算与分工，再用 [[section07-crypto-indicator-cases]] 解释入场、加减仓、保护与失败路径。先独立复算公式小例，再检查真实数据的周期/闭合/预热；手工快照不等于历史回测。
+按 [[part15-crypto/chapter07-indicators/指标配合策略：执行流程与完整案例#技术指标配合策略的决策流程|技术指标配合策略的决策流程]] 学习均线、RSI、MACD、ATR和成交量的计算与分工，再用 [[part15-crypto/chapter07-indicators/指标配合策略：执行流程与完整案例#指标配合策略的完整交易与失效案例|指标配合策略的完整交易与失效案例]] 解释入场、加减仓、保护与失败路径。先独立复算公式小例，再检查真实数据的周期/闭合/预热；手工快照不等于历史回测。
 
 ## 多周期时序与保护验收
 
-按 [[section01-crypto-timeframe-alignment]] 核对日/4小时/1小时/15分钟在决策时刻是否已知，再用 [[section02-crypto-top-down-analysis]] 区分背景、结构与执行职责。通过 [[section04-crypto-mtf-trade-cases]]、[[section05-crypto-mtf-conflicts]] 解释确认、追加、退出、不交易和假突破，不使用未来大K结果回填。
+按 [[part15-crypto/chapter08-multi-timeframe/多周期分析：时间对齐、入场与仓位保护#多周期K线闭合、时间对齐与信号有效期|多周期K线闭合、时间对齐与信号有效期]] 核对日/4小时/1小时/15分钟在决策时刻是否已知，再用 [[part15-crypto/chapter08-multi-timeframe/多周期分析：时间对齐、入场与仓位保护#日线到15分钟：趋势、结构与入场分工|日线到15分钟：趋势、结构与入场分工]] 区分背景、结构与执行职责。通过 [[part15-crypto/chapter08-multi-timeframe/多周期交易案例、信号冲突与假突破#多周期协同交易：趋势、触发与分批退出案例|多周期协同交易：趋势、触发与分批退出案例]]、[[part15-crypto/chapter08-multi-timeframe/多周期交易案例、信号冲突与假突破#周期信号冲突、未闭合确认与假突破案例|周期信号冲突、未闭合确认与假突破案例]] 解释确认、追加、退出、不交易和假突破，不使用未来大K结果回填。
 
-同一仓位共用预算，保护可以盘中触发；加减仓与保护责任见 [[section03-crypto-mtf-position-exits]]。
+同一仓位共用预算，保护可以盘中触发；加减仓与保护责任见 [[part15-crypto/chapter08-multi-timeframe/多周期分析：时间对齐、入场与仓位保护#多周期加减仓、目标与保护如何协调|多周期加减仓、目标与保护如何协调]]。
 
 ## 支撑压力与K线验收
 
-按 [[section01-crypto-support-resistance]] 先确定区域和多周期职责，再用 [[section02-crypto-candlestick-patterns]] 从OHLC复算实体、影线和吞没。通过 [[section03-crypto-breakout-retest]]、[[section04-crypto-reversal-structure]] 区分突破、回踩与局部反转。
+按 [[part15-crypto/chapter09-price-action/支撑压力、K线形态与突破反转#支撑压力区域：画法、角色互换与多周期|支撑压力区域：画法、角色互换与多周期]] 先确定区域和多周期职责，再用 [[part15-crypto/chapter09-price-action/支撑压力、K线形态与突破反转#K线实体、影线、吞没与拒绝形态|K线实体、影线、吞没与拒绝形态]] 从OHLC复算实体、影线和吞没。通过 [[part15-crypto/chapter09-price-action/支撑压力、K线形态与突破反转#量价突破、回踩与突破失败的流程|量价突破、回踩与突破失败的流程]]、[[part15-crypto/chapter09-price-action/支撑压力、K线形态与突破反转#反转结构：拒绝、双底双顶与确认边界|反转结构：拒绝、双底双顶与确认边界]] 区分突破、回踩与局部反转。
 
-用 [[section05-crypto-price-action-cases]] 独立聚合15分钟到1小时、核算三组分批成交与费用；用 [[section06-crypto-price-action-failures]] 解释放量仍失败、形态误判、同根触及止盈止损和不交易条件。
+用 [[part15-crypto/chapter09-price-action/价格行为实战：多空案例与失败复盘#区域、K线与量价的完整多空交易案例|区域、K线与量价的完整多空交易案例]] 独立聚合15分钟到1小时、核算三组分批成交与费用；用 [[part15-crypto/chapter09-price-action/价格行为实战：多空案例与失败复盘#影线、放量、假反转与假突破的失败案例|影线、放量、假反转与假突破的失败案例]] 解释放量仍失败、形态误判、同根触及止盈止损和不交易条件。
 
 ## 按需要补充
 
