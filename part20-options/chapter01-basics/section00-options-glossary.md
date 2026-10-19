@@ -33,12 +33,12 @@ related: "[[section01-what-is-option|什么是期权]], [[section02-call-and-put
 
 ## 二、四种最基础策略（必须掌握）
 
-| 英文 | 中文 | 市场观点 | 风险特点 |
-|------|------|---------|---------|
-| Long Call | 买入看涨期权 | 看涨 | 最大亏损为权利金，收益理论无限 |
-| Short Call | 卖出看涨期权 | 看不涨 | 收取权利金，裸卖风险理论无限 |
-| Long Put | 买入看跌期权 | 看跌 | 最大亏损为权利金，股价越跌越有利 |
-| Short Put | 卖出看跌期权 | 看不跌 | 收取权利金，可能被要求买入股票 |
+| 英文         | 中文     | 市场观点 | 风险特点             |
+| ---------- | ------ | ---- | ---------------- |
+| Long Call  | 买入看涨期权 | 看涨   | 最大亏损为权利金，收益理论无限  |
+| Short Call | 卖出看涨期权 | 看不涨  | 收取权利金，裸卖风险理论无限   |
+| Long Put   | 买入看跌期权 | 看跌   | 最大亏损为权利金，股价越跌越有利 |
+| Short Put  | 卖出看跌期权 | 看不跌  | 收取权利金，可能被要求买入股票  |
 
 **记忆口诀：**
 - **Call = 看涨**
@@ -87,14 +87,14 @@ related: "[[section01-what-is-option|什么是期权]], [[section02-call-and-put
 
 ## 五、期权价值相关术语
 
-| 英文 | 中文 | 说明 |
-|------|------|------|
-| Intrinsic Value | 内在价值 | 立即行权可获得的价值 |
-| Extrinsic Value | 时间价值 | 超出内在价值的部分 |
-| Time Value | 时间价值 | 距离到期越远通常越高 |
-| In the Money (ITM) | 实值 | 已具有内在价值 |
-| At the Money (ATM) | 平值 | 行权价接近当前股价 |
-| Out of the Money (OTM) | 虚值 | 尚无内在价值 |
+| 英文                     | 中文   | 说明         |
+| ---------------------- | ---- | ---------- |
+| Intrinsic Value        | 内在价值 | 立即行权可获得的价值 |
+| Extrinsic Value        | 时间价值 | 超出内在价值的部分  |
+| Time Value             | 时间价值 | 距离到期越远通常越高 |
+| In the Money (ITM)     | 实值   | 已具有内在价值    |
+| At the Money (ATM)     | 平值   | 行权价接近当前股价  |
+| Out of the Money (OTM) | 虚值   | 尚无内在价值     |
 
 详见：[[section04-intrinsic-time-value|内在价值与时间价值]]
 
@@ -102,13 +102,13 @@ related: "[[section01-what-is-option|什么是期权]], [[section02-call-and-put
 
 ## 六、期权 Greeks（希腊字母）
 
-| 英文 | 中文 | 作用 |
-|------|------|------|
+| 英文    | 中文           | 作用                  |
+| ----- | ------------ | ------------------- |
 | Delta | Delta（方向敏感度） | 股价每变动1美元，期权价格预计变化多少 |
-| Gamma | Gamma | Delta 的变化速度 |
-| Theta | Theta（时间衰减） | 每天因时间流逝导致的价值变化 |
-| Vega | Vega | 对隐含波动率（IV）的敏感度 |
-| Rho | Rho | 对利率变化的敏感度 |
+| Gamma | Gamma        | Delta 的变化速度         |
+| Theta | Theta（时间衰减）  | 每天因时间流逝导致的价值变化      |
+| Vega  | Vega         | 对隐含波动率（IV）的敏感度      |
+| Rho   | Rho          | 对利率变化的敏感度           |
 
 **学习顺序建议：** Delta → Theta → Vega → Gamma → Rho
 
@@ -118,12 +118,12 @@ related: "[[section01-what-is-option|什么是期权]], [[section02-call-and-put
 
 ## 七、波动率术语
 
-| 英文 | 中文 | 说明 |
-|------|------|------|
-| IV (Implied Volatility) | 隐含波动率 | 市场预期未来波动程度 |
-| HV (Historical Volatility) | 历史波动率 | 过去实际波动情况 |
-| IV Rank | IV 排名 | 当前 IV 在历史区间中的位置 |
-| IV Percentile | IV 百分位 | 当前 IV 高于历史多少比例 |
+| 英文                         | 中文     | 说明              |
+| -------------------------- | ------ | --------------- |
+| IV (Implied Volatility)    | 隐含波动率  | 市场预期未来波动程度      |
+| HV (Historical Volatility) | 历史波动率  | 过去实际波动情况        |
+| IV Rank                    | IV 排名  | 当前 IV 在历史区间中的位置 |
+| IV Percentile              | IV 百分位 | 当前 IV 高于历史多少比例  |
 
 **经验：**
 - IV 高：权利金通常较高，但可能反映财报、跳空或尾部风险，不能单独推导卖方优势。
@@ -133,19 +133,19 @@ related: "[[section01-what-is-option|什么是期权]], [[section02-call-and-put
 
 ## 八、常见策略名称
 
-| 英文 | 中文 |
-|------|------|
-| Covered Call | 备兑看涨 |
+| 英文               | 中文         |
+| ---------------- | ---------- |
+| Covered Call     | 备兑看涨       |
 | Cash-Secured Put | 现金担保卖出 Put |
-| Protective Put | 保护性 Put |
-| Bull Call Spread | 牛市看涨价差 |
-| Bear Put Spread | 熊市看跌价差 |
-| Iron Condor | 铁鹰策略 |
-| Iron Butterfly | 铁蝶策略 |
-| Straddle | 跨式策略 |
-| Strangle | 勒式策略 |
-| Calendar Spread | 日历价差 |
-| Diagonal Spread | 对角价差 |
+| Protective Put   | 保护性 Put    |
+| Bull Call Spread | 牛市看涨价差     |
+| Bear Put Spread  | 熊市看跌价差     |
+| Iron Condor      | 铁鹰策略       |
+| Iron Butterfly   | 铁蝶策略       |
+| Straddle         | 跨式策略       |
+| Strangle         | 勒式策略       |
+| Calendar Spread  | 日历价差       |
+| Diagonal Spread  | 对角价差       |
 
 ---
 
