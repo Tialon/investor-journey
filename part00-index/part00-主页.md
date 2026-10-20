@@ -4,7 +4,7 @@ topic: 主页
 aliases: [Home, Main Page]
 status: done
 created: "2026-06-28"
-updated: "2026-10-20"
+updated: "2026-10-16"
 tags: [主页, 索引]
 related: "[[part05-学习路线]], [[part03-目录]], [[part07-每日速查]]"
 ---
@@ -21,8 +21,6 @@ related: "[[part05-学习路线]], [[part03-目录]], [[part07-每日速查]]"
 - [[part07-每日速查|每日速查]] — 常用公式、口径与检查项。
 - [[案例分析模板|公司研究模板]]、[[交易复盘模板|交易复盘模板]]。
 - [[part05-学习路线|学习与补充路线]]、[[part03-目录|完整目录]]。
-
-- [[part78-technical-skills/chapter00-技术技能储备|技术技能储备]] — AI、Java、分布式、数据与工程学习；练习待执行。
 
 ## 知识模块
 
@@ -43,7 +41,6 @@ related: "[[part05-学习路线]], [[part03-目录]], [[part07-每日速查]]"
 | [[part65-portfolio/chapter00-资产配置\|📊 资产配置]] | 3 | 2 |
 | [[part70-python/chapter00-Python投资\|🐍 Python 投资]] | 1 | 3 |
 | [[part75-ai/chapter00-AI投资\|🤖 AI 投资]] | 2 | 3 |
-| [[part78-technical-skills/chapter00-技术技能储备\|技术技能储备]] | 22 | 0 |
 | [[part80-data-analysis/chapter00-数据分析\|📈 数据分析]] | 2 | 2 |
 | [[part85-quant/chapter00-量化投资\|📐 量化投资]] | 4 | 1 |
 | [[part90-legal-tax/chapter00-法律税务\|⚖️ 法律和税务]] | 0 | 4 |
