@@ -4,7 +4,7 @@ topic: 知识库目录
 aliases: [Table of Contents, TOC]
 status: done
 created: "2026-06-28"
-updated: "2026-10-16"
+updated: "2026-10-20"
 tags: [目录, 索引]
 related: "[[part00-主页]], [[part05-学习路线]]"
 ---
@@ -518,6 +518,47 @@ related: "[[part00-主页]], [[part05-学习路线]]"
 
 - [[part75-ai/chapter05-风险与局限/section01-AI的局限性|AI的局限性]] — 待补充
 - [[part75-ai/chapter05-风险与局限/section02-AI幻觉|AI幻觉]] — 待补充
+
+## part78-technical-skills · 技术技能储备
+
+- [[part78-technical-skills/chapter00-技术技能储备|模块入口与学习顺序]] — 原理、边界、面试简答与未执行练习
+
+### chapter01-ai · AI应用与RAG
+
+- [[part78-technical-skills/chapter01-ai/section01-rag-foundations|RAG：为什么引入、何时适用与何时不用]]
+- [[part78-technical-skills/chapter01-ai/section02-document-ingestion|文档解析与父子分块：先保留关系，再建立索引]]
+- [[part78-technical-skills/chapter01-ai/section03-hybrid-retrieval|混合检索与重排：BGE-M3、Milvus 与 BGE-Reranker]]
+- [[part78-technical-skills/chapter01-ai/section04-rag-troubleshooting|RAG 排障：开发与生产答案矛盾，怎样逐层溯源]]
+- [[part78-technical-skills/chapter01-ai/section05-spring-ai-and-tools|Spring AI：对话链、流式响应与工具调用]]
+- [[part78-technical-skills/chapter01-ai/section06-routing-evaluation-deployment|意图路由、效果评估与模型部署]]
+
+### chapter02-java · Java与Web后端
+
+- [[part78-technical-skills/chapter02-java/section01-java-and-design|Java 基础与可扩展设计]]
+- [[part78-technical-skills/chapter02-java/section02-concurrency|Java 并发与异步任务]]
+- [[part78-technical-skills/chapter02-java/section03-jmm-jvm-and-diagnostics|JMM、JVM 与故障排查]]
+- [[part78-technical-skills/chapter02-java/section04-spring-backend|Spring 后端基础：容器、代理与接口边界]]
+- [[part78-technical-skills/chapter02-java/section05-http-and-async|HTTP 请求如何经过 Spring MVC 与 FastAPI]]
+
+### chapter03-distributed · 分布式与可靠性
+
+- [[part78-technical-skills/chapter03-distributed/section01-service-governance|服务治理：让跨服务调用可发现、可限制、可恢复]]
+- [[part78-technical-skills/chapter03-distributed/section02-transactions-and-idempotency|分布式事务与幂等：先画清提交和失败边界]]
+- [[part78-technical-skills/chapter03-distributed/section03-distributed-locks|Redisson 分布式锁：协调临界区并守住存储边界]]
+- [[part78-technical-skills/chapter03-distributed/section04-rabbitmq-and-jobs|RabbitMQ 与 XXL-JOB：可靠投递、延迟唤醒与补偿调度]]
+- [[part78-technical-skills/chapter03-distributed/section05-elasticsearch|Elasticsearch：从倒排索引到可解释的业务排序]]
+
+### chapter04-data · 数据存储与平台接入
+
+- [[part78-technical-skills/chapter04-data/section01-mysql|MySQL：从索引访问到事务可见性]]
+- [[part78-technical-skills/chapter04-data/section02-redis|Redis：结构选择、缓存故障与数据边界]]
+- [[part78-technical-skills/chapter04-data/section03-iot-and-platforms|IoT与平台集成：区分接入、状态与业务确认]]
+
+### chapter05-engineering · 工程交付与协作
+
+- [[part78-technical-skills/chapter05-engineering/section01-delivery-and-troubleshooting|从源码到服务：构建、发布与排查]]
+- [[part78-technical-skills/chapter05-engineering/section02-api-and-client-collaboration|接口契约、管理后台与客户端协作]]
+- [[part78-technical-skills/chapter05-engineering/section03-ai-assisted-development|AI辅助开发：让生成结果可评审、可验证]]
 
 ## part80-data-analysis · 📈 数据分析
 
