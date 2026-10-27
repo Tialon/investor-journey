@@ -30,23 +30,24 @@ Long / Short = 身份（Position）—— 你最终站在哪一边
 
 假设 NVDA 当前 $180：
 
-| 你的操作 | 动作（Action） | 结果（Position） | 说明 |
-|---------|---------------|-----------------|------|
-| 买 100 股 | Buy | **Long** 100 股 | 持有股票，涨了赚钱 |
-| 后来涨到 $220，卖掉 | Sell | **Flat**（空仓） | 卖掉已有的股票，不是 Short |
-| 借 100 股，在 $220 卖出 | Sell | **Short** 100 股 | 借股卖出，建立空头仓位 |
-| 跌到 $180，买回来还给券商 | Buy | **Flat**（空仓） | 买回平仓，不是 Long |
+| 你的操作              | 动作（Action） | 结果（Position）    | 说明               |
+| ----------------- | ---------- | --------------- | ---------------- |
+| 买 100 股           | Buy        | **Long** 100 股  | 持有股票，涨了赚钱        |
+| 后来涨到 $220，卖掉      | Sell       | **Flat**（空仓）    | 卖掉已有的股票，不是 Short |
+| 借 100 股，在 $220 卖出 | Sell       | **Short** 100 股 | 借股卖出，建立空头仓位      |
+| 跌到 $180，买回来还给券商   | Buy        | **Flat**（空仓）    | 买回平仓，不是 Long     |
 
 **关键洞察：** 同样是 Sell，可能是卖掉已有的 Long（结果变 Flat），也可能是借股卖出（结果变 Short）。同样是 Buy，可能是建立 Long，也可能是回补 Short。
 
 ### 期权场景
 
-| 动作 | 持仓结果 | 简称 |
-|------|---------|------|
-| Buy Call | Long Call | Long Call |
+| 动作        | 持仓结果       | 简称         |
+| --------- | ---------- | ---------- |
+| Buy Call  | Long Call  | Long Call  |
 | Sell Call | Short Call | Short Call |
-| Buy Put | Long Put | Long Put |
-| Sell Put | Short Put | Short Put |
+| Buy Put   | Long Put   | Long Put   |
+| Sell Put  | Short Put  | Short Put  |
+|           |            |            |
 
 期权行业几乎都说 **Long Call、Short Put**，而不是 Buy Call、Sell Put——因为 Long/Short 描述的是**持仓状态**，更准确。
 
@@ -61,12 +62,12 @@ Long / Short = 身份（Position）—— 你最终站在哪一边
 
 ### 最终总结
 
-| 概念 | Buy | Sell | Long | Short |
-|------|-----|------|------|-------|
-| 本质 | 交易动作 | 交易动作 | 持仓状态 | 持仓状态 |
-| 股票 | 买股票 | 卖股票 | 持有股票 | 借股票卖出 |
+| 概念   | Buy    | Sell   | Long      | Short      |
+| ---- | ------ | ------ | --------- | ---------- |
+| 本质   | 交易动作   | 交易动作   | 持仓状态      | 持仓状态       |
+| 股票   | 买股票    | 卖股票    | 持有股票      | 借股票卖出      |
 | Call | 买 Call | 卖 Call | Long Call | Short Call |
-| Put | 买 Put | 卖 Put | Long Put | Short Put |
+| Put  | 买 Put  | 卖 Put  | Long Put  | Short Put  |
 
 > **记忆口诀：** Buy/Sell 描述今天干了什么（像买房/卖房的动作）；Long/Short 描述今天睡觉前你到底持有什么（拥有上涨权益 vs 承担上涨风险）。
 
