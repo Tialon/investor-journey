@@ -4,7 +4,7 @@ topic: Greeks
 aliases: [Greeks实战, Greeks综合]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, Greeks, 实战]
 related: "[[section01-delta]], [[section02-gamma]], [[section03-theta]], [[section04-vega]], [[section01-long-call|买入看涨期权]]"
 ---
@@ -284,6 +284,16 @@ $$\Delta V \approx 0.55 \times 5 + \frac{1}{2} \times 0.05 \times 5^2 = 2.75 + 0
 1. 你持有一个 Delta 中性的 Iron Condor，股价开始缓慢上涨。你的 Greeks 会如何变化？需要调整吗？
 2. 为什么说"买方需要速度"？用 Greeks 解释。
 3. 在什么情况下你会选择 Gamma Scalping 而不是 Theta Harvesting？
+
+### 参考答案
+
+1. **第1题**：常见空头 Iron Condor 在中间区间通常为负 Gamma，股价上涨后组合 Delta 往往转负，上侧短 Call 的风险增加；若继续突破上翼，两腿相互抵消的程度又会改变，不能无限外推。Theta 和 Vega 也会随股价、IV、剩余时间和各腿位置变化，不能只凭“缓慢上涨”确定数值。是否调整应看事先的 Delta/压力损失限额、离短腿的距离和到期风险；减仓、整体平仓或重新建仓都要计入成本，展期并不抹去旧亏损。
+
+2. **第2题**：买方通常承受负 Theta，需要有利的价格变化或 IV 上升，在有限期限内足以覆盖权利金和损耗。局部估算为 `ΔV ≈ Delta×ΔS + ½Gamma×(ΔS)² + Vega×ΔIV + Theta×Δ天数`，其中 IV 若用百分点变化，Vega 必须采用每百分点口径。例如 Delta=0.5、Theta=-0.10，每天只涨 $0.10 时，一阶方向收益约 $0.05，小于 $0.10 时间成本。所谓“需要速度”描述这种成本压力，不是要求所有买方都短线交易，也不表示涨得快就必盈利。
+
+3. **第3题**：若预计未来实现波动足以超过期权隐含的价格及对冲费用，能承担权利金损耗、并具备流动性和持续对冲能力，可研究买入正 Gamma 后做 Delta 对冲；若预计未来实现波动较低，且能承受负 Gamma 和尾部风险，才有研究 Theta 策略的理由。Gamma Scalping 需要支付时间成本和反复交易成本，Theta 策略也没有稳定收息保证。比较时应统一资金/压力风险预算，包含隔夜跳空和 IV 冲击；仅比较近期 HV 与 IV 不足以作出结论。
+
+参考资料：[OIC Delta](https://www.optionseducation.org/advancedconcepts/delta)；[OIC Gamma](https://www.optionseducation.org/advancedconcepts/gamma)；[OIC Vega](https://www.optionseducation.org/advancedconcepts/vega)（核验日期：2026-10-30）。
 
 ---
 

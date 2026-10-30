@@ -4,7 +4,7 @@ topic: IBKR实战
 aliases: [Analytics Tools, 分析工具]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, IBKR, 工具]
 related: "[[section01-tws-options|IBKR期权交易界面]], [[section04-analytics-tools|Risk Navigator]]"
 ---
@@ -687,6 +687,20 @@ Thinkorswim是TD Ameritrade的旗舰交易平台，以其强大的期权分析�
 4. OptionStrat和IBKR内置工具各有什么优势？你会如何结合使用这两个工具？
 
 5. 你想要回测一个卖出Cash-Secured Put的策略。你会使用哪些历史数据？如何避免数据偏差？
+
+## 参考答案
+
+1. **第1题**：先在OptionTrader/期权链核对四腿条款、买卖价差与流动性；用Strategy Builder和Performance Profile核对净收入、到期最大收益/亏损、盈亏平衡点；再用Risk Navigator的What-if比较价格跳变、IV变化、时间流逝及组合保证金影响。最后预览订单，记录滑点、费用和提前指派/到期风险。工具给出模型情景而非收益保证，不能只挑选看起来胜率最高的组合。
+
+2. **第2题**：用Volatility Lab查看历史与隐含波动，但先统一观察时间、年化口径、历史窗口和期权到期长度；再比较同标的的不同到期和行权价，排查陈旧报价、极宽价差、除息、财报与公司行动。IV显著高于HV可作为研究线索，但不证明“高估”：未来实现波动与过去HV可能不同，卖方承担尾部和负Gamma风险。交易前应检验未来波动假设与压力损失。
+
+3. **第3题**：这是操作方法题，未给出持仓明细，不能声称已得到损益。可在What-if复制头寸并冻结估值时点，设标的价格为原价90%，明确“IV上升30%”是相对上升（20%变26%）还是上升30个百分点（20%变50%），两者分别测试；同时指定经过几天、利率股息与报价假设。比较完整重估损益、保证金和缓冲，优先减掉超预算的集中暴露，再测试调整后结果。大幅冲击不宜仅用一阶Greeks外推。
+
+4. **第4题**：独立的网页损益图工具适合快速画组合、改变参数和分享讨论；IBKR工具便于结合实际合约、订单预览、账户持仓及保证金分析。可先画出策略结构，再在IBKR逐腿核对乘数、结算与行权方式、价格时点、费用及账户限制。不同工具的模型、IV曲面和数据许可可能不同，结果不一致应查明输入差异；具体功能以各自当前文档为准，不能用漂亮的到期图替代账户风险评估。
+
+5. **第5题**：需要当时可得的历史期权链、可成交Bid/Ask及时间戳、OI/成交量、股票价格、股息/拆股/退市、交易日历、利率、费用和行权指派规则。保留已退市与当时成分股，防止幸存者偏差；信号只使用下单前数据，成交按下一可交易时点及保守滑点估计，避免前视。回测现金担保Put还须模拟足额买股资金、指派后的股票损益和现金占用，不能只累加收到的权利金。
+
+参考资料（核验日期：2026-10-30）：[IBKR期权工具](https://www.interactivebrokers.com/en/trading/options-trading-tools.php)；[IBKR情景分析的IV相对变化口径](https://www.ibkrguides.com/traderworkstation/scenario-analysis.htm)；[IBKR Risk Navigator](https://www.ibkrguides.com/traderworkstation/risk-navigator.htm)。
 
 ---
 

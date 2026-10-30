@@ -4,7 +4,7 @@ topic: 卖方策略
 aliases: [Credit Spread, Bull Put Spread, Bear Call Spread]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, 卖方策略, 价差]
 related: "[[section01-delta|Delta]], [[section03-theta|Theta]], [[section04-iron-condor|铁鹰策略]]"
 ---
@@ -272,6 +272,16 @@ related: "[[section01-delta|Delta]], [[section03-theta|Theta]], [[section04-iron
 1. Bull Put Spread 和直接卖出 CSP 相比，各有什么优劣？
 2. 你卖出一个 Bear Call Spread，最大盈利 $200，最大亏损 $800。风险回报比是多少？这个策略值得做吗？
 3. 为什么 Credit Spread 的 Vega 接近 0？这对波动率交易意味着什么？
+
+### 参考答案
+
+1. **第1题**：**Bull Put Spread 用买入较低行权价 Put 换取损失上限，CSP 则承担接股后的较大下跌风险。** 对同到期日、同乘数的完整价差，到期最大亏损为 `(行权价宽度−净权利金)×乘数×张数`，但多一条保护腿会减少净收入并增加交易成本。CSP 只卖 Put 并备足接股现金，适合确实愿意按约买股的情景，资金占用通常更大。价差的理论到期上限不代表无需管理：美式短腿可提前被指派，长腿不会因此自动同步行权，仍有临时股票仓位、资金需求和到期临界风险。
+
+2. **第2题**：**最大风险 : 最大收益为 800:200=4:1；收益/风险为 25%。** 单凭这个比率不能判断值得与否。若简化成“每次只赚 $200 或亏 $800”，忽略成本，则期望值为 `200p−800(1−p)`，要求胜率 `p>80%` 才为正；加入费用要求更高。实际还有部分盈利、部分亏损，须用各情景概率及平均盈亏估计，并检查尾部跳空和执行成本。高胜率或有限最大亏损都不能单独证明有优势。
+
+3. **第3题**：**Credit Spread 的净 Vega 不一定接近 0。** 它等于长腿 Vega 减短腿 Vega；同到期且行权价相近时，两腿敏感度可能部分抵销，所以常比单腿小，但会随标的价、期限和偏斜变化。常见初始虚值信用价差可能净 Vega 为负，行情穿越行权价后符号也可能改变。因此它能降低一部分整体 IV 敏感度，却不能视为完全波动率中性；比较报价时还要检查两腿各自的 IV 与净 Greeks。
+
+参考资料（核验日期：2026-10-30）：[OIC：Bull Put Spread](https://www.optionseducation.org/strategies/all-strategies/bull-put-spread-credit-put-spread)；[OIC：Bear Call Spread](https://www.optionseducation.org/strategies/all-strategies/bear-call-spread-credit-call-spread)。
 
 ---
 

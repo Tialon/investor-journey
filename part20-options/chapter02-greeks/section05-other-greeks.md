@@ -4,7 +4,7 @@ topic: Greeks
 aliases: [Rho, Charm, Vanna, Volga]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, Greeks]
 related: "[[section01-delta]], [[section02-gamma]], [[section03-theta]], [[section04-vega]]"
 ---
@@ -587,6 +587,20 @@ Color 和 Charm 共同描绘了"Greeks 随时间变化"的完整图景：
 4. **Vomma 的凸性**：你做多一个 Straddle，当前 Vega = +200，Vomma = +15。如果隐含波动率上升 5 个百分点，你的新 Vega 大约是多少？这对你有什么好处？
 
 5. **综合场景**：你持有一个大规模的 ATM Straddle 组合（Long Straddle），明天即将发布财报。请用至少 5 个不同的 Greeks 分析你面临的风险，并说明你会如何调整策略。
+
+### 参考答案
+
+1. **第1题**：缺少该合约的 Rho，无法唯一算出美元变化。若 Rho 按“利率每变化 1 个百分点，权利金每股变化多少美元”报价，降息 50 基点就是 -0.5 个百分点，故 `ΔV ≈ Rho × (−0.5)`。例如教学假设 Rho=+0.225，则每股约减少 $0.1125，乘数 100 的一张约减少 $11.25。若工具输出的是对小数利率的原始导数 `∂V/∂r`，必须改乘 -0.005，不能混用两种单位。政策利率调整也不保证定价所用期限利率等幅变化。
+
+2. **第2题**：按本节文字定义，若“总 Vanna=+50”已是组合每 **1 个 IV 百分点**的 Delta 变化，则 `ΔDelta ≈ 50 × 10 = +500`，原先为零的新 Delta 约 +500，已不中性。若平台 Vanna 是对小数波动率的原始导数 `∂Delta/∂σ`，则应乘 0.10，新 Delta 为 +5。题目未标 Vanna 的缩放和 Delta 单位，必须先确认口径；若组合数值已含乘数，不应再乘 100。10 个百分点的大变化还需重估而非长期固定 Vanna。
+
+3. **第3题**：从零偏差开始、Charm 固定且没有其他变化时，允许间隔为 `0.02 / 0.015 ≈ 1.33 天`。若只在整天检查，最多隔 **1 天**；2 天的偏移约 -0.03，已越过下限。这里沿用题目“每流逝一天 Delta 减少 0.015”的符号约定；真实股价、IV 和 Charm 都会变，且周末也可能产生时间效应，不能把 1.33 天当作安全保证。
+
+4. **第4题**：若 Vomma 的单位是“每 1 个 IV 百分点的 Vega 变化”，新 Vega 约 `200 + 15 × 5 = +275`。这表示后续 IV 再上升时，头寸对 IV 的正向敏感度更大，同时反向变化的风险也更大。若采用原始 `∂Vega/∂σ` 单位，则应乘 0.05，结果为 200.75，须先统一缩放。题设给定正 Vomma 只适用于该情景，**买入期权的 Vomma 并非总为正**；在 Black-Scholes 模型中原始 Vomma 可由 Vega 对波动率再求导，其符号取决于参数和实虚值程度。
+
+5. **第5题**：至少应检查：Delta（方向），Gamma（跳空导致 Delta 快速变化），Vega（事件后 IV 回落），Theta（剩余时间消耗），Vanna（IV 变化后的 Delta 偏移），以及 Charm、Vomma（时间与 IV 改变敏感度）。Long Straddle 初始接近 Delta 中性，并不免除事件风险。教学处理应先按“不同涨跌幅 × 不同事件后 IV × 时间流逝”完整重估，限定总权利金预算，必要时减仓或在事件前退出；若保留头寸，写明平仓/行权计划。买入其他腿会同时改变多项风险，不能声称一个对冲动作能消除所有风险，也不能依赖连续对冲捕获隔夜跳空。
+
+参考资料：[OIC Rho](https://www.optionseducation.org/advancedconcepts/rho)；[OIC Black-Scholes 模型](https://www.optionseducation.org/advancedconcepts/black-scholes-formula)（核验日期：2026-10-30）。
 
 ---
 

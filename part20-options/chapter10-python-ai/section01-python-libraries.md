@@ -4,7 +4,7 @@ topic: Python+AI
 aliases: [Python Options Libraries, 期权Python库]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, Python, 工具]
 related: "[[section02-pricing-greeks|期权定价与Greeks计算]], [[section03-backtesting|回测框架搭建]]"
 ---
@@ -658,6 +658,78 @@ result = analyze_option_chain('AAPL')
 1. 尝试用 NumPy 向量化方法批量计算 50 个不同执行价格的看涨期权 Delta，并与 for 循环方式进行性能对比。
 2. 使用 yfinance 获取 SPY（标普 500 ETF）的期权链数据，找出隐含波动率最高的 5 个合约，并分析其原因。
 3. 修改 Bull Call Spread 的可视化代码，将其改为 Iron Condor 的损益图（需同时包含看涨和看跌的价差）。
+
+### 参考答案
+
+以下代码用于离线教学；计算结果均为模型值或到期损益，不是可成交报价。利率、波动率用小数，时间用年，合约乘数须从实际合约读取。
+
+1. **第1题**：在无股息欧式 Black–Scholes 假设下，`Delta = N(d1)`，`d1 = [ln(S/K)+(r+σ²/2)T]/(σ√T)`。把50个执行价作为数组，一次调用数组运算；不能用 `np.vectorize` 包装循环后就声称获得真正的向量化加速。
+
+    ```python
+    import numpy as np
+    from scipy.stats import norm
+    from timeit import repeat
+
+    S, T, r, sigma = 100.0, 30 / 365, 0.03, 0.2
+    strikes = np.linspace(80, 120, 50)
+
+    def vectorized():
+        d1 = (np.log(S / strikes) + (r + sigma**2 / 2) * T) / (sigma * np.sqrt(T))
+        return norm.cdf(d1)
+
+    def loop():
+        return np.array([norm.cdf((np.log(S / k) + (r + sigma**2 / 2) * T)
+                                 / (sigma * np.sqrt(T))) for k in strikes])
+
+    assert np.allclose(vectorized(), loop(), rtol=1e-12, atol=1e-12)
+    for f in (vectorized, loop):
+        print(f.__name__, min(repeat(f, number=1000, repeat=5)) / 1000)
+    ```
+
+    验收：50个结果形状一致且在0到1之间，执行价越高Delta通常越低；先校验精度，再比较同一机器、相同输入的多次计时。50个数据的绝对耗时很小，不预填加速倍数。输入必须满足 `S,K,T,σ > 0`；到期或零波动情形需单独处理，不能让公式除零。
+
+2. **第2题**：先定义分析范围：同一轮抓取窗口的全部可用到期日、calls和puts分别带上到期日及方向，再合并排名。跨到期日逐次请求并非严格同时的报价，应记录各批抓取时间。`Ticker('SPY').options` 给到期日，`option_chain(expiry)` 给该日链；这是当前快照接口，不能据此声称拿到了历史期权链。默认先读自行保存的CSV快照，以下为手动启用时才联网的获取函数，本文未请求行情。
+
+    ```python
+    def fetch_snapshot(online=False):
+        if not online:
+            raise RuntimeError('默认离线：请使用带抓取时间的本地快照')
+        import pandas as pd
+        import yfinance as yf
+        ticker = yf.Ticker('SPY')
+        frames = []
+        for expiry in ticker.options:
+            chain = ticker.option_chain(expiry)
+            for right, frame in [('call', chain.calls), ('put', chain.puts)]:
+                frames.append(frame.assign(expiry=expiry, right=right,
+                                           captured_at=pd.Timestamp.now(tz='UTC').isoformat()))
+        if not frames:
+            return pd.DataFrame()
+        return pd.concat(frames, ignore_index=True)
+    ```
+
+    清洗时保留原始数据及剔除原因，排除IV缺失／非正、负报价、`ask < bid`、零买价或明显陈旧报价；根据研究用途增加成交量、持仓量和相对价差过滤，再用 `clean.nlargest(5, 'impliedVolatility')`。原始榜与过滤后榜都展示，附合约、到期、IV、bid/ask、成交量、持仓量、抓取时间；不足5个就如实说明。高IV可能来自下行偏斜、事件和供需，也可能是深度虚值／低流动性报价导致的反推失真；须核查而非仅凭排名断言原因。验收：无重复合约，排名降序，单位一致，空数据或限流可正常退出；没有实际快照时不编造前五名。
+
+3. **第3题**：卖方Iron Condor采用 `K1 < K2 < K3 < K4`：买K1 put、卖K2 put、卖K3 call、买K4 call，同标的、同到期、同数量。净收入 `c = 收到权利金−支付权利金`，每股到期损益如下。
+
+    ```python
+    import numpy as np
+    import matplotlib.pyplot as plt
+    K1, K2, K3, K4, credit, multiplier = 90, 95, 105, 110, 2, 100
+    spot = np.linspace(70, 130, 601)
+    pnl = (credit + np.maximum(K1 - spot, 0) - np.maximum(K2 - spot, 0)
+           - np.maximum(spot - K3, 0) + np.maximum(spot - K4, 0)) * multiplier
+    assert np.isclose(pnl.max(), 200) and np.isclose(pnl.min(), -300)
+    plt.plot(spot, pnl)
+    plt.axhline(0, color='gray')
+    plt.xlabel('Underlying price at expiry')
+    plt.ylabel('P&L per combination (USD)')
+    plt.show()
+    ```
+
+    验收：95至105间利润200美元，两端最大亏损300美元，盈亏平衡为93和107；忽略费用税费且本例假设乘数100。一般最大亏损为 `(max(K2−K1,K4−K3)−c)×乘数`，不等宽两翼不能只用一侧宽度。图只描述到期组合损益，提前指派、部分平仓和到期腿间不同交割状态还需另管。
+
+参考资料（核验日期：2026-10-30）：[NumPy 广播](https://numpy.org/doc/stable/user/basics.broadcasting.html)、[yfinance Ticker接口](https://ranaroussi.github.io/yfinance/reference/api/yfinance.Ticker.html)、[OIC Short Condor（Iron Condor）](https://www.optionseducation.org/strategies/all-strategies/short-condor)。
 
 ---
 

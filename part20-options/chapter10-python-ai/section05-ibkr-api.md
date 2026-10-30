@@ -4,7 +4,7 @@ topic: Python+AI
 aliases: [IBKR API, 自动交易]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, Python, IBKR]
 related: "[[section05-api-basics|API与自动化基础]], [[section04-signal-strategy|信号生成与策略开发]]"
 ---
@@ -1705,6 +1705,66 @@ if __name__ == "__main__":
 1. 修改 Iron Condor 机器人，添加基于技术指标（如 RSI）的入场过滤器。
 2. 实现一个"动态展期"功能：当 Iron Condor 的 Delta 偏移超过阈值时，自动平仓并重新开仓。
 3. 为机器人添加邮件或 Telegram 通知功能，当开仓、平仓或触发止损时发送通知。
+
+### 参考答案
+
+这些答案只定义离线／模拟环境中的功能与验收；不连接账户、不启用实盘、不发送邮件或Telegram消息。以下阈值是教学参数，不能视为普适交易标准。
+
+1. **第1题**：先在已完成的历史K线上计算RSI，再作为现有入场条件的附加门控。例如仅当前一根已完成日线的14期RSI在40至60之间时，允许生成Iron Condor模拟开仓计划；这表达“暂避过强趋势”的假设，不能证明随后会震荡。用Wilder平滑时需固定初始化与缺失数据规则，RSI实现口径必须在回测和模拟中一致。
+
+    ```text
+    delta = close.diff()
+    gain = max(delta, 0), loss = max(-delta, 0)
+    第14期初始化avg_gain/avg_loss为首14个变化的简单均值
+    此后avg = (前一avg*13 + 本期值)/14
+    RSI = 100 - 100/(1 + avg_gain/avg_loss)
+    若gain=loss=0：约定RSI=50；仅loss=0：RSI=100
+    can_open = 数据齐全且足够新鲜且40 <= 上一期RSI <= 60
+               且原有入场条件且无待成交开仓计划且风险预算足够
+    ```
+
+    验收：连续上涨为100、连续下跌为0、常数为50（本实现约定）；不足15个收盘价、NaN和未完成bar不得放行。日志保存bar结束时间、指标值、阈值和拒绝原因，同一bar重复回调不能重复生成计划。IBKR的历史bar更新可能包含尚未完成的bar，必须按时间戳明确过滤；本文不改动任何API设置。
+
+2. **第2题**：用合约与实际数量汇总组合净Delta：`D=Σ(每股Delta×带符号张数×实际乘数)`，单位为“等价标的股数”；卖出腿张数为负。不能拿每股Delta 0.1与100股等价Delta混比较。例：四腿Delta依次为−0.10、−0.25、0.25、0.10，仓位为+1、−1、−1、+1张，乘数100，合计为0股等价Delta。先在训练期确定触发阈值，并用滞回／冷却避免频繁展期。
+
+    ```text
+    状态机：OPEN -> CLOSE_PLANNED -> CLOSING -> FLAT_CONFIRMED
+                                 -> REOPEN_REVIEW -> OPEN（仅模拟）
+    数据过期/重复信号：不新建计划
+    |净Delta|超过阈值且无未完成订单：生成唯一close_plan_id
+    模拟全部平仓并核对持仓为零后：重算新合约、报价、风险和成本
+    满足预算及人工复核条件才生成reopen_plan；失败则保持空仓
+    ```
+
+    展期是实现旧仓损益并建立新风险，不会自动消除损失。验收涵盖部分成交、拒单、撤单、断线重连、重复回调、报价跳变与交易时段结束；旧仓未确实平完时不得把新仓当成替代而叠加。IBKR的`orderStatus`可重复且未必报告每次状态变化，应结合`execDetails`成交记录、持仓及未结订单对账，用持久化唯一计划ID防重复。模拟结果应报告总费用、已实现损益和新仓最大风险，而非只报告净收入。
+
+3. **第3题**：把通知与交易流程解耦：先形成持久化事件，再由独立通知器消费；通知失败不能回滚已经发生的成交，也不能触发重复交易。只在成交确认或止损状态确实变化后发“已成交／已触发”事件；提交订单时仅能称“订单已提交”。教学示例用内存队列及本地预览，默认没有外部发送功能。
+
+    ```python
+    from queue import Queue
+    from email.message import EmailMessage
+    events, seen = Queue(), set()
+
+    def record_event(event_id, kind, text):
+        if event_id not in seen:
+            seen.add(event_id)
+            events.put({'id': event_id, 'kind': kind, 'text': text})
+
+    def preview_next():
+        if events.empty():
+            return None
+        event = events.get_nowait()
+        msg = EmailMessage()
+        msg['Subject'] = '[SIMULATION] ' + event['kind']
+        msg.set_content(event['text'])
+        return msg.as_string()  # 仅返回本地预览；不调用SMTP或Telegram
+
+    record_event('demo-fill-1', 'OPEN_FILLED', '模拟开仓成交：1组；事件时间请用UTC记录')
+    ```
+
+    验收：同一事件重复投递只产生一次预览；事件含UTC时间、计划／成交ID、策略、状态及必要风险信息，不含账户全号、密码或token。正式实现需数据库outbox／去重表、受控重试与失败队列，进程重启后也不能丢事件；接收地址、凭证和外发开关必须另行配置并先由用户明确授权，本文没有执行通知发送。止损价格触及与止损实际成交是不同事件，通知不可混淆。
+
+参考资料（核验日期：2026-10-30）：[IBKR订单状态与重复消息](https://www.interactivebrokers.com/docs/tws-api/doc/order-management/order-status)、[IBKR历史bar接口](https://www.interactivebrokers.com/docs/tws-api/doc/md/historical-bars)、[Python EmailMessage](https://docs.python.org/3/library/email.message.html)。
 
 ---
 

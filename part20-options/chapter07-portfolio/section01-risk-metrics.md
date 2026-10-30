@@ -4,7 +4,7 @@ topic: 组合管理
 aliases: [Portfolio Risk Metrics, VaR, Expected Shortfall]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, 组合管理, 风险管理]
 related: "[[section01-delta|Delta]], [[section02-gamma|Gamma]], [[section03-theta|Theta]], [[section04-vega|Vega]], [[section02-position-sizing|仓位管理]]"
 ---
@@ -441,6 +441,20 @@ IBKR还提供**What-If分析**功能：
 3. 某策略年化收益率15%，最大回撤40%，另一策略年化收益率10%，最大回撤15%。你认为哪个策略更好？Calmar比率分别是多少？
 
 4. 在IBKR的Risk Navigator中，如果你发现Portfolio Vega为-5,000，这意味着什么？如果VIX从15飙升到30，你的组合可能面临多大的Vega损失？
+
+## 参考答案
+
+> 以下为教学参考。涉及盈亏的数字例子忽略未另行注明的税费和融资成本；实际合约乘数、报价及账户条件须单独核实。
+
+1. **第1题**：假设均为标准未调整、每张100股的同标的期权，卖Call Delta为−10×0.50×100=−500，卖Put为−10×(−0.50)×100=+500，净Delta为0股等价。两边卖出普通期权均为负Gamma，净Theta通常为正。初始Delta中性不会消除风险；上涨后通常转负Delta，下跌后转正Delta，且IV和时间变化会改变这些数值。
+
+2. **第2题**：须先确定持有期限、币种和模型口径。95% VaR为30,000，指模型下该期限损失的95%分位数约为30,000；不是最多只亏30,000。95% ES为50,000，是最差5%情景中的平均损失估计。卖虚值Put应尤其看ES和跳空压力测试，因为少见大亏会被VaR门槛掩盖；二者也都会受样本、流动性和模型错误影响。
+
+3. **第3题**：在收益与回撤取自相同统计区间、Calmar=年化收益率÷最大回撤绝对值的简化口径下，第一策略15%÷40%=0.375，第二策略10%÷15%≈0.667。按这一风险收益指标，第二策略更优，但不能仅凭两项统计就断言总体更好，还要比较成本、期限、杠杆、极端亏损及样本外稳定性。
+
+4. **第4题**：先核查平台单位。若−5,000表示整组合每增加1个IV百分点损失5,000美元，则假设所有持仓IV一致上升15个百分点的局部近似为−75,000美元。VIX从15到30并不表示每个标的、行权价和期限的IV都同步增加15个百分点；大变动还使Greeks变化。应按各合约波动率曲面和价格冲击重新定价，不能把75,000当确定损失。
+
+参考资料（核验日期：2026-10-30）：[OIC：Greeks 的适用范围](https://www.optionseducation.org/advancedconcepts/understanding-options-greeks)；[IBKR：Risk Navigator 与情景分析入口](https://www.ibkrguides.com/traderworkstation/risk-navigator.htm)；[BIS：市场风险中的ES框架（概念参考）](https://www.bis.org/bcbs/publ/d352.pdf)。
 
 ---
 

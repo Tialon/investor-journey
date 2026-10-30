@@ -4,7 +4,7 @@ topic: Greeks
 aliases: [Delta, δ, 方向敏感度]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, Greeks, 核心]
 related: "[[section02-gamma]], [[section03-theta]], [[section04-vega]], [[section05-moneyness|实值平值虚值]]"
 ---
@@ -198,9 +198,15 @@ Delta 对冲是专业交易员的核心技术之一。目标是让整个投资�
 2. 你卖了 20 张 Put，合约多头 Delta = -0.35、乘数 100。组合 Delta 是多少？应买入还是卖空股票对冲？
 3. 为什么深度虚值期权的 Delta 接近 0？这对卖方意味着什么？
 
-参考答案：第1题在 Delta 不变且其他条件不变时约 +$600；第2题组合 Delta 为 +700 股，应卖空 700 股，仍有 Gamma、Vega 和跳空风险。
+### 参考答案
 
-[OIC Delta 定义与应用](https://www.optionseducation.org/advancedconcepts/delta)（核对：2026-10-15）。
+1. **第1题**：在 Delta 不变且其他条件不变、每张实际乘数为 100 时，约 `5 × 100 × 0.40 × $3 = +$600`。这是局部一阶估算，未包含 Gamma、IV、时间和费用变化。
+
+2. **第2题**：组合 Delta 为 `−20 × (−0.35) × 100 = +700股`，应卖空 700 股才能在当前时点达到 Delta 中性；仍有 Gamma、Vega 和跳空风险，对冲数量会随市场变化。
+
+3. **第3题**：在常见模型和有限剩余期限下，深度虚值期权离可产生到期收益的区间很远，标的小幅变动对权利金的影响通常很小，故 Delta 接近零。这意味着卖方当前方向敞口较低，不代表没有风险：价格跳空、IV 变化或快速接近行权价，都可能使 Delta 和亏损迅速增大。Delta 不是严格的实际到期概率，更不是亏损概率或保本保证。
+
+[OIC Delta 定义与应用](https://www.optionseducation.org/advancedconcepts/delta)（核验日期：2026-10-30）。
 
 ---
 

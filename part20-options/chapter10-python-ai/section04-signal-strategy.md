@@ -4,7 +4,7 @@ topic: Python+AI
 aliases: [Signal Generation, Strategy Development, 信号生成]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, Python, 策略]
 related: "[[section03-backtesting|回测框架搭建]], [[section05-ibkr-api|IBKR API自动交易]]"
 ---
@@ -1374,6 +1374,63 @@ if __name__ == "__main__":
 1. 实现一个基于 Hurst 指数的策略选择器：当 Hurst > 0.5 时使用动量策略，当 Hurst < 0.5 时使用均值回归策略。
 2. 设计一个"波动率套利"策略：当 IV 显著高于 HV 时卖出期权，当 IV 显著低于 HV 时买入期权。
 3. 将本章的 IV Rank 策略与上一章的 Iron Condor 策略结合，实现一个"仅在高 IV 环境下开仓"的条件策略。
+
+### 参考答案
+
+以下阈值只用于说明研究步骤，须在训练区间确定并用样本外数据验证；信号并不等于下单指令。
+
+1. **第1题**：`H>0.5`与`H<0.5`只能作为待检验的持续／反持续特征，不能保证未来可预测或一定适合某策略。先声明估计对象，例如对数价格的增量尺度关系 `std(x[t+lag]−x[t])≈C×lag^H`，在滚动历史窗口拟合对数斜率。不要对标准差又开平方后直接把斜率当H，也不要把对价格和收益的不同估计方法混用。短样本、趋势、跳跃和市场变化都会影响估计。
+
+    ```python
+    import numpy as np
+    def hurst_scale(log_prices, lags=(2, 4, 8, 16, 32)):
+        x = np.asarray(log_prices, float)
+        if len(x) < 252 or not np.isfinite(x).all():
+            return np.nan
+        scales = np.array([np.std(x[lag:] - x[:-lag], ddof=1) for lag in lags])
+        if (scales <= 0).any():
+            return np.nan
+        return float(np.polyfit(np.log(lags), np.log(scales), 1)[0])
+
+    def choose_strategy(h):
+        if not np.isfinite(h) or h < 0 or h > 1:
+            return 'wait'
+        if h > .55:
+            return 'momentum_candidate'
+        if h < .45:
+            return 'mean_reversion_candidate'
+        return 'wait'
+    ```
+
+    0.45／0.55是避免阈值附近反复切换的教学缓冲带，不是统计显著性界限。历史窗口结束后才给下一时点使用，未估准或异常估计时空仓；不要强行把异常H截进0到1掩盖问题。验收：常数序列返回缺失；多条模拟随机游走的估计总体接近0.5但单条有误差；比较固定策略、无切换基准和切换策略的样本外净收益，计入切换成本及滞后，报告置信区间和稳健性。
+
+2. **第2题**：这更准确地叫“波动率相对价值研究”，`IV−HV`不是无风险套利。IV包含未来分布、尾部风险溢价和供需；HV描述已经发生的波动，未来实现波动可能更高。应先把IV与HV统一为同期限、同年化口径，比较例如30日期限的ATM IV与过去相近交易日窗口估得的HV；不能拿7日期权IV和252日HV随意相减，更不能用尚未发生的未来实现波动生成当时信号。
+
+    ```text
+    在训练期选定：期限、IV口径、历史窗口、价差阈值、退出和风险预算
+    时点t：spread = IV_t - HV_t （或相对未来波动预测的差）
+    spread显著偏高：记录卖波动候选，研究有限风险组合
+    spread显著偏低：记录买波动候选，研究跨式/宽跨式等组合
+    数据缺失、流动性差、事件风险无法承受：不产生交易候选
+    下一可成交时点模拟执行，完整记录多腿权利金、费用、对冲与指派
+    ```
+
+    研究波动敞口时须同时管理Delta，报告Gamma、Vega和Theta；定期Delta对冲有成本且挡不住跳空，有限风险组合仍可亏完风险预算。验收：先与无信号和固定规则基准比较样本外结果，再按趋势／跳跃／高低波动分组检验；卖方不能只报高胜率，要报尾部亏损和追加资金需求；买方要确认实际波动收益能覆盖权利金及时间损耗。
+
+3. **第3题**：把IV Rank作为Iron Condor的入场门控，而不是高IV一出现就无条件卖出。先固定同标的、同期限的IV序列，在截至信号时点的历史窗口计算 `IVR=100×(IV−历史最小IV)/(历史最大IV−历史最小IV)`；若分母为零或历史不足，标缺失且不新开仓。IV Rank不同于IV Percentile，窗口内极端值会影响前者。
+
+    ```python
+    def high_iv_gate(iv, lookback=252, threshold=70):
+        low = iv.rolling(lookback, min_periods=lookback).min()
+        high = iv.rolling(lookback, min_periods=lookback).max()
+        rank = 100 * (iv - low) / (high - low).where(high > low)
+        # 假定日终数据产生信号，下一交易日才准许开仓
+        return (rank.notna() & (rank >= threshold)).shift(1, fill_value=False)
+    ```
+
+    70仅是教学阈值；与价差／成交量／持仓量过滤、DTE区间、最大风险预算相与后再交给模拟引擎。已有仓位继续管理，不因IV Rank下降便自动平仓，除非事先定义了该退出规则。验收：阈值上下及等于阈值测试清晰，常数IV与缺失数据不放行；比较相同风险预算下“原IC”“门控IC”“减少交易次数但随机抽取的IC”以区分信号价值与仅少交易的效果。高IV也可能意味着更大的跳跃和尾部风险，须保留相同止损和压力测试。
+
+参考资料（核验日期：2026-10-30）：[NumPy 多项式拟合接口](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html)、[pandas 滚动窗口](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rolling.html)、[OIC Vega与IV](https://www.optionseducation.org/advancedconcepts/vega)。
 
 ---
 

@@ -4,7 +4,7 @@ topic: IBKR实战
 aliases: [IBKR API, 自动化交易]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, IBKR, 自动化]
 related: "[[section01-tws-options|IBKR期权交易界面]], [[section01-python-libraries|Python期权库入门]]"
 ---
@@ -1217,6 +1217,20 @@ ib.run()
 4. 在API订单执行中，为什么需要处理订单状态事件？请举一个具体的例子说明事件处理的重要性。
 
 5. 如何使用API来监控你的投资组合的总体风险？你会关注哪些Greeks指标？
+
+## 参考答案
+
+1. **第1题**：“推荐ib_insync而非官方ibapi”不能作为当前通用结论。它过去便于入门的三点是线性编程接口、自动同步状态以及基于asyncio的异步/交互支持；但原维护者仓库已在2024-03-14归档，它是第三方软件。新项目应比较当前官方TWS API和官方Sync Wrapper的支持、版本兼容与所需功能，不能因为旧示例更短就假定更可靠；本章旧代码须先在隔离的模拟环境验证。
+
+2. **第2题**：限速器把行情订阅、历史请求、合约查询和订单消息排队，避免超过对应接口的节流限制；不同请求的额度和并发约束不相同，不能一律写成同一固定上限。超限可能产生错误、延迟、请求拒绝，某些配置下还可能断开连接。应按当前官方文档配置分类限速、指数退避和取消无用订阅，并识别“没有权限/无数据”与“限速”的不同原因。具体行为见[IBKR节流规则](https://www.interactivebrokers.com/docs/tws-api/doc/pacing-limitations)。
+
+3. **第3题**：教学实现可分为数据、筛选、风险和执行四层：选择有研究依据且具备流动性的标的，核实合约与事件日历，用最大可接受买入成本及期限风险筛选Put，不能只追逐高权利金或某个Delta。每次拟单前核对现金足以按实际交割条款接股，并对股票归零和提前指派做测试；再检查净限价、重复订单、最大张数和总风险。先以只读数据和模拟拟单验证，不把规则直接连接实盘自动卖出。
+
+4. **第4题**：“已发送”不等于“已成交”。例如卖出5张只成交2张，若程序仍按5张计头寸或重发5张，会误算风险甚至超额下单。应关联orderId/permId、订单状态与逐笔execution回报，更新已成交量、剩余量和实际均价；处理拒单、撤单途中成交、重复或遗漏的状态通知。断线重连后先与券商的真实持仓及未结订单对账，再决定后续动作，不能盲目重试。参见[IBKR订单状态说明](https://www.interactivebrokers.com/docs/tws-api/doc/order-management/order-status)。
+
+5. **第5题**：按标的与到期分组计算签名头寸×实际乘数后的Delta、Gamma、Vega、Theta，并与现金、保证金和集中度同时监测。Delta描述局部方向，Gamma描述方向风险变化，Vega描述IV每1个百分点的敏感度，Theta需确认按日口径。不同标的的原始Delta不能不加处理直接相加；跨资产可用金额或清楚标注方法的beta加权指标，再用价格/IV联合压力重估补充。数据缺失、报价陈旧及对账异常也应报警。
+
+参考资料（核验日期：2026-10-30）：[ib_insync原维护者仓库与归档记录](https://github.com/erdewit/ib_insync)；[IBKR官方Sync Wrapper](https://www.interactivebrokers.com/campus/ibkr-quant-news/the-new-synchronous-wrapper-for-tws-api/)；[IBKR TWS API文档（节流及订单状态）](https://www.interactivebrokers.com/docs/tws-api/doc/introduction)。
 
 ---
 

@@ -4,7 +4,7 @@ topic: Python+AI
 aliases: [Options Pricing, Greeks Calculation, 期权定价]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, Python, 定价]
 related: "[[section01-python-libraries|Python期权库入门]], [[section02-pricing-greeks|Black-Scholes]]"
 ---
@@ -1506,6 +1506,79 @@ if __name__ == "__main__":
 1. 修改二叉树模型，使其能够处理离散股息（Discrete Dividend），并在 AAPL 期权上验证结果。
 2. 实现一个波动率曲面拟合器，使用 SVI（Stochastic Volatility Inspired）参数化方法代替纯插值。
 3. 比较蒙特卡洛模拟中不同路径数（10K/50K/100K/500K）对定价精度的影响，并绘制收敛图。
+
+### 参考答案
+
+以下是可实现的数值方案和验收条件；AAPL市场验证需要同一时刻的合约、报价、股息和利率输入，本文未下载或声称完成市场校准。
+
+1. **第1题**：现金股息必须在除息时点表现为股价跳降，不能只在普通重组树的每个节点减一次股息，否则树的重组关系和路径可能不一致。实用教学方案是“分段二叉树＋除息事件处插值”：把每个除息日加入时间网格，事件间使用CRR风险中性递推，事件处应用 `V(t−,S)=V(t+,max(S−D,0))`；美式期权还要比较**除息前**立即行权价值。`D`为每股现金股息；`max`截断是低价边界约定，现金股息很大时需要更合适的公司行为模型。
+
+    ```text
+    从到期的 payoff(S) 向前回溯：
+      无事件一步：V = exp(-r*dt) * (p*V_up + (1-p)*V_down)
+      现金除息日：V_before(S) = interpolate(V_after, max(S-D, 0))
+      美式节点：V = max(V, exercise_value(S))
+    CRR: u=exp(sigma*sqrt(dt)), d=1/u, p=(exp(r*dt)-d)/(u-d)
+    ```
+
+    要明确插值网格、外推边界及贴现位置，检查 `0≤p≤1`，不要同时把同一现金股息计入连续股息率q而重复扣除。AAPL验证时保存原始bid/ask、时间戳、到期和已公布除息日／金额；只使用估值时已知信息，比较美式含股息树与同规格参考引擎，并说明离散报价与模型假设差异。验收：`D=0`退化为原树；美式价值不低于对应欧式价值；非负价；步数递增后价格趋稳，并报告误差而不要求恰好等于中间价。未取得输入时只报告“待市场验证”。
+
+2. **第2题**：SVI拟合的是**总隐含方差** `w(k,T)=IV(k,T)²×T`，不是直接对IV套同一公式；`k=ln(K/F_T)`，F为对应到期的远期价格。对每个期限使用原始SVI：`w=a+b[ρ(k−m)+sqrt((k−m)²+s²)]`。参数须满足 `b≥0, |ρ|<1, s>0`，并约束 `a+b*s*sqrt(1−ρ²)≥0`。这些基本约束本身还不足以保证无静态套利。
+
+    ```python
+    import numpy as np
+    from scipy.optimize import least_squares
+
+    def svi(k, p):
+        a, b, rho, m, s = p
+        return a + b * (rho * (k - m) + np.sqrt((k - m)**2 + s*s))
+
+    def fit_slice(k, iv, T):
+        k, iv = np.asarray(k, float), np.asarray(iv, float)
+        if T <= 0 or len(k) < 5 or not np.isfinite(k).all() or not np.isfinite(iv).all():
+            raise ValueError('需要正期限和至少5个有限报价点')
+        if (iv <= 0).any():
+            raise ValueError('IV必须为正且使用小数')
+        target = iv**2 * T
+        result = least_squares(lambda p: svi(k, p) - target,
+                               [float(target.min())/2, .1, 0, 0, .1],
+                               bounds=([0, 0, -.999, -5, 1e-5],
+                                       [np.inf, np.inf, .999, 5, 5]))
+        if not result.success:
+            raise RuntimeError(result.message)
+        return result.x  # 教学初步拟合；尚未通过无套利验证
+    ```
+
+    上例额外限制 `a≥0` 使参数域较保守，边界和初值仅为教学示例。实际拟合应按bid/ask误差或流动性加权，多初值比较，并做留出执行价验证。每个切片须检验看涨价格对执行价单调递减且凸、符合上下界；跨期限检验相同远期对数价位的总方差不下降（明确远期／股息假设），还要检查尾翼外推。可按Gatheral–Jacquier论文用约束SVI／SSVI校准；稠密网格通过只能说明检验区域通过，不能宣称全域无套利。验收报告含参数、误差、无套利检验范围和未通过点，失败时拒绝输出交易价格。
+
+3. **第3题**：先用无股息欧式看涨作为基准，只模拟风险中性终值 `S_T=S0 exp[(r−σ²/2)T+σ√T Z]`，贴现样本 `X=exp(−rT)max(S_T−K,0)`。估计价为均值，独立路径的标准误为 `std(X,ddof=1)/sqrt(N)`，近似95%区间为均值±1.96倍标准误。
+
+    ```python
+    import numpy as np
+    from math import exp, log, sqrt
+    from statistics import NormalDist
+    import matplotlib.pyplot as plt
+    S, K, T, r, sigma = 100, 100, 1, .03, .2
+    normal = NormalDist()
+    d1 = (log(S/K) + (r + sigma*sigma/2)*T) / (sigma*sqrt(T))
+    exact = S*normal.cdf(d1) - K*exp(-r*T)*normal.cdf(d1-sigma*sqrt(T))
+    sizes = [10_000, 50_000, 100_000, 500_000]
+    estimates, errors = [], []
+    for n in sizes:
+        z = np.random.default_rng(42).standard_normal(n)
+        terminal = S * np.exp((r-sigma*sigma/2)*T + sigma*sqrt(T)*z)
+        x = exp(-r*T) * np.maximum(terminal-K, 0)
+        estimates.append(x.mean())
+        errors.append(1.96*x.std(ddof=1)/sqrt(n))
+    plt.errorbar(sizes, estimates, yerr=errors, fmt='o-')
+    plt.axhline(exact, color='gray')
+    plt.xscale('log')
+    plt.show()
+    ```
+
+    验收：固定种子可复现，并另用多组种子统计RMSE，通常按 `1/√N` 收敛；单次绝对误差不保证随N单调下降。相同种子前缀让各N估计相关，不应把四点当作独立实验。若使用对偶变量，须以独立的“配对均值”估标准误；亚式／障碍期权还要区分路径数误差与时间离散误差，不能只增加路径数。图需同时显示解析基准和误差条，记录时间、内存及模型假设。
+
+参考资料（核验日期：2026-10-30）：[OIC 股息与提前指派](https://www.optionseducation.org/referencelibrary/faq/options-assignment)、[Gatheral–Jacquier：无套利SVI原始论文](https://arxiv.org/abs/1204.0646)、[SciPy least_squares](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.least_squares.html)。
 
 ---
 

@@ -4,7 +4,7 @@ topic: 卖方策略
 aliases: [Iron Butterfly, 铁蝶式]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, 卖方策略, 中性]
 related: "[[section04-iron-condor|铁鹰策略]], [[section03-credit-spread|价差策略]], [[section04-vega|Vega]]"
 ---
@@ -265,6 +265,16 @@ ATM 期权通常流动性较好，但保护期权（OTM）的流动性可能较�
 1. Iron Butterfly 和 Iron Condor 在什么情况下表现差异最大？
 2. 如果你预期财报后股价会在 $150-$160 之间波动，你会选择 Iron Condor 还是 Iron Butterfly？为什么？
 3. 为什么 Iron Butterfly 的 Gamma 风险比 Iron Condor 大？这对管理策略有什么影响？
+
+### 参考答案
+
+1. **第1题**：**到期价恰好接近共同短行权价，以及明显偏离该价时，两者的差异最清楚。** Short Iron Butterfly 两条短腿同在中心，到期最大收益仅在中心价取得；Iron Condor 两条短腿分开，在两个短行权价之间有最大收益平台。铁蝶通常收取更多权利金，却更依赖到期位置；铁鹰通常给位置误差留更宽空间。不能脱离实际行权价、翼宽、净收入和期限断言哪种更优，且两者都有短腿指派及到期临界风险。
+
+2. **第2题**：**如果观点只是“落在 $150–$160 的区间内”，通常先比较 Iron Condor；若观点集中在 $155 附近，才进一步比较 Iron Butterfly。** 例如把铁鹰两条短腿放在区间边缘，或把铁蝶中心放在 $155，再根据真实权利金计算盈亏平衡点和最大损失，不能只凭策略名称选。财报可能跳出预计区间，且财报后的 IV 回落未必抵销价格位移；题目没有报价和概率信息，无法得出唯一最优方案。
+
+3. **第3题**：**在中心附近、特别是临近到期时，铁蝶通常有更集中的负 Gamma 暴露。** 两条短腿同在平值区域，较小价格变动就可能让组合 Delta 快速偏移；铁鹰的短腿分开，中心区通常较缓。但这不是所有价格和翼宽下的绝对排序，应查看实际净 Gamma。管理上需缩小规模、预先设定情景退出条件、关注到期交割，不把频繁调整视为无成本保护；跳空时止损成交价也可能偏离计划。
+
+参考资料（核验日期：2026-10-30）：[OIC：Short Iron Butterfly](https://www.optionseducation.org/strategies/all-strategies/short-iron-butterfly)；[OIC：Gamma](https://www.optionseducation.org/advancedconcepts/gamma)。
 
 ---
 

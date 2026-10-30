@@ -4,7 +4,7 @@ topic: 买方策略
 aliases: [Long Straddle, Long Strangle, 跨式策略]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, 买方策略, 波动率]
 related: "[[section04-vega|Vega]], [[section01-long-call|买入看涨期权]], [[section01-what-is-volatility|什么是波动率]]"
 ---
@@ -567,6 +567,20 @@ IV Crush 是 Long Straddle/Strangle 交易者最大的敌人之一。它的典�
 4. 如果你建立了一个 Long Straddle 后，标的在一周内上涨了 5%，你的 Delta 发生了什么变化？你应该如何管理这个头寸？
 
 5. Strap 和 Strip 策略分别在什么市场环境下最有价值？试举一个具体例子说明。
+
+## 参考答案
+
+1. **第1题**：用总权利金除现价，可得到约 `8 / 100 = 8%` 的**粗略市场波动尺度**；若行权价为 $100，到期盈亏平衡为 $92、$108。它不是精确的一倍标准差，也不是保证会波动 8%。若恰在到期时涨跌 12%，每股净利润为 `12 − 8 = $4`，乘数 100 的一组约 $400；但预期 12% 并不足以证明应买入，还需事件/到期匹配、结果分布、IV 回落和费用。若财报后提前平仓，必须用当时剩余期限和 IV 重估两腿。
+
+2. **第2题**：高 IV 往往已把较大的事件波动计入权利金，事件后 IV 下降会损害正 Vega 的双买头寸。IV 从 60% 到 30% 是下降 30 个百分点，若以每百分点口径的组合 Vega 为 v，仅作一阶估算为 `ΔV ≈ −30v`；题目未给 Vega、期限和价格，不能算出确定损失。30 个百分点是大变化，固定 Vega 外推可能严重失真，需重估两腿，并同时计算价格跳空、时间损耗和成本。
+
+3. **第3题**：忽略费用、按同到期每股成本计算，Straddle 到期净损益为 `|Sₜ−100|−6`，盈亏平衡 $94、$106，最大损失 $6；Strangle 净损益为 `max(95−Sₜ,0)+max(Sₜ−105,0)−3`，盈亏平衡 $92、$108，最大损失 $3。相同一组数量下，Straddle 在到期股价低于 $97 或高于 $103 时净损益较高，Strangle 在 $97 至 $103 之间损失较少，两端点相同；例如到 $106，Straddle 不赚不亏，Strangle 亏 $2；到 $100，前者亏 $6、后者亏 $3。Straddle 对中等幅度移动反应更早，Strangle 支出较少但需更大到期幅度才能盈利；同预算买更多组的风险回报不同，不能把“便宜”直接视为更优。
+
+4. **第4题**：在通常的正 Gamma、其他条件相近情景下，上涨使组合 Delta 趋于更正，头寸逐渐带有看涨方向敞口，原先中性不再成立。若目标是捕捉一次跳空，可按既定获利/风险规则减仓或整体平仓；若目标是 Gamma Scalping，可研究卖出相应股票恢复 Delta 中性，并持续监控。是否调整还取决于 IV、剩余时间、费用和风险预算，不能只凭涨了 5% 决定。只卖掉 Put 留 Call 会改变策略；进行股票对冲还需另计资金、融券及跳空风险。
+
+5. **第5题**：同标的、同 K、同到期，Strap 为买 2 Call + 1 Put，适合预期大波动且偏向上涨；Strip 为买 1 Call + 2 Put，适合预期大波动且偏向下跌。例如纯教学假设 K=$100、每份 Call/Put 均 $4，两者总成本 $12/股组合单位。到期涨至 $120 时，Strap 净收益 `2×20−12=$28`，Strip 为 `$8`；跌至 $80 时两者结果互换。横盘在 $100 时两者都损失全部 $12。三条多头腿的权利金、负 Theta 和 IV 回落风险较高，偏向并不代表反方向无收益，也不代表事件前一定划算。
+
+参考资料：[OIC Long Straddle](https://www.optionseducation.org/strategies/all-strategies/long-straddle)；[OIC Vega](https://www.optionseducation.org/advancedconcepts/vega)；[OIC Long Strangle](https://www.optionseducation.org/strategies/all-strategies/long-strangle-long-combination)（核验日期：2026-10-30）。
 
 ---
 

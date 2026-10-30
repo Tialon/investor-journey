@@ -4,7 +4,7 @@ topic: 买方策略
 aliases: [Long Put, 买入看跌]
 status: done
 created: "2026-06-28"
-updated: "2026-10-15"
+updated: "2026-10-30"
 tags: [期权, 买方策略, 方向性]
 related: "[[section01-delta|Delta]], [[section02-gamma|Gamma]], [[section03-theta|Theta]], [[section01-long-call|买入看涨期权]]"
 ---
@@ -241,6 +241,16 @@ Long Put 的最大亏损是权利金，但如果股价持续上涨，不要继�
 1. 你看好 AAPL 会从 $155 跌到 $140，预算 $500。你会选择什么行权价和到期日？
 2. Protective Put 的成本如何计算？在什么情况下值得购买？
 3. 为什么说 Long Put 和 Long Call 的 Greeks 特征"几乎相同"？唯一的区别是什么？
+
+### 参考答案
+
+1. **第1题**：仅凭 $500 预算和目标 $140，无法唯一确定合约，还缺预期下跌时间与实际报价。教学上可先比较接近 $155 的 ATM 或略 ITM Put，选择覆盖预期事件并留缓冲的期限；预算须满足 `权利金 × 实际乘数 × 张数 + 费用 ≤ $500`。若假设 $155 Put 报价 $4、乘数 100，则一张成本 $400，到期股价 $140 时净利润约 `(155 − 140 − 4) × 100 = $1,100`，这是示例而非当前报价。目标必须在有效期内兑现；时间、IV 和全部权利金损失仍需考虑，不能为凑预算而盲目买深虚值。
+
+2. **第2题**：保护性 Put 的直接保险成本为 `Put权利金 × 实际乘数 × 张数 + 费用`，持续展期还会反复付费。若买入股票价为 S₀、同数量 Put 行权价为 K、每股保费为 p，则持有到期的组合最低每股价值为 K，最大损失为 `S₀ + p − K`（按通常 K 不高于 S₀ 的情景，忽略股息费用）。例如股票 $150、买 $145 Put 花 $3，一股到期最大损失为 $8。是否值得取决于需要保障的期限、能承受的下跌、保费和替代方案；保险到期后保护结束，OTM Put 的起始跌幅仍自行承担。
+
+3. **第3题**：“唯一的区别”并不严格。普通单腿买入 Call 与 Put 通常都具有正 Gamma、正 Vega，通常承受负 Theta；最明显的区别是 Delta 方向相反。但在同标的、同 K、同期限的欧式模型下，两者 Gamma 和 Vega 相同，Rho 符号通常也相反，Theta 数值可因利率与股息不同，不能说只有 Delta 不同。实际美式行权特征还可能进一步改变敏感度。Call 看上涨，Put 看下跌；Put 在股价非负前提下最大到期收益也有限。
+
+参考资料：[OIC Long Put](https://www.optionseducation.org/strategies/all-strategies/long-put)；[OIC Protective Put](https://www.optionseducation.org/strategies/all-strategies/protective-put-married-put)（核验日期：2026-10-30）。
 
 ---
 
