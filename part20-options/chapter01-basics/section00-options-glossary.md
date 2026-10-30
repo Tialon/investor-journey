@@ -151,15 +151,15 @@ related: "[[section01-what-is-option|什么是期权]], [[section02-call-and-put
 
 ## 九、风险管理术语
 
-| 英文 | 中文 |
-|------|------|
-| Margin | 保证金 |
-| Buying Power | 购买力 |
-| Max Profit | 最大收益 |
-| Max Loss | 最大亏损 |
-| Break-even | 盈亏平衡点 |
+| 英文                          | 中文                       |
+| --------------------------- | ------------------------ |
+| Margin                      | 保证金                      |
+| Buying Power                | 购买力                      |
+| Max Profit                  | 最大收益                     |
+| Max Loss                    | 最大亏损                     |
+| Break-even                  | 盈亏平衡点                    |
 | Probability of Profit (POP) | 特定模型、成本与退出假设下的盈利概率估计，非保证 |
-| Risk/Reward Ratio | 风险收益比 |
+| Risk/Reward Ratio           | 风险收益比                    |
 
 ---
 
