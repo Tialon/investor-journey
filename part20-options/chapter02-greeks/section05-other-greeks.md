@@ -156,13 +156,13 @@ $$\text{Charm} = \frac{\partial \Delta}{\partial t} = -\frac{\partial^2 V}{\part
 
 ### 3.3 Charm 的特点
 
-| 期权状态 | Charm 方向 | 含义 |
-|---------|----------|------|
-| OTM Call | 负 | 时间流逝 → Delta 趋向 0（越来越不可能变为 ITM） |
-| ITM Call | 正 | 时间流逝 → Delta 趋向 1.0（越来越确定会保持 ITM） |
-| ATM Call | ≈ 0 | Delta 保持在 0.5 附近 |
-| OTM Put | 正（绝对值变小） | 时间流逝 → Delta 绝对值趋向 0 |
-| ITM Put | 负（绝对值变大） | 时间流逝 → Delta 绝对值趋向 1.0 |
+| 期权状态     | Charm 方向 | 含义                                |
+| -------- | -------- | --------------------------------- |
+| OTM Call | 负        | 时间流逝 → Delta 趋向 0（越来越不可能变为 ITM）   |
+| ITM Call | 正        | 时间流逝 → Delta 趋向 1.0（越来越确定会保持 ITM） |
+| ATM Call | ≈ 0      | Delta 保持在 0.5 附近                  |
+| OTM Put  | 正（绝对值变小） | 时间流逝 → Delta 绝对值趋向 0              |
+| ITM Put  | 负（绝对值变大） | 时间流逝 → Delta 绝对值趋向 1.0            |
 
 **直觉理解**：
 
@@ -271,11 +271,11 @@ Speed 是一个三阶导数（关于标的资产价格），衡量的是 Gamma �
 
 ### 5.3 Speed 的特点
 
-| 期权状态 | Speed 符号 | 含义 |
-|---------|----------|------|
-| OTM | 正 | 股价向 ITM 方向移动 → Gamma 增大 |
-| ATM | ≈ 0 | Gamma 已在峰值，变化率最小 |
-| ITM | 负 | 股价继续远离 ATM → Gamma 减小 |
+| 期权状态 | Speed 符号 | 含义                      |
+| ---- | -------- | ----------------------- |
+| OTM  | 正        | 股价向 ITM 方向移动 → Gamma 增大 |
+| ATM  | ≈ 0      | Gamma 已在峰值，变化率最小        |
+| ITM  | 负        | 股价继续远离 ATM → Gamma 减小   |
 
 **直觉理解**：
 
@@ -555,14 +555,14 @@ Color 和 Charm 共同描绘了"Greeks 随时间变化"的完整图景：
 
 ### 核心要点
 
-| Greek | 衡量内容 | 数学定义 | 实际重要性 |
-|-------|---------|---------|----------|
-| Rho (ρ) | 利率敏感度 | $\partial V / \partial r$ | 低利率/短期期权中可忽略，长期期权和加息周期中重要 |
-| Vanna | Delta 对波动率的敏感度 | $\partial \Delta / \partial \sigma$ | 波动率冲击后 Delta 偏移的关键 |
-| Charm | Delta 对时间的敏感度 | $\partial \Delta / \partial t$ | 规划对冲频率和预判隔夜 Delta 变化 |
-| Vomma | Vega 对波动率的敏感度 | $\partial \mathcal{V} / \partial \sigma$ | 波动率交易的凸性，影响 Vega 对冲精度 |
-| Speed | Gamma 对标的价格的敏感度 | $\partial \Gamma / \partial S$ | 大规模组合 Gamma 管理 |
-| Color | Gamma 对时间的敏感度 | $\partial \Gamma / \partial t$ | Gamma Scalping 的时间维度规划 |
+| Greek   | 衡量内容            | 数学定义                                     | 实际重要性                     |
+| ------- | --------------- | ---------------------------------------- | ------------------------- |
+| Rho (ρ) | 利率敏感度           | $\partial V / \partial r$                | 低利率/短期期权中可忽略，长期期权和加息周期中重要 |
+| Vanna   | Delta 对波动率的敏感度  | $\partial \Delta / \partial \sigma$      | 波动率冲击后 Delta 偏移的关键        |
+| Charm   | Delta 对时间的敏感度   | $\partial \Delta / \partial t$           | 规划对冲频率和预判隔夜 Delta 变化      |
+| Vomma   | Vega 对波动率的敏感度   | $\partial \mathcal{V} / \partial \sigma$ | 波动率交易的凸性，影响 Vega 对冲精度     |
+| Speed   | Gamma 对标的价格的敏感度 | $\partial \Gamma / \partial S$           | 大规模组合 Gamma 管理            |
+| Color   | Gamma 对时间的敏感度   | $\partial \Gamma / \partial t$           | Gamma Scalping 的时间维度规划    |
 
 ### 关键洞察
 
